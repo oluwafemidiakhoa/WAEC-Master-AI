@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAEC Ace - Master Your WAEC Exams</title>
+    
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#667eea">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-animation">
+            <div class="logo-container">
+                <div class="logo">📚</div>
+                <h1>WAEC Ace</h1>
+                <p>Preparing your personalized study experience...</p>
+            </div>
+            <div class="progress-loader">
+                <div class="progress-bar-loader"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="app" class="app-container">
+        <!-- Navigation -->
+        <nav class="top-nav" id="top-nav">
+            <div class="nav-brand">
+                <div class="logo">📚</div>
+                <span class="brand-name">WAEC Ace</span>
+            </div>
+            <div class="nav-actions">
+                <button class="nav-btn" id="streak-display">🔥 0</button>
+                <button class="nav-btn" id="notifications-btn">🔔</button>
+                <button class="nav-btn" id="settings-btn">⚙️</button>
+            </div>
+        </nav>
+
+        <!-- Home Screen -->
+        <div id="home-screen" class="screen active">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Master Your <span class="gradient-text">WAEC</span> Exams
+                    </h1>
+                    <p class="hero-subtitle">
+                        Personalized AI-powered practice for Mathematics, English & Biology
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" id="total-questions-answered">0</div>
+                            <div class="stat-label">Questions Answered</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" id="current-streak">0</div>
+                            <div class="stat-label">Day Streak</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" id="overall-accuracy">0%</div>
+                            <div class="stat-label">Overall Accuracy</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Actions -->
+            <section class="quick-actions">
+                <h2>Quick Start</h2>
+                <div class="action-grid">
+                    <button class="action-card primary" id="smart-practice-btn">
+                        <div class="action-icon">🎯</div>
+                        <div class="action-content">
+                            <h3>Smart Practice</h3>
+                            <p>AI picks the perfect questions for you</p>
+                        </div>
+                        <div class="action-arrow">→</div>
+                    </button>
+                    
+                    <button class="action-card secondary" id="mock-exam-btn">
+                        <div class="action-icon">⏱️</div>
+                        <div class="action-content">
+                            <h3>Mock Exam</h3>
+                            <p>Timed practice under exam conditions</p>
+                        </div>
+                        <div class="action-arrow">→</div>
+                    </button>
+                    
+                    <button class="action-card tertiary" id="weak-topics-btn">
+                        <div class="action-icon">📈</div>
+                        <div class="action-content">
+                            <h3>Weak Topics</h3>
+                            <p>Focus on areas that need improvement</p>
+                        </div>
+                        <div class="action-arrow">→</div>
+                    </button>
+                    
+                    <button class="action-card quaternary" id="progress-btn">
+                        <div class="action-icon">📊</div>
+                        <div class="action-content">
+                            <h3>Progress Report</h3>
+                            <p>Detailed analytics and insights</p>
+                        </div>
+                        <div class="action-arrow">→</div>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Subject Overview -->
+            <section class="subjects-section">
+                <h2>Subject Performance</h2>
+                <div class="subject-cards">
+                    <div class="subject-card" data-subject="math">
+                        <div class="subject-header">
+                            <div class="subject-icon">🧮</div>
+                            <div class="subject-info">
+                                <h3>Mathematics</h3>
+                                <p class="subject-subtitle">Algebra, Geometry, Statistics</p>
+                            </div>
+                            <div class="mastery-ring" data-percentage="0">
+                                <svg class="ring-chart" viewBox="0 0 36 36">
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#e5e7eb" stroke-width="3"/>
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#3b82f6" stroke-width="3" 
+                                            stroke-dasharray="0 100" stroke-linecap="round" transform="rotate(-90 18 18)"/>
+                                </svg>
+                                <div class="ring-text">0%</div>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-stats">
+                            <div class="stat">
+                                <span class="stat-value" id="math-questions">0</span>
+                                <span class="stat-label">Questions</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="math-accuracy">0%</span>
+                                <span class="stat-label">Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="math-streak">0</span>
+                                <span class="stat-label">Streak</span>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-topics">
+                            <div class="topic-tag weak">Algebra</div>
+                            <div class="topic-tag medium">Geometry</div>
+                            <div class="topic-tag strong">Statistics</div>
+                        </div>
+                        
+                        <button class="subject-action">Practice Math →</button>
+                    </div>
+                    
+                    <div class="subject-card" data-subject="english">
+                        <div class="subject-header">
+                            <div class="subject-icon">📖</div>
+                            <div class="subject-info">
+                                <h3>English Language</h3>
+                                <p class="subject-subtitle">Grammar, Comprehension, Literature</p>
+                            </div>
+                            <div class="mastery-ring" data-percentage="0">
+                                <svg class="ring-chart" viewBox="0 0 36 36">
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#e5e7eb" stroke-width="3"/>
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#10b981" stroke-width="3" 
+                                            stroke-dasharray="0 100" stroke-linecap="round" transform="rotate(-90 18 18)"/>
+                                </svg>
+                                <div class="ring-text">0%</div>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-stats">
+                            <div class="stat">
+                                <span class="stat-value" id="english-questions">0</span>
+                                <span class="stat-label">Questions</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="english-accuracy">0%</span>
+                                <span class="stat-label">Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="english-streak">0</span>
+                                <span class="stat-label">Streak</span>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-topics">
+                            <div class="topic-tag medium">Grammar</div>
+                            <div class="topic-tag weak">Comprehension</div>
+                            <div class="topic-tag strong">Vocabulary</div>
+                        </div>
+                        
+                        <button class="subject-action">Practice English →</button>
+                    </div>
+                    
+                    <div class="subject-card" data-subject="biology">
+                        <div class="subject-header">
+                            <div class="subject-icon">🧬</div>
+                            <div class="subject-info">
+                                <h3>Biology</h3>
+                                <p class="subject-subtitle">Life Processes, Genetics, Ecology</p>
+                            </div>
+                            <div class="mastery-ring" data-percentage="0">
+                                <svg class="ring-chart" viewBox="0 0 36 36">
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#e5e7eb" stroke-width="3"/>
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#8b5cf6" stroke-width="3" 
+                                            stroke-dasharray="0 100" stroke-linecap="round" transform="rotate(-90 18 18)"/>
+                                </svg>
+                                <div class="ring-text">0%</div>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-stats">
+                            <div class="stat">
+                                <span class="stat-value" id="biology-questions">0</span>
+                                <span class="stat-label">Questions</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="biology-accuracy">0%</span>
+                                <span class="stat-label">Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="biology-streak">0</span>
+                                <span class="stat-label">Streak</span>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-topics">
+                            <div class="topic-tag strong">Cell Biology</div>
+                            <div class="topic-tag weak">Genetics</div>
+                            <div class="topic-tag medium">Ecology</div>
+                        </div>
+                        
+                        <button class="subject-action">Practice Biology →</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Study Recommendations -->
+            <section class="recommendations">
+                <h2>Recommended for You</h2>
+                <div class="recommendation-cards" id="recommendations-container">
+                    <!-- Dynamic recommendations will be inserted here -->
+                </div>
+            </section>
+        </div>
+
+        <!-- Practice Screen -->
+        <div id="practice-screen" class="screen">
+            <div class="practice-header">
+                <button class="back-btn" id="back-home">← Back</button>
+                <div class="practice-info">
+                    <h2 id="practice-title">Smart Practice</h2>
+                    <div class="practice-stats">
+                        <span id="session-progress">0/10</span>
+                        <span id="session-accuracy">0% accuracy</span>
+                    </div>
+                </div>
+                <button class="hint-btn" id="hint-btn">💡</button>
+            </div>
+
+            <!-- Subject Selection -->
+            <div id="subject-selection" class="selection-container">
+                <h3>Choose a subject to practice:</h3>
+                <div class="subject-selection-grid">
+                    <button class="selection-card" data-subject="math">
+                        <div class="selection-icon">🧮</div>
+                        <h4>Mathematics</h4>
+                        <div class="selection-stats">
+                            <span>15 topics</span>
+                            <span>450 questions</span>
+                        </div>
+                    </button>
+                    
+                    <button class="selection-card" data-subject="english">
+                        <div class="selection-icon">📖</div>
+                        <h4>English</h4>
+                        <div class="selection-stats">
+                            <span>12 topics</span>
+                            <span>380 questions</span>
+                        </div>
+                    </button>
+                    
+                    <button class="selection-card" data-subject="biology">
+                        <div class="selection-icon">🧬</div>
+                        <h4>Biology</h4>
+                        <div class="selection-stats">
+                            <span>18 topics</span>
+                            <span>520 questions</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Topic Selection -->
+            <div id="topic-selection" class="selection-container hidden">
+                <div class="selection-header">
+                    <h3>Choose topics to focus on:</h3>
+                    <div class="selection-controls">
+                        <input type="search" id="topic-search" placeholder="Search topics...">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="weak">Weak</button>
+                        <button class="filter-btn" data-filter="medium">Medium</button>
+                        <button class="filter-btn" data-filter="strong">Strong</button>
+                    </div>
+                </div>
+                
+                <div class="topic-grid" id="topic-grid">
+                    <!-- Topics will be dynamically inserted -->
+                </div>
+                
+                <div class="selection-actions">
+                    <button class="btn-secondary" id="select-all-topics">Select All</button>
+                    <button class="btn-primary" id="start-practice">Start Practice</button>
+                </div>
+            </div>
+
+            <!-- Question View -->
+            <div id="question-view" class="question-container hidden">
+                <div class="question-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="question-progress-fill"></div>
+                    </div>
+                    <div class="question-info">
+                        <span id="question-number">Question 1 of 10</span>
+                        <span id="question-topic">Algebra</span>
+                        <span id="question-difficulty">Easy</span>
+                    </div>
+                </div>
+
+                <div class="question-content">
+                    <div class="question-text" id="question-text">
+                        <!-- Question will be inserted here -->
+                    </div>
+                    
+                    <div class="options-container" id="options-container">
+                        <!-- Options will be inserted here -->
+                    </div>
+                </div>
+
+                <div class="question-actions">
+                    <button class="btn-outline" id="bookmark-question">🔖 Bookmark</button>
+                    <button class="btn-outline" id="report-question">⚠️ Report</button>
+                    <button class="btn-primary" id="submit-answer" disabled>Submit Answer</button>
+                </div>
+
+                <!-- Feedback Section -->
+                <div id="answer-feedback" class="feedback-container hidden">
+                    <div class="feedback-result">
+                        <div class="result-icon" id="result-icon">✓</div>
+                        <div class="result-text" id="result-text">Correct!</div>
+                        <div class="result-time" id="result-time">Answered in 15s</div>
+                    </div>
+                    
+                    <div class="explanation-container">
+                        <h4>Explanation</h4>
+                        <p id="explanation-text">
+                            <!-- Explanation will be inserted here -->
+                        </p>
+                    </div>
+                    
+                    <div class="feedback-actions">
+                        <button class="btn-outline" id="view-similar">View Similar</button>
+                        <button class="btn-primary" id="next-question">Next Question</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mock Exam Screen -->
+        <div id="exam-screen" class="screen">
+            <div class="exam-header">
+                <button class="back-btn" id="back-home-exam">← Back</button>
+                <div class="exam-info">
+                    <h2>Mock Examination</h2>
+                    <div class="exam-timer" id="exam-timer">45:00</div>
+                </div>
+                <button class="exam-menu-btn" id="exam-menu">☰</button>
+            </div>
+
+            <!-- Exam Setup -->
+            <div id="exam-setup" class="exam-setup-container">
+                <div class="setup-card">
+                    <h3>Configure Your Mock Exam</h3>
+                    
+                    <div class="setup-section">
+                        <label>Number of Questions</label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="exam-questions" value="20">
+                                <span>20 Questions (15 min)</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="exam-questions" value="40" checked>
+                                <span>40 Questions (45 min)</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="exam-questions" value="60">
+                                <span>60 Questions (75 min)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="setup-section">
+                        <label>Subject Distribution</label>
+                        <div class="distribution-controls">
+                            <div class="distribution-item">
+                                <span>Mathematics</span>
+                                <div class="stepper">
+                                    <button type="button" class="stepper-btn" data-action="decrease" data-subject="math">−</button>
+                                    <span class="stepper-value" id="math-count">13</span>
+                                    <button type="button" class="stepper-btn" data-action="increase" data-subject="math">+</button>
+                                </div>
+                            </div>
+                            <div class="distribution-item">
+                                <span>English</span>
+                                <div class="stepper">
+                                    <button type="button" class="stepper-btn" data-action="decrease" data-subject="english">−</button>
+                                    <span class="stepper-value" id="english-count">13</span>
+                                    <button type="button" class="stepper-btn" data-action="increase" data-subject="english">+</button>
+                                </div>
+                            </div>
+                            <div class="distribution-item">
+                                <span>Biology</span>
+                                <div class="stepper">
+                                    <button type="button" class="stepper-btn" data-action="decrease" data-subject="biology">−</button>
+                                    <span class="stepper-value" id="biology-count">14</span>
+                                    <button type="button" class="stepper-btn" data-action="increase" data-subject="biology">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="setup-section">
+                        <label>Difficulty Preference</label>
+                        <div class="difficulty-slider">
+                            <span>Easy</span>
+                            <input type="range" id="difficulty-range" min="1" max="3" value="2">
+                            <span>Hard</span>
+                        </div>
+                    </div>
+
+                    <button class="btn-primary btn-large" id="start-exam">Start Exam</button>
+                </div>
+            </div>
+
+            <!-- Exam Questions View -->
+            <div id="exam-questions" class="exam-container hidden">
+                <!-- Similar structure to practice questions but with exam-specific features -->
+            </div>
+
+            <!-- Exam Results -->
+            <div id="exam-results" class="exam-results-container hidden">
+                <!-- Detailed results view -->
+            </div>
+        </div>
+
+        <!-- Progress Screen -->
+        <div id="progress-screen" class="screen">
+            <div class="progress-header">
+                <button class="back-btn" id="back-home-progress">← Back</button>
+                <h2>Progress Analytics</h2>
+                <div class="date-range">
+                    <select id="time-range">
+                        <option value="week">Last 7 days</option>
+                        <option value="month">Last 30 days</option>
+                        <option value="all">All time</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="analytics-dashboard">
+                <!-- Analytics content will be implemented -->
+            </div>
+        </div>
+
+        <!-- Bottom Navigation -->
+        <div class="bottom-nav">
+            <button class="nav-item active" data-screen="home">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-label">Home</span>
+            </button>
+            <button class="nav-item" data-screen="practice">
+                <span class="nav-icon">📚</span>
+                <span class="nav-label">Practice</span>
+            </button>
+            <button class="nav-item" data-screen="exam">
+                <span class="nav-icon">⏱️</span>
+                <span class="nav-label">Exam</span>
+            </button>
+            <button class="nav-item" data-screen="progress">
+                <span class="nav-icon">📊</span>
+                <span class="nav-label">Progress</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div class="modal" id="settings-modal">
+            <div class="modal-header">
+                <h3>Settings</h3>
+                <button class="close-modal">×</button>
+            </div>
+            <div class="modal-content">
+                <!-- Settings content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="assets/utils.js"></script>
+    <script src="assets/storage.js"></script>
+    <script src="assets/selector.js"></script>
+    <script src="assets/analytics.js"></script>
+    <script src="assets/ui.js"></script>
+    <script src="assets/app.js"></script>
+    
+    <!-- PWA Service Worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(registration => console.log('SW registered'))
+                    .catch(error => console.log('SW registration failed'));
+            });
+        }
+    </script>
+</body>
+</html>
