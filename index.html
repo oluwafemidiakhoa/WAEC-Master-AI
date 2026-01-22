@@ -125,7 +125,7 @@
             <section class="ai-features-section">
                 <h2>🤖 AI Educational Intelligence</h2>
                 <div class="ai-features-grid">
-                    <button class="ai-feature-card" id="smart-hints-demo">
+                    <button class="ai-feature-card" id="smart-hints-demo" onclick="console.log('Smart Hints clicked!'); if(window.app) window.app.demoSmartHints(); else alert('App not ready yet!');">
                         <div class="ai-feature-icon">💡</div>
                         <div class="ai-feature-content">
                             <h3>Smart Hints</h3>
@@ -133,7 +133,7 @@
                         </div>
                     </button>
                     
-                    <button class="ai-feature-card" id="teacher-alerts-demo">
+                    <button class="ai-feature-card" id="teacher-alerts-demo" onclick="console.log('Teacher Alerts clicked!'); if(window.app) window.app.demoStudentAlerts(); else alert('App not ready yet!');">
                         <div class="ai-feature-icon">🚨</div>
                         <div class="ai-feature-content">
                             <h3>Teacher Alerts</h3>
@@ -141,7 +141,7 @@
                         </div>
                     </button>
                     
-                    <button class="ai-feature-card" id="parent-insights-demo">
+                    <button class="ai-feature-card" id="parent-insights-demo" onclick="console.log('Parent Reports clicked!'); if(window.app) window.app.showParentReport(); else alert('App not ready yet!');">
                         <div class="ai-feature-icon">📋</div>
                         <div class="ai-feature-content">
                             <h3>Parent Reports</h3>
@@ -149,7 +149,7 @@
                         </div>
                     </button>
                     
-                    <button class="ai-feature-card" id="test-all-features">
+                    <button class="ai-feature-card" id="test-all-features" onclick="console.log('Test All Features clicked!'); if(window.app) window.app.testNewFeatures(); else alert('App not ready yet!');">
                         <div class="ai-feature-icon">🧪</div>
                         <div class="ai-feature-content">
                             <h3>Test All Features</h3>
@@ -573,6 +573,9 @@
     
     <!-- Debug Console for AI Features -->
     <script src="debug-console.js"></script>
+    
+    <!-- Debug Click Detection -->
+    <script src="debug-clicks.js"></script>
     
     <!-- PWA Service Worker -->
     <script>
