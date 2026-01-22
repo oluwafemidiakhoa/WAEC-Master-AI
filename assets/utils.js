@@ -415,6 +415,35 @@ class Utils {
                 return false;
         }
     }
+    
+    // String utilities
+    static capitalize(str) {
+        if (!str) return '';
+        return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    }
+    
+    static roundTo(number, decimals = 2) {
+        return Math.round(number * Math.pow(10, decimals)) / Math.pow(10, decimals);
+    }
+    
+    static groupBy(array, key) {
+        return array.reduce((groups, item) => {
+            const group = item[key];
+            if (!groups[group]) {
+                groups[group] = [];
+            }
+            groups[group].push(item);
+            return groups;
+        }, {});
+    }
+    
+    static chunk(array, size) {
+        const chunks = [];
+        for (let i = 0; i < array.length; i += size) {
+            chunks.push(array.slice(i, i + size));
+        }
+        return chunks;
+    }
 }
 
 // Export for use in other modules
