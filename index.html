@@ -3,411 +3,688 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WAEC Ace - Smart Practice</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            color: #333;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        .header {
-            text-align: center;
-            color: white;
-            margin-bottom: 40px;
-        }
-        
-        .header h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-        }
-        
-        .header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
-        
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-bottom: 40px;
-        }
-        
-        .feature-card {
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            cursor: pointer;
-            transition: all 0.3s ease;
-            border: none;
-            text-align: left;
-            width: 100%;
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-        }
-        
-        .feature-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            display: block;
-        }
-        
-        .feature-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-            color: #333;
-        }
-        
-        .feature-card p {
-            color: #666;
-            line-height: 1.6;
-        }
-        
-        .ai-section {
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            margin-bottom: 30px;
-        }
-        
-        .ai-section h2 {
-            text-align: center;
-            margin-bottom: 30px;
-            color: #333;
-            font-size: 2rem;
-        }
-        
-        .ai-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        
-        .ai-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 25px;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-            border: none;
-            text-align: center;
-        }
-        
-        .ai-card:hover {
-            transform: scale(1.05);
-        }
-        
-        .ai-card h4 {
-            margin-bottom: 15px;
-            font-size: 1.2rem;
-        }
-        
-        .modal {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0,0,0,0.8);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 10000;
-            padding: 20px;
-        }
-        
-        .modal-content {
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            max-width: 500px;
-            width: 100%;
-            text-align: center;
-            animation: modalSlideIn 0.3s ease;
-        }
-        
-        @keyframes modalSlideIn {
-            from { transform: translateY(-50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-        
-        .modal h3 {
-            margin-bottom: 20px;
-            color: #333;
-        }
-        
-        .modal p {
-            margin-bottom: 25px;
-            line-height: 1.6;
-            color: #666;
-        }
-        
-        .btn {
-            background: #667eea;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: background 0.3s ease;
-        }
-        
-        .btn:hover {
-            background: #5a67d8;
-        }
-        
-        .results {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 20px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        
-        .result-item {
-            background: #f7fafc;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 8px;
-            border-left: 4px solid #667eea;
-        }
-        
-        @media (max-width: 768px) {
-            .container { padding: 15px; }
-            .header h1 { font-size: 2rem; }
-            .features-grid { grid-template-columns: 1fr; }
-            .ai-grid { grid-template-columns: 1fr; }
-        }
-    </style>
+    <title>WAEC Ace - Master Your WAEC Exams</title>
+    
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#667eea">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🎓 WAEC Ace</h1>
-            <p>Smart AI-Powered Exam Practice</p>
-        </div>
-        
-        <div class="features-grid">
-            <button class="feature-card" onclick="startPractice()">
-                <span class="feature-icon">🎯</span>
-                <h3>Smart Practice</h3>
-                <p>AI selects the perfect questions based on your learning progress and weak areas.</p>
-            </button>
-            
-            <button class="feature-card" onclick="startMockExam()">
-                <span class="feature-icon">⏱️</span>
-                <h3>Mock Exams</h3>
-                <p>Full-length practice exams with real-time scoring and detailed feedback.</p>
-            </button>
-            
-            <button class="feature-card" onclick="showWeakTopics()">
-                <span class="feature-icon">📈</span>
-                <h3>Weak Topics</h3>
-                <p>Focus on your challenging areas with targeted practice sessions.</p>
-            </button>
-            
-            <button class="feature-card" onclick="showProgress()">
-                <span class="feature-icon">📊</span>
-                <h3>Progress Analytics</h3>
-                <p>Track your improvement with detailed performance insights and trends.</p>
-            </button>
-        </div>
-        
-        <div class="ai-section">
-            <h2>🤖 AI Educational Intelligence</h2>
-            <div class="ai-grid">
-                <button class="ai-card" onclick="showSmartHints()">
-                    <h4>💡 Smart Hints</h4>
-                    <p>Get personalized hints that adapt to your learning style</p>
-                </button>
-                
-                <button class="ai-card" onclick="showTeacherAlerts()">
-                    <h4>🚨 Teacher Dashboard</h4>
-                    <p>Identify struggling students with AI-powered alerts</p>
-                </button>
-                
-                <button class="ai-card" onclick="showParentReport()">
-                    <h4>📋 Parent Reports</h4>
-                    <p>Comprehensive progress reports for parent engagement</p>
-                </button>
-                
-                <button class="ai-card" onclick="testAllFeatures()">
-                    <h4>🧪 Test All Features</h4>
-                    <p>Demo all AI capabilities in action</p>
-                </button>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-animation">
+            <div class="logo-container">
+                <div class="logo">📚</div>
+                <h1>WAEC Ace</h1>
+                <p>Preparing your personalized study experience...</p>
+            </div>
+            <div class="progress-loader">
+                <div class="progress-bar-loader"></div>
             </div>
         </div>
-        
-        <div id="results" class="results" style="display: none;"></div>
     </div>
-    
-    <!-- Modal -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <h3 id="modal-title">Feature Demo</h3>
-            <div id="modal-text"></div>
-            <button class="btn" onclick="closeModal()">Got it!</button>
+
+    <!-- Main App -->
+    <div id="app" class="app-container">
+        <!-- Navigation -->
+        <nav class="top-nav" id="top-nav">
+            <div class="nav-brand">
+                <div class="logo">📚</div>
+                <span class="brand-name">WAEC Ace</span>
+            </div>
+            <div class="nav-actions">
+                <button class="nav-btn" id="streak-display">🔥 0</button>
+                <button class="nav-btn" id="teacher-dashboard-btn" title="Teacher Dashboard">👩‍🏫</button>
+                <button class="nav-btn" id="parent-report-btn" title="Parent Progress Report">👨‍👩‍👧‍👦</button>
+                <button class="nav-btn" id="notifications-btn">🔔</button>
+                <button class="nav-btn" id="settings-btn">⚙️</button>
+            </div>
+        </nav>
+
+        <!-- Home Screen -->
+        <div id="home-screen" class="screen active">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Master Your <span class="gradient-text">WAEC</span> Exams
+                    </h1>
+                    <p class="hero-subtitle">
+                        Personalized AI-powered practice for Mathematics, English & Biology
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" id="total-questions-answered">0</div>
+                            <div class="stat-label">Questions Answered</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" id="current-streak">0</div>
+                            <div class="stat-label">Day Streak</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" id="overall-accuracy">0%</div>
+                            <div class="stat-label">Overall Accuracy</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Actions -->
+            <section class="quick-actions">
+                <h2>Quick Start</h2>
+                <div class="action-grid">
+                    <button class="action-card primary" id="smart-practice-btn">
+                        <div class="action-icon">🎯</div>
+                        <div class="action-content">
+                            <h3>Smart Practice</h3>
+                            <p>AI picks the perfect questions for you</p>
+                        </div>
+                        <div class="action-arrow">→</div>
+                    </button>
+                    
+                    <button class="action-card secondary" id="mock-exam-btn">
+                        <div class="action-icon">⏱️</div>
+                        <div class="action-content">
+                            <h3>Mock Exam</h3>
+                            <p>Timed practice under exam conditions</p>
+                        </div>
+                        <div class="action-arrow">→</div>
+                    </button>
+                    
+                    <button class="action-card tertiary" id="weak-topics-btn">
+                        <div class="action-icon">📈</div>
+                        <div class="action-content">
+                            <h3>Weak Topics</h3>
+                            <p>Focus on areas that need improvement</p>
+                        </div>
+                        <div class="action-arrow">→</div>
+                    </button>
+                    
+                    <button class="action-card quaternary" id="progress-btn">
+                        <div class="action-icon">📊</div>
+                        <div class="action-content">
+                            <h3>Progress Report</h3>
+                            <p>Detailed analytics and insights</p>
+                        </div>
+                        <div class="action-arrow">→</div>
+                    </button>
+                </div>
+            </section>
+
+            <!-- AI Educational Features -->
+            <section class="ai-features-section">
+                <h2>🤖 AI Educational Intelligence</h2>
+                <p style="text-align: center; color: #666; margin-bottom: 20px;">
+                    <em>Click any card below to test the AI features. If nothing happens, try the 
+                    <a href="working-ai-demo.html" style="color: #667eea;">working demo page</a>.</em>
+                </p>
+                <div class="ai-features-grid">
+                    <button class="ai-feature-card" id="smart-hints-demo">
+                        <div class="ai-feature-icon">💡</div>
+                        <div class="ai-feature-content">
+                            <h3>Smart Hints</h3>
+                            <p>Get contextual hints based on your learning patterns</p>
+                        </div>
+                    </button>
+                    
+                    <button class="ai-feature-card" id="teacher-alerts-demo">
+                        <div class="ai-feature-icon">🚨</div>
+                        <div class="ai-feature-content">
+                            <h3>Teacher Alerts</h3>
+                            <p>Identify students who need help automatically</p>
+                        </div>
+                    </button>
+                    
+                    <button class="ai-feature-card" id="parent-insights-demo">
+                        <div class="ai-feature-icon">📋</div>
+                        <div class="ai-feature-content">
+                            <h3>Parent Reports</h3>
+                            <p>Comprehensive progress reports for parents</p>
+                        </div>
+                    </button>
+                    
+                    <button class="ai-feature-card" id="test-all-features">
+                        <div class="ai-feature-icon">🧪</div>
+                        <div class="ai-feature-content">
+                            <h3>Test All Features</h3>
+                            <p>Demo all new AI capabilities</p>
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Subject Overview -->
+            <section class="subjects-section">
+                <h2>Subject Performance</h2>
+                <div class="subject-cards">
+                    <div class="subject-card" data-subject="math">
+                        <div class="subject-header">
+                            <div class="subject-icon">🧮</div>
+                            <div class="subject-info">
+                                <h3>Mathematics</h3>
+                                <p class="subject-subtitle">Algebra, Geometry, Statistics</p>
+                            </div>
+                            <div class="mastery-ring" data-percentage="0">
+                                <svg class="ring-chart" viewBox="0 0 36 36">
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#e5e7eb" stroke-width="3"/>
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#3b82f6" stroke-width="3" 
+                                            stroke-dasharray="0 100" stroke-linecap="round" transform="rotate(-90 18 18)"/>
+                                </svg>
+                                <div class="ring-text">0%</div>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-stats">
+                            <div class="stat">
+                                <span class="stat-value" id="math-questions">0</span>
+                                <span class="stat-label">Questions</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="math-accuracy">0%</span>
+                                <span class="stat-label">Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="math-streak">0</span>
+                                <span class="stat-label">Streak</span>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-topics">
+                            <div class="topic-tag weak">Algebra</div>
+                            <div class="topic-tag medium">Geometry</div>
+                            <div class="topic-tag strong">Statistics</div>
+                        </div>
+                        
+                        <button class="subject-action">Practice Math →</button>
+                    </div>
+                    
+                    <div class="subject-card" data-subject="english">
+                        <div class="subject-header">
+                            <div class="subject-icon">📖</div>
+                            <div class="subject-info">
+                                <h3>English Language</h3>
+                                <p class="subject-subtitle">Grammar, Comprehension, Literature</p>
+                            </div>
+                            <div class="mastery-ring" data-percentage="0">
+                                <svg class="ring-chart" viewBox="0 0 36 36">
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#e5e7eb" stroke-width="3"/>
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#10b981" stroke-width="3" 
+                                            stroke-dasharray="0 100" stroke-linecap="round" transform="rotate(-90 18 18)"/>
+                                </svg>
+                                <div class="ring-text">0%</div>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-stats">
+                            <div class="stat">
+                                <span class="stat-value" id="english-questions">0</span>
+                                <span class="stat-label">Questions</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="english-accuracy">0%</span>
+                                <span class="stat-label">Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="english-streak">0</span>
+                                <span class="stat-label">Streak</span>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-topics">
+                            <div class="topic-tag medium">Grammar</div>
+                            <div class="topic-tag weak">Comprehension</div>
+                            <div class="topic-tag strong">Vocabulary</div>
+                        </div>
+                        
+                        <button class="subject-action">Practice English →</button>
+                    </div>
+                    
+                    <div class="subject-card" data-subject="biology">
+                        <div class="subject-header">
+                            <div class="subject-icon">🧬</div>
+                            <div class="subject-info">
+                                <h3>Biology</h3>
+                                <p class="subject-subtitle">Life Processes, Genetics, Ecology</p>
+                            </div>
+                            <div class="mastery-ring" data-percentage="0">
+                                <svg class="ring-chart" viewBox="0 0 36 36">
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#e5e7eb" stroke-width="3"/>
+                                    <circle cx="18" cy="18" r="16" fill="none" stroke="#8b5cf6" stroke-width="3" 
+                                            stroke-dasharray="0 100" stroke-linecap="round" transform="rotate(-90 18 18)"/>
+                                </svg>
+                                <div class="ring-text">0%</div>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-stats">
+                            <div class="stat">
+                                <span class="stat-value" id="biology-questions">0</span>
+                                <span class="stat-label">Questions</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="biology-accuracy">0%</span>
+                                <span class="stat-label">Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value" id="biology-streak">0</span>
+                                <span class="stat-label">Streak</span>
+                            </div>
+                        </div>
+                        
+                        <div class="subject-topics">
+                            <div class="topic-tag strong">Cell Biology</div>
+                            <div class="topic-tag weak">Genetics</div>
+                            <div class="topic-tag medium">Ecology</div>
+                        </div>
+                        
+                        <button class="subject-action">Practice Biology →</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Study Recommendations -->
+            <section class="recommendations">
+                <h2>Recommended for You</h2>
+                <div class="recommendation-cards" id="recommendations-container">
+                    <!-- Dynamic recommendations will be inserted here -->
+                </div>
+            </section>
+        </div>
+
+        <!-- Practice Screen -->
+        <div id="practice-screen" class="screen">
+            <div class="practice-header">
+                <button class="back-btn" id="back-home">← Back</button>
+                <div class="practice-info">
+                    <h2 id="practice-title">Smart Practice</h2>
+                    <div class="practice-stats">
+                        <span id="session-progress">0/10</span>
+                        <span id="session-accuracy">0% accuracy</span>
+                    </div>
+                </div>
+                <button class="hint-btn" id="hint-btn">💡</button>
+            </div>
+
+            <!-- Subject Selection -->
+            <div id="subject-selection" class="selection-container">
+                <h3>Choose a subject to practice:</h3>
+                <div class="subject-selection-grid">
+                    <button class="selection-card" data-subject="math">
+                        <div class="selection-icon">🧮</div>
+                        <h4>Mathematics</h4>
+                        <div class="selection-stats">
+                            <span>15 topics</span>
+                            <span>450 questions</span>
+                        </div>
+                    </button>
+                    
+                    <button class="selection-card" data-subject="english">
+                        <div class="selection-icon">📖</div>
+                        <h4>English</h4>
+                        <div class="selection-stats">
+                            <span>12 topics</span>
+                            <span>380 questions</span>
+                        </div>
+                    </button>
+                    
+                    <button class="selection-card" data-subject="biology">
+                        <div class="selection-icon">🧬</div>
+                        <h4>Biology</h4>
+                        <div class="selection-stats">
+                            <span>18 topics</span>
+                            <span>520 questions</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Topic Selection -->
+            <div id="topic-selection" class="selection-container hidden">
+                <div class="selection-header">
+                    <h3>Choose topics to focus on:</h3>
+                    <div class="selection-controls">
+                        <input type="search" id="topic-search" placeholder="Search topics...">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="weak">Weak</button>
+                        <button class="filter-btn" data-filter="medium">Medium</button>
+                        <button class="filter-btn" data-filter="strong">Strong</button>
+                    </div>
+                </div>
+                
+                <div class="topic-grid" id="topic-grid">
+                    <!-- Topics will be dynamically inserted -->
+                </div>
+                
+                <div class="selection-actions">
+                    <button class="btn-secondary" id="select-all-topics">Select All</button>
+                    <button class="btn-primary" id="start-practice">Start Practice</button>
+                </div>
+            </div>
+
+            <!-- Question View -->
+            <div id="question-view" class="question-container hidden">
+                <div class="question-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="question-progress-fill"></div>
+                    </div>
+                    <div class="question-info">
+                        <span id="question-number">Question 1 of 10</span>
+                        <span id="question-topic">Algebra</span>
+                        <span id="question-difficulty">Easy</span>
+                    </div>
+                </div>
+
+                <div class="question-content">
+                    <div class="question-text" id="question-text">
+                        <!-- Question will be inserted here -->
+                    </div>
+                    
+                    <div class="options-container" id="options-container">
+                        <!-- Options will be inserted here -->
+                    </div>
+                </div>
+
+                <div class="question-actions">
+                    <button class="btn-outline" id="bookmark-question">🔖 Bookmark</button>
+                    <button class="btn-outline" id="report-question">⚠️ Report</button>
+                    <button class="btn-primary" id="submit-answer" disabled>Submit Answer</button>
+                </div>
+
+                <!-- Feedback Section -->
+                <div id="answer-feedback" class="feedback-container hidden">
+                    <div class="feedback-result">
+                        <div class="result-icon" id="result-icon">✓</div>
+                        <div class="result-text" id="result-text">Correct!</div>
+                        <div class="result-time" id="result-time">Answered in 15s</div>
+                    </div>
+                    
+                    <div class="explanation-container">
+                        <h4>Explanation</h4>
+                        <p id="explanation-text">
+                            <!-- Explanation will be inserted here -->
+                        </p>
+                    </div>
+                    
+                    <div class="feedback-actions">
+                        <button class="btn-outline" id="view-similar">View Similar</button>
+                        <button class="btn-primary" id="next-question">Next Question</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mock Exam Screen -->
+        <div id="exam-screen" class="screen">
+            <div class="exam-header">
+                <button class="back-btn" id="back-home-exam">← Back</button>
+                <div class="exam-info">
+                    <h2>Mock Examination</h2>
+                    <div class="exam-timer" id="exam-timer">45:00</div>
+                </div>
+                <button class="exam-menu-btn" id="exam-menu">☰</button>
+            </div>
+
+            <!-- Exam Setup -->
+            <div id="exam-setup" class="exam-setup-container">
+                <div class="setup-card">
+                    <h3>Configure Your Mock Exam</h3>
+                    
+                    <div class="setup-section">
+                        <label>Number of Questions</label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="exam-questions" value="20">
+                                <span>20 Questions (15 min)</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="exam-questions" value="40" checked>
+                                <span>40 Questions (45 min)</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="exam-questions" value="60">
+                                <span>60 Questions (75 min)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="setup-section">
+                        <label>Subject Distribution</label>
+                        <div class="distribution-controls">
+                            <div class="distribution-item">
+                                <span>Mathematics</span>
+                                <div class="stepper">
+                                    <button type="button" class="stepper-btn" data-action="decrease" data-subject="math">−</button>
+                                    <span class="stepper-value" id="math-count">13</span>
+                                    <button type="button" class="stepper-btn" data-action="increase" data-subject="math">+</button>
+                                </div>
+                            </div>
+                            <div class="distribution-item">
+                                <span>English</span>
+                                <div class="stepper">
+                                    <button type="button" class="stepper-btn" data-action="decrease" data-subject="english">−</button>
+                                    <span class="stepper-value" id="english-count">13</span>
+                                    <button type="button" class="stepper-btn" data-action="increase" data-subject="english">+</button>
+                                </div>
+                            </div>
+                            <div class="distribution-item">
+                                <span>Biology</span>
+                                <div class="stepper">
+                                    <button type="button" class="stepper-btn" data-action="decrease" data-subject="biology">−</button>
+                                    <span class="stepper-value" id="biology-count">14</span>
+                                    <button type="button" class="stepper-btn" data-action="increase" data-subject="biology">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="setup-section">
+                        <label>Difficulty Preference</label>
+                        <div class="difficulty-slider">
+                            <span>Easy</span>
+                            <input type="range" id="difficulty-range" min="1" max="3" value="2">
+                            <span>Hard</span>
+                        </div>
+                    </div>
+
+                    <button class="btn-primary btn-large" id="start-exam">Start Exam</button>
+                </div>
+            </div>
+
+            <!-- Exam Questions View -->
+            <div id="exam-questions" class="exam-container hidden">
+                <!-- Similar structure to practice questions but with exam-specific features -->
+            </div>
+
+            <!-- Exam Results -->
+            <div id="exam-results" class="exam-results-container hidden">
+                <!-- Detailed results view -->
+            </div>
+        </div>
+
+        <!-- Progress Screen -->
+        <div id="progress-screen" class="screen">
+            <div class="progress-header">
+                <button class="back-btn" id="back-home-progress">← Back</button>
+                <h2>Progress Analytics</h2>
+                <div class="date-range">
+                    <select id="time-range">
+                        <option value="week">Last 7 days</option>
+                        <option value="month">Last 30 days</option>
+                        <option value="all">All time</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="analytics-dashboard">
+                <!-- Analytics content will be implemented -->
+            </div>
+        </div>
+
+        <!-- Bottom Navigation -->
+        <div class="bottom-nav">
+            <button class="nav-item active" data-screen="home">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-label">Home</span>
+            </button>
+            <button class="nav-item" data-screen="practice">
+                <span class="nav-icon">📚</span>
+                <span class="nav-label">Practice</span>
+            </button>
+            <button class="nav-item" data-screen="exam">
+                <span class="nav-icon">⏱️</span>
+                <span class="nav-label">Exam</span>
+            </button>
+            <button class="nav-item" data-screen="progress">
+                <span class="nav-icon">📊</span>
+                <span class="nav-label">Progress</span>
+            </button>
         </div>
     </div>
+
+    <!-- Modals -->
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div class="modal" id="settings-modal">
+            <div class="modal-header">
+                <h3>Settings</h3>
+                <button class="close-modal">×</button>
+            </div>
+            <div class="modal-content">
+                <!-- Settings content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="assets/utils.js"></script>
+    <script src="assets/storage.js"></script>
+    <script src="assets/selector.js"></script>
+    <script src="assets/analytics.js"></script>
+    <script src="assets/ui.js"></script>
+    <script src="assets/app.js"></script>
     
+    <!-- Initialize the app -->
     <script>
-        // Simple, working implementation
-        
-        function showModal(title, content) {
-            document.getElementById('modal-title').textContent = title;
-            document.getElementById('modal-text').innerHTML = content;
-            document.getElementById('modal').style.display = 'flex';
-        }
-        
-        function closeModal() {
-            document.getElementById('modal').style.display = 'none';
-        }
-        
-        function addResult(message) {
-            const results = document.getElementById('results');
-            results.style.display = 'block';
-            const div = document.createElement('div');
-            div.className = 'result-item';
-            div.innerHTML = `<strong>${new Date().toLocaleTimeString()}</strong>: ${message}`;
-            results.appendChild(div);
-        }
-        
-        // Core Features
-        function startPractice() {
-            addResult('🎯 Smart Practice started - AI analyzing your learning patterns...');
-            showModal('🎯 Smart Practice Mode', 
-                'AI has analyzed your performance and selected 15 questions focusing on:<br><br>' +
-                '• Algebra word problems (weak area)<br>' +
-                '• Biology genetics (needs review)<br>' +
-                '• English comprehension (medium difficulty)<br><br>' +
-                '<em>Questions are personalized based on your learning progress.</em>');
-        }
-        
-        function startMockExam() {
-            addResult('⏱️ Mock Exam configuration opened...');
-            showModal('⏱️ Mock Examination Setup', 
-                'Choose your exam configuration:<br><br>' +
-                '📝 <strong>Questions:</strong> 40 questions (45 minutes)<br>' +
-                '📊 <strong>Subjects:</strong> Math (13), English (13), Biology (14)<br>' +
-                '🎯 <strong>Difficulty:</strong> Adaptive based on your level<br><br>' +
-                '<em>Ready to start your timed practice exam?</em>');
-        }
-        
-        function showWeakTopics() {
-            addResult('📈 Analyzing weak topics from your practice history...');
-            showModal('📈 Your Weak Topics', 
-                'Based on your recent performance, focus on these areas:<br><br>' +
-                '🔴 <strong>Critical (35% accuracy):</strong><br>' +
-                '• Quadratic Equations<br>' +
-                '• Genetic Inheritance<br><br>' +
-                '🟡 <strong>Needs Work (55% accuracy):</strong><br>' +
-                '• Essay Writing Structure<br>' +
-                '• Cell Division<br><br>' +
-                '<em>Recommend 20 minutes daily practice on critical topics.</em>');
-        }
-        
-        function showProgress() {
-            addResult('📊 Generating comprehensive progress analytics...');
-            showModal('📊 Your Progress Analytics', 
-                '<strong>📈 Overall Improvement:</strong> +18% this month<br><br>' +
-                '<strong>🎯 Subject Performance:</strong><br>' +
-                '• Mathematics: 72% (↗️ +12%)<br>' +
-                '• English: 68% (↗️ +8%)<br>' +
-                '• Biology: 75% (↗️ +15%)<br><br>' +
-                '<strong>🔥 Study Streak:</strong> 12 days<br>' +
-                '<strong>⏱️ Total Practice:</strong> 8h 45m this week<br><br>' +
-                '<em>You\'re on track to exceed your target scores!</em>');
-        }
-        
-        // AI Features
-        function showSmartHints() {
-            addResult('💡 Smart Hints system activated...');
-            showModal('💡 AI Smart Hints Demo', 
-                '<strong>Current Problem:</strong> Solve for x: 3x + 7 = 22<br><br>' +
-                '<strong>🎯 Personalized Hint:</strong><br>' +
-                'Since you struggle with isolation steps, remember:<br>' +
-                '1. Subtract 7 from both sides first<br>' +
-                '2. Then divide by 3<br><br>' +
-                '<strong>💭 Learning Pattern:</strong><br>' +
-                'You learn best with step-by-step breakdowns.<br><br>' +
-                '<em>Hint difficulty adjusted based on your progress!</em>');
-        }
-        
-        function showTeacherAlerts() {
-            addResult('🚨 Teacher Dashboard alerts generated...');
-            showModal('🚨 Teacher Dashboard - Student Alerts', 
-                '<strong>🔴 URGENT ALERTS:</strong><br>' +
-                '• Student accuracy dropped to 32% (needs immediate help)<br>' +
-                '• 5 days without practice (engagement risk)<br><br>' +
-                '<strong>🟡 WATCH LIST:</strong><br>' +
-                '• Performance declining in Mathematics (-15%)<br>' +
-                '• Inconsistent study patterns detected<br><br>' +
-                '<strong>🟢 POSITIVE TRENDS:</strong><br>' +
-                '• 7-day study streak achieved<br>' +
-                '• Biology improvement (+20%)<br><br>' +
-                '<em>6 total alerts require teacher attention.</em>');
-        }
-        
-        function showParentReport() {
-            addResult('📋 Generating weekly parent progress report...');
-            showModal('📋 Weekly Progress Report for Parents', 
-                '<strong>📚 This Week\'s Activity:</strong><br>' +
-                '• Study Time: 4h 20m (goal: 5h)<br>' +
-                '• Practice Sessions: 12<br>' +
-                '• Questions Answered: 234<br><br>' +
-                '<strong>🎯 Academic Performance:</strong><br>' +
-                '• Overall Accuracy: 69% (↗️ improving)<br>' +
-                '• Strongest Subject: Biology (78%)<br>' +
-                '• Focus Area: Algebra (52%)<br><br>' +
-                '<strong>💡 Recommendations:</strong><br>' +
-                '• Increase daily Math practice to 25 minutes<br>' +
-                '• Celebrate excellent Biology progress<br>' +
-                '• Maintain consistent study schedule');
-        }
-        
-        function testAllFeatures() {
-            addResult('🧪 Running comprehensive AI feature demonstration...');
-            showModal('🧪 All AI Features Demo', 
-                '<strong>✅ AI Systems Status:</strong><br><br>' +
-                '💡 <strong>Smart Hints:</strong> Active & Learning<br>' +
-                '🚨 <strong>Teacher Alerts:</strong> 6 active alerts<br>' +
-                '📋 <strong>Parent Reports:</strong> Weekly reports ready<br>' +
-                '🎯 <strong>Adaptive Learning:</strong> Personalizing content<br>' +
-                '📊 <strong>Analytics Engine:</strong> Processing 500+ data points<br>' +
-                '🤖 <strong>AI Tutor:</strong> Available 24/7<br><br>' +
-                '<em>All AI educational features are working perfectly!<br>' +
-                'The intelligent learning system is ready to help students succeed.</em>');
-        }
-        
-        // Initialize
+        // Initialize app when page loads
         document.addEventListener('DOMContentLoaded', function() {
-            addResult('🚀 WAEC Ace AI Educational Platform loaded successfully!');
-            addResult('✅ All features are ready - click any card above to test');
+            console.log('Initializing WAEC Ace App...');
+            try {
+                // Initialize the app
+                window.app = new WAECAceApp();
+                console.log('App initialized successfully!', window.app);
+                
+                // Initialize analytics if not already done
+                if (typeof window.analytics === 'undefined') {
+                    window.analytics = new Analytics();
+                    console.log('Analytics initialized!');
+                }
+                
+                // Set up AI feature event listeners
+                setupAIFeatures();
+                
+                console.log('All systems ready!');
+            } catch (error) {
+                console.error('Failed to initialize app:', error);
+                alert('App initialization failed. Check console for details.');
+            }
         });
         
-        // Click anywhere on modal background to close
-        document.getElementById('modal').addEventListener('click', function(e) {
-            if (e.target === this) closeModal();
-        });
-        
+        function setupAIFeatures() {
+            // Smart Hints
+            document.getElementById('smart-hints-demo').addEventListener('click', function() {
+                console.log('Smart Hints clicked!');
+                if (window.app && typeof window.app.demoSmartHints === 'function') {
+                    window.app.demoSmartHints();
+                } else {
+                    console.error('Smart hints function not available');
+                }
+            });
+            
+            // Teacher Alerts
+            document.getElementById('teacher-alerts-demo').addEventListener('click', function() {
+                console.log('Teacher Alerts clicked!');
+                if (window.app && typeof window.app.demoStudentAlerts === 'function') {
+                    window.app.demoStudentAlerts();
+                } else {
+                    console.error('Teacher alerts function not available');
+                }
+            });
+            
+            // Parent Reports
+            document.getElementById('parent-insights-demo').addEventListener('click', function() {
+                console.log('Parent Reports clicked!');
+                if (window.app && typeof window.app.showParentReport === 'function') {
+                    window.app.showParentReport();
+                } else {
+                    console.error('Parent reports function not available');
+                }
+            });
+            
+            // Test All Features
+            document.getElementById('test-all-features').addEventListener('click', function() {
+                console.log('Test All Features clicked!');
+                if (window.app && typeof window.app.testNewFeatures === 'function') {
+                    window.app.testNewFeatures();
+                } else {
+                    console.error('Test features function not available');
+                }
+            });
+            
+            // Weak Topics Button
+            document.getElementById('weak-topics-btn').addEventListener('click', function() {
+                console.log('Weak Topics clicked!');
+                if (window.app && typeof window.app.startMixedTopicPractice === 'function') {
+                    window.app.startMixedTopicPractice();
+                } else {
+                    console.error('Weak topics function not available');
+                }
+            });
+            
+            // Teacher Dashboard Button
+            document.getElementById('teacher-dashboard-btn').addEventListener('click', function() {
+                console.log('Teacher Dashboard clicked!');
+                if (window.app && typeof window.app.showTeacherDashboard === 'function') {
+                    window.app.showTeacherDashboard();
+                } else {
+                    console.error('Teacher dashboard function not available');
+                }
+            });
+            
+            // Parent Report Button
+            document.getElementById('parent-report-btn').addEventListener('click', function() {
+                console.log('Parent Report clicked!');
+                if (window.app && typeof window.app.showParentReport === 'function') {
+                    window.app.showParentReport();
+                } else {
+                    console.error('Parent report function not available');
+                }
+            });
+            
+            console.log('AI feature event listeners set up!');
+        }
+    </script>
+    
+    <!-- PWA Service Worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(registration => console.log('SW registered'))
+                    .catch(error => console.log('SW registration failed'));
+            });
+        }
     </script>
 </body>
 </html>
