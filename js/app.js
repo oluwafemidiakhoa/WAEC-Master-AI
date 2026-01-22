@@ -127,32 +127,54 @@
   const LAST_SUMMARY_KEY = 'waec_last_summary_v2';
   const THEME_KEY = 'waec_theme_v1';
 
-  // Initialize core systems
+  // Initialize core systems with fallback
   async function initializeSystems() {
     showLoading('Initializing advanced features...');
     
     try {
-      // Initialize AI engine
-      aiEngine = new AdaptiveLearningEngine();
+      // Initialize AI engine with fallback
+      try {
+        aiEngine = new AdaptiveLearningEngine();
+      } catch (error) {
+        console.warn('AI Engine failed to load:', error);
+        aiEngine = null;
+      }
       
-      // Initialize achievement system
-      achievementSystem = new AchievementSystem();
-      achievementSystem.onAchievementUnlocked = showAchievementToast;
+      // Initialize achievement system with fallback
+      try {
+        achievementSystem = new AchievementSystem();
+        achievementSystem.onAchievementUnlocked = showAchievementToast;
+      } catch (error) {
+        console.warn('Achievement System failed to load:', error);
+        achievementSystem = null;
+      }
       
-      // Initialize voice engine
-      voiceEngine = new VoiceEngine();
-      await voiceEngine.init();
-      state.voiceEnabled = voiceEngine.isEnabled;
-      updateVoiceToggle();
+      // Initialize voice engine with fallback
+      try {
+        voiceEngine = new VoiceEngine();
+        await voiceEngine.init();
+        state.voiceEnabled = voiceEngine.isEnabled;
+        updateVoiceToggle();
+      } catch (error) {
+        console.warn('Voice Engine failed to load:', error);
+        voiceEngine = null;
+        state.voiceEnabled = false;
+      }
       
-      // Initialize analytics engine
-      analyticsEngine = new AnalyticsEngine();
+      // Initialize analytics engine with fallback
+      try {
+        analyticsEngine = new AnalyticsEngine();
+      } catch (error) {
+        console.warn('Analytics Engine failed to load:', error);
+        analyticsEngine = null;
+      }
       
-      console.log('Advanced systems initialized successfully');
+      console.log('Core systems initialized successfully');
       hideLoading();
     } catch (error) {
-      console.error('Error initializing systems:', error);
+      console.error('Critical error initializing systems:', error);
       hideLoading();
+      // Continue with basic functionality
     }
   }
 
@@ -353,9 +375,14 @@
       const questions = await response.json();
       
       // Use AI engine for question recommendations if available
-      if (aiEngine) {
-        state.allQuestions = aiEngine.recommendQuestions(questions, subject, questions.length);
-      } else {
+      try {
+        if (aiEngine && aiEngine.recommendQuestions) {
+          state.allQuestions = aiEngine.recommendQuestions(questions, subject, questions.length);
+        } else {
+          state.allQuestions = questions;
+        }
+      } catch (error) {
+        console.warn('AI recommendation failed, using default questions:', error);
         state.allQuestions = questions;
       }
       
@@ -558,18 +585,30 @@
 
     // Process with AI engine
     let insights = [];
-    if (aiEngine) {
-      insights = aiEngine.analyzePerformance(sessionData);
+    try {
+      if (aiEngine && aiEngine.analyzePerformance) {
+        insights = aiEngine.analyzePerformance(sessionData);
+      }
+    } catch (error) {
+      console.warn('AI analysis failed:', error);
     }
 
     // Record analytics
-    if (analyticsEngine) {
-      analyticsEngine.recordSession(sessionData);
+    try {
+      if (analyticsEngine && analyticsEngine.recordSession) {
+        analyticsEngine.recordSession(sessionData);
+      }
+    } catch (error) {
+      console.warn('Analytics recording failed:', error);
     }
 
     // Update achievements
-    if (achievementSystem) {
-      achievementSystem.updateAchievements(sessionData);
+    try {
+      if (achievementSystem && achievementSystem.updateAchievements) {
+        achievementSystem.updateAchievements(sessionData);
+      }
+    } catch (error) {
+      console.warn('Achievement update failed:', error);
     }
 
     // Calculate topic statistics
@@ -1595,35 +1634,66 @@
   const init = async () => {
     console.log('Initializing Advanced WAEC Practice App...');
     
-    // Initialize theme first
-    initializeTheme();
-    
-    // Initialize core systems
-    await initializeSystems();
-    
-    // Bind all event handlers
-    bindEvents();
-    
-    // Initialize app state
-    updateTimerVisibility();
-    loadSubject(state.subject);
-    registerServiceWorker();
-    renderLastSummary();
-    
-    // Load and render initial data
-    const stats = getStats();
-    renderHeaderStats(stats);
-    renderDashboard(stats);
-    updateConnectionStatus();
-    
-    // Initial voice announcement
-    if (voiceEngine && voiceEngine.isEnabled) {
-      setTimeout(() => {
-        voiceEngine.speak('Welcome to the advanced WAEC practice app. All systems ready.');
-      }, 1000);
+    try {
+      // Initialize theme first
+      initializeTheme();
+      
+      // Initialize core systems with timeout
+      const initPromise = initializeSystems();
+      const timeoutPromise = new Promise(resolve => setTimeout(resolve, 3000));
+      
+      await Promise.race([initPromise, timeoutPromise]);
+      
+      // Bind all event handlers
+      bindEvents();
+      
+      // Initialize app state
+      updateTimerVisibility();
+      
+      // Load initial subject
+      try {
+        await loadSubject(state.subject);
+      } catch (error) {
+        console.error('Failed to load initial subject, using fallback:', error);
+        // Set fallback data to prevent hanging
+        state.allQuestions = [
+          {
+            id: 1,
+            topic: "Sample",
+            question: "This is a sample question. Select any option to test the app.",
+            options: ["Option A", "Option B", "Option C", "Option D"],
+            answer: 0,
+            explanation: "This is a sample explanation to test the app functionality."
+          }
+        ];
+        setTopics(state.allQuestions);
+        applyTopicFilter();
+      }
+      
+      registerServiceWorker();
+      renderLastSummary();
+      
+      // Load and render initial data
+      const stats = getStats();
+      renderHeaderStats(stats);
+      renderDashboard(stats);
+      updateConnectionStatus();
+      
+      // Initial voice announcement
+      if (voiceEngine && voiceEngine.isEnabled) {
+        setTimeout(() => {
+          voiceEngine.speak('Welcome to WAEC Master AI. All systems ready.');
+        }, 1000);
+      }
+      
+      console.log('WAEC Master AI initialized successfully');
+      
+    } catch (error) {
+      console.error('Initialization error:', error);
+      // Force hide loading overlay
+      hideLoading();
+      alert('Some advanced features may not work, but basic functionality is available. Please refresh to try again.');
     }
-    
-    console.log('Advanced WAEC Practice App initialized successfully');
   };
 
   // Start the application

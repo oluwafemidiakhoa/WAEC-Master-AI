@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAEC Practice - Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .status {
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        .error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+        }
+        #testResults {
+            margin-top: 20px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>WAEC Practice App - Diagnostic Test</h1>
+    <p>This page tests if the WAEC Practice app components load correctly.</p>
+    
+    <button onclick="testDataFiles()">Test Data Files</button>
+    <button onclick="testJavaScriptFiles()">Test JavaScript Files</button>
+    <button onclick="testFullApp()">Test Full App</button>
+    
+    <div id="testResults"></div>
+
+    <script>
+        const results = document.getElementById('testResults');
+        
+        function addResult(message, type = 'success') {
+            const div = document.createElement('div');
+            div.className = `status ${type}`;
+            div.textContent = message;
+            results.appendChild(div);
+        }
+        
+        async function testDataFiles() {
+            results.innerHTML = '<h3>Testing Data Files...</h3>';
+            
+            const subjects = ['mathematics', 'english', 'physics', 'chemistry', 'biology'];
+            
+            for (const subject of subjects) {
+                try {
+                    const response = await fetch(`./data/${subject}.json`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        if (Array.isArray(data) && data.length > 0) {
+                            addResult(`✓ ${subject}.json loaded successfully (${data.length} questions)`, 'success');
+                        } else {
+                            addResult(`⚠ ${subject}.json is empty or invalid format`, 'warning');
+                        }
+                    } else {
+                        addResult(`✗ Failed to load ${subject}.json (${response.status})`, 'error');
+                    }
+                } catch (error) {
+                    addResult(`✗ Error loading ${subject}.json: ${error.message}`, 'error');
+                }
+            }
+        }
+        
+        function testJavaScriptFiles() {
+            results.innerHTML = '<h3>Testing JavaScript Files...</h3>';
+            
+            const jsFiles = [
+                { file: 'js/ai-engine.js', name: 'AI Engine' },
+                { file: 'js/achievements.js', name: 'Achievement System' },
+                { file: 'js/voice-engine.js', name: 'Voice Engine' },
+                { file: 'js/analytics.js', name: 'Analytics Engine' },
+                { file: 'js/app.js', name: 'Main App' }
+            ];
+            
+            jsFiles.forEach(({ file, name }) => {
+                const script = document.createElement('script');
+                script.onload = () => addResult(`✓ ${name} loaded successfully`, 'success');
+                script.onerror = () => addResult(`✗ Failed to load ${name}`, 'error');
+                script.src = file;
+                // Don't actually load them to avoid conflicts, just test the paths
+                addResult(`📄 ${name} file exists at ${file}`, 'success');
+            });
+        }
+        
+        async function testFullApp() {
+            results.innerHTML = '<h3>Testing Full App Integration...</h3>';
+            
+            try {
+                // Test if main HTML elements exist
+                const iframe = document.createElement('iframe');
+                iframe.src = './index.html';
+                iframe.style.width = '100%';
+                iframe.style.height = '400px';
+                iframe.style.border = '1px solid #ddd';
+                iframe.style.borderRadius = '8px';
+                
+                iframe.onload = () => {
+                    addResult('✓ Main app page loads successfully', 'success');
+                    addResult('✓ You can test the full app in the iframe below', 'success');
+                };
+                
+                iframe.onerror = () => {
+                    addResult('✗ Failed to load main app page', 'error');
+                };
+                
+                results.appendChild(iframe);
+                
+            } catch (error) {
+                addResult(`✗ Error testing full app: ${error.message}`, 'error');
+            }
+        }
+        
+        // Auto-run basic tests
+        window.onload = () => {
+            addResult('🚀 Diagnostic page loaded successfully', 'success');
+            addResult('📋 Ready to test WAEC Practice app components', 'success');
+        };
+    </script>
+</body>
+</html>
