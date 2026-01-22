@@ -1,6 +1,46 @@
 [
   {
     "id": 1,
+    "topic": "Mechanics",
+    "question": "What is the SI unit of force?",
+    "options": ["Joule", "Newton", "Watt", "Pascal"],
+    "answer": 1,
+    "explanation": "The Newton (N) is the SI unit of force, named after Sir Isaac Newton. 1 Newton = 1 kg⋅m/s²"
+  },
+  {
+    "id": 2,
+    "topic": "Mechanics", 
+    "question": "A car accelerates from rest to 20 m/s in 5 seconds. What is its acceleration?",
+    "options": ["2 m/s²", "4 m/s²", "5 m/s²", "10 m/s²"],
+    "answer": 1,
+    "explanation": "Acceleration = (final velocity - initial velocity) ÷ time\na = (20 - 0) ÷ 5 = 20 ÷ 5 = 4 m/s²"
+  },
+  {
+    "id": 3,
+    "topic": "Waves",
+    "question": "Sound travels fastest in which medium?",
+    "options": ["Gas", "Liquid", "Solid", "Vacuum"],
+    "answer": 2,
+    "explanation": "Sound waves travel fastest in solids because molecules are closely packed, allowing vibrations to transfer more efficiently."
+  },
+  {
+    "id": 4,
+    "topic": "Electricity",
+    "question": "What is Ohm's law?",
+    "options": ["V = I/R", "V = IR", "V = I + R", "V = R/I"],
+    "answer": 1,
+    "explanation": "Ohm's law states that voltage (V) equals current (I) multiplied by resistance (R): V = IR"
+  },
+  {
+    "id": 5,
+    "topic": "Heat",
+    "question": "At what temperature does water boil at standard atmospheric pressure?",
+    "options": ["90°C", "95°C", "100°C", "105°C"],
+    "answer": 2,
+    "explanation": "Water boils at 100°C (212°F) at standard atmospheric pressure (1 atm or 101.3 kPa)."
+  },
+  {
+    "id": 6,
     "topic": "Kinematics",
     "question": "A car moves 150 m in 5 s. What is its average speed?",
     "options": ["20 m/s", "25 m/s", "30 m/s", "35 m/s"],
@@ -8,171 +48,371 @@
     "explanation": "Average speed = distance/time = 150/5 = 30 m/s."
   },
   {
-    "id": 2,
+    "id": 7,
     "topic": "Kinematics",
-    "question": "An object starts from rest and accelerates at 2 m/s^2 for 4 s. Its final velocity is",
+    "question": "An object starts from rest and accelerates at 2 m/s² for 4 s. Its final velocity is",
     "options": ["4 m/s", "6 m/s", "8 m/s", "10 m/s"],
     "answer": 2,
     "explanation": "v = u + at = 0 + 2 × 4 = 8 m/s."
   },
   {
-    "id": 3,
-    "topic": "Forces",
-    "question": "The unit of force is",
-    "options": ["watt", "newton", "joule", "pascal"],
-    "answer": 1,
-    "explanation": "Force is measured in newtons (N)."
-  },
-  {
-    "id": 4,
+    "id": 8,
     "topic": "Forces",
     "question": "If net force is 10 N on a 2 kg object, its acceleration is",
-    "options": ["2 m/s^2", "4 m/s^2", "5 m/s^2", "20 m/s^2"],
+    "options": ["2 m/s²", "4 m/s²", "5 m/s²", "20 m/s²"],
     "answer": 2,
-    "explanation": "a = F/m = 10/2 = 5 m/s²."
+    "explanation": "a = F/m = 10/2 = 5 m/s². This follows Newton's second law F = ma."
   },
   {
-    "id": 5,
+    "id": 9,
     "topic": "Energy",
     "question": "Which energy is stored in a stretched rubber band?",
     "options": ["Kinetic", "Thermal", "Elastic potential", "Nuclear"],
     "answer": 2,
-    "explanation": "Stretching stores elastic potential energy."
+    "explanation": "Stretching stores elastic potential energy that can be converted back to kinetic energy when released."
   },
   {
-    "id": 6,
+    "id": 10,
     "topic": "Energy",
     "question": "The SI unit of energy is",
     "options": ["joule", "newton", "watt", "ohm"],
     "answer": 0,
-    "explanation": "Energy is measured in joules (J)."
+    "explanation": "Energy is measured in joules (J). 1 joule = 1 newton-meter = 1 kg⋅m²/s²."
   },
   {
-    "id": 7,
+    "id": 11,
     "topic": "Waves",
     "question": "The distance between two successive crests is called",
     "options": ["frequency", "period", "amplitude", "wavelength"],
     "answer": 3,
-    "explanation": "That distance is the wavelength."
+    "explanation": "Wavelength is the distance between two consecutive crests or troughs of a wave."
   },
   {
-    "id": 8,
+    "id": 12,
     "topic": "Waves",
     "question": "Sound waves are",
     "options": ["transverse", "longitudinal", "electromagnetic", "stationary"],
     "answer": 1,
-    "explanation": "Sound in air travels as longitudinal waves."
+    "explanation": "Sound in air travels as longitudinal waves where particles vibrate parallel to wave direction."
   },
   {
-    "id": 9,
+    "id": 13,
     "topic": "Electricity",
     "question": "Which device measures electric current?",
     "options": ["voltmeter", "ammeter", "ohmmeter", "barometer"],
     "answer": 1,
-    "explanation": "An ammeter measures current."
+    "explanation": "An ammeter measures current and is connected in series with the circuit."
   },
   {
-    "id": 10,
+    "id": 14,
     "topic": "Electricity",
     "question": "If V = 12 V and R = 3 ohm, the current is",
     "options": ["2 A", "3 A", "4 A", "6 A"],
     "answer": 2,
-    "explanation": "I = V/R = 12/3 = 4 A."
+    "explanation": "Using Ohm's law: I = V/R = 12/3 = 4 A."
   },
   {
-    "id": 11,
+    "id": 15,
     "topic": "Measurements",
     "question": "The SI unit of time is",
     "options": ["minute", "hour", "second", "day"],
     "answer": 2,
-    "explanation": "Time is measured in seconds (s)."
+    "explanation": "Time is measured in seconds (s) in the SI system."
   },
   {
-    "id": 12,
+    "id": 16,
     "topic": "Measurements",
     "question": "Which instrument is best for measuring a thin wire diameter?",
     "options": ["ruler", "meter rule", "micrometer screw gauge", "stopwatch"],
     "answer": 2,
-    "explanation": "A micrometer screw gauge measures small thicknesses accurately."
+    "explanation": "A micrometer screw gauge can measure small thicknesses accurately to 0.01 mm."
   },
   {
-    "id": 13,
+    "id": 17,
     "topic": "Heat",
     "question": "Heat transfer in solids occurs mainly by",
     "options": ["conduction", "convection", "radiation", "evaporation"],
     "answer": 0,
-    "explanation": "Conduction is dominant in solids."
+    "explanation": "Conduction is the dominant heat transfer mechanism in solids through molecular vibrations."
   },
   {
-    "id": 14,
+    "id": 18,
     "topic": "Heat",
     "question": "The temperature scale that starts at absolute zero is",
     "options": ["Celsius", "Fahrenheit", "Kelvin", "Rankine"],
     "answer": 2,
-    "explanation": "The Kelvin scale begins at absolute zero."
+    "explanation": "The Kelvin scale begins at absolute zero (0 K = -273.15°C)."
   },
   {
-    "id": 15,
+    "id": 19,
     "topic": "Magnetism",
     "question": "Like poles of a magnet",
     "options": ["attract", "repel", "neutralize", "disappear"],
     "answer": 1,
-    "explanation": "Like poles repel, unlike poles attract."
+    "explanation": "Like poles (north-north or south-south) repel, while unlike poles attract."
   },
   {
-    "id": 16,
+    "id": 20,
     "topic": "Optics",
     "question": "An image formed by a plane mirror is",
     "options": ["real and inverted", "virtual and upright", "real and enlarged", "virtual and inverted"],
     "answer": 1,
-    "explanation": "Plane mirrors form virtual, upright images."
+    "explanation": "Plane mirrors form virtual, upright images that are the same size as the object."
   },
   {
-    "id": 17,
+    "id": 21,
     "topic": "Electricity",
     "question": "A device that converts electrical energy to mechanical energy is",
     "options": ["generator", "battery", "electric motor", "transformer"],
     "answer": 2,
-    "explanation": "An electric motor converts electrical energy to motion."
+    "explanation": "An electric motor converts electrical energy into rotational mechanical energy."
   },
   {
-    "id": 18,
+    "id": 22,
     "topic": "Pressure",
     "question": "Pressure is defined as",
     "options": ["force × area", "force / area", "mass × gravity", "energy / time"],
     "answer": 1,
-    "explanation": "Pressure equals force divided by area."
+    "explanation": "Pressure = Force/Area. It's measured in pascals (Pa) or N/m²."
   },
   {
-    "id": 19,
+    "id": 23,
     "topic": "Density",
     "question": "Density is calculated as",
     "options": ["mass × volume", "mass / volume", "volume / mass", "mass + volume"],
     "answer": 1,
-    "explanation": "Density equals mass divided by volume."
+    "explanation": "Density = mass/volume, typically measured in kg/m³ or g/cm³."
   },
   {
-    "id": 20,
+    "id": 24,
     "topic": "Momentum",
     "question": "Momentum is defined as",
     "options": ["force × time", "mass × velocity", "mass / time", "energy × time"],
     "answer": 1,
-    "explanation": "Momentum p = mv."
+    "explanation": "Momentum p = mv. It's a vector quantity measured in kg⋅m/s."
   },
   {
-    "id": 21,
+    "id": 25,
     "topic": "Simple Machines",
     "question": "A machine with mechanical advantage greater than 1 provides",
     "options": ["speed advantage", "force advantage", "no advantage", "less work"],
     "answer": 1,
-    "explanation": "MA > 1 means the output force is greater than input force."
+    "explanation": "MA > 1 means the output force is greater than input force, providing force advantage."
   },
   {
-    "id": 22,
+    "id": 26,
     "topic": "Sound",
     "question": "The speed of sound in air is approximately",
     "options": ["100 m/s", "200 m/s", "340 m/s", "500 m/s"],
     "answer": 2,
-    "explanation": "At room temperature, sound travels about 340 m/s in air."
+    "explanation": "At room temperature (20°C), sound travels about 340 m/s in air."
+  },
+  {
+    "id": 27,
+    "topic": "Motion",
+    "question": "Which equation relates distance, initial velocity, acceleration, and time?",
+    "options": ["s = ut + ½at²", "v = u + at", "v² = u² + 2as", "s = vt"],
+    "answer": 0,
+    "explanation": "The equation s = ut + ½at² gives distance traveled under constant acceleration."
+  },
+  {
+    "id": 28,
+    "topic": "Work and Energy",
+    "question": "Work is done when",
+    "options": ["force is applied", "object moves", "force causes displacement", "energy is stored"],
+    "answer": 2,
+    "explanation": "Work = Force × displacement. Both force and movement in the direction of force are required."
+  },
+  {
+    "id": 29,
+    "topic": "Power",
+    "question": "Power is defined as",
+    "options": ["work × time", "work / time", "force × velocity", "both B and C"],
+    "answer": 3,
+    "explanation": "Power = Work/time = Force × velocity. It's measured in watts (W)."
+  },
+  {
+    "id": 30,
+    "topic": "Gravity",
+    "question": "The acceleration due to gravity on Earth is approximately",
+    "options": ["9.8 m/s²", "10.8 m/s²", "8.8 m/s²", "11.8 m/s²"],
+    "answer": 0,
+    "explanation": "g = 9.8 m/s² (often approximated as 10 m/s² for calculations)."
+  },
+  {
+    "id": 31,
+    "topic": "Projectile Motion",
+    "question": "A projectile reaches maximum height when its",
+    "options": ["horizontal velocity is zero", "vertical velocity is zero", "acceleration is zero", "total velocity is zero"],
+    "answer": 1,
+    "explanation": "At maximum height, vertical velocity = 0, but horizontal velocity remains constant."
+  },
+  {
+    "id": 32,
+    "topic": "Circular Motion",
+    "question": "Centripetal force always acts",
+    "options": ["outward from center", "toward the center", "tangent to circle", "opposite to velocity"],
+    "answer": 1,
+    "explanation": "Centripetal force acts toward the center, causing circular motion."
+  },
+  {
+    "id": 33,
+    "topic": "Friction",
+    "question": "Static friction",
+    "options": ["always equals kinetic friction", "is greater than kinetic friction", "is less than kinetic friction", "doesn't exist"],
+    "answer": 1,
+    "explanation": "Static friction (stationary objects) is typically greater than kinetic friction (moving objects)."
+  },
+  {
+    "id": 34,
+    "topic": "Oscillations",
+    "question": "The period of a simple pendulum depends on",
+    "options": ["mass of bob", "amplitude", "length of string", "material of bob"],
+    "answer": 2,
+    "explanation": "For small angles, period T = 2π√(L/g), depending only on length and gravity."
+  },
+  {
+    "id": 35,
+    "topic": "Fluids",
+    "question": "Archimedes' principle states that buoyant force equals",
+    "options": ["weight of object", "weight of displaced fluid", "density of fluid", "volume of object"],
+    "answer": 1,
+    "explanation": "Buoyant force = weight of fluid displaced by the submerged object."
+  },
+  {
+    "id": 36,
+    "topic": "Thermodynamics",
+    "question": "The first law of thermodynamics is equivalent to",
+    "options": ["conservation of energy", "conservation of momentum", "conservation of mass", "Ohm's law"],
+    "answer": 0,
+    "explanation": "First law: ΔU = Q - W (internal energy change = heat added - work done by system)."
+  },
+  {
+    "id": 37,
+    "topic": "Electric Fields",
+    "question": "Electric field strength is measured in",
+    "options": ["volts", "amperes", "newtons per coulomb", "ohms"],
+    "answer": 2,
+    "explanation": "Electric field E = F/q, measured in N/C or V/m."
+  },
+  {
+    "id": 38,
+    "topic": "Capacitance",
+    "question": "Capacitance is measured in",
+    "options": ["farads", "henries", "ohms", "watts"],
+    "answer": 0,
+    "explanation": "Capacitance C = Q/V, measured in farads (F)."
+  },
+  {
+    "id": 39,
+    "topic": "Electromagnetic Induction",
+    "question": "Faraday's law relates changing magnetic flux to",
+    "options": ["current", "resistance", "induced EMF", "capacitance"],
+    "answer": 2,
+    "explanation": "EMF = -dΦ/dt. Changing magnetic flux induces EMF (electromotive force)."
+  },
+  {
+    "id": 40,
+    "topic": "Atomic Physics",
+    "question": "The nucleus of an atom contains",
+    "options": ["protons only", "neutrons only", "protons and neutrons", "electrons and protons"],
+    "answer": 2,
+    "explanation": "The nucleus contains protons (positive) and neutrons (neutral). Electrons orbit outside."
+  },
+  {
+    "id": 41,
+    "topic": "Radioactivity",
+    "question": "Alpha particles are",
+    "options": ["electrons", "helium nuclei", "photons", "neutrons"],
+    "answer": 1,
+    "explanation": "Alpha particles are helium-4 nuclei (2 protons + 2 neutrons) with +2 charge."
+  },
+  {
+    "id": 42,
+    "topic": "Quantum Physics",
+    "question": "The photoelectric effect demonstrates that light behaves as",
+    "options": ["waves only", "particles only", "both waves and particles", "neither waves nor particles"],
+    "answer": 2,
+    "explanation": "Photoelectric effect shows light's particle nature, while interference shows wave nature."
+  },
+  {
+    "id": 43,
+    "topic": "Optics",
+    "question": "Total internal reflection occurs when light travels from",
+    "options": ["less dense to more dense medium", "more dense to less dense medium", "same density media", "vacuum to any medium"],
+    "answer": 1,
+    "explanation": "Total internal reflection happens when light goes from higher to lower refractive index medium."
+  },
+  {
+    "id": 44,
+    "topic": "Wave Properties",
+    "question": "When waves meet, the principle that describes their interaction is",
+    "options": ["reflection", "refraction", "superposition", "polarization"],
+    "answer": 2,
+    "explanation": "Superposition principle: when waves overlap, amplitudes add algebraically."
+  },
+  {
+    "id": 45,
+    "topic": "Electromagnetic Spectrum",
+    "question": "Which has the highest frequency?",
+    "options": ["Radio waves", "Microwaves", "X-rays", "Visible light"],
+    "answer": 2,
+    "explanation": "Order by increasing frequency: Radio < Microwave < Infrared < Visible < UV < X-ray < Gamma."
+  },
+  {
+    "id": 46,
+    "topic": "AC Circuits",
+    "question": "In an AC circuit, RMS voltage is related to peak voltage by",
+    "options": ["Vrms = Vpeak", "Vrms = Vpeak/√2", "Vrms = √2 × Vpeak", "Vrms = Vpeak/2"],
+    "answer": 1,
+    "explanation": "For sinusoidal AC: Vrms = Vpeak/√2 ≈ 0.707 × Vpeak."
+  },
+  {
+    "id": 47,
+    "topic": "Modern Physics",
+    "question": "Einstein's mass-energy equivalence is expressed as",
+    "options": ["E = mc", "E = mc²", "E = m/c²", "E = c/m"],
+    "answer": 1,
+    "explanation": "E = mc² shows that mass and energy are interchangeable."
+  },
+  {
+    "id": 48,
+    "topic": "Semiconductors",
+    "question": "In a semiconductor, current is carried by",
+    "options": ["electrons only", "holes only", "both electrons and holes", "protons"],
+    "answer": 2,
+    "explanation": "Semiconductors have both electron and hole conduction mechanisms."
+  },
+  {
+    "id": 49,
+    "topic": "Nuclear Physics",
+    "question": "Nuclear fission involves",
+    "options": ["combining light nuclei", "splitting heavy nuclei", "electron capture", "beta decay"],
+    "answer": 1,
+    "explanation": "Fission splits heavy nuclei (like uranium) into smaller fragments, releasing energy."
+  },
+  {
+    "id": 50,
+    "topic": "Relativity",
+    "question": "According to special relativity, as speed approaches the speed of light",
+    "options": ["mass decreases", "time dilates", "length increases", "energy decreases"],
+    "answer": 1,
+    "explanation": "Time dilation: moving clocks run slower relative to stationary observer."
+  },
+  {
+    "id": 51,
+    "topic": "Astronomy",
+    "question": "The closest star to Earth is",
+    "options": ["Alpha Centauri", "Sirius", "The Sun", "Polaris"],
+    "answer": 2,
+    "explanation": "The Sun is Earth's closest star at about 150 million km away."
+  },
+  {
+    "id": 52,
+    "topic": "Planetary Motion",
+    "question": "Kepler's first law states that planetary orbits are",
+    "options": ["circular", "elliptical", "parabolic", "hyperbolic"],
+    "answer": 1,
+    "explanation": "Planets move in elliptical orbits with the Sun at one focus."
   }
 ]

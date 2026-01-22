@@ -2,177 +2,417 @@
   {
     "id": 1,
     "topic": "Atomic Structure",
-    "question": "The number of protons in an atom is called the",
-    "options": ["mass number", "atomic number", "isotope number", "neutron number"],
+    "question": "What is the atomic number of carbon?",
+    "options": ["4", "6", "8", "12"],
     "answer": 1,
-    "explanation": "Atomic number equals the number of protons."
+    "explanation": "Carbon has 6 protons in its nucleus, which defines its atomic number as 6."
   },
   {
     "id": 2,
-    "topic": "Atomic Structure",
-    "question": "An isotope of an element has the same",
-    "options": ["neutrons", "protons", "mass number", "electrons only"],
+    "topic": "Chemical Bonding",
+    "question": "What type of bond is formed between sodium and chlorine in NaCl?",
+    "options": ["Covalent", "Ionic", "Metallic", "Hydrogen"],
     "answer": 1,
-    "explanation": "Isotopes have the same number of protons."
+    "explanation": "Sodium (metal) loses an electron to chlorine (non-metal), forming Na⁺ and Cl⁻ ions held together by ionic bonds."
   },
   {
     "id": 3,
-    "topic": "Periodic Table",
-    "question": "Elements in the same group have similar",
-    "options": ["mass", "valence electrons", "neutrons", "atomic radii"],
+    "topic": "Acids and Bases",
+    "question": "What is the pH of pure water at 25°C?",
+    "options": ["6", "7", "8", "9"],
     "answer": 1,
-    "explanation": "Groups share similar valence electron counts."
+    "explanation": "Pure water has a pH of 7 at 25°C, which is considered neutral (neither acidic nor basic)."
   },
   {
     "id": 4,
     "topic": "Periodic Table",
-    "question": "A metal tends to",
-    "options": ["gain electrons", "share electrons", "lose electrons", "avoid reaction"],
-    "answer": 2,
-    "explanation": "Metals typically lose electrons to form cations."
+    "question": "Which element has the symbol 'Fe'?",
+    "options": ["Fluorine", "Iron", "Francium", "Fermium"],
+    "answer": 1,
+    "explanation": "Fe is the chemical symbol for iron, derived from its Latin name 'ferrum'."
   },
   {
     "id": 5,
     "topic": "Chemical Reactions",
-    "question": "In a balanced equation, the total number of atoms is",
-    "options": ["greater on products", "equal on both sides", "greater on reactants", "always doubled"],
-    "answer": 1,
-    "explanation": "Atoms are conserved in chemical reactions."
+    "question": "In the equation 2H₂ + O₂ → 2H₂O, what type of reaction is this?",
+    "options": ["Decomposition", "Single displacement", "Synthesis", "Double displacement"],
+    "answer": 2,
+    "explanation": "This is a synthesis (combination) reaction where two simpler substances (H₂ and O₂) combine to form a more complex compound (H₂O)."
   },
   {
     "id": 6,
+    "topic": "Atomic Structure",
+    "question": "The number of protons in an atom is called the",
+    "options": ["mass number", "atomic number", "isotope number", "neutron number"],
+    "answer": 1,
+    "explanation": "Atomic number equals the number of protons in the nucleus and defines the element."
+  },
+  {
+    "id": 7,
+    "topic": "Atomic Structure",
+    "question": "An isotope of an element has the same",
+    "options": ["neutrons", "protons", "mass number", "electrons only"],
+    "answer": 1,
+    "explanation": "Isotopes have the same number of protons but different numbers of neutrons."
+  },
+  {
+    "id": 8,
+    "topic": "Periodic Table",
+    "question": "Elements in the same group have similar",
+    "options": ["mass", "valence electrons", "neutrons", "atomic radii"],
+    "answer": 1,
+    "explanation": "Groups (vertical columns) share similar valence electron configurations, giving similar chemical properties."
+  },
+  {
+    "id": 9,
+    "topic": "Periodic Table",
+    "question": "A metal tends to",
+    "options": ["gain electrons", "share electrons", "lose electrons", "avoid reaction"],
+    "answer": 2,
+    "explanation": "Metals typically lose electrons to form positive ions (cations) and achieve stable electron configurations."
+  },
+  {
+    "id": 10,
+    "topic": "Chemical Reactions",
+    "question": "In a balanced equation, the total number of atoms is",
+    "options": ["greater on products", "equal on both sides", "greater on reactants", "always doubled"],
+    "answer": 1,
+    "explanation": "Law of conservation of mass: atoms are conserved in chemical reactions, so totals must be equal."
+  },
+  {
+    "id": 11,
     "topic": "Chemical Reactions",
     "question": "A reaction that releases heat is",
     "options": ["endothermic", "exothermic", "neutral", "catalytic"],
     "answer": 1,
-    "explanation": "Exothermic reactions release heat."
+    "explanation": "Exothermic reactions release heat energy to the surroundings, making them feel warm."
   },
   {
-    "id": 7,
+    "id": 12,
     "topic": "Acids & Bases",
     "question": "A solution with pH 3 is",
     "options": ["neutral", "acidic", "basic", "salty"],
     "answer": 1,
-    "explanation": "pH less than 7 indicates an acid."
+    "explanation": "pH less than 7 indicates an acidic solution. pH 3 is quite acidic."
   },
   {
-    "id": 8,
+    "id": 13,
     "topic": "Acids & Bases",
     "question": "Which substance is a base?",
     "options": ["HCl", "NaOH", "HNO3", "CO2"],
     "answer": 1,
-    "explanation": "Sodium hydroxide (NaOH) is a base."
+    "explanation": "Sodium hydroxide (NaOH) is a strong base that releases OH⁻ ions in solution."
   },
   {
-    "id": 9,
+    "id": 14,
     "topic": "Mixtures",
     "question": "Which method separates sand from water?",
     "options": ["distillation", "filtration", "evaporation", "chromatography"],
     "answer": 1,
-    "explanation": "Filtration separates insoluble solids from liquids."
+    "explanation": "Filtration separates insoluble solids (sand) from liquids (water) using a filter."
   },
   {
-    "id": 10,
+    "id": 15,
     "topic": "Mixtures",
     "question": "A solution is",
     "options": ["a pure substance", "a homogeneous mixture", "a compound", "a suspension"],
     "answer": 1,
-    "explanation": "Solutions are homogeneous mixtures."
+    "explanation": "Solutions are homogeneous mixtures where one substance dissolves completely in another."
   },
   {
-    "id": 11,
+    "id": 16,
     "topic": "Stoichiometry",
     "question": "The molar mass of water (H2O) is",
     "options": ["16 g/mol", "18 g/mol", "20 g/mol", "22 g/mol"],
     "answer": 1,
-    "explanation": "H2O = 2(1) + 16 = 18 g/mol."
+    "explanation": "H2O = 2(1) + 16 = 18 g/mol. Two hydrogens plus one oxygen."
   },
   {
-    "id": 12,
+    "id": 17,
     "topic": "Stoichiometry",
     "question": "Avogadro's number is approximately",
     "options": ["6.02 × 10^23", "3.01 × 10^23", "1.00 × 10^6", "9.81"],
     "answer": 0,
-    "explanation": "Avogadro's number is about 6.02 × 10^23."
+    "explanation": "Avogadro's number is about 6.02 × 10²³ particles per mole."
   },
   {
-    "id": 13,
+    "id": 18,
     "topic": "States of Matter",
     "question": "Gas particles are generally",
     "options": ["tightly packed", "fixed in place", "far apart and moving freely", "locked in a lattice"],
     "answer": 2,
-    "explanation": "Gas particles are far apart and move freely."
+    "explanation": "Gas particles have high kinetic energy, are far apart, and move freely in random directions."
   },
   {
-    "id": 14,
+    "id": 19,
     "topic": "States of Matter",
     "question": "The change from solid directly to gas is called",
     "options": ["melting", "condensation", "sublimation", "freezing"],
     "answer": 2,
-    "explanation": "Sublimation is solid to gas without becoming liquid."
+    "explanation": "Sublimation is the phase transition from solid to gas without becoming liquid (like dry ice)."
   },
   {
-    "id": 15,
+    "id": 20,
     "topic": "Organic Chemistry",
     "question": "Hydrocarbons contain only",
     "options": ["hydrogen and oxygen", "hydrogen and carbon", "carbon and nitrogen", "oxygen and nitrogen"],
     "answer": 1,
-    "explanation": "Hydrocarbons are made of hydrogen and carbon only."
+    "explanation": "Hydrocarbons are composed exclusively of hydrogen and carbon atoms."
   },
   {
-    "id": 16,
+    "id": 21,
     "topic": "Organic Chemistry",
     "question": "CH4 is called",
     "options": ["ethane", "methane", "propane", "butane"],
     "answer": 1,
-    "explanation": "CH4 is methane."
+    "explanation": "CH₄ is methane, the simplest hydrocarbon with one carbon atom."
   },
   {
-    "id": 17,
+    "id": 22,
     "topic": "Metals",
     "question": "Rusting is the",
     "options": ["reduction of iron", "oxidation of iron", "melting of iron", "purification of iron"],
     "answer": 1,
-    "explanation": "Rusting is the oxidation of iron."
+    "explanation": "Rusting is the oxidation of iron in the presence of oxygen and water, forming iron oxide."
   },
   {
-    "id": 18,
+    "id": 23,
     "topic": "Rates of Reaction",
     "question": "Increasing temperature usually",
     "options": ["slows reaction rate", "stops reactions", "increases reaction rate", "has no effect"],
     "answer": 2,
-    "explanation": "Higher temperature increases particle energy and collision frequency."
+    "explanation": "Higher temperature increases particle energy and collision frequency, speeding up reactions."
   },
   {
-    "id": 19,
+    "id": 24,
     "topic": "Gas Laws",
     "question": "Boyle's law states that pressure is",
     "options": ["directly proportional to volume", "inversely proportional to volume", "equal to volume", "independent of volume"],
     "answer": 1,
-    "explanation": "At constant temperature, P is inversely proportional to V."
+    "explanation": "At constant temperature, P ∝ 1/V. As volume increases, pressure decreases."
   },
   {
-    "id": 20,
+    "id": 25,
     "topic": "Electrolysis",
     "question": "Reduction occurs at the",
     "options": ["anode", "cathode", "electrolyte", "salt bridge"],
     "answer": 1,
-    "explanation": "Reduction occurs at the cathode."
+    "explanation": "Reduction (gain of electrons) occurs at the cathode (negative electrode)."
   },
   {
-    "id": 21,
+    "id": 26,
     "topic": "Solutions",
     "question": "A solution with 1 mole of solute in 1 liter is",
     "options": ["0.1 M", "0.5 M", "1.0 M", "2.0 M"],
     "answer": 2,
-    "explanation": "Molarity = moles per liter, so 1/1 = 1.0 M."
+    "explanation": "Molarity = moles of solute per liter of solution, so 1 mol/1 L = 1.0 M."
   },
   {
-    "id": 22,
+    "id": 27,
     "topic": "Chemical Bonding",
     "question": "An ionic bond forms between a",
     "options": ["metal and non-metal", "non-metal and non-metal", "metal and metal", "noble gas and metal"],
     "answer": 0,
-    "explanation": "Ionic bonds typically form between metals and non-metals."
+    "explanation": "Ionic bonds typically form between metals (lose electrons) and non-metals (gain electrons)."
+  },
+  {
+    "id": 28,
+    "topic": "Redox Reactions",
+    "question": "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, which element is oxidized?",
+    "options": ["Copper", "Zinc", "Both", "Neither"],
+    "answer": 1,
+    "explanation": "Zinc loses electrons (Zn → Zn²⁺ + 2e⁻), so it is oxidized."
+  },
+  {
+    "id": 29,
+    "topic": "Thermochemistry",
+    "question": "The heat of formation of elements in their standard state is",
+    "options": ["positive", "negative", "zero", "variable"],
+    "answer": 2,
+    "explanation": "By definition, the standard heat of formation of elements in their standard state is zero."
+  },
+  {
+    "id": 30,
+    "topic": "Equilibrium",
+    "question": "At equilibrium, the rate of forward reaction is",
+    "options": ["greater than reverse", "less than reverse", "equal to reverse", "zero"],
+    "answer": 2,
+    "explanation": "At equilibrium, forward and reverse reaction rates are equal, so concentrations remain constant."
+  },
+  {
+    "id": 31,
+    "topic": "Chemical Kinetics",
+    "question": "A catalyst affects reaction rate by",
+    "options": ["changing products", "lowering activation energy", "increasing temperature", "changing equilibrium"],
+    "answer": 1,
+    "explanation": "Catalysts provide alternative pathways with lower activation energy, speeding up reactions."
+  },
+  {
+    "id": 32,
+    "topic": "Electrochemistry",
+    "question": "In a galvanic cell, electrons flow from",
+    "options": ["anode to cathode", "cathode to anode", "positive to negative", "inside the cell"],
+    "answer": 0,
+    "explanation": "Electrons flow from anode (oxidation site) to cathode (reduction site) through external circuit."
+  },
+  {
+    "id": 33,
+    "topic": "Nuclear Chemistry",
+    "question": "Alpha decay decreases atomic number by",
+    "options": ["1", "2", "3", "4"],
+    "answer": 1,
+    "explanation": "Alpha particle contains 2 protons, so atomic number decreases by 2."
+  },
+  {
+    "id": 34,
+    "topic": "Intermolecular Forces",
+    "question": "The strongest intermolecular force is",
+    "options": ["van der Waals", "dipole-dipole", "hydrogen bonding", "London forces"],
+    "answer": 2,
+    "explanation": "Hydrogen bonding is the strongest intermolecular force, stronger than other dipole interactions."
+  },
+  {
+    "id": 35,
+    "topic": "Gases",
+    "question": "At STP, one mole of any gas occupies",
+    "options": ["22.4 L", "24.2 L", "25.4 L", "26.4 L"],
+    "answer": 0,
+    "explanation": "At Standard Temperature and Pressure (STP), one mole of gas occupies 22.4 liters."
+  },
+  {
+    "id": 36,
+    "topic": "Solubility",
+    "question": "Which factor does NOT affect solubility of solids in liquids?",
+    "options": ["Temperature", "Pressure", "Nature of solvent", "Stirring"],
+    "answer": 1,
+    "explanation": "Pressure has negligible effect on solid-liquid solubility, unlike gas-liquid systems."
+  },
+  {
+    "id": 37,
+    "topic": "Functional Groups",
+    "question": "The functional group -OH is called",
+    "options": ["carbonyl", "carboxyl", "hydroxyl", "amino"],
+    "answer": 2,
+    "explanation": "The hydroxyl group (-OH) is found in alcohols and gives them their characteristic properties."
+  },
+  {
+    "id": 38,
+    "topic": "Isomerism",
+    "question": "Compounds with same molecular formula but different structures are",
+    "options": ["isotopes", "isomers", "polymers", "allotropes"],
+    "answer": 1,
+    "explanation": "Isomers have identical molecular formulas but different structural arrangements."
+  },
+  {
+    "id": 39,
+    "topic": "Polymers",
+    "question": "Polyethylene is formed by polymerization of",
+    "options": ["ethane", "ethene", "ethyne", "ethanol"],
+    "answer": 1,
+    "explanation": "Ethene (C₂H₄) polymerizes to form polyethylene through addition polymerization."
+  },
+  {
+    "id": 40,
+    "topic": "Crystal Structures",
+    "question": "The coordination number in a simple cubic structure is",
+    "options": ["4", "6", "8", "12"],
+    "answer": 1,
+    "explanation": "In simple cubic packing, each atom touches 6 neighbors (coordination number = 6)."
+  },
+  {
+    "id": 41,
+    "topic": "Colligative Properties",
+    "question": "Which property depends only on number of particles, not their identity?",
+    "options": ["Color", "Boiling point elevation", "Density", "Viscosity"],
+    "answer": 1,
+    "explanation": "Boiling point elevation is a colligative property that depends only on particle concentration."
+  },
+  {
+    "id": 42,
+    "topic": "Environmental Chemistry",
+    "question": "The main cause of acid rain is",
+    "options": ["CO₂", "SO₂ and NOₓ", "O₃", "CH₄"],
+    "answer": 1,
+    "explanation": "Sulfur dioxide and nitrogen oxides react with water to form acids, causing acid rain."
+  },
+  {
+    "id": 43,
+    "topic": "Industrial Chemistry",
+    "question": "The Haber process produces",
+    "options": ["sulfuric acid", "ammonia", "nitric acid", "sodium hydroxide"],
+    "answer": 1,
+    "explanation": "The Haber process synthesizes ammonia (NH₃) from nitrogen and hydrogen gases."
+  },
+  {
+    "id": 44,
+    "topic": "Biochemistry",
+    "question": "The basic unit of proteins is",
+    "options": ["nucleotide", "amino acid", "fatty acid", "glucose"],
+    "answer": 1,
+    "explanation": "Proteins are polymers of amino acids linked by peptide bonds."
+  },
+  {
+    "id": 45,
+    "topic": "Analytical Chemistry",
+    "question": "Which technique separates components based on boiling points?",
+    "options": ["Filtration", "Distillation", "Crystallization", "Extraction"],
+    "answer": 1,
+    "explanation": "Distillation separates liquids based on differences in their boiling points."
+  },
+  {
+    "id": 46,
+    "topic": "Coordination Chemistry",
+    "question": "In [Cu(H₂O)₆]²⁺, the coordination number of Cu²⁺ is",
+    "options": ["2", "4", "6", "8"],
+    "answer": 2,
+    "explanation": "Six water molecules are coordinated to the central Cu²⁺ ion, so coordination number = 6."
+  },
+  {
+    "id": 47,
+    "topic": "Quantum Chemistry",
+    "question": "The maximum number of electrons in the 3d subshell is",
+    "options": ["6", "8", "10", "14"],
+    "answer": 2,
+    "explanation": "The d subshell has 5 orbitals, each holding 2 electrons maximum: 5 × 2 = 10."
+  },
+  {
+    "id": 48,
+    "topic": "Metallurgy",
+    "question": "The process of extracting metal from its ore is called",
+    "options": ["smelting", "refining", "both A and B", "neither A nor B"],
+    "answer": 2,
+    "explanation": "Metallurgy involves both smelting (extracting) and refining (purifying) metals from ores."
+  },
+  {
+    "id": 49,
+    "topic": "Surface Chemistry",
+    "question": "Adsorption is the",
+    "options": ["bulk phenomenon", "surface phenomenon", "chemical reaction", "physical change"],
+    "answer": 1,
+    "explanation": "Adsorption occurs at the surface where molecules adhere to the surface of a solid."
+  },
+  {
+    "id": 50,
+    "topic": "Photochemistry",
+    "question": "Photosynthesis converts",
+    "options": ["CO₂ to O₂", "light energy to chemical energy", "water to hydrogen", "glucose to starch"],
+    "answer": 1,
+    "explanation": "Photosynthesis converts light energy into chemical energy stored in glucose molecules."
+  },
+  {
+    "id": 51,
+    "topic": "Molecular Geometry",
+    "question": "The shape of ammonia (NH₃) molecule is",
+    "options": ["linear", "trigonal planar", "tetrahedral", "trigonal pyramidal"],
+    "answer": 3,
+    "explanation": "NH₃ has a trigonal pyramidal shape due to the lone pair on nitrogen affecting molecular geometry."
+  },
+  {
+    "id": 52,
+    "topic": "Phase Diagrams",
+    "question": "The triple point represents",
+    "options": ["melting point", "boiling point", "coexistence of all three phases", "critical point"],
+    "answer": 2,
+    "explanation": "At the triple point, solid, liquid, and gas phases coexist in equilibrium."
   }
 ]

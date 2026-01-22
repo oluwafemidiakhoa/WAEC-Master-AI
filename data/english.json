@@ -5,7 +5,7 @@
     "question": "Choose the correct sentence.",
     "options": ["She don't like tea.", "She doesn't like tea.", "She not likes tea.", "She isn't like tea."],
     "answer": 1,
-    "explanation": "Use does + not for third-person singular in the present tense."
+    "explanation": "For third-person singular subjects (she, he, it), we use 'doesn't' (does not) for negative statements in present tense."
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "question": "Select the correct verb: The students ___ to school every day.",
     "options": ["go", "goes", "gone", "going"],
     "answer": 0,
-    "explanation": "Plural subject takes the base form: students go."
+    "explanation": "With plural subjects like 'students', we use the base form of the verb 'go' in present tense."
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "question": "Choose the word closest in meaning to 'rapid'.",
     "options": ["slow", "quick", "late", "calm"],
     "answer": 1,
-    "explanation": "Rapid means fast or quick."
+    "explanation": "Rapid means happening or moving at high speed, which is synonymous with quick or fast."
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "question": "Choose the word opposite in meaning to 'expand'.",
     "options": ["increase", "stretch", "reduce", "grow"],
     "answer": 2,
-    "explanation": "Reduce is the opposite of expand."
+    "explanation": "Expand means to become larger or increase in size. The opposite would be to reduce or decrease."
   },
   {
     "id": 5,
@@ -37,174 +37,406 @@
     "question": "A passage says: 'The market opens early for fresh produce.' The best inference is that vendors",
     "options": ["prefer late mornings", "sell fresh items", "close at noon", "avoid vegetables"],
     "answer": 1,
-    "explanation": "Fresh produce suggests vendors sell fresh items early."
+    "explanation": "The phrase 'fresh produce' directly suggests that vendors sell fresh items, making this the most logical inference."
   },
   {
     "id": 6,
-    "topic": "Comprehension",
-    "question": "If a writer describes a road as 'winding', the road is",
-    "options": ["straight", "curving", "wide", "smooth"],
-    "answer": 1,
-    "explanation": "Winding means bending or curving."
+    "topic": "Grammar",
+    "question": "Choose the correct form: Neither of the boys ___ present.",
+    "options": ["are", "were", "is", "have been"],
+    "answer": 2,
+    "explanation": "'Neither' is a singular subject, so it requires the singular verb 'is' in present tense."
   },
   {
     "id": 7,
-    "topic": "Punctuation",
-    "question": "Select the correctly punctuated sentence.",
-    "options": ["However, we arrived late.", "However we arrived, late.", "However we arrived late", "However; we arrived late."],
-    "answer": 0,
-    "explanation": "Use a comma after introductory adverbs."
+    "topic": "Grammar",
+    "question": "Identify the error: 'The dog wagged it's tail happily.'",
+    "options": ["No error", "it's should be its", "wagged should be wags", "happily should be happy"],
+    "answer": 1,
+    "explanation": "'Its' is the possessive form. 'It's' is a contraction meaning 'it is' or 'it has'."
   },
   {
     "id": 8,
-    "topic": "Spelling",
-    "question": "Choose the correctly spelled word.",
-    "options": ["definately", "definitely", "definitly", "definate"],
+    "topic": "Tenses",
+    "question": "Choose the correct form: By next year, I ___ my degree.",
+    "options": ["will complete", "will have completed", "complete", "am completing"],
     "answer": 1,
-    "explanation": "Definitely is the correct spelling."
+    "explanation": "Future perfect tense (will have + past participle) shows an action completed before a specific future time."
   },
   {
     "id": 9,
-    "topic": "Writing",
-    "question": "Which is the best topic sentence for a paragraph about healthy eating?",
-    "options": ["Many people are hungry.", "Healthy eating helps the body stay strong.", "Food can be expensive.", "Some meals are spicy."],
+    "topic": "Tenses",
+    "question": "Select the correct past participle: The letter was ___ yesterday.",
+    "options": ["wrote", "written", "writing", "write"],
     "answer": 1,
-    "explanation": "It introduces the main idea of healthy eating."
+    "explanation": "The past participle of 'write' is 'written', used in passive voice constructions."
   },
   {
     "id": 10,
-    "topic": "Writing",
-    "question": "Select the best closing sentence for a letter requesting help.",
-    "options": ["I might see you later.", "Thanks for your assistance.", "The weather is hot.", "I like football."],
-    "answer": 1,
-    "explanation": "It politely closes the request."
+    "topic": "Punctuation",
+    "question": "Where should the comma be placed? 'After eating the lion slept.'",
+    "options": ["After eating, the lion slept.", "After, eating the lion slept.", "After eating the, lion slept.", "No comma needed"],
+    "answer": 0,
+    "explanation": "A comma is needed after the introductory phrase 'After eating' to separate it from the main clause."
   },
   {
     "id": 11,
-    "topic": "Grammar",
-    "question": "Choose the correct pronoun: This book belongs to Amina and ___.",
-    "options": ["I", "me", "my", "mine"],
+    "topic": "Punctuation",
+    "question": "Choose the correctly punctuated sentence.",
+    "options": ["Its a beautiful day isnt it?", "It's a beautiful day, isn't it?", "Its a beautiful day, isnt it?", "It's a beautiful day isnt it?"],
     "answer": 1,
-    "explanation": "Use objective case after 'to': belongs to Amina and me."
+    "explanation": "Contractions need apostrophes (It's, isn't), and tag questions require a comma before them."
   },
   {
     "id": 12,
-    "topic": "Vocabulary",
-    "question": "Choose the word that completes the sentence: The athlete was known for her ____.",
-    "options": ["stamina", "station", "stature", "statement"],
-    "answer": 0,
-    "explanation": "Stamina refers to endurance, fitting the context."
+    "topic": "Spelling",
+    "question": "Choose the correctly spelled word.",
+    "options": ["recieve", "receive", "recieve", "receave"],
+    "answer": 1,
+    "explanation": "The correct spelling is 'receive'. Remember: 'i' before 'e' except after 'c' when the sound is 'ee'."
   },
   {
     "id": 13,
-    "topic": "Tenses",
-    "question": "By the time we arrived, the show ___.",
-    "options": ["starts", "started", "had started", "has started"],
-    "answer": 2,
-    "explanation": "Past perfect shows an action completed before another past action."
+    "topic": "Spelling",
+    "question": "Identify the misspelled word.",
+    "options": ["necessary", "occassion", "privilege", "definitely"],
+    "answer": 1,
+    "explanation": "'Occasion' is spelled with one 'c' and two 's's. The correct spelling is 'occasion'."
   },
   {
     "id": 14,
-    "topic": "Grammar",
-    "question": "Either the teachers or the principal ___ responsible.",
-    "options": ["are", "were", "is", "have"],
-    "answer": 2,
-    "explanation": "With either/or, the verb agrees with the nearer subject: principal is."
+    "topic": "Vocabulary",
+    "question": "Choose the word that means 'to make something clear'.",
+    "options": ["clarify", "classify", "qualify", "magnify"],
+    "answer": 0,
+    "explanation": "'Clarify' means to make something clear or easier to understand."
   },
   {
     "id": 15,
     "topic": "Vocabulary",
-    "question": "Choose the word closest in meaning to 'brief'.",
-    "options": ["short", "wide", "late", "quiet"],
-    "answer": 0,
-    "explanation": "Brief means short in length or time."
+    "question": "What is the opposite of 'optimistic'?",
+    "options": ["realistic", "pessimistic", "enthusiastic", "dramatic"],
+    "answer": 1,
+    "explanation": "'Pessimistic' means having a negative outlook, which is the opposite of optimistic (positive outlook)."
   },
   {
     "id": 16,
-    "topic": "Vocabulary",
-    "question": "Choose the word opposite in meaning to 'scarce'.",
-    "options": ["plentiful", "rare", "few", "little"],
-    "answer": 0,
-    "explanation": "Scarce means not enough; plentiful is the opposite."
+    "topic": "Figures of Speech",
+    "question": "Identify the figure of speech: 'The classroom was a zoo.'",
+    "options": ["Simile", "Metaphor", "Personification", "Alliteration"],
+    "answer": 1,
+    "explanation": "This is a metaphor because it directly compares the classroom to a zoo without using 'like' or 'as'."
   },
   {
     "id": 17,
-    "topic": "Comprehension",
-    "question": "A passage states: 'Farmers depend on rainfall for crops.' The best conclusion is that",
-    "options": ["rainfall affects farming output", "rainfall is never important", "crops grow without water", "farmers avoid rainy seasons"],
+    "topic": "Figures of Speech",
+    "question": "Which sentence contains personification?",
+    "options": ["The wind whistled through the trees.", "She runs like the wind.", "The wind was very strong.", "Wind power is renewable."],
     "answer": 0,
-    "explanation": "Dependence means rainfall influences farming success."
+    "explanation": "Personification gives human qualities (whistling) to non-human things (wind)."
   },
   {
     "id": 18,
-    "topic": "Punctuation",
-    "question": "Choose the correctly punctuated sentence.",
-    "options": ["She said I am ready.", "She said, \"I am ready.\"", "She said, I am ready.", "She said \"I am ready\"."],
+    "topic": "Literature",
+    "question": "What is the main character in a story called?",
+    "options": ["Antagonist", "Protagonist", "Narrator", "Supporting character"],
     "answer": 1,
-    "explanation": "Direct speech uses quotation marks and a comma before the quote."
+    "explanation": "The protagonist is the main character around whom the story revolves."
   },
   {
     "id": 19,
-    "topic": "Writing",
-    "question": "Which transition shows contrast?",
-    "options": ["However", "Therefore", "Also", "Similarly"],
-    "answer": 0,
-    "explanation": "However signals contrast."
+    "topic": "Literature",
+    "question": "Which literary device involves a contrast between expectation and reality?",
+    "options": ["Symbolism", "Irony", "Allusion", "Foreshadowing"],
+    "answer": 1,
+    "explanation": "Irony occurs when there's a contrast between what is expected and what actually happens."
   },
   {
     "id": 20,
-    "topic": "Literature",
-    "question": "A poem with 14 lines is called a",
-    "options": ["ballad", "sonnet", "ode", "epic"],
+    "topic": "Comprehension",
+    "question": "The passage states: 'Regular exercise improves both physical and mental health.' What can be inferred?",
+    "options": ["Exercise is only good for the body", "Exercise benefits multiple aspects of health", "Mental health is more important", "Exercise is difficult"],
     "answer": 1,
-    "explanation": "A sonnet is a 14-line poem."
+    "explanation": "The word 'both' indicates that exercise benefits multiple aspects - physical and mental health."
   },
   {
     "id": 21,
-    "topic": "Register",
-    "question": "A formal letter should avoid",
-    "options": ["clear structure", "polite tone", "slang", "proper greetings"],
-    "answer": 2,
-    "explanation": "Slang is informal and should be avoided."
+    "topic": "Grammar",
+    "question": "Choose the correct pronoun: John and ___ went to the store.",
+    "options": ["me", "I", "myself", "mine"],
+    "answer": 1,
+    "explanation": "Use 'I' as the subject pronoun. You can test this by removing 'John and' - 'I went to the store' is correct."
   },
   {
     "id": 22,
-    "topic": "Spelling",
-    "question": "Choose the correctly spelled word.",
-    "options": ["accomodate", "acommodate", "accommodate", "acomodate"],
-    "answer": 2,
-    "explanation": "Accommodate is the correct spelling."
+    "topic": "Grammar",
+    "question": "Select the correct article: He wants to be ___ engineer.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": 1,
+    "explanation": "Use 'an' before words beginning with vowel sounds. 'Engineer' starts with a vowel sound."
   },
   {
     "id": 23,
-    "topic": "Figures of Speech",
-    "question": "The wind whispered through the trees is an example of",
-    "options": ["simile", "metaphor", "personification", "hyperbole"],
-    "answer": 2,
-    "explanation": "Personification gives human action to non-human things."
+    "topic": "Tenses",
+    "question": "Choose the correct form: She ___ her homework when I called.",
+    "options": ["does", "was doing", "has done", "will do"],
+    "answer": 1,
+    "explanation": "Past continuous tense (was doing) shows an ongoing action interrupted by another past action."
   },
   {
     "id": 24,
-    "topic": "Grammar",
-    "question": "Each of the boys ___ ready.",
-    "options": ["are", "were", "is", "have"],
+    "topic": "Tenses",
+    "question": "Select the correct present perfect form: I ___ that movie three times.",
+    "options": ["see", "saw", "have seen", "am seeing"],
     "answer": 2,
-    "explanation": "Each is singular, so use is."
+    "explanation": "Present perfect (have + past participle) connects past actions to the present moment."
   },
   {
     "id": 25,
-    "topic": "Tenses",
-    "question": "If I ___ you, I would study harder.",
-    "options": ["was", "were", "am", "be"],
+    "topic": "Writing",
+    "question": "Which sentence is most appropriate for a formal letter?",
+    "options": ["Hey, what's up?", "I am writing to inquire about...", "How are you doing?", "Thanks a bunch!"],
     "answer": 1,
-    "explanation": "For hypothetical situations, use were."
+    "explanation": "Formal letters require respectful, professional language. 'I am writing to inquire about...' is appropriately formal."
   },
   {
     "id": 26,
-    "topic": "Comprehension",
-    "question": "A sentence says: 'The road was slippery after the rain.' The best inference is that driving was",
-    "options": ["dangerous", "easy", "quiet", "cheap"],
+    "topic": "Writing",
+    "question": "What is the purpose of a topic sentence?",
+    "options": ["To end the paragraph", "To introduce the main idea", "To provide examples", "To ask questions"],
+    "answer": 1,
+    "explanation": "A topic sentence introduces the main idea or theme that will be developed in the paragraph."
+  },
+  {
+    "id": 27,
+    "topic": "Vocabulary",
+    "question": "Choose the word that means 'brief' or 'short':",
+    "options": ["elaborate", "concise", "verbose", "extensive"],
+    "answer": 1,
+    "explanation": "'Concise' means expressing much in few words; brief and clear."
+  },
+  {
+    "id": 28,
+    "topic": "Vocabulary",
+    "question": "What does 'meticulous' mean?",
+    "options": ["Careless", "Very careful about details", "Quick", "Loud"],
+    "answer": 1,
+    "explanation": "'Meticulous' means showing great attention to detail; very careful and precise."
+  },
+  {
+    "id": 29,
+    "topic": "Grammar",
+    "question": "Choose the correct comparative form: This book is ___ than that one.",
+    "options": ["more interesting", "most interesting", "interestinger", "much interesting"],
     "answer": 0,
-    "explanation": "Slippery roads make driving dangerous."
+    "explanation": "For adjectives of three or more syllables, use 'more + adjective' for comparative form."
+  },
+  {
+    "id": 30,
+    "topic": "Grammar",
+    "question": "Identify the subject in: 'Under the bridge, the homeless man slept.'",
+    "options": ["bridge", "homeless", "man", "Under the bridge"],
+    "answer": 2,
+    "explanation": "The subject is 'man' - the person performing the action of sleeping."
+  },
+  {
+    "id": 31,
+    "topic": "Punctuation",
+    "question": "Where should quotation marks be placed? She said I'll be there soon.",
+    "options": ["She said 'I'll be there soon.'", "She said \"I'll be there soon.\"", "'She said I'll be there soon.'", "She 'said I'll be there soon.'"],
+    "answer": 1,
+    "explanation": "Direct speech should be enclosed in quotation marks: She said \"I'll be there soon.\""
+  },
+  {
+    "id": 32,
+    "topic": "Punctuation",
+    "question": "Choose the correct use of semicolon:",
+    "options": ["I like; apples", "I like apples; you like oranges", "I like apples; and oranges", "I; like apples"],
+    "answer": 1,
+    "explanation": "Semicolons connect two related independent clauses: 'I like apples' and 'you like oranges' are both complete thoughts."
+  },
+  {
+    "id": 33,
+    "topic": "Figures of Speech",
+    "question": "Identify the alliteration: 'Peter picked peppers'",
+    "options": ["Repetition of 'p' sound", "Rhyming words", "Similar meanings", "Opposite meanings"],
+    "answer": 0,
+    "explanation": "Alliteration is the repetition of initial consonant sounds - here, the 'p' sound is repeated."
+  },
+  {
+    "id": 34,
+    "topic": "Figures of Speech",
+    "question": "What type of figurative language is 'Busy as a bee'?",
+    "options": ["Metaphor", "Personification", "Simile", "Hyperbole"],
+    "answer": 2,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'Busy as a bee' uses 'as' to compare."
+  },
+  {
+    "id": 35,
+    "topic": "Literature",
+    "question": "What is the setting of a story?",
+    "options": ["The main character", "The time and place", "The ending", "The conflict"],
+    "answer": 1,
+    "explanation": "Setting refers to the time and place where the events of a story occur."
+  },
+  {
+    "id": 36,
+    "topic": "Literature",
+    "question": "Which is an example of internal conflict?",
+    "options": ["Man vs. nature", "Man vs. society", "Man vs. himself", "Man vs. machine"],
+    "answer": 2,
+    "explanation": "Internal conflict occurs within a character's mind - a struggle with thoughts, feelings, or decisions."
+  },
+  {
+    "id": 37,
+    "topic": "Spelling",
+    "question": "Choose the correctly spelled word:",
+    "options": ["seperate", "separate", "seprate", "seperrate"],
+    "answer": 1,
+    "explanation": "The correct spelling is 'separate'. Remember: there's 'a rat' in separate."
+  },
+  {
+    "id": 38,
+    "topic": "Spelling",
+    "question": "Which word is spelled incorrectly?",
+    "options": ["beautiful", "piece", "friend", "beleive"],
+    "answer": 3,
+    "explanation": "'Believe' is the correct spelling. Remember: 'i' before 'e' except after 'c'."
+  },
+  {
+    "id": 39,
+    "topic": "Comprehension",
+    "question": "From 'The student studied diligently and achieved excellent grades,' we can conclude:",
+    "options": ["Studying guarantees good grades", "Hard work often leads to success", "The student was naturally smart", "Grades don't matter"],
+    "answer": 1,
+    "explanation": "The passage shows a cause-and-effect relationship between diligent studying and excellent grades."
+  },
+  {
+    "id": 40,
+    "topic": "Comprehension",
+    "question": "What is the main purpose of a conclusion paragraph?",
+    "options": ["Introduce new ideas", "Summarize main points", "Ask more questions", "Provide examples"],
+    "answer": 1,
+    "explanation": "A conclusion paragraph summarizes the main points and brings closure to the essay or passage."
+  },
+  {
+    "id": 41,
+    "topic": "Grammar",
+    "question": "Choose the correct passive voice: The chef cooks the meal.",
+    "options": ["The meal cooks by the chef", "The meal is cooked by the chef", "The meal was cooking by the chef", "The meal has cooked by the chef"],
+    "answer": 1,
+    "explanation": "Passive voice uses 'be' verb + past participle: 'The meal is cooked by the chef.'"
+  },
+  {
+    "id": 42,
+    "topic": "Grammar",
+    "question": "Identify the adverb: 'She sang beautifully last night.'",
+    "options": ["She", "sang", "beautifully", "night"],
+    "answer": 2,
+    "explanation": "'Beautifully' is an adverb modifying the verb 'sang', telling us how she sang."
+  },
+  {
+    "id": 43,
+    "topic": "Vocabulary",
+    "question": "Choose a synonym for 'abundant':",
+    "options": ["scarce", "plentiful", "small", "empty"],
+    "answer": 1,
+    "explanation": "'Abundant' means existing in large quantities; 'plentiful' has the same meaning."
+  },
+  {
+    "id": 44,
+    "topic": "Vocabulary",
+    "question": "What does 'procrastinate' mean?",
+    "options": ["To work hard", "To delay action", "To complete quickly", "To organize"],
+    "answer": 1,
+    "explanation": "'Procrastinate' means to delay or postpone action, especially something that should be done."
+  },
+  {
+    "id": 45,
+    "topic": "Tenses",
+    "question": "Choose the correct future tense: Tomorrow, I ___ to Lagos.",
+    "options": ["travel", "traveled", "will travel", "am travel"],
+    "answer": 2,
+    "explanation": "Future tense uses 'will + base form of verb' to express actions that will happen."
+  },
+  {
+    "id": 46,
+    "topic": "Tenses",
+    "question": "Select the correct past continuous: They ___ when it started raining.",
+    "options": ["play", "played", "were playing", "have played"],
+    "answer": 2,
+    "explanation": "Past continuous uses 'was/were + verb-ing' to show ongoing past actions."
+  },
+  {
+    "id": 47,
+    "topic": "Writing",
+    "question": "What makes a good thesis statement?",
+    "options": ["It asks a question", "It states the main argument clearly", "It provides all the evidence", "It summarizes everything"],
+    "answer": 1,
+    "explanation": "A thesis statement clearly presents the main argument or central idea of an essay."
+  },
+  {
+    "id": 48,
+    "topic": "Writing",
+    "question": "Which transition word shows contrast?",
+    "options": ["Therefore", "However", "Furthermore", "Additionally"],
+    "answer": 1,
+    "explanation": "'However' is a transitional word that indicates contrast or opposition to a previous statement."
+  },
+  {
+    "id": 49,
+    "topic": "Literature",
+    "question": "What is foreshadowing?",
+    "options": ["Describing the past", "Hinting at future events", "Ending the story", "Developing characters"],
+    "answer": 1,
+    "explanation": "Foreshadowing is a literary device that gives hints or clues about what will happen later in the story."
+  },
+  {
+    "id": 50,
+    "topic": "Literature",
+    "question": "What is the climax of a story?",
+    "options": ["The beginning", "The turning point", "The end", "The setting"],
+    "answer": 1,
+    "explanation": "The climax is the turning point or most intense moment in a story where the main conflict reaches its peak."
+  },
+  {
+    "id": 51,
+    "topic": "Figures of Speech",
+    "question": "Identify the hyperbole: 'I've told you a million times!'",
+    "options": ["Exact number", "Exaggeration for effect", "Mathematical calculation", "Literal statement"],
+    "answer": 1,
+    "explanation": "Hyperbole is deliberate exaggeration for emphasis or effect. 'A million times' is an exaggeration."
+  },
+  {
+    "id": 52,
+    "topic": "Grammar",
+    "question": "Choose the correct preposition: The book is ___ the table.",
+    "options": ["in", "on", "at", "by"],
+    "answer": 1,
+    "explanation": "'On' is used for surfaces. The book rests on the surface of the table."
+  },
+  {
+    "id": 53,
+    "topic": "Punctuation",
+    "question": "When do we use an apostrophe in 'its'?",
+    "options": ["For possession", "Never", "For contraction only", "Always"],
+    "answer": 2,
+    "explanation": "Use apostrophe in 'it's' only for contraction (it is/it has). For possession, use 'its' without apostrophe."
+  },
+  {
+    "id": 54,
+    "topic": "Comprehension",
+    "question": "What is the tone of this sentence: 'What a wonderful surprise this is!'?",
+    "options": ["Angry", "Sad", "Excited", "Confused"],
+    "answer": 2,
+    "explanation": "The exclamation mark and positive words 'wonderful' and 'surprise' indicate excitement and joy."
+  },
+  {
+    "id": 55,
+    "topic": "Vocabulary",
+    "question": "Choose the word that means 'to support or strengthen':",
+    "options": ["weaken", "reinforce", "destroy", "ignore"],
+    "answer": 1,
+    "explanation": "'Reinforce' means to support, strengthen, or make stronger."
   }
 ]

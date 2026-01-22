@@ -368,11 +368,9 @@
     showLoading(`Loading ${formatSubjectName(subject)} questions...`);
     
     try {
-      const response = await fetch(`./data/${subject}.json`);
-      if (!response.ok) {
-        throw new Error('Failed to load questions.');
-      }
-      const questions = await response.json();
+      // Use DataLoader to handle CORS issues with fallback
+      const dataLoader = new DataLoader();
+      const questions = await dataLoader.loadSubjectData(subject);
       
       // Use AI engine for question recommendations if available
       try {

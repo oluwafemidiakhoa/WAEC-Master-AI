@@ -2,161 +2,441 @@
   {
     "id": 1,
     "topic": "Cell Biology",
-    "question": "The basic unit of life is the",
-    "options": ["tissue", "cell", "organ", "system"],
+    "question": "Which organelle is known as the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"],
     "answer": 1,
-    "explanation": "Cells are the basic units of life."
+    "explanation": "Mitochondria produce ATP (energy) for the cell through cellular respiration, earning the nickname 'powerhouse of the cell'."
   },
   {
     "id": 2,
+    "topic": "Genetics",
+    "question": "What does DNA stand for?",
+    "options": ["Deoxyribonucleic Acid", "Deoxyribonuclear Acid", "Diribonucleic Acid", "Diribonuclear Acid"],
+    "answer": 0,
+    "explanation": "DNA stands for Deoxyribonucleic Acid, the molecule that carries genetic information in living organisms."
+  },
+  {
+    "id": 3,
+    "topic": "Plant Biology",
+    "question": "What is the process by which plants make their own food?",
+    "options": ["Respiration", "Photosynthesis", "Transpiration", "Germination"],
+    "answer": 1,
+    "explanation": "Photosynthesis is the process where plants use sunlight, carbon dioxide, and water to produce glucose and oxygen."
+  },
+  {
+    "id": 4,
+    "topic": "Human Biology",
+    "question": "How many chambers does a human heart have?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 2,
+    "explanation": "The human heart has 4 chambers: 2 atria (left and right) and 2 ventricles (left and right)."
+  },
+  {
+    "id": 5,
+    "topic": "Evolution",
+    "question": "Who proposed the theory of evolution by natural selection?",
+    "options": ["Gregor Mendel", "Charles Darwin", "Louis Pasteur", "Alfred Wallace"],
+    "answer": 1,
+    "explanation": "Charles Darwin proposed the theory of evolution by natural selection in his book 'On the Origin of Species' (1859)."
+  },
+  {
+    "id": 6,
+    "topic": "Cell Biology",
+    "question": "The basic unit of life is the",
+    "options": ["tissue", "cell", "organ", "system"],
+    "answer": 1,
+    "explanation": "Cells are the basic structural and functional units of all living organisms."
+  },
+  {
+    "id": 7,
     "topic": "Cell Biology",
     "question": "The part of the cell that controls activities is the",
     "options": ["nucleus", "cell wall", "vacuole", "mitochondrion"],
     "answer": 0,
-    "explanation": "The nucleus controls cell activities."
+    "explanation": "The nucleus contains the cell's DNA and controls most cellular activities including growth and reproduction."
   },
   {
-    "id": 3,
+    "id": 8,
     "topic": "Nutrition",
     "question": "Photosynthesis occurs in the",
     "options": ["chloroplast", "nucleus", "ribosome", "mitochondrion"],
     "answer": 0,
-    "explanation": "Chloroplasts contain chlorophyll for photosynthesis."
+    "explanation": "Chloroplasts contain chlorophyll and are the sites where photosynthesis takes place in plant cells."
   },
   {
-    "id": 4,
+    "id": 9,
     "topic": "Nutrition",
     "question": "The process of taking in food is called",
     "options": ["respiration", "excretion", "nutrition", "transpiration"],
     "answer": 2,
-    "explanation": "Nutrition is the intake and use of food."
+    "explanation": "Nutrition is the process by which organisms obtain and utilize food for growth, maintenance, and energy."
   },
   {
-    "id": 5,
+    "id": 10,
     "topic": "Respiration",
     "question": "Aerobic respiration uses",
     "options": ["oxygen", "carbon dioxide", "nitrogen", "water"],
     "answer": 0,
-    "explanation": "Aerobic respiration requires oxygen."
+    "explanation": "Aerobic respiration requires oxygen to break down glucose and produce ATP efficiently."
   },
   {
-    "id": 6,
+    "id": 11,
     "topic": "Respiration",
     "question": "Gas exchange in humans occurs in the",
     "options": ["trachea", "bronchi", "alveoli", "larynx"],
     "answer": 2,
-    "explanation": "Alveoli are the sites of gas exchange."
+    "explanation": "Alveoli are tiny air sacs in the lungs where oxygen and carbon dioxide exchange occurs."
   },
   {
-    "id": 7,
+    "id": 12,
     "topic": "Ecology",
     "question": "A group of organisms of the same species in an area is a",
     "options": ["community", "population", "ecosystem", "biome"],
     "answer": 1,
-    "explanation": "A population is a group of one species in an area."
+    "explanation": "A population is all individuals of the same species living in a particular geographic area."
   },
   {
-    "id": 8,
+    "id": 13,
     "topic": "Ecology",
     "question": "The role of an organism in its habitat is its",
     "options": ["niche", "trophic level", "population", "biome"],
     "answer": 0,
-    "explanation": "Niche describes an organism's role."
+    "explanation": "An ecological niche describes how an organism fits into its environment and interacts with other organisms."
   },
   {
-    "id": 9,
+    "id": 14,
     "topic": "Genetics",
     "question": "A segment of DNA that codes for a trait is a",
     "options": ["chromosome", "gene", "nucleus", "allele"],
     "answer": 1,
-    "explanation": "Genes are DNA segments that code for traits."
+    "explanation": "Genes are specific sequences of DNA that contain instructions for making proteins and determining traits."
   },
   {
-    "id": 10,
+    "id": 15,
     "topic": "Genetics",
     "question": "Offspring receive half their chromosomes from each",
     "options": ["organ", "parent", "tissue", "species"],
     "answer": 1,
-    "explanation": "Chromosomes are inherited from both parents."
+    "explanation": "During sexual reproduction, offspring inherit half their chromosomes from each parent."
   },
   {
-    "id": 11,
+    "id": 16,
     "topic": "Human Physiology",
     "question": "The organ that pumps blood is the",
     "options": ["lung", "heart", "kidney", "liver"],
     "answer": 1,
-    "explanation": "The heart pumps blood throughout the body."
+    "explanation": "The heart is a muscular organ that pumps blood throughout the circulatory system."
   },
   {
-    "id": 12,
+    "id": 17,
     "topic": "Human Physiology",
     "question": "The main function of red blood cells is to",
     "options": ["fight infection", "carry oxygen", "digest food", "produce hormones"],
     "answer": 1,
-    "explanation": "Red blood cells transport oxygen."
+    "explanation": "Red blood cells contain hemoglobin which binds oxygen and transports it throughout the body."
   },
   {
-    "id": 13,
+    "id": 18,
     "topic": "Plant Biology",
     "question": "Water transport in plants occurs through",
     "options": ["phloem", "xylem", "cambium", "stoma"],
     "answer": 1,
-    "explanation": "Xylem transports water and minerals."
+    "explanation": "Xylem tissue transports water and dissolved minerals from roots to leaves."
   },
   {
-    "id": 14,
+    "id": 19,
     "topic": "Plant Biology",
     "question": "Transpiration mainly occurs through",
     "options": ["roots", "stomata", "flowers", "seeds"],
     "answer": 1,
-    "explanation": "Stomata are openings where transpiration occurs."
+    "explanation": "Stomata are small openings on leaf surfaces through which water vapor escapes during transpiration."
   },
   {
-    "id": 15,
+    "id": 20,
     "topic": "Reproduction",
     "question": "Fertilization is the fusion of",
     "options": ["two nuclei", "two embryos", "two ovaries", "two placentas"],
     "answer": 0,
-    "explanation": "Fertilization is the fusion of male and female nuclei."
+    "explanation": "Fertilization occurs when male and female gamete nuclei fuse to form a zygote."
   },
   {
-    "id": 16,
+    "id": 21,
     "topic": "Reproduction",
     "question": "Asexual reproduction produces offspring that are",
     "options": ["genetically identical", "genetically different", "always larger", "always smaller"],
     "answer": 0,
-    "explanation": "Asexual reproduction creates clones of the parent."
+    "explanation": "Asexual reproduction creates genetically identical clones of the parent organism."
   },
   {
-    "id": 17,
+    "id": 22,
     "topic": "Classification",
     "question": "The scientific naming system uses",
     "options": ["one name", "two names", "three names", "four names"],
     "answer": 1,
-    "explanation": "Binomial nomenclature uses two names."
+    "explanation": "Binomial nomenclature uses two names: genus and species (e.g., Homo sapiens)."
   },
   {
-    "id": 18,
+    "id": 23,
     "topic": "Microbiology",
     "question": "Bacteria are classified as",
     "options": ["multicellular", "unicellular", "nonliving", "plant"],
     "answer": 1,
-    "explanation": "Bacteria are single-celled organisms."
+    "explanation": "Bacteria are single-celled prokaryotic organisms without a membrane-bound nucleus."
   },
   {
-    "id": 19,
+    "id": 24,
     "topic": "Evolution",
     "question": "Natural selection favors organisms that",
     "options": ["are largest", "are fastest", "are best adapted", "live longest"],
     "answer": 2,
-    "explanation": "Better adapted organisms survive and reproduce more."
+    "explanation": "Natural selection favors organisms best adapted to their environment, increasing their survival and reproduction."
   },
   {
-    "id": 20,
+    "id": 25,
     "topic": "Health",
     "question": "A balanced diet should include",
     "options": ["only carbohydrates", "only proteins", "all food groups", "only fats"],
     "answer": 2,
-    "explanation": "A balanced diet includes a variety of food groups."
+    "explanation": "A balanced diet includes carbohydrates, proteins, fats, vitamins, minerals, and water in appropriate proportions."
+  },
+  {
+    "id": 26,
+    "topic": "Enzymes",
+    "question": "Enzymes are biological",
+    "options": ["carbohydrates", "lipids", "proteins", "nucleic acids"],
+    "answer": 2,
+    "explanation": "Enzymes are proteins that catalyze biochemical reactions by lowering activation energy."
+  },
+  {
+    "id": 27,
+    "topic": "Enzymes",
+    "question": "High temperature affects enzyme activity by",
+    "options": ["increasing activity permanently", "denaturing the enzyme", "having no effect", "making it more specific"],
+    "answer": 1,
+    "explanation": "High temperatures denature enzymes by disrupting their protein structure and active sites."
+  },
+  {
+    "id": 28,
+    "topic": "Circulatory System",
+    "question": "Blood vessels that carry blood away from the heart are",
+    "options": ["veins", "arteries", "capillaries", "lymphatics"],
+    "answer": 1,
+    "explanation": "Arteries carry oxygenated blood away from the heart to body tissues."
+  },
+  {
+    "id": 29,
+    "topic": "Circulatory System",
+    "question": "The largest artery in the human body is the",
+    "options": ["pulmonary artery", "aorta", "carotid artery", "femoral artery"],
+    "answer": 1,
+    "explanation": "The aorta is the largest artery, carrying oxygenated blood from the heart to the body."
+  },
+  {
+    "id": 30,
+    "topic": "Nervous System",
+    "question": "The basic unit of the nervous system is the",
+    "options": ["brain", "neuron", "spinal cord", "ganglion"],
+    "answer": 1,
+    "explanation": "Neurons are specialized cells that transmit electrical and chemical signals in the nervous system."
+  },
+  {
+    "id": 31,
+    "topic": "Nervous System",
+    "question": "Reflexes are controlled by the",
+    "options": ["brain", "spinal cord", "muscles", "hormones"],
+    "answer": 1,
+    "explanation": "Reflex arcs are processed in the spinal cord for rapid, automatic responses to stimuli."
+  },
+  {
+    "id": 32,
+    "topic": "Digestive System",
+    "question": "Chemical digestion of proteins begins in the",
+    "options": ["mouth", "stomach", "small intestine", "large intestine"],
+    "answer": 1,
+    "explanation": "Protein digestion begins in the stomach with pepsin enzyme in acidic conditions."
+  },
+  {
+    "id": 33,
+    "topic": "Digestive System",
+    "question": "Most nutrient absorption occurs in the",
+    "options": ["stomach", "small intestine", "large intestine", "liver"],
+    "answer": 1,
+    "explanation": "The small intestine has villi and microvilli that maximize surface area for nutrient absorption."
+  },
+  {
+    "id": 34,
+    "topic": "Excretory System",
+    "question": "The main nitrogenous waste in humans is",
+    "options": ["ammonia", "urea", "uric acid", "creatinine"],
+    "answer": 1,
+    "explanation": "Urea is the primary nitrogenous waste product formed in the liver and excreted by kidneys."
+  },
+  {
+    "id": 35,
+    "topic": "Excretory System",
+    "question": "Filtration in kidneys occurs in the",
+    "options": ["collecting duct", "glomerulus", "ureter", "urethra"],
+    "answer": 1,
+    "explanation": "Glomerulus is a cluster of capillaries where blood filtration begins in the kidney."
+  },
+  {
+    "id": 36,
+    "topic": "Endocrine System",
+    "question": "Insulin is produced by the",
+    "options": ["liver", "pancreas", "kidneys", "adrenal glands"],
+    "answer": 1,
+    "explanation": "Insulin is produced by beta cells in the islets of Langerhans in the pancreas."
+  },
+  {
+    "id": 37,
+    "topic": "Endocrine System",
+    "question": "The master gland of the endocrine system is the",
+    "options": ["thyroid", "pituitary", "adrenal", "pancreas"],
+    "answer": 1,
+    "explanation": "The pituitary gland controls other endocrine glands and is called the master gland."
+  },
+  {
+    "id": 38,
+    "topic": "Immune System",
+    "question": "White blood cells that produce antibodies are",
+    "options": ["T cells", "B cells", "platelets", "red blood cells"],
+    "answer": 1,
+    "explanation": "B lymphocytes differentiate into plasma cells that produce specific antibodies."
+  },
+  {
+    "id": 39,
+    "topic": "Immune System",
+    "question": "Vaccination works by",
+    "options": ["killing pathogens", "providing antibodies", "stimulating immunity", "blocking infection"],
+    "answer": 2,
+    "explanation": "Vaccines stimulate the immune system to develop memory cells for future protection."
+  },
+  {
+    "id": 40,
+    "topic": "Molecular Biology",
+    "question": "RNA differs from DNA in that RNA",
+    "options": ["is double-stranded", "contains thymine", "contains ribose sugar", "is always longer"],
+    "answer": 2,
+    "explanation": "RNA contains ribose sugar while DNA contains deoxyribose sugar."
+  },
+  {
+    "id": 41,
+    "topic": "Molecular Biology",
+    "question": "Protein synthesis occurs at",
+    "options": ["nucleus", "ribosomes", "mitochondria", "Golgi apparatus"],
+    "answer": 1,
+    "explanation": "Ribosomes are the cellular organelles where mRNA is translated into proteins."
+  },
+  {
+    "id": 42,
+    "topic": "Biotechnology",
+    "question": "Restriction enzymes are used to",
+    "options": ["copy DNA", "cut DNA", "join DNA", "read DNA"],
+    "answer": 1,
+    "explanation": "Restriction enzymes cut DNA at specific recognition sequences, used in genetic engineering."
+  },
+  {
+    "id": 43,
+    "topic": "Ecology",
+    "question": "Producers in an ecosystem are",
+    "options": ["carnivores", "herbivores", "autotrophs", "decomposers"],
+    "answer": 2,
+    "explanation": "Autotrophs (plants) produce their own food through photosynthesis and form the base of food chains."
+  },
+  {
+    "id": 44,
+    "topic": "Ecology",
+    "question": "The greenhouse effect is primarily caused by",
+    "options": ["oxygen", "nitrogen", "carbon dioxide", "hydrogen"],
+    "answer": 2,
+    "explanation": "Carbon dioxide traps heat in the atmosphere, contributing to the greenhouse effect."
+  },
+  {
+    "id": 45,
+    "topic": "Biodiversity",
+    "question": "The greatest biodiversity is found in",
+    "options": ["deserts", "tundra", "tropical rainforests", "grasslands"],
+    "answer": 2,
+    "explanation": "Tropical rainforests have the highest species diversity due to stable climate and complex habitats."
+  },
+  {
+    "id": 46,
+    "topic": "Animal Behavior",
+    "question": "Learned behavior that occurs during a critical period is called",
+    "options": ["instinct", "imprinting", "conditioning", "habituation"],
+    "answer": 1,
+    "explanation": "Imprinting is rapid learning during a critical period, often seen in young animals."
+  },
+  {
+    "id": 47,
+    "topic": "Homeostasis",
+    "question": "The maintenance of stable internal conditions is called",
+    "options": ["metabolism", "homeostasis", "reproduction", "adaptation"],
+    "answer": 1,
+    "explanation": "Homeostasis maintains optimal internal conditions despite external changes."
+  },
+  {
+    "id": 48,
+    "topic": "Cell Division",
+    "question": "Meiosis results in cells with",
+    "options": ["same chromosome number", "double chromosome number", "half chromosome number", "no chromosomes"],
+    "answer": 2,
+    "explanation": "Meiosis produces gametes with half the chromosome number of the parent cell."
+  },
+  {
+    "id": 49,
+    "topic": "Cell Division",
+    "question": "Mitosis produces cells that are",
+    "options": ["genetically different", "genetically identical", "haploid", "gametes"],
+    "answer": 1,
+    "explanation": "Mitosis produces two genetically identical diploid daughter cells."
+  },
+  {
+    "id": 50,
+    "topic": "Biomolecules",
+    "question": "The main energy storage molecule in animals is",
+    "options": ["starch", "glycogen", "cellulose", "chitin"],
+    "answer": 1,
+    "explanation": "Glycogen is the primary carbohydrate energy storage molecule in animal cells."
+  },
+  {
+    "id": 51,
+    "topic": "Biomolecules",
+    "question": "Phospholipids are major components of",
+    "options": ["cell walls", "cell membranes", "ribosomes", "chromosomes"],
+    "answer": 1,
+    "explanation": "Phospholipids form the bilayer structure of cell membranes."
+  },
+  {
+    "id": 52,
+    "topic": "Photosynthesis",
+    "question": "The light-dependent reactions of photosynthesis occur in the",
+    "options": ["stroma", "thylakoids", "nucleus", "cytoplasm"],
+    "answer": 1,
+    "explanation": "Light-dependent reactions occur in thylakoid membranes where chlorophyll captures light energy."
+  },
+  {
+    "id": 53,
+    "topic": "Cellular Respiration",
+    "question": "The Krebs cycle occurs in the",
+    "options": ["cytoplasm", "mitochondrial matrix", "nucleus", "ribosome"],
+    "answer": 1,
+    "explanation": "The Krebs cycle (citric acid cycle) occurs in the mitochondrial matrix."
+  },
+  {
+    "id": 54,
+    "topic": "Adaptation",
+    "question": "Cacti have spines instead of leaves to",
+    "options": ["attract pollinators", "reduce water loss", "increase photosynthesis", "improve reproduction"],
+    "answer": 1,
+    "explanation": "Spines reduce surface area and water loss through transpiration in desert environments."
+  },
+  {
+    "id": 55,
+    "topic": "Food Webs",
+    "question": "Decomposers are important because they",
+    "options": ["produce oxygen", "eat herbivores", "recycle nutrients", "control population"],
+    "answer": 2,
+    "explanation": "Decomposers break down dead matter, returning nutrients to the ecosystem for reuse."
   }
 ]
