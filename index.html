@@ -575,11 +575,29 @@
     <script src="assets/ui.js"></script>
     <script src="assets/app.js"></script>
     
-    <!-- Debug Console for AI Features -->
-    <script src="debug-console.js"></script>
-    
-    <!-- Debug Click Detection -->
-    <script src="debug-clicks.js"></script>
+    <!-- Initialize the app -->
+    <script>
+        // Initialize app when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Initializing WAEC Ace App...');
+            try {
+                // Initialize the app
+                window.app = new WAECAceApp();
+                console.log('App initialized successfully!', window.app);
+                
+                // Initialize analytics if not already done
+                if (typeof window.analytics === 'undefined') {
+                    window.analytics = new Analytics();
+                    console.log('Analytics initialized!');
+                }
+                
+                console.log('All systems ready!');
+            } catch (error) {
+                console.error('Failed to initialize app:', error);
+                alert('App initialization failed. Check console for details.');
+            }
+        });
+    </script>
     
     <!-- PWA Service Worker -->
     <script>

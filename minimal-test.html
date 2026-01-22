@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minimal Test</title>
+</head>
+<body>
+    <h1>Minimal Test</h1>
+    <button onclick="test1()">Test Utils</button>
+    <button onclick="test2()">Test Analytics</button>
+    <button onclick="test3()">Test App</button>
+    
+    <div id="output" style="background: #f0f0f0; padding: 10px; margin: 10px 0; font-family: monospace; white-space: pre-wrap;"></div>
+    
+    <script src="assets/utils.js"></script>
+    <script src="assets/storage.js"></script>
+    <script src="assets/selector.js"></script>
+    <script src="assets/analytics.js"></script>
+    <script src="assets/ui.js"></script>
+    <script src="assets/app.js"></script>
+    
+    <script>
+        function log(msg) {
+            document.getElementById('output').textContent += msg + '\n';
+            console.log(msg);
+        }
+        
+        function test1() {
+            log('\n=== TESTING UTILS ===');
+            try {
+                log('Utils exists: ' + (typeof Utils !== 'undefined'));
+                if (typeof Utils !== 'undefined') {
+                    log('Utils.capitalize exists: ' + (typeof Utils.capitalize === 'function'));
+                    if (typeof Utils.capitalize === 'function') {
+                        log('Utils.capitalize("test"): ' + Utils.capitalize("test"));
+                    }
+                    log('Utils.roundTo exists: ' + (typeof Utils.roundTo === 'function'));
+                    if (typeof Utils.roundTo === 'function') {
+                        log('Utils.roundTo(3.14159, 2): ' + Utils.roundTo(3.14159, 2));
+                    }
+                }
+            } catch (e) {
+                log('ERROR: ' + e.message);
+            }
+        }
+        
+        function test2() {
+            log('\n=== TESTING ANALYTICS ===');
+            try {
+                log('window.analytics exists: ' + (typeof window.analytics !== 'undefined'));
+                if (typeof window.analytics !== 'undefined') {
+                    log('generateStudentAlerts exists: ' + (typeof window.analytics.generateStudentAlerts === 'function'));
+                    if (typeof window.analytics.generateStudentAlerts === 'function') {
+                        const alerts = window.analytics.generateStudentAlerts();
+                        log('Generated alerts: ' + alerts.length);
+                    }
+                }
+            } catch (e) {
+                log('ERROR: ' + e.message);
+            }
+        }
+        
+        function test3() {
+            log('\n=== TESTING APP ===');
+            try {
+                log('WAECAceApp exists: ' + (typeof WAECAceApp !== 'undefined'));
+                log('window.app exists: ' + (typeof window.app !== 'undefined'));
+                if (typeof WAECAceApp !== 'undefined' && typeof window.app === 'undefined') {
+                    window.app = new WAECAceApp();
+                    log('Created new app instance');
+                }
+                if (typeof window.app !== 'undefined') {
+                    log('app.demoSmartHints exists: ' + (typeof window.app.demoSmartHints === 'function'));
+                }
+            } catch (e) {
+                log('ERROR: ' + e.message);
+            }
+        }
+        
+        // Auto test on load
+        window.addEventListener('load', function() {
+            log('=== PAGE LOADED ===');
+            setTimeout(function() {
+                log('Scripts should be loaded now...');
+                test1();
+                test2(); 
+                test3();
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
