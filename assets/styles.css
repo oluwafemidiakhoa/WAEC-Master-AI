@@ -1402,8 +1402,15 @@ body {
     padding: var(--space-lg);
     text-align: center;
     transition: all 0.3s ease;
-    cursor: pointer;
+    cursor: pointer !important;
     box-shadow: var(--shadow-sm);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: auto !important;
+    position: relative;
+    z-index: 1;
 }
 
 .ai-feature-card:hover {

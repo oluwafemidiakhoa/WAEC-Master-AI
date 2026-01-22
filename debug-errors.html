@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug AI Features Errors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .test-section {
+            background: #f5f5f5;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid #007acc;
+        }
+        .error {
+            color: red;
+            background: #ffe6e6;
+            border-left-color: red;
+        }
+        .success {
+            color: green;
+            background: #e6ffe6;
+            border-left-color: green;
+        }
+        .warning {
+            color: orange;
+            background: #fff3e0;
+            border-left-color: orange;
+        }
+        pre {
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        button {
+            background: #007acc;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Debug AI Features Errors</h1>
+    
+    <button onclick="testUtilsFunctions()">1. Test Utils Functions</button>
+    <button onclick="testAnalytics()">2. Test Analytics</button>
+    <button onclick="testAIFeatures()">3. Test AI Features</button>
+    <button onclick="runFullDiagnostic()">4. Run Full Diagnostic</button>
+    
+    <div id="results"></div>
+    
+    <!-- Load all scripts -->
+    <script src="assets/utils.js"></script>
+    <script src="assets/storage.js"></script>
+    <script src="assets/selector.js"></script>
+    <script src="assets/analytics.js"></script>
+    <script src="assets/ui.js"></script>
+    <script src="assets/app.js"></script>
+    
+    <script>
+        function log(message, type = 'info') {
+            const results = document.getElementById('results');
+            const div = document.createElement('div');
+            div.className = `test-section ${type}`;
+            div.innerHTML = message;
+            results.appendChild(div);
+            console.log(message);
+        }
+        
+        function testUtilsFunctions() {
+            log('<h3>🔧 Testing Utils Functions</h3>');
+            
+            try {
+                // Test if Utils exists
+                if (typeof Utils === 'undefined') {
+                    log('❌ Utils class not loaded!', 'error');
+                    return;
+                }
+                log('✅ Utils class loaded');
+                
+                // Test capitalize
+                if (typeof Utils.capitalize === 'function') {
+                    const result = Utils.capitalize('math');
+                    log(`✅ Utils.capitalize('math') = "${result}"`, 'success');
+                } else {
+                    log('❌ Utils.capitalize not found!', 'error');
+                }
+                
+                // Test roundTo
+                if (typeof Utils.roundTo === 'function') {
+                    const result = Utils.roundTo(3.14159, 2);
+                    log(`✅ Utils.roundTo(3.14159, 2) = ${result}`, 'success');
+                } else {
+                    log('❌ Utils.roundTo not found!', 'error');
+                }
+                
+                // Test groupBy
+                if (typeof Utils.groupBy === 'function') {
+                    const testArray = [{type: 'math', value: 1}, {type: 'english', value: 2}, {type: 'math', value: 3}];
+                    const result = Utils.groupBy(testArray, 'type');
+                    log(`✅ Utils.groupBy works: ${JSON.stringify(result)}`, 'success');
+                } else {
+                    log('❌ Utils.groupBy not found!', 'error');
+                }
+                
+                // Test chunk
+                if (typeof Utils.chunk === 'function') {
+                    const result = Utils.chunk([1,2,3,4,5,6], 2);
+                    log(`✅ Utils.chunk([1,2,3,4,5,6], 2) = ${JSON.stringify(result)}`, 'success');
+                } else {
+                    log('❌ Utils.chunk not found!', 'error');
+                }
+                
+                // Test storage
+                if (typeof Utils.storage === 'object') {
+                    log('✅ Utils.storage object exists', 'success');
+                    Utils.storage.set('test_key', 'test_value');
+                    const retrieved = Utils.storage.get('test_key');
+                    log(`✅ Utils.storage.get/set works: "${retrieved}"`, 'success');
+                } else {
+                    log('❌ Utils.storage not found!', 'error');
+                }
+                
+            } catch (error) {
+                log(`❌ Error testing Utils: ${error.message}`, 'error');
+                console.error('Utils test error:', error);
+            }
+        }
+        
+        function testAnalytics() {
+            log('<h3>📊 Testing Analytics</h3>');
+            
+            try {
+                if (typeof window.analytics === 'undefined') {
+                    log('❌ Analytics not initialized!', 'error');
+                    return;
+                }
+                log('✅ Analytics object exists');
+                
+                // Test basic analytics functions
+                if (typeof window.analytics.generateStudentAlerts === 'function') {
+                    const alerts = window.analytics.generateStudentAlerts();
+                    log(`✅ generateStudentAlerts: ${alerts.length} alerts generated`, 'success');
+                } else {
+                    log('❌ generateStudentAlerts not found!', 'error');
+                }
+                
+                if (typeof window.analytics.generateParentReport === 'function') {
+                    const report = window.analytics.generateParentReport();
+                    log(`✅ generateParentReport: Report generated`, 'success');
+                } else {
+                    log('❌ generateParentReport not found!', 'error');
+                }
+                
+            } catch (error) {
+                log(`❌ Analytics error: ${error.message}`, 'error');
+                log(`❌ Stack trace: <pre>${error.stack}</pre>`, 'error');
+                console.error('Analytics test error:', error);
+            }
+        }
+        
+        function testAIFeatures() {
+            log('<h3>🤖 Testing AI Features</h3>');
+            
+            try {
+                if (typeof window.app === 'undefined') {
+                    log('⚠️ App not initialized, initializing...', 'warning');
+                    window.app = new WAECAceApp();
+                    log('✅ App initialized');
+                }
+                
+                // Test smart hints
+                if (typeof window.app.demoSmartHints === 'function') {
+                    window.app.demoSmartHints();
+                    log('✅ Smart hints demo executed', 'success');
+                } else {
+                    log('❌ demoSmartHints not found!', 'error');
+                }
+                
+                // Test teacher dashboard
+                if (typeof window.app.showTeacherDashboard === 'function') {
+                    const dashboard = window.app.showTeacherDashboard();
+                    log('✅ Teacher dashboard executed', 'success');
+                } else {
+                    log('❌ showTeacherDashboard not found!', 'error');
+                }
+                
+                // Test parent reports
+                if (typeof window.app.showParentReport === 'function') {
+                    const report = window.app.showParentReport();
+                    log('✅ Parent report executed', 'success');
+                } else {
+                    log('❌ showParentReport not found!', 'error');
+                }
+                
+            } catch (error) {
+                log(`❌ AI Features error: ${error.message}`, 'error');
+                log(`❌ Stack trace: <pre>${error.stack}</pre>`, 'error');
+                console.error('AI Features test error:', error);
+            }
+        }
+        
+        function runFullDiagnostic() {
+            log('<h2>🔍 Full Diagnostic Report</h2>');
+            document.getElementById('results').innerHTML = '';
+            
+            setTimeout(() => testUtilsFunctions(), 100);
+            setTimeout(() => testAnalytics(), 500);
+            setTimeout(() => testAIFeatures(), 1000);
+            setTimeout(() => {
+                log('<h3>🎯 Diagnostic Complete</h3>');
+                log('Check the results above to identify specific errors.', 'info');
+            }, 1500);
+        }
+        
+        // Auto-run basic test on load
+        setTimeout(() => {
+            log('<h3>🚀 Page Loaded - Basic Test</h3>');
+            log(`Utils loaded: ${typeof Utils !== 'undefined'}`, typeof Utils !== 'undefined' ? 'success' : 'error');
+            log(`Analytics loaded: ${typeof window.analytics !== 'undefined'}`, typeof window.analytics !== 'undefined' ? 'success' : 'error');
+            log(`App available: ${typeof WAECAceApp !== 'undefined'}`, typeof WAECAceApp !== 'undefined' ? 'success' : 'error');
+        }, 1000);
+        
+    </script>
+</body>
+</html>
