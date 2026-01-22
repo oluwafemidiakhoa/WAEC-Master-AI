@@ -44,8 +44,8 @@
             </div>
             <div class="nav-actions">
                 <button class="nav-btn" id="streak-display">🔥 0</button>
-                <button class="nav-btn" onclick="showSimpleModal('👩‍🏫 Teacher Dashboard', '📊 <strong>Class Overview:</strong><br><br>👥 <strong>Students:</strong> 28 active<br>📈 <strong>Average Progress:</strong> +23% this month<br>🎯 <strong>Class Accuracy:</strong> 74%<br><br>🔴 <strong>Need Attention (6):</strong><br>• Sarah M. - Math struggling (42%)<br>• John K. - No practice 5 days<br>• Lisa R. - Biology declining<br><br>🟢 <strong>Top Performers (8):</strong><br>• Mike T. - 94% overall<br>• Anna L. - 12-day streak<br>• David S. - Improved 45%<br><br>💡 <strong>Recommendations:</strong> Schedule review sessions')" title="Teacher Dashboard">👩‍🏫</button>
-                <button class="nav-btn" onclick="showSimpleModal('👨‍👩‍👧‍👦 Parent Report', '📋 <strong>Your Child\\'s Progress:</strong><br><br>📚 <strong>This Week:</strong><br>• Study Time: 5h 20m<br>• Questions: 210 answered<br>• Accuracy: 72% (↗️ +11%)<br><br>🎯 <strong>Subject Performance:</strong><br>• Math: 68% (needs focus)<br>• English: 79% (excellent)<br>• Biology: 75% (good progress)<br><br>🔥 <strong>Achievements:</strong><br>• 9-day study streak<br>• Top 25% in class<br>• Consistent improvement<br><br>💡 <strong>Suggestion:</strong> Reward consistent effort!')" title="Parent Progress Report">👨‍👩‍👧‍👦</button>
+                <button class="nav-btn" onclick="callRealFunction('showTeacherDashboard')" title="Teacher Dashboard">👩‍🏫</button>
+                <button class="nav-btn" onclick="callRealFunction('showParentReport')" title="Parent Progress Report">👨‍👩‍👧‍👦</button>
                 <button class="nav-btn" id="notifications-btn">🔔</button>
                 <button class="nav-btn" id="settings-btn">⚙️</button>
             </div>
@@ -101,7 +101,7 @@
                         <div class="action-arrow">→</div>
                     </button>
                     
-                    <button class="action-card tertiary" onclick="showSimpleModal('📈 Weak Topics Analysis', '🔍 <strong>AI Analysis Complete:</strong><br><br>🔴 <strong>Critical Areas (35% accuracy):</strong><br>• Quadratic Equations<br>• Genetic Inheritance Patterns<br>• Essay Writing Structure<br><br>🟡 <strong>Needs Work (55% accuracy):</strong><br>• Linear Equations<br>• Cell Division Process<br>• Grammar Rules<br><br>💡 <strong>Recommended Study Plan:</strong><br>1. 20 mins daily on critical topics<br>2. Use step-by-step practice mode<br>3. Review explanations after each question<br><br>🎯 <strong>Focus Session Ready:</strong> 15 targeted questions loaded')">
+                    <button class="action-card tertiary" onclick="callRealFunction('startMixedTopicPractice')">
                         <div class="action-icon">📈</div>
                         <div class="action-content">
                             <h3>Weak Topics</h3>
@@ -129,7 +129,7 @@
                     <a href="working-ai-demo.html" style="color: #667eea;">working demo page</a>.</em>
                 </p>
                 <div class="ai-features-grid">
-                    <button class="ai-feature-card" onclick="showSimpleModal('💡 Smart Hints Demo', 'AI analyzed your learning pattern:<br><br>🎯 <strong>Problem:</strong> Solve 2x + 5 = 15<br><br>🧠 <strong>Your Learning Style:</strong> Step-by-step breakdown works best for you<br><br>💡 <strong>Hint:</strong><br>1. Subtract 5 from both sides: 2x = 10<br>2. Divide by 2: x = 5<br><br><em>Difficulty auto-adjusted based on your 68% algebra accuracy</em>')">
+                    <button class="ai-feature-card" onclick="callRealFunction('demoSmartHints')">
                         <div class="ai-feature-icon">💡</div>
                         <div class="ai-feature-content">
                             <h3>Smart Hints</h3>
@@ -137,7 +137,7 @@
                         </div>
                     </button>
                     
-                    <button class="ai-feature-card" onclick="showSimpleModal('🚨 Teacher Dashboard Alerts', '🔴 <strong>CRITICAL ALERTS:</strong><br>• Student accuracy: 34% (immediate help needed)<br>• No practice for 6 days<br><br>🟡 <strong>WARNING:</strong><br>• Math performance dropped 18% this week<br>• Engagement declining<br><br>🟢 <strong>POSITIVE:</strong><br>• Biology improved 22%<br>• Completed 5-day streak last month<br><br>📊 <strong>Recommendation:</strong> Schedule one-on-one session<br><br><em>6 students need attention this week</em>')">
+                    <button class="ai-feature-card" onclick="callRealFunction('demoStudentAlerts')">
                         <div class="ai-feature-icon">🚨</div>
                         <div class="ai-feature-content">
                             <h3>Teacher Alerts</h3>
@@ -145,7 +145,7 @@
                         </div>
                     </button>
                     
-                    <button class="ai-feature-card" onclick="showSimpleModal('📋 Weekly Progress Report', '👨‍👩‍👧‍👦 <strong>For Parents:</strong><br><br>📚 <strong>Study Activity:</strong><br>• Time: 4h 35m this week<br>• Sessions: 11 practice rounds<br>• Questions: 187 answered<br><br>🎯 <strong>Performance:</strong><br>• Overall: 71% accuracy (↗️ +9%)<br>• Best Subject: Biology (84%)<br>• Focus Area: Algebra (58%)<br><br>🏆 <strong>Achievements:</strong><br>• 8-day study streak<br>• Improved in all subjects<br>• Consistent daily practice<br><br>💡 <strong>Next Week:</strong> Focus 20 min/day on Math basics')">
+                    <button class="ai-feature-card" onclick="callRealFunction('showParentReport')">
                         <div class="ai-feature-icon">📋</div>
                         <div class="ai-feature-content">
                             <h3>Parent Reports</h3>
@@ -153,7 +153,7 @@
                         </div>
                     </button>
                     
-                    <button class="ai-feature-card" onclick="showSimpleModal('🧪 All AI Features Status', '✅ <strong>AI Systems Online:</strong><br><br>💡 <strong>Smart Hints:</strong> Analyzing 200+ learning patterns<br>🚨 <strong>Teacher Alerts:</strong> Monitoring 45 students<br>📋 <strong>Parent Reports:</strong> Weekly reports generated<br>🎯 <strong>Adaptive Learning:</strong> Questions personalized<br>📊 <strong>Analytics Engine:</strong> Processing real-time data<br>🤖 <strong>AI Tutor:</strong> 24/7 assistance ready<br><br>🔥 <strong>Success Metrics:</strong><br>• 89% student engagement<br>• 34% improvement in weak areas<br>• 67% pass rate increase<br><br><em>All educational AI features operational!</em>')">
+                    <button class="ai-feature-card" onclick="callRealFunction('testNewFeatures')">
                         <div class="ai-feature-icon">🧪</div>
                         <div class="ai-feature-content">
                             <h3>Test All Features</h3>
@@ -575,78 +575,59 @@
     <script src="assets/ui.js"></script>
     <script src="assets/app.js"></script>
     
-    <!-- Simple Modal System -->
+    <!-- Real Function Caller -->
     <script>
-        // Simple modal system that works immediately
-        function showSimpleModal(title, content) {
-            // Create modal if it doesn't exist
-            let modal = document.getElementById('simple-modal');
-            if (!modal) {
-                modal = document.createElement('div');
-                modal.id = 'simple-modal';
-                modal.style.cssText = `
-                    position: fixed;
-                    top: 0; left: 0; right: 0; bottom: 0;
-                    background: rgba(0,0,0,0.8);
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    z-index: 10000;
-                    padding: 20px;
-                `;
-                
-                const modalContent = document.createElement('div');
-                modalContent.style.cssText = `
-                    background: white;
-                    padding: 30px;
-                    border-radius: 15px;
-                    max-width: 500px;
-                    width: 100%;
-                    text-align: center;
-                    animation: modalSlideIn 0.3s ease;
-                `;
-                
-                modalContent.innerHTML = `
-                    <h3 id="modal-title" style="margin-bottom: 20px; color: #333;"></h3>
-                    <div id="modal-text" style="margin-bottom: 25px; line-height: 1.6; color: #666; text-align: left;"></div>
-                    <button onclick="closeSimpleModal()" style="
-                        background: #667eea;
-                        color: white;
-                        border: none;
-                        padding: 12px 25px;
-                        border-radius: 8px;
-                        cursor: pointer;
-                        font-size: 1rem;
-                    ">Got it!</button>
-                `;
-                
-                modal.appendChild(modalContent);
-                document.body.appendChild(modal);
-                
-                // Close when clicking background
-                modal.addEventListener('click', function(e) {
-                    if (e.target === modal) closeSimpleModal();
-                });
+        // Function to call real app functions
+        function callRealFunction(functionName) {
+            console.log(`🎯 Calling real function: ${functionName}`);
+            
+            // Ensure app is initialized
+            if (!window.app) {
+                try {
+                    window.app = new WAECAceApp();
+                    console.log('✅ App initialized');
+                } catch (error) {
+                    console.error('❌ Failed to initialize app:', error);
+                    alert('App initialization failed. Please refresh the page.');
+                    return;
+                }
             }
             
-            // Update content and show
-            document.getElementById('modal-title').textContent = title;
-            document.getElementById('modal-text').innerHTML = content;
-            modal.style.display = 'flex';
-        }
-        
-        function closeSimpleModal() {
-            const modal = document.getElementById('simple-modal');
-            if (modal) {
-                modal.style.display = 'none';
+            // Ensure analytics is initialized
+            if (!window.analytics) {
+                try {
+                    window.analytics = new Analytics();
+                    console.log('✅ Analytics initialized');
+                } catch (error) {
+                    console.error('❌ Failed to initialize analytics:', error);
+                }
+            }
+            
+            // Call the real function
+            try {
+                if (window.app && typeof window.app[functionName] === 'function') {
+                    console.log(`✅ Calling window.app.${functionName}()`);
+                    const result = window.app[functionName]();
+                    console.log('✅ Function executed successfully:', result);
+                } else if (window.analytics && typeof window.analytics[functionName] === 'function') {
+                    console.log(`✅ Calling window.analytics.${functionName}()`);
+                    const result = window.analytics[functionName]();
+                    console.log('✅ Function executed successfully:', result);
+                } else {
+                    console.error(`❌ Function ${functionName} not found!`);
+                    alert(`Function ${functionName} is not available. Check console for details.`);
+                }
+            } catch (error) {
+                console.error(`❌ Error calling ${functionName}:`, error);
+                alert(`Error calling ${functionName}: ${error.message}`);
             }
         }
         
-        // Initialize basic app functionality
+        // Initialize the real app
         document.addEventListener('DOMContentLoaded', function() {
-            console.log('🚀 WAEC Ace loaded with working AI features!');
+            console.log('🚀 WAEC Ace - Real App Initialization');
             
-            // Hide loading screen after a moment
+            // Hide loading screen
             setTimeout(function() {
                 const loadingScreen = document.getElementById('loading-screen');
                 if (loadingScreen) {
@@ -654,15 +635,22 @@
                 }
             }, 1500);
             
-            // Try to initialize the original app for navigation
-            try {
-                if (typeof WAECAceApp !== 'undefined') {
+            // Initialize real app components
+            setTimeout(function() {
+                try {
+                    console.log('🔧 Initializing WAECAceApp...');
                     window.app = new WAECAceApp();
-                    console.log('✅ Original app initialized for navigation');
+                    console.log('✅ WAECAceApp initialized successfully');
+                    
+                    console.log('🔧 Initializing Analytics...');
+                    window.analytics = new Analytics();
+                    console.log('✅ Analytics initialized successfully');
+                    
+                    console.log('🎯 All real functions are now available!');
+                } catch (error) {
+                    console.error('❌ Initialization failed:', error);
                 }
-            } catch (error) {
-                console.log('ℹ️ Original app not available, using simple modal system');
-            }
+            }, 2000);
         });
     </script>
     
