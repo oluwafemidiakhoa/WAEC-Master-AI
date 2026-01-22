@@ -1704,6 +1704,110 @@ class WAECAceApp {
         
         return weakTopics.sort((a, b) => a.mastery - b.mastery);
     }
+    
+    generateSessionQuestions() {
+        console.log('🎯 Generating session questions for:', this.practiceState);
+        
+        if (this.practiceState.subject === 'mixed' && this.practiceState.weakTopics) {
+            // Generate questions for weak topics from multiple subjects
+            const questions = [];
+            
+            this.practiceState.weakTopics.forEach(weakTopic => {
+                const topicQuestions = window.selector.getQuestionsBySubjectAndTopic(
+                    weakTopic.subject, 
+                    weakTopic.topic
+                );
+                
+                // Add 3-5 questions per weak topic
+                const numQuestions = Math.min(5, Math.max(3, topicQuestions.length));
+                const selectedQuestions = topicQuestions.slice(0, numQuestions);
+                questions.push(...selectedQuestions);
+            });
+            
+            // Shuffle questions for mixed practice
+            this.practiceState.sessionQuestions = this.shuffleArray(questions);
+            
+            console.log(`Generated ${this.practiceState.sessionQuestions.length} questions for weak topics`);
+            
+        } else if (this.practiceState.subject && this.practiceState.selectedTopics.length > 0) {
+            // Normal topic-based question generation
+            const questions = window.selector.selectQuestions(
+                this.practiceState.subject,
+                this.practiceState.selectedTopics,
+                this.practiceState.isAdaptive ? 'adaptive' : 'topic',
+                15 // default session size
+            );
+            
+            this.practiceState.sessionQuestions = questions;
+            
+        } else {
+            console.error('Cannot generate questions: Invalid practice state');
+            Utils.showToast('Cannot start practice. Please select topics first.', 'error');
+            return false;
+        }
+        
+        return true;
+    }
+    
+    shuffleArray(array) {
+        const shuffled = [...array];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+    
+    startMixedTopicPractice(weakTopics) {
+        console.log('🎯 Starting mixed topic practice with weak topics:', weakTopics);
+        
+        if (!weakTopics || weakTopics.length === 0) {
+            Utils.showToast('No weak topics found!', 'info');
+            return;
+        }
+        
+        // Set up practice state for mixed topics
+        this.practiceState = {
+            subject: 'mixed',
+            selectedTopics: weakTopics.map(wt => wt.topic),
+            weakTopics: weakTopics,
+            currentQuestion: null,
+            questionIndex: 0,
+            sessionQuestions: [],
+            sessionStats: { correct: 0, total: 0, timeSpent: 0 },
+            startTime: Date.now(),
+            isAdaptive: true,
+            practiceMode: 'weak-topics'
+        };
+        
+        // Update practice title
+        const practiceTitle = Utils.$('#practice-title');
+        if (practiceTitle) {
+            practiceTitle.textContent = 'Weak Topics Focus';
+        }
+        
+        // Show info about weak topics being practiced
+        const weakTopicNames = weakTopics.map(wt => `${wt.topic} (${wt.mastery}%)`).join(', ');
+        Utils.showToast(`Focusing on: ${weakTopicNames}`, 'info', 5000);
+        
+        // Start analytics session
+        window.analytics.startSession();
+        
+        // Generate questions for weak topics and load first one
+        if (!this.generateSessionQuestions()) {
+            return; // Failed to generate questions
+        }
+        
+        // Hide any visible sections and show question view
+        Utils.$('#subject-selection')?.classList.add('hidden');
+        Utils.$('#topic-selection')?.classList.add('hidden');
+        Utils.$('#question-view')?.classList.remove('hidden');
+        
+        // Load and display first question
+        this.loadCurrentQuestion();
+        
+        console.log('📈 Weak topics practice started:', this.practiceState);
+    }
 
     showSubjectSelection() {
         console.log('📋 Showing subject selection screen...');
