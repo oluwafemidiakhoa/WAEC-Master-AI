@@ -14,10 +14,10 @@
   --secondary-solid: #11998e;
   --accent: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
   --accent-soft: rgba(252, 182, 159, 0.1);
-  --text: #1a202c;
-  --text-bold: #0d1117;
+  --text: #ffffff;
+  --text-bold: #ffffff;
   --text-light: #ffffff;
-  --muted: #4a5568;
+  --muted: rgba(255, 255, 255, 0.8);
   --border: rgba(226, 232, 240, 0.6);
   --success: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
   --danger: linear-gradient(135deg, #f56565 0%, #e53e3e 100%);
@@ -236,11 +236,11 @@ h1 {
 /* Header subtitle styling */
 .app__header p {
   color: var(--text-bold) !important;
-  font-size: 1.1rem !important;
-  font-weight: 600 !important;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.2) !important;
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
   margin: 0 !important;
-  opacity: 0.9 !important;
+  opacity: 1 !important;
 }
 
 /* Beautiful chip buttons */
@@ -289,52 +289,56 @@ h1 {
   margin: 32px 0 !important;
 }
 
-/* Enhanced Text Contrast and Readability */
+/* Enhanced Text Contrast and Readability - ALL WHITE TEXT */
 body {
   color: var(--text-bold) !important;
 }
 
-p, .muted, span, div {
+p, .muted, span, div, li {
   color: var(--text-bold) !important;
-  font-weight: 500 !important;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.1) !important;
+  font-weight: 600 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
 }
 
 .muted {
   color: var(--muted) !important;
   font-weight: 600 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--text-bold) !important;
   font-weight: 800 !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.15) !important;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.4) !important;
 }
 
 /* Specific hero text styling */
 .hero__text p {
   color: var(--text-bold) !important;
-  font-size: 1.1rem !important;
-  font-weight: 600 !important;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.2) !important;
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
   line-height: 1.6 !important;
 }
 
 /* Card text improvements */
 .hero__card h3 {
   color: var(--text-bold) !important;
-  font-weight: 700 !important;
+  font-weight: 800 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
 }
 
 .hero__card p {
-  color: var(--muted) !important;
+  color: var(--text-bold) !important;
   font-weight: 600 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
 }
 
 /* List items and other text */
 .about__list li {
   color: var(--text-bold) !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
 }
 
 /* Badge styling */
@@ -356,52 +360,55 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.5px !important;
 }
 
-/* Quiz and Explanation Text Enhancement */
+/* Quiz and Explanation Text Enhancement - ALL WHITE */
 #questionText {
   color: var(--text-bold) !important;
-  font-size: 1.3rem !important;
-  font-weight: 700 !important;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+  font-size: 1.4rem !important;
+  font-weight: 800 !important;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.5) !important;
   line-height: 1.5 !important;
   margin-bottom: 20px !important;
 }
 
 .explanation-content, .explanation-text {
   color: var(--text-bold) !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
   line-height: 1.6 !important;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.05) !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
 }
 
 .explanation-content p {
   color: var(--text-bold) !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
   margin: 12px 0 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
 }
 
 .option {
   color: var(--text-bold) !important;
-  font-weight: 600 !important;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.05) !important;
+  font-weight: 700 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
 }
 
 /* Form labels and inputs */
 label {
   color: var(--text-bold) !important;
-  font-weight: 600 !important;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.1) !important;
+  font-weight: 700 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
 }
 
 /* Status and progress text */
 .status, .progress-text, .timer {
   color: var(--text-bold) !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
 }
 
 /* Dashboard and summary text */
 .summary__score, .dashboard__content {
   color: var(--text-bold) !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
 }
 
 /* Advanced animations and effects */
