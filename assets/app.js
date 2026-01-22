@@ -1861,6 +1861,12 @@ class WAECAceApp {
     }
     
     displayHintModal(hint) {
+        // Close any existing modals first
+        document.querySelectorAll('.hint-modal, .explanation-modal').forEach(modal => modal.remove());
+        
+        // Prevent multiple modals
+        if (document.querySelector('.hint-modal')) return;
+        
         // Create mobile-friendly hint modal
         const hintModal = Utils.create('div', {
             className: 'hint-modal',
@@ -1899,7 +1905,7 @@ class WAECAceApp {
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        z-index: 1000;
+                        z-index: 10000;
                         padding: 20px;
                     }
                     
@@ -2027,6 +2033,12 @@ class WAECAceApp {
     }
     
     displayExplanationModal(explanation) {
+        // Close any existing modals first
+        document.querySelectorAll('.hint-modal, .explanation-modal').forEach(modal => modal.remove());
+        
+        // Prevent multiple modals
+        if (document.querySelector('.explanation-modal')) return;
+        
         const explanationModal = Utils.create('div', {
             className: 'explanation-modal',
             innerHTML: `
@@ -2087,7 +2099,7 @@ class WAECAceApp {
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        z-index: 1001;
+                        z-index: 10001;
                         padding: 20px;
                         overflow-y: auto;
                     }
@@ -2389,23 +2401,30 @@ class WAECAceApp {
     }
     
     demoSmartHints() {
-        // Create a demo question to show smart hints
-        const demoQuestion = {
-            id: 'demo_algebra_001',
-            subject: 'math',
-            topic: 'Algebra',
-            tags: ['like-terms'],
-            question: 'Simplify: 3x + 2x - x',
-            explanation: 'Combine like terms: 3x + 2x - x = (3 + 2 - 1)x = 4x'
-        };
-        
-        // Generate and show hint
-        const hint = this.generateSmartHint(demoQuestion);
-        this.displayHintModal(hint);
-        
-        console.log('💡 SMART HINTS DEMO');
-        console.log('Demo Question:', demoQuestion);
-        console.log('Generated Hint:', hint);
+        try {
+            // Create a demo question to show smart hints
+            const demoQuestion = {
+                id: 'demo_algebra_001',
+                subject: 'math',
+                topic: 'Algebra',
+                tags: ['like-terms'],
+                question: 'Simplify: 3x + 2x - x',
+                explanation: 'Combine like terms: 3x + 2x - x = (3 + 2 - 1)x = 4x'
+            };
+            
+            // Generate and show hint
+            const hint = this.generateSmartHint(demoQuestion);
+            this.displayHintModal(hint);
+            
+            Utils.showToast('💡 Smart Hint demonstrated successfully!', 'success', 3000);
+            
+            console.log('💡 SMART HINTS DEMO');
+            console.log('Demo Question:', demoQuestion);
+            console.log('Generated Hint:', hint);
+        } catch (error) {
+            console.error('Error in demoSmartHints:', error);
+            Utils.showToast('❌ Error demonstrating smart hints', 'error', 3000);
+        }
     }
 
     // Utility for testing new features
