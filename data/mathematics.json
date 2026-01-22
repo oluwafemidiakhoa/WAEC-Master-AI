@@ -5,7 +5,7 @@
     "question": "Simplify: 3x + 2x - x",
     "options": ["6x", "4x", "2x", "x"],
     "answer": 1,
-    "explanation": "Combine like terms: (3 + 2 - 1)x = 4x."
+    "explanation": "To simplify algebraic expressions with like terms, we combine coefficients of the same variable.\n\nStep 1: Identify like terms (all contain 'x')\nStep 2: Add/subtract coefficients: 3 + 2 - 1 = 4\nStep 3: Keep the variable: 4x\n\nTherefore, 3x + 2x - x = 4x"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "question": "Solve for x: 2x + 5 = 17",
     "options": ["5", "6", "7", "8"],
     "answer": 1,
-    "explanation": "Subtract 5 to get 2x = 12, so x = 6."
+    "explanation": "To solve linear equations, we isolate the variable using inverse operations.\n\nGiven: 2x + 5 = 17\n\nStep 1: Subtract 5 from both sides\n2x + 5 - 5 = 17 - 5\n2x = 12\n\nStep 2: Divide both sides by 2\n2x ÷ 2 = 12 ÷ 2\nx = 6\n\nVerification: 2(6) + 5 = 12 + 5 = 17 ✓"
   },
   {
     "id": 3,

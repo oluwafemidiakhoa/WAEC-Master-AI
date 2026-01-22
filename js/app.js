@@ -455,6 +455,7 @@
       btn.className = 'option';
       btn.textContent = optionText;
       btn.dataset.index = String(index);
+      btn.dataset.letter = String.fromCharCode(65 + index); // A, B, C, D
       btn.disabled = answered;
 
       if (answered) {
@@ -1068,10 +1069,29 @@
 
   const showExplanation = (question, chosenIndex) => {
     const isCorrect = chosenIndex === question.answer;
-    els.answerFeedback.textContent = isCorrect ? 'Correct!' : 'Not quite.';
+    els.answerFeedback.textContent = isCorrect ? '✅ Correct!' : '❌ Incorrect';
     els.answerFeedback.style.color = isCorrect ? 'var(--success)' : 'var(--danger)';
-    els.explanationText.textContent = `Answer: ${question.options[question.answer]} — ${question.explanation}`;
+    
+    // Enhanced explanation with proper formatting
+    const correctOption = question.options[question.answer];
+    const correctLetter = String.fromCharCode(65 + question.answer); // A, B, C, D
+    
+    // Format explanation with line breaks
+    const formattedExplanation = question.explanation.replace(/\\n/g, '\n');
+    
+    els.explanationText.innerHTML = `
+      <div class="explanation-header">
+        <strong>Correct Answer: ${correctLetter}. ${correctOption}</strong>
+      </div>
+      <div class="explanation-content">
+        ${formattedExplanation.split('\n').map(line => 
+          line.trim() ? `<p>${line.trim()}</p>` : ''
+        ).join('')}
+      </div>
+    `;
+    
     els.explanation.classList.remove('hidden');
+    els.explanation.classList.add('animate-slide-in-left');
   };
 
   const scheduleAutoAdvance = () => {
