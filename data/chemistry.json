@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "topic": "Atomic Structure",
+    "question": "The number of protons in an atom is called the",
+    "options": ["mass number", "atomic number", "isotope number", "neutron number"],
+    "answer": 1,
+    "explanation": "Atomic number equals the number of protons."
+  },
+  {
+    "id": 2,
+    "topic": "Atomic Structure",
+    "question": "An isotope of an element has the same",
+    "options": ["neutrons", "protons", "mass number", "electrons only"],
+    "answer": 1,
+    "explanation": "Isotopes have the same number of protons."
+  },
+  {
+    "id": 3,
+    "topic": "Periodic Table",
+    "question": "Elements in the same group have similar",
+    "options": ["mass", "valence electrons", "neutrons", "atomic radii"],
+    "answer": 1,
+    "explanation": "Groups share similar valence electron counts."
+  },
+  {
+    "id": 4,
+    "topic": "Periodic Table",
+    "question": "A metal tends to",
+    "options": ["gain electrons", "share electrons", "lose electrons", "avoid reaction"],
+    "answer": 2,
+    "explanation": "Metals typically lose electrons to form cations."
+  },
+  {
+    "id": 5,
+    "topic": "Chemical Reactions",
+    "question": "In a balanced equation, the total number of atoms is",
+    "options": ["greater on products", "equal on both sides", "greater on reactants", "always doubled"],
+    "answer": 1,
+    "explanation": "Atoms are conserved in chemical reactions."
+  },
+  {
+    "id": 6,
+    "topic": "Chemical Reactions",
+    "question": "A reaction that releases heat is",
+    "options": ["endothermic", "exothermic", "neutral", "catalytic"],
+    "answer": 1,
+    "explanation": "Exothermic reactions release heat."
+  },
+  {
+    "id": 7,
+    "topic": "Acids & Bases",
+    "question": "A solution with pH 3 is",
+    "options": ["neutral", "acidic", "basic", "salty"],
+    "answer": 1,
+    "explanation": "pH less than 7 indicates an acid."
+  },
+  {
+    "id": 8,
+    "topic": "Acids & Bases",
+    "question": "Which substance is a base?",
+    "options": ["HCl", "NaOH", "HNO3", "CO2"],
+    "answer": 1,
+    "explanation": "Sodium hydroxide (NaOH) is a base."
+  },
+  {
+    "id": 9,
+    "topic": "Mixtures",
+    "question": "Which method separates sand from water?",
+    "options": ["distillation", "filtration", "evaporation", "chromatography"],
+    "answer": 1,
+    "explanation": "Filtration separates insoluble solids from liquids."
+  },
+  {
+    "id": 10,
+    "topic": "Mixtures",
+    "question": "A solution is",
+    "options": ["a pure substance", "a homogeneous mixture", "a compound", "a suspension"],
+    "answer": 1,
+    "explanation": "Solutions are homogeneous mixtures."
+  },
+  {
+    "id": 11,
+    "topic": "Stoichiometry",
+    "question": "The molar mass of water (H2O) is",
+    "options": ["16 g/mol", "18 g/mol", "20 g/mol", "22 g/mol"],
+    "answer": 1,
+    "explanation": "H2O = 2(1) + 16 = 18 g/mol."
+  },
+  {
+    "id": 12,
+    "topic": "Stoichiometry",
+    "question": "Avogadro's number is approximately",
+    "options": ["6.02 × 10^23", "3.01 × 10^23", "1.00 × 10^6", "9.81"],
+    "answer": 0,
+    "explanation": "Avogadro's number is about 6.02 × 10^23."
+  },
+  {
+    "id": 13,
+    "topic": "States of Matter",
+    "question": "Gas particles are generally",
+    "options": ["tightly packed", "fixed in place", "far apart and moving freely", "locked in a lattice"],
+    "answer": 2,
+    "explanation": "Gas particles are far apart and move freely."
+  },
+  {
+    "id": 14,
+    "topic": "States of Matter",
+    "question": "The change from solid directly to gas is called",
+    "options": ["melting", "condensation", "sublimation", "freezing"],
+    "answer": 2,
+    "explanation": "Sublimation is solid to gas without becoming liquid."
+  },
+  {
+    "id": 15,
+    "topic": "Organic Chemistry",
+    "question": "Hydrocarbons contain only",
+    "options": ["hydrogen and oxygen", "hydrogen and carbon", "carbon and nitrogen", "oxygen and nitrogen"],
+    "answer": 1,
+    "explanation": "Hydrocarbons are made of hydrogen and carbon only."
+  },
+  {
+    "id": 16,
+    "topic": "Organic Chemistry",
+    "question": "CH4 is called",
+    "options": ["ethane", "methane", "propane", "butane"],
+    "answer": 1,
+    "explanation": "CH4 is methane."
+  },
+  {
+    "id": 17,
+    "topic": "Metals",
+    "question": "Rusting is the",
+    "options": ["reduction of iron", "oxidation of iron", "melting of iron", "purification of iron"],
+    "answer": 1,
+    "explanation": "Rusting is the oxidation of iron."
+  },
+  {
+    "id": 18,
+    "topic": "Rates of Reaction",
+    "question": "Increasing temperature usually",
+    "options": ["slows reaction rate", "stops reactions", "increases reaction rate", "has no effect"],
+    "answer": 2,
+    "explanation": "Higher temperature increases particle energy and collision frequency."
+  },
+  {
+    "id": 19,
+    "topic": "Gas Laws",
+    "question": "Boyle's law states that pressure is",
+    "options": ["directly proportional to volume", "inversely proportional to volume", "equal to volume", "independent of volume"],
+    "answer": 1,
+    "explanation": "At constant temperature, P is inversely proportional to V."
+  },
+  {
+    "id": 20,
+    "topic": "Electrolysis",
+    "question": "Reduction occurs at the",
+    "options": ["anode", "cathode", "electrolyte", "salt bridge"],
+    "answer": 1,
+    "explanation": "Reduction occurs at the cathode."
+  },
+  {
+    "id": 21,
+    "topic": "Solutions",
+    "question": "A solution with 1 mole of solute in 1 liter is",
+    "options": ["0.1 M", "0.5 M", "1.0 M", "2.0 M"],
+    "answer": 2,
+    "explanation": "Molarity = moles per liter, so 1/1 = 1.0 M."
+  },
+  {
+    "id": 22,
+    "topic": "Chemical Bonding",
+    "question": "An ionic bond forms between a",
+    "options": ["metal and non-metal", "non-metal and non-metal", "metal and metal", "noble gas and metal"],
+    "answer": 0,
+    "explanation": "Ionic bonds typically form between metals and non-metals."
+  }
+]

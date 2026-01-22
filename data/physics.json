@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "topic": "Kinematics",
+    "question": "A car moves 150 m in 5 s. What is its average speed?",
+    "options": ["20 m/s", "25 m/s", "30 m/s", "35 m/s"],
+    "answer": 2,
+    "explanation": "Average speed = distance/time = 150/5 = 30 m/s."
+  },
+  {
+    "id": 2,
+    "topic": "Kinematics",
+    "question": "An object starts from rest and accelerates at 2 m/s^2 for 4 s. Its final velocity is",
+    "options": ["4 m/s", "6 m/s", "8 m/s", "10 m/s"],
+    "answer": 2,
+    "explanation": "v = u + at = 0 + 2 × 4 = 8 m/s."
+  },
+  {
+    "id": 3,
+    "topic": "Forces",
+    "question": "The unit of force is",
+    "options": ["watt", "newton", "joule", "pascal"],
+    "answer": 1,
+    "explanation": "Force is measured in newtons (N)."
+  },
+  {
+    "id": 4,
+    "topic": "Forces",
+    "question": "If net force is 10 N on a 2 kg object, its acceleration is",
+    "options": ["2 m/s^2", "4 m/s^2", "5 m/s^2", "20 m/s^2"],
+    "answer": 2,
+    "explanation": "a = F/m = 10/2 = 5 m/s²."
+  },
+  {
+    "id": 5,
+    "topic": "Energy",
+    "question": "Which energy is stored in a stretched rubber band?",
+    "options": ["Kinetic", "Thermal", "Elastic potential", "Nuclear"],
+    "answer": 2,
+    "explanation": "Stretching stores elastic potential energy."
+  },
+  {
+    "id": 6,
+    "topic": "Energy",
+    "question": "The SI unit of energy is",
+    "options": ["joule", "newton", "watt", "ohm"],
+    "answer": 0,
+    "explanation": "Energy is measured in joules (J)."
+  },
+  {
+    "id": 7,
+    "topic": "Waves",
+    "question": "The distance between two successive crests is called",
+    "options": ["frequency", "period", "amplitude", "wavelength"],
+    "answer": 3,
+    "explanation": "That distance is the wavelength."
+  },
+  {
+    "id": 8,
+    "topic": "Waves",
+    "question": "Sound waves are",
+    "options": ["transverse", "longitudinal", "electromagnetic", "stationary"],
+    "answer": 1,
+    "explanation": "Sound in air travels as longitudinal waves."
+  },
+  {
+    "id": 9,
+    "topic": "Electricity",
+    "question": "Which device measures electric current?",
+    "options": ["voltmeter", "ammeter", "ohmmeter", "barometer"],
+    "answer": 1,
+    "explanation": "An ammeter measures current."
+  },
+  {
+    "id": 10,
+    "topic": "Electricity",
+    "question": "If V = 12 V and R = 3 ohm, the current is",
+    "options": ["2 A", "3 A", "4 A", "6 A"],
+    "answer": 2,
+    "explanation": "I = V/R = 12/3 = 4 A."
+  },
+  {
+    "id": 11,
+    "topic": "Measurements",
+    "question": "The SI unit of time is",
+    "options": ["minute", "hour", "second", "day"],
+    "answer": 2,
+    "explanation": "Time is measured in seconds (s)."
+  },
+  {
+    "id": 12,
+    "topic": "Measurements",
+    "question": "Which instrument is best for measuring a thin wire diameter?",
+    "options": ["ruler", "meter rule", "micrometer screw gauge", "stopwatch"],
+    "answer": 2,
+    "explanation": "A micrometer screw gauge measures small thicknesses accurately."
+  },
+  {
+    "id": 13,
+    "topic": "Heat",
+    "question": "Heat transfer in solids occurs mainly by",
+    "options": ["conduction", "convection", "radiation", "evaporation"],
+    "answer": 0,
+    "explanation": "Conduction is dominant in solids."
+  },
+  {
+    "id": 14,
+    "topic": "Heat",
+    "question": "The temperature scale that starts at absolute zero is",
+    "options": ["Celsius", "Fahrenheit", "Kelvin", "Rankine"],
+    "answer": 2,
+    "explanation": "The Kelvin scale begins at absolute zero."
+  },
+  {
+    "id": 15,
+    "topic": "Magnetism",
+    "question": "Like poles of a magnet",
+    "options": ["attract", "repel", "neutralize", "disappear"],
+    "answer": 1,
+    "explanation": "Like poles repel, unlike poles attract."
+  },
+  {
+    "id": 16,
+    "topic": "Optics",
+    "question": "An image formed by a plane mirror is",
+    "options": ["real and inverted", "virtual and upright", "real and enlarged", "virtual and inverted"],
+    "answer": 1,
+    "explanation": "Plane mirrors form virtual, upright images."
+  },
+  {
+    "id": 17,
+    "topic": "Electricity",
+    "question": "A device that converts electrical energy to mechanical energy is",
+    "options": ["generator", "battery", "electric motor", "transformer"],
+    "answer": 2,
+    "explanation": "An electric motor converts electrical energy to motion."
+  },
+  {
+    "id": 18,
+    "topic": "Pressure",
+    "question": "Pressure is defined as",
+    "options": ["force × area", "force / area", "mass × gravity", "energy / time"],
+    "answer": 1,
+    "explanation": "Pressure equals force divided by area."
+  },
+  {
+    "id": 19,
+    "topic": "Density",
+    "question": "Density is calculated as",
+    "options": ["mass × volume", "mass / volume", "volume / mass", "mass + volume"],
+    "answer": 1,
+    "explanation": "Density equals mass divided by volume."
+  },
+  {
+    "id": 20,
+    "topic": "Momentum",
+    "question": "Momentum is defined as",
+    "options": ["force × time", "mass × velocity", "mass / time", "energy × time"],
+    "answer": 1,
+    "explanation": "Momentum p = mv."
+  },
+  {
+    "id": 21,
+    "topic": "Simple Machines",
+    "question": "A machine with mechanical advantage greater than 1 provides",
+    "options": ["speed advantage", "force advantage", "no advantage", "less work"],
+    "answer": 1,
+    "explanation": "MA > 1 means the output force is greater than input force."
+  },
+  {
+    "id": 22,
+    "topic": "Sound",
+    "question": "The speed of sound in air is approximately",
+    "options": ["100 m/s", "200 m/s", "340 m/s", "500 m/s"],
+    "answer": 2,
+    "explanation": "At room temperature, sound travels about 340 m/s in air."
+  }
+]

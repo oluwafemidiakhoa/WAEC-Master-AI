@@ -1,222 +1,210 @@
 [
   {
-    "id": "eng_grammar_001",
-    "subject": "english",
+    "id": 1,
     "topic": "Grammar",
-    "difficulty": "easy",
-    "question": "Which of the following is a noun?",
-    "options": ["Run", "Beautiful", "House", "Quickly"],
-    "answer_index": 2,
-    "explanation": "A noun is a word that names a person, place, thing, or idea. 'House' is a thing, making it a noun.",
-    "tags": ["parts-of-speech", "nouns"]
+    "question": "Choose the correct sentence.",
+    "options": ["She don't like tea.", "She doesn't like tea.", "She not likes tea.", "She isn't like tea."],
+    "answer": 1,
+    "explanation": "Use does + not for third-person singular in the present tense."
   },
   {
-    "id": "eng_grammar_002",
-    "subject": "english",
+    "id": 2,
     "topic": "Grammar",
-    "difficulty": "medium",
-    "question": "Choose the correct verb form: 'She ____ to the market yesterday.'",
-    "options": ["go", "goes", "went", "going"],
-    "answer_index": 2,
-    "explanation": "'Yesterday' indicates past tense. The past tense of 'go' is 'went'.",
-    "tags": ["verb-tenses", "past-tense"]
+    "question": "Select the correct verb: The students ___ to school every day.",
+    "options": ["go", "goes", "gone", "going"],
+    "answer": 0,
+    "explanation": "Plural subject takes the base form: students go."
   },
   {
-    "id": "eng_grammar_003",
-    "subject": "english",
-    "topic": "Grammar",
-    "difficulty": "hard",
-    "question": "Identify the type of sentence: 'Although it was raining, we went out.'",
-    "options": ["Simple", "Compound", "Complex", "Compound-complex"],
-    "answer_index": 2,
-    "explanation": "This is a complex sentence because it has one independent clause ('we went out') and one dependent clause ('Although it was raining').",
-    "tags": ["sentence-types", "clauses"]
-  },
-  {
-    "id": "eng_vocabulary_001",
-    "subject": "english",
+    "id": 3,
     "topic": "Vocabulary",
-    "difficulty": "easy",
-    "question": "What does 'enormous' mean?",
-    "options": ["Very small", "Very large", "Very fast", "Very slow"],
-    "answer_index": 1,
-    "explanation": "'Enormous' means extremely large in size or extent.",
-    "tags": ["synonyms", "adjectives"]
+    "question": "Choose the word closest in meaning to 'rapid'.",
+    "options": ["slow", "quick", "late", "calm"],
+    "answer": 1,
+    "explanation": "Rapid means fast or quick."
   },
   {
-    "id": "eng_vocabulary_002",
-    "subject": "english",
+    "id": 4,
     "topic": "Vocabulary",
-    "difficulty": "medium",
-    "question": "Choose the antonym of 'generous':",
-    "options": ["Kind", "Stingy", "Helpful", "Caring"],
-    "answer_index": 1,
-    "explanation": "'Stingy' means unwilling to spend or give, which is the opposite of 'generous' (willing to give or share).",
-    "tags": ["antonyms", "character-traits"]
+    "question": "Choose the word opposite in meaning to 'expand'.",
+    "options": ["increase", "stretch", "reduce", "grow"],
+    "answer": 2,
+    "explanation": "Reduce is the opposite of expand."
   },
   {
-    "id": "eng_vocabulary_003",
-    "subject": "english",
-    "topic": "Vocabulary",
-    "difficulty": "hard",
-    "question": "What does 'ubiquitous' mean?",
-    "options": ["Rare", "Ancient", "Present everywhere", "Mysterious"],
-    "answer_index": 2,
-    "explanation": "'Ubiquitous' means present, appearing, or found everywhere; widespread.",
-    "tags": ["advanced-vocabulary", "descriptive-words"]
-  },
-  {
-    "id": "eng_comprehension_001",
-    "subject": "english",
+    "id": 5,
     "topic": "Comprehension",
-    "difficulty": "easy",
-    "question": "Read: 'The cat sat on the mat.' What was on the mat?",
-    "options": ["A dog", "A cat", "A bird", "A mouse"],
-    "answer_index": 1,
-    "explanation": "The passage clearly states 'The cat sat on the mat,' so the cat was on the mat.",
-    "tags": ["reading-comprehension", "basic-understanding"]
+    "question": "A passage says: 'The market opens early for fresh produce.' The best inference is that vendors",
+    "options": ["prefer late mornings", "sell fresh items", "close at noon", "avoid vegetables"],
+    "answer": 1,
+    "explanation": "Fresh produce suggests vendors sell fresh items early."
   },
   {
-    "id": "eng_comprehension_002",
-    "subject": "english",
+    "id": 6,
     "topic": "Comprehension",
-    "difficulty": "medium",
-    "question": "Read: 'John studied hard for his exams and achieved excellent results.' What can we infer about John?",
-    "options": ["He is lazy", "He is dedicated", "He is lucky", "He is careless"],
-    "answer_index": 1,
-    "explanation": "The fact that John 'studied hard' suggests he is dedicated and hardworking.",
-    "tags": ["inference", "character-analysis"]
+    "question": "If a writer describes a road as 'winding', the road is",
+    "options": ["straight", "curving", "wide", "smooth"],
+    "answer": 1,
+    "explanation": "Winding means bending or curving."
   },
   {
-    "id": "eng_punctuation_001",
-    "subject": "english",
+    "id": 7,
     "topic": "Punctuation",
-    "difficulty": "easy",
-    "question": "Which sentence is correctly punctuated?",
-    "options": ["Hello how are you", "Hello, how are you?", "Hello how are you.", "Hello; how are you"],
-    "answer_index": 1,
-    "explanation": "When greeting someone and asking a question, use a comma after the greeting and a question mark at the end.",
-    "tags": ["commas", "question-marks"]
+    "question": "Select the correctly punctuated sentence.",
+    "options": ["However, we arrived late.", "However we arrived, late.", "However we arrived late", "However; we arrived late."],
+    "answer": 0,
+    "explanation": "Use a comma after introductory adverbs."
   },
   {
-    "id": "eng_punctuation_002",
-    "subject": "english",
+    "id": 8,
+    "topic": "Spelling",
+    "question": "Choose the correctly spelled word.",
+    "options": ["definately", "definitely", "definitly", "definate"],
+    "answer": 1,
+    "explanation": "Definitely is the correct spelling."
+  },
+  {
+    "id": 9,
+    "topic": "Writing",
+    "question": "Which is the best topic sentence for a paragraph about healthy eating?",
+    "options": ["Many people are hungry.", "Healthy eating helps the body stay strong.", "Food can be expensive.", "Some meals are spicy."],
+    "answer": 1,
+    "explanation": "It introduces the main idea of healthy eating."
+  },
+  {
+    "id": 10,
+    "topic": "Writing",
+    "question": "Select the best closing sentence for a letter requesting help.",
+    "options": ["I might see you later.", "Thanks for your assistance.", "The weather is hot.", "I like football."],
+    "answer": 1,
+    "explanation": "It politely closes the request."
+  },
+  {
+    "id": 11,
+    "topic": "Grammar",
+    "question": "Choose the correct pronoun: This book belongs to Amina and ___.",
+    "options": ["I", "me", "my", "mine"],
+    "answer": 1,
+    "explanation": "Use objective case after 'to': belongs to Amina and me."
+  },
+  {
+    "id": 12,
+    "topic": "Vocabulary",
+    "question": "Choose the word that completes the sentence: The athlete was known for her ____.",
+    "options": ["stamina", "station", "stature", "statement"],
+    "answer": 0,
+    "explanation": "Stamina refers to endurance, fitting the context."
+  },
+  {
+    "id": 13,
+    "topic": "Tenses",
+    "question": "By the time we arrived, the show ___.",
+    "options": ["starts", "started", "had started", "has started"],
+    "answer": 2,
+    "explanation": "Past perfect shows an action completed before another past action."
+  },
+  {
+    "id": 14,
+    "topic": "Grammar",
+    "question": "Either the teachers or the principal ___ responsible.",
+    "options": ["are", "were", "is", "have"],
+    "answer": 2,
+    "explanation": "With either/or, the verb agrees with the nearer subject: principal is."
+  },
+  {
+    "id": 15,
+    "topic": "Vocabulary",
+    "question": "Choose the word closest in meaning to 'brief'.",
+    "options": ["short", "wide", "late", "quiet"],
+    "answer": 0,
+    "explanation": "Brief means short in length or time."
+  },
+  {
+    "id": 16,
+    "topic": "Vocabulary",
+    "question": "Choose the word opposite in meaning to 'scarce'.",
+    "options": ["plentiful", "rare", "few", "little"],
+    "answer": 0,
+    "explanation": "Scarce means not enough; plentiful is the opposite."
+  },
+  {
+    "id": 17,
+    "topic": "Comprehension",
+    "question": "A passage states: 'Farmers depend on rainfall for crops.' The best conclusion is that",
+    "options": ["rainfall affects farming output", "rainfall is never important", "crops grow without water", "farmers avoid rainy seasons"],
+    "answer": 0,
+    "explanation": "Dependence means rainfall influences farming success."
+  },
+  {
+    "id": 18,
     "topic": "Punctuation",
-    "difficulty": "medium",
-    "question": "Where should the apostrophe go in: 'The dogs bone'?",
-    "options": ["dog's", "dogs'", "dog's'", "No apostrophe needed"],
-    "answer_index": 0,
-    "explanation": "Since there's one dog owning one bone, the apostrophe goes before the 's': 'dog's'.",
-    "tags": ["apostrophes", "possession"]
+    "question": "Choose the correctly punctuated sentence.",
+    "options": ["She said I am ready.", "She said, \"I am ready.\"", "She said, I am ready.", "She said \"I am ready\"."],
+    "answer": 1,
+    "explanation": "Direct speech uses quotation marks and a comma before the quote."
   },
   {
-    "id": "eng_spelling_001",
-    "subject": "english",
-    "topic": "Spelling",
-    "difficulty": "easy",
-    "question": "Which word is spelled correctly?",
-    "options": ["Recieve", "Receive", "Receve", "Receave"],
-    "answer_index": 1,
-    "explanation": "'Receive' follows the rule 'i before e except after c'.",
-    "tags": ["spelling-rules", "common-mistakes"]
+    "id": 19,
+    "topic": "Writing",
+    "question": "Which transition shows contrast?",
+    "options": ["However", "Therefore", "Also", "Similarly"],
+    "answer": 0,
+    "explanation": "However signals contrast."
   },
   {
-    "id": "eng_spelling_002",
-    "subject": "english",
-    "topic": "Spelling",
-    "difficulty": "medium",
-    "question": "Choose the correctly spelled word:",
-    "options": ["Definately", "Definitly", "Definitely", "Definatly"],
-    "answer_index": 2,
-    "explanation": "'Definitely' is spelled with 'ite' not 'ate' in the middle.",
-    "tags": ["common-misspellings", "spelling-patterns"]
-  },
-  {
-    "id": "eng_literature_001",
-    "subject": "english",
+    "id": 20,
     "topic": "Literature",
-    "difficulty": "medium",
-    "question": "What is a metaphor?",
-    "options": ["A direct comparison using 'like' or 'as'", "A comparison without using 'like' or 'as'", "A question with no answer", "Repetition of sounds"],
-    "answer_index": 1,
-    "explanation": "A metaphor is a figure of speech that makes an implicit comparison between two unrelated things without using 'like' or 'as'.",
-    "tags": ["figurative-language", "metaphors"]
+    "question": "A poem with 14 lines is called a",
+    "options": ["ballad", "sonnet", "ode", "epic"],
+    "answer": 1,
+    "explanation": "A sonnet is a 14-line poem."
   },
   {
-    "id": "eng_literature_002",
-    "subject": "english",
-    "topic": "Literature",
-    "difficulty": "hard",
-    "question": "What is personification?",
-    "options": ["Comparing two things", "Giving human qualities to non-human things", "Exaggerating for effect", "Using the same sound repeatedly"],
-    "answer_index": 1,
-    "explanation": "Personification is giving human characteristics, emotions, or actions to non-human things or abstract concepts.",
-    "tags": ["personification", "literary-devices"]
+    "id": 21,
+    "topic": "Register",
+    "question": "A formal letter should avoid",
+    "options": ["clear structure", "polite tone", "slang", "proper greetings"],
+    "answer": 2,
+    "explanation": "Slang is informal and should be avoided."
   },
   {
-    "id": "eng_essay_001",
-    "subject": "english",
-    "topic": "Essay Writing",
-    "difficulty": "medium",
-    "question": "What should the introduction paragraph of an essay contain?",
-    "options": ["Only the thesis statement", "Background information and thesis", "Conclusion summary", "Supporting details"],
-    "answer_index": 1,
-    "explanation": "An introduction should provide background information about the topic and end with a clear thesis statement.",
-    "tags": ["essay-structure", "introductions"]
+    "id": 22,
+    "topic": "Spelling",
+    "question": "Choose the correctly spelled word.",
+    "options": ["accomodate", "acommodate", "accommodate", "acomodate"],
+    "answer": 2,
+    "explanation": "Accommodate is the correct spelling."
   },
   {
-    "id": "eng_essay_002",
-    "subject": "english",
-    "topic": "Essay Writing",
-    "difficulty": "hard",
-    "question": "What is the purpose of a topic sentence?",
-    "options": ["To conclude the paragraph", "To introduce the main idea of the paragraph", "To provide evidence", "To ask a question"],
-    "answer_index": 1,
-    "explanation": "A topic sentence introduces the main idea or central point of a paragraph.",
-    "tags": ["paragraph-structure", "topic-sentences"]
+    "id": 23,
+    "topic": "Figures of Speech",
+    "question": "The wind whispered through the trees is an example of",
+    "options": ["simile", "metaphor", "personification", "hyperbole"],
+    "answer": 2,
+    "explanation": "Personification gives human action to non-human things."
   },
   {
-    "id": "eng_phonetics_001",
-    "subject": "english",
-    "topic": "Phonetics",
-    "difficulty": "medium",
-    "question": "How many syllables are in the word 'beautiful'?",
-    "options": ["2", "3", "4", "5"],
-    "answer_index": 1,
-    "explanation": "'Beautiful' has 3 syllables: beau-ti-ful.",
-    "tags": ["syllables", "pronunciation"]
+    "id": 24,
+    "topic": "Grammar",
+    "question": "Each of the boys ___ ready.",
+    "options": ["are", "were", "is", "have"],
+    "answer": 2,
+    "explanation": "Each is singular, so use is."
   },
   {
-    "id": "eng_idioms_001",
-    "subject": "english",
-    "topic": "Idioms",
-    "difficulty": "medium",
-    "question": "What does 'break the ice' mean?",
-    "options": ["To literally break ice", "To start a conversation", "To be very cold", "To be very angry"],
-    "answer_index": 1,
-    "explanation": "'Break the ice' is an idiom meaning to initiate conversation or make people feel more comfortable in a social situation.",
-    "tags": ["idioms", "expressions"]
+    "id": 25,
+    "topic": "Tenses",
+    "question": "If I ___ you, I would study harder.",
+    "options": ["was", "were", "am", "be"],
+    "answer": 1,
+    "explanation": "For hypothetical situations, use were."
   },
   {
-    "id": "eng_passive_001",
-    "subject": "english",
-    "topic": "Active and Passive Voice",
-    "difficulty": "medium",
-    "question": "Convert to passive voice: 'The chef cooked the meal.'",
-    "options": ["The meal cooked the chef", "The meal was cooked by the chef", "The chef was cooking the meal", "The meal cooks by the chef"],
-    "answer_index": 1,
-    "explanation": "In passive voice, the object becomes the subject. 'The meal was cooked by the chef' is the correct passive form.",
-    "tags": ["passive-voice", "voice-conversion"]
-  },
-  {
-    "id": "eng_reported_001",
-    "subject": "english",
-    "topic": "Reported Speech",
-    "difficulty": "hard",
-    "question": "Convert to reported speech: John said, 'I am going home.'",
-    "options": ["John said that he is going home", "John said that he was going home", "John said that I am going home", "John said that he will go home"],
-    "answer_index": 1,
-    "explanation": "In reported speech, 'am' (present) changes to 'was' (past), and 'I' changes to 'he' when reporting what John said.",
-    "tags": ["reported-speech", "tense-changes"]
+    "id": 26,
+    "topic": "Comprehension",
+    "question": "A sentence says: 'The road was slippery after the rain.' The best inference is that driving was",
+    "options": ["dangerous", "easy", "quiet", "cheap"],
+    "answer": 0,
+    "explanation": "Slippery roads make driving dangerous."
   }
 ]

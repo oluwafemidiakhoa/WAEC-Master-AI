@@ -1,233 +1,162 @@
 [
   {
-    "id": "bio_cell_001",
-    "subject": "biology",
+    "id": 1,
     "topic": "Cell Biology",
-    "difficulty": "easy",
-    "question": "What is the basic unit of life?",
-    "options": ["Atom", "Cell", "Molecule", "Organ"],
-    "answer_index": 1,
-    "explanation": "The cell is the fundamental unit of life. All living things are made up of one or more cells.",
-    "tags": ["cell-theory", "basic-concepts"]
+    "question": "The basic unit of life is the",
+    "options": ["tissue", "cell", "organ", "system"],
+    "answer": 1,
+    "explanation": "Cells are the basic units of life."
   },
   {
-    "id": "bio_cell_002",
-    "subject": "biology",
+    "id": 2,
     "topic": "Cell Biology",
-    "difficulty": "medium",
-    "question": "Which organelle is known as the powerhouse of the cell?",
-    "options": ["Nucleus", "Ribosome", "Mitochondria", "Vacuole"],
-    "answer_index": 2,
-    "explanation": "Mitochondria are called the powerhouse of the cell because they produce ATP (energy) through cellular respiration.",
-    "tags": ["organelles", "mitochondria"]
+    "question": "The part of the cell that controls activities is the",
+    "options": ["nucleus", "cell wall", "vacuole", "mitochondrion"],
+    "answer": 0,
+    "explanation": "The nucleus controls cell activities."
   },
   {
-    "id": "bio_cell_003",
-    "subject": "biology",
-    "topic": "Cell Biology",
-    "difficulty": "hard",
-    "question": "What process allows substances to move across cell membranes without energy?",
-    "options": ["Active transport", "Passive transport", "Endocytosis", "Exocytosis"],
-    "answer_index": 1,
-    "explanation": "Passive transport includes diffusion and osmosis, where substances move from high to low concentration without requiring cellular energy.",
-    "tags": ["membrane-transport", "passive-transport"]
+    "id": 3,
+    "topic": "Nutrition",
+    "question": "Photosynthesis occurs in the",
+    "options": ["chloroplast", "nucleus", "ribosome", "mitochondrion"],
+    "answer": 0,
+    "explanation": "Chloroplasts contain chlorophyll for photosynthesis."
   },
   {
-    "id": "bio_genetics_001",
-    "subject": "biology",
-    "topic": "Genetics",
-    "difficulty": "easy",
-    "question": "What does DNA stand for?",
-    "options": ["Deoxyribonucleic Acid", "Diatomic Nucleic Acid", "Dynamic Nuclear Acid", "Divalent Nucleic Acid"],
-    "answer_index": 0,
-    "explanation": "DNA stands for Deoxyribonucleic Acid, the molecule that carries genetic information in all living organisms.",
-    "tags": ["dna", "basic-terminology"]
+    "id": 4,
+    "topic": "Nutrition",
+    "question": "The process of taking in food is called",
+    "options": ["respiration", "excretion", "nutrition", "transpiration"],
+    "answer": 2,
+    "explanation": "Nutrition is the intake and use of food."
   },
   {
-    "id": "bio_genetics_002",
-    "subject": "biology",
-    "topic": "Genetics",
-    "difficulty": "medium",
-    "question": "If a trait is controlled by a dominant allele (A) and a recessive allele (a), what will be the phenotype of Aa?",
-    "options": ["Dominant trait", "Recessive trait", "Intermediate trait", "No trait expressed"],
-    "answer_index": 0,
-    "explanation": "In Aa, the dominant allele (A) masks the expression of the recessive allele (a), so the dominant trait is expressed.",
-    "tags": ["dominance", "alleles", "phenotype"]
+    "id": 5,
+    "topic": "Respiration",
+    "question": "Aerobic respiration uses",
+    "options": ["oxygen", "carbon dioxide", "nitrogen", "water"],
+    "answer": 0,
+    "explanation": "Aerobic respiration requires oxygen."
   },
   {
-    "id": "bio_genetics_003",
-    "subject": "biology",
-    "topic": "Genetics",
-    "difficulty": "hard",
-    "question": "In a monohybrid cross between two heterozygous parents (Aa × Aa), what is the expected phenotypic ratio?",
-    "options": ["1:1", "1:2:1", "3:1", "2:1"],
-    "answer_index": 2,
-    "explanation": "Aa × Aa gives genotypes AA, Aa, Aa, aa. Since A is dominant, the phenotypic ratio is 3 dominant : 1 recessive.",
-    "tags": ["monohybrid-cross", "punnett-square"]
+    "id": 6,
+    "topic": "Respiration",
+    "question": "Gas exchange in humans occurs in the",
+    "options": ["trachea", "bronchi", "alveoli", "larynx"],
+    "answer": 2,
+    "explanation": "Alveoli are the sites of gas exchange."
   },
   {
-    "id": "bio_ecology_001",
-    "subject": "biology",
+    "id": 7,
     "topic": "Ecology",
-    "difficulty": "easy",
-    "question": "What is an ecosystem?",
-    "options": ["Only living organisms", "Only non-living factors", "Living organisms and their environment", "Just plants and animals"],
-    "answer_index": 2,
-    "explanation": "An ecosystem includes all living organisms (biotic factors) and their physical environment (abiotic factors) in a specific area.",
-    "tags": ["ecosystem", "basic-definitions"]
+    "question": "A group of organisms of the same species in an area is a",
+    "options": ["community", "population", "ecosystem", "biome"],
+    "answer": 1,
+    "explanation": "A population is a group of one species in an area."
   },
   {
-    "id": "bio_ecology_002",
-    "subject": "biology",
+    "id": 8,
     "topic": "Ecology",
-    "difficulty": "medium",
-    "question": "What is the role of decomposers in an ecosystem?",
-    "options": ["Primary production", "Secondary consumption", "Breaking down dead matter", "Energy storage"],
-    "answer_index": 2,
-    "explanation": "Decomposers break down dead organic matter, recycling nutrients back into the ecosystem for use by other organisms.",
-    "tags": ["decomposers", "nutrient-cycling"]
+    "question": "The role of an organism in its habitat is its",
+    "options": ["niche", "trophic level", "population", "biome"],
+    "answer": 0,
+    "explanation": "Niche describes an organism's role."
   },
   {
-    "id": "bio_ecology_003",
-    "subject": "biology",
-    "topic": "Ecology",
-    "difficulty": "hard",
-    "question": "In an energy pyramid, what happens to energy as it moves up trophic levels?",
-    "options": ["Increases", "Decreases", "Stays constant", "Fluctuates randomly"],
-    "answer_index": 1,
-    "explanation": "Energy decreases as it moves up trophic levels due to the 10% rule - only about 10% of energy is transferred to the next level.",
-    "tags": ["energy-pyramid", "energy-transfer"]
+    "id": 9,
+    "topic": "Genetics",
+    "question": "A segment of DNA that codes for a trait is a",
+    "options": ["chromosome", "gene", "nucleus", "allele"],
+    "answer": 1,
+    "explanation": "Genes are DNA segments that code for traits."
   },
   {
-    "id": "bio_evolution_001",
-    "subject": "biology",
-    "topic": "Evolution",
-    "difficulty": "medium",
-    "question": "What is natural selection?",
-    "options": ["Random genetic changes", "Survival of the fittest", "Artificial breeding", "Environmental destruction"],
-    "answer_index": 1,
-    "explanation": "Natural selection is the process where organisms with favorable traits are more likely to survive and reproduce.",
-    "tags": ["natural-selection", "darwin"]
+    "id": 10,
+    "topic": "Genetics",
+    "question": "Offspring receive half their chromosomes from each",
+    "options": ["organ", "parent", "tissue", "species"],
+    "answer": 1,
+    "explanation": "Chromosomes are inherited from both parents."
   },
   {
-    "id": "bio_evolution_002",
-    "subject": "biology",
-    "topic": "Evolution",
-    "difficulty": "hard",
-    "question": "What provides evidence for common ancestry among organisms?",
-    "options": ["Similar habitats", "Homologous structures", "Same diet", "Same size"],
-    "answer_index": 1,
-    "explanation": "Homologous structures (similar bone structure despite different functions) suggest common evolutionary origin.",
-    "tags": ["homologous-structures", "common-ancestry"]
+    "id": 11,
+    "topic": "Human Physiology",
+    "question": "The organ that pumps blood is the",
+    "options": ["lung", "heart", "kidney", "liver"],
+    "answer": 1,
+    "explanation": "The heart pumps blood throughout the body."
   },
   {
-    "id": "bio_human_001",
-    "subject": "biology",
-    "topic": "Human Biology",
-    "difficulty": "easy",
-    "question": "Which system is responsible for transporting oxygen in the human body?",
-    "options": ["Digestive system", "Circulatory system", "Nervous system", "Excretory system"],
-    "answer_index": 1,
-    "explanation": "The circulatory system, including the heart and blood vessels, transports oxygen throughout the body via red blood cells.",
-    "tags": ["circulatory-system", "oxygen-transport"]
+    "id": 12,
+    "topic": "Human Physiology",
+    "question": "The main function of red blood cells is to",
+    "options": ["fight infection", "carry oxygen", "digest food", "produce hormones"],
+    "answer": 1,
+    "explanation": "Red blood cells transport oxygen."
   },
   {
-    "id": "bio_human_002",
-    "subject": "biology",
-    "topic": "Human Biology",
-    "difficulty": "medium",
-    "question": "Where does most nutrient absorption occur in the digestive system?",
-    "options": ["Stomach", "Large intestine", "Small intestine", "Esophagus"],
-    "answer_index": 2,
-    "explanation": "The small intestine has villi and microvilli that greatly increase surface area for maximum nutrient absorption.",
-    "tags": ["digestive-system", "absorption"]
-  },
-  {
-    "id": "bio_human_003",
-    "subject": "biology",
-    "topic": "Human Biology",
-    "difficulty": "hard",
-    "question": "What is the function of nephrons in the kidney?",
-    "options": ["Hormone production", "Blood filtration", "Enzyme secretion", "Oxygen storage"],
-    "answer_index": 1,
-    "explanation": "Nephrons are the functional units of the kidney that filter blood, removing waste products and excess water to form urine.",
-    "tags": ["kidney", "nephrons", "filtration"]
-  },
-  {
-    "id": "bio_plant_001",
-    "subject": "biology",
+    "id": 13,
     "topic": "Plant Biology",
-    "difficulty": "easy",
-    "question": "What process do plants use to make their own food?",
-    "options": ["Respiration", "Photosynthesis", "Fermentation", "Digestion"],
-    "answer_index": 1,
-    "explanation": "Photosynthesis is the process where plants use sunlight, carbon dioxide, and water to produce glucose and oxygen.",
-    "tags": ["photosynthesis", "autotrophs"]
+    "question": "Water transport in plants occurs through",
+    "options": ["phloem", "xylem", "cambium", "stoma"],
+    "answer": 1,
+    "explanation": "Xylem transports water and minerals."
   },
   {
-    "id": "bio_plant_002",
-    "subject": "biology",
+    "id": 14,
     "topic": "Plant Biology",
-    "difficulty": "medium",
-    "question": "Which part of the plant is responsible for water and mineral absorption?",
-    "options": ["Leaves", "Stem", "Roots", "Flowers"],
-    "answer_index": 2,
-    "explanation": "Roots absorb water and minerals from the soil through root hairs, which increase the surface area for absorption.",
-    "tags": ["root-function", "absorption"]
+    "question": "Transpiration mainly occurs through",
+    "options": ["roots", "stomata", "flowers", "seeds"],
+    "answer": 1,
+    "explanation": "Stomata are openings where transpiration occurs."
   },
   {
-    "id": "bio_plant_003",
-    "subject": "biology",
-    "topic": "Plant Biology",
-    "difficulty": "hard",
-    "question": "What is transpiration in plants?",
-    "options": ["Water absorption", "Water loss through stomata", "Sugar production", "Root growth"],
-    "answer_index": 1,
-    "explanation": "Transpiration is the process of water loss from plant leaves through stomata, which helps in cooling and nutrient transport.",
-    "tags": ["transpiration", "water-transport"]
-  },
-  {
-    "id": "bio_micro_001",
-    "subject": "biology",
-    "topic": "Microbiology",
-    "difficulty": "easy",
-    "question": "Which of these is a prokaryotic organism?",
-    "options": ["Plant", "Animal", "Bacteria", "Fungus"],
-    "answer_index": 2,
-    "explanation": "Bacteria are prokaryotic organisms, meaning they lack a membrane-bound nucleus and other organelles.",
-    "tags": ["prokaryotes", "bacteria"]
-  },
-  {
-    "id": "bio_micro_002",
-    "subject": "biology",
-    "topic": "Microbiology",
-    "difficulty": "medium",
-    "question": "What is the main difference between viruses and bacteria?",
-    "options": ["Size only", "Viruses need a host to reproduce", "Bacteria are smaller", "No difference"],
-    "answer_index": 1,
-    "explanation": "Viruses are obligate intracellular parasites that require a host cell to reproduce, while bacteria can reproduce independently.",
-    "tags": ["viruses", "bacteria", "reproduction"]
-  },
-  {
-    "id": "bio_reproduction_001",
-    "subject": "biology",
+    "id": 15,
     "topic": "Reproduction",
-    "difficulty": "medium",
-    "question": "What is the difference between mitosis and meiosis?",
-    "options": ["No difference", "Mitosis produces identical cells, meiosis produces different cells", "Meiosis is faster", "Mitosis only occurs in animals"],
-    "answer_index": 1,
-    "explanation": "Mitosis produces two identical diploid cells for growth and repair, while meiosis produces four genetically different haploid gametes.",
-    "tags": ["mitosis", "meiosis", "cell-division"]
+    "question": "Fertilization is the fusion of",
+    "options": ["two nuclei", "two embryos", "two ovaries", "two placentas"],
+    "answer": 0,
+    "explanation": "Fertilization is the fusion of male and female nuclei."
   },
   {
-    "id": "bio_classification_001",
-    "subject": "biology",
+    "id": 16,
+    "topic": "Reproduction",
+    "question": "Asexual reproduction produces offspring that are",
+    "options": ["genetically identical", "genetically different", "always larger", "always smaller"],
+    "answer": 0,
+    "explanation": "Asexual reproduction creates clones of the parent."
+  },
+  {
+    "id": 17,
     "topic": "Classification",
-    "difficulty": "medium",
-    "question": "What is the correct order of taxonomic hierarchy from largest to smallest?",
-    "options": ["Kingdom, Phylum, Class, Order, Family, Genus, Species", "Species, Genus, Family, Order, Class, Phylum, Kingdom", "Phylum, Kingdom, Class, Order, Family, Genus, Species", "Kingdom, Class, Phylum, Order, Family, Genus, Species"],
-    "answer_index": 0,
-    "explanation": "The taxonomic hierarchy from largest to smallest is: Kingdom, Phylum, Class, Order, Family, Genus, Species (King Philip Came Over For Good Soup).",
-    "tags": ["taxonomy", "classification"]
+    "question": "The scientific naming system uses",
+    "options": ["one name", "two names", "three names", "four names"],
+    "answer": 1,
+    "explanation": "Binomial nomenclature uses two names."
+  },
+  {
+    "id": 18,
+    "topic": "Microbiology",
+    "question": "Bacteria are classified as",
+    "options": ["multicellular", "unicellular", "nonliving", "plant"],
+    "answer": 1,
+    "explanation": "Bacteria are single-celled organisms."
+  },
+  {
+    "id": 19,
+    "topic": "Evolution",
+    "question": "Natural selection favors organisms that",
+    "options": ["are largest", "are fastest", "are best adapted", "live longest"],
+    "answer": 2,
+    "explanation": "Better adapted organisms survive and reproduce more."
+  },
+  {
+    "id": 20,
+    "topic": "Health",
+    "question": "A balanced diet should include",
+    "options": ["only carbohydrates", "only proteins", "all food groups", "only fats"],
+    "answer": 2,
+    "explanation": "A balanced diet includes a variety of food groups."
   }
 ]
