@@ -548,6 +548,25 @@ class Analytics {
         
         return { strong, medium, weak };
     }
+    
+    calculateSubjectImprovement(subject, interactions) {
+        if (interactions.length < 4) return 0;
+        
+        // Sort by timestamp to see progression
+        const sorted = interactions.sort((a, b) => a.timestamp - b.timestamp);
+        
+        // Compare first half vs second half
+        const midpoint = Math.floor(sorted.length / 2);
+        const firstHalf = sorted.slice(0, midpoint);
+        const secondHalf = sorted.slice(midpoint);
+        
+        if (firstHalf.length === 0 || secondHalf.length === 0) return 0;
+        
+        const firstAccuracy = (firstHalf.filter(i => i.isCorrect).length / firstHalf.length) * 100;
+        const secondAccuracy = (secondHalf.filter(i => i.isCorrect).length / secondHalf.length) * 100;
+        
+        return Utils.roundTo(secondAccuracy - firstAccuracy, 1);
+    }
 
     // Helper methods for calculations
     getInteractions(timeRange) {
