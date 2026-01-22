@@ -395,7 +395,7 @@ class Analytics {
         return recommendations.slice(0, 5); // Return top 5 recommendations
     }
 
-    // Study insights
+    // Study insights  
     getStudyInsights() {
         const metrics = this.getPerformanceMetrics('month');
         const sessions = this.getSessions('month');
@@ -421,6 +421,132 @@ class Analytics {
         };
         
         return insights;
+    }
+    
+    // Missing methods implementation
+    calculateOverallTrend(metrics) {
+        return metrics.progressTrend || { direction: 'stable', change: 0 };
+    }
+    
+    identifyStrengthAreas(metrics) {
+        return Object.entries(metrics.topicStats || {})
+            .filter(([_, stats]) => stats.accuracy >= 80)
+            .map(([topic, stats]) => ({ topic, accuracy: stats.accuracy }))
+            .slice(0, 3);
+    }
+    
+    identifyImprovementAreas(metrics) {
+        return Object.entries(metrics.topicStats || {})
+            .filter(([_, stats]) => stats.needsAttention)
+            .map(([topic, stats]) => ({ topic, accuracy: stats.accuracy }))
+            .slice(0, 3);
+    }
+    
+    findOptimalStudyTime(sessions) {
+        if (sessions.length === 0) return 'Not enough data';
+        
+        // Group sessions by hour of day
+        const hourStats = {};
+        sessions.forEach(session => {
+            const hour = new Date(session.startTime).getHours();
+            if (!hourStats[hour]) hourStats[hour] = { total: 0, accuracy: 0 };
+            hourStats[hour].total++;
+            hourStats[hour].accuracy += session.accuracy || 0;
+        });
+        
+        // Find best performing hour
+        let bestHour = 0;
+        let bestAccuracy = 0;
+        Object.entries(hourStats).forEach(([hour, stats]) => {
+            const avgAccuracy = stats.accuracy / stats.total;
+            if (avgAccuracy > bestAccuracy) {
+                bestAccuracy = avgAccuracy;
+                bestHour = parseInt(hour);
+            }
+        });
+        
+        return `${bestHour}:00 - ${bestHour + 1}:00`;
+    }
+    
+    findOptimalSessionLength(sessions) {
+        if (sessions.length === 0) return 'Not enough data';
+        
+        const avgDuration = sessions.reduce((sum, s) => sum + (s.duration || 0), 0) / sessions.length;
+        const minutes = Math.round(avgDuration / (60 * 1000));
+        
+        return `${minutes} minutes`;
+    }
+    
+    calculateWeeklyProgress() {
+        const thisWeek = this.getPerformanceMetrics('week');
+        return {
+            questionsAnswered: thisWeek.totalQuestions,
+            accuracy: thisWeek.accuracy,
+            studyTime: thisWeek.totalTimeSpent
+        };
+    }
+    
+    projectGrowth(metrics) {
+        const trend = metrics.progressTrend;
+        if (trend.direction === 'improving') {
+            return `+${trend.change}% improvement expected`;
+        } else if (trend.direction === 'declining') {
+            return `Risk of ${Math.abs(trend.change)}% decline`;
+        } else {
+            return 'Stable performance expected';
+        }
+    }
+    
+    calculateLearningVelocity(metrics) {
+        return {
+            questionsPerDay: Math.round(metrics.totalQuestions / 7),
+            accuracyTrend: metrics.progressTrend.direction,
+            pace: metrics.totalQuestions > 50 ? 'High' : metrics.totalQuestions > 20 ? 'Medium' : 'Low'
+        };
+    }
+    
+    calculateRetentionRate() {
+        const interactions = this.getInteractions('month');
+        if (interactions.length < 10) return 0;
+        
+        // Simple retention calculation based on repeated correct answers
+        const questionResults = {};
+        interactions.forEach(interaction => {
+            if (!questionResults[interaction.questionId]) {
+                questionResults[interaction.questionId] = [];
+            }
+            questionResults[interaction.questionId].push(interaction.isCorrect);
+        });
+        
+        let retainedCount = 0;
+        let totalRepeated = 0;
+        
+        Object.values(questionResults).forEach(results => {
+            if (results.length > 1) {
+                totalRepeated++;
+                // If the most recent attempt was correct, consider it retained
+                if (results[results.length - 1]) {
+                    retainedCount++;
+                }
+            }
+        });
+        
+        return totalRepeated > 0 ? Math.round((retainedCount / totalRepeated) * 100) : 0;
+    }
+    
+    calculateMasteryDistribution(metrics) {
+        const topics = Object.values(metrics.topicStats || {});
+        if (topics.length === 0) return { strong: 0, medium: 0, weak: 0 };
+        
+        let strong = 0, medium = 0, weak = 0;
+        
+        topics.forEach(topic => {
+            if (topic.accuracy >= 80) strong++;
+            else if (topic.accuracy >= 60) medium++;
+            else weak++;
+        });
+        
+        return { strong, medium, weak };
     }
 
     // Helper methods for calculations

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test WAEC AI Features</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+            max-width: 800px; 
+            margin: 0 auto;
+        }
+        .test-btn { 
+            display: block; 
+            margin: 10px 0; 
+            padding: 12px 20px; 
+            background: #667eea; 
+            color: white; 
+            border: none; 
+            border-radius: 8px; 
+            cursor: pointer;
+            width: 100%;
+        }
+        .test-btn:hover { 
+            background: #5a67d8; 
+        }
+        .result {
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 WAEC AI Features Test</h1>
+    <p>Click the buttons below to test the new AI educational features:</p>
+    
+    <button class="test-btn" onclick="testSmartHints()">💡 Test Smart Hints</button>
+    <button class="test-btn" onclick="testTeacherAlerts()">🚨 Test Teacher Alerts</button>
+    <button class="test-btn" onclick="testParentReports()">📋 Test Parent Reports</button>
+    <button class="test-btn" onclick="testAllFeatures()">🧪 Test All Features</button>
+    
+    <div id="results"></div>
+    
+    <!-- Include all the WAEC Ace scripts -->
+    <script src="assets/utils.js"></script>
+    <script src="assets/storage.js"></script>
+    <script src="assets/selector.js"></script>
+    <script src="assets/analytics.js"></script>
+    <script src="assets/ui.js"></script>
+    <script src="assets/app.js"></script>
+    
+    <script>
+        let app;
+        
+        // Wait for everything to load
+        window.addEventListener('DOMContentLoaded', () => {
+            // Initialize the app
+            app = new WAECAceApp();
+            
+            showResult('✅ WAEC Ace initialized successfully!', 'success');
+        });
+        
+        function showResult(message, type = 'info') {
+            const results = document.getElementById('results');
+            const result = document.createElement('div');
+            result.className = 'result';
+            result.style.borderLeftColor = type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#667eea';
+            result.style.borderLeftWidth = '4px';
+            result.innerHTML = message;
+            results.appendChild(result);
+            
+            // Auto-scroll to show new result
+            result.scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function testSmartHints() {
+            try {
+                const demoQuestion = {
+                    id: 'test_math_001',
+                    subject: 'math',
+                    topic: 'Algebra',
+                    tags: ['like-terms'],
+                    question: 'Simplify: 3x + 2x - x',
+                    explanation: 'Combine like terms: 3x + 2x - x = 4x'
+                };
+                
+                const hint = app.generateSmartHint(demoQuestion);
+                showResult(`💡 <strong>Smart Hint Generated:</strong><br>
+                           <strong>${hint.title}</strong><br>
+                           ${hint.content}`, 'success');
+                           
+                // Also show the hint modal
+                app.displayHintModal(hint);
+                
+            } catch (error) {
+                showResult(`❌ Error testing smart hints: ${error.message}`, 'error');
+                console.error('Smart hints error:', error);
+            }
+        }
+        
+        function testTeacherAlerts() {
+            try {
+                const alerts = app.demoStudentAlerts();
+                showResult(`🚨 <strong>Teacher Alerts Generated:</strong><br>
+                           Found ${alerts.length} alerts<br>
+                           <em>Check browser console for full details</em>`, 'success');
+                           
+            } catch (error) {
+                showResult(`❌ Error testing teacher alerts: ${error.message}`, 'error');
+                console.error('Teacher alerts error:', error);
+            }
+        }
+        
+        function testParentReports() {
+            try {
+                const report = app.showParentReport();
+                showResult(`📋 <strong>Parent Report Generated:</strong><br>
+                           ${report.summary}<br>
+                           <em>Check browser console for full report</em>`, 'success');
+                           
+            } catch (error) {
+                showResult(`❌ Error testing parent reports: ${error.message}`, 'error');
+                console.error('Parent reports error:', error);
+            }
+        }
+        
+        function testAllFeatures() {
+            try {
+                const results = app.testNewFeatures();
+                showResult(`🧪 <strong>All Features Tested Successfully!</strong><br>
+                           - Smart Hints: ${results.hints ? '✅' : '❌'}<br>
+                           - Teacher Alerts: ${results.alerts ? '✅' : '❌'}<br>
+                           - Parent Reports: ${results.parentReport ? '✅' : '❌'}<br>
+                           <em>Check browser console for detailed results</em>`, 'success');
+                           
+            } catch (error) {
+                showResult(`❌ Error testing all features: ${error.message}`, 'error');
+                console.error('All features test error:', error);
+            }
+        }
+    </script>
+</body>
+</html>
