@@ -514,6 +514,445 @@ class Analytics {
         return streak;
     }
 
+    // Teacher Dashboard - Student Alert System
+    generateStudentAlerts() {
+        const metrics = this.getPerformanceMetrics('week');
+        const alerts = [];
+        
+        // Critical performance alerts
+        if (metrics.accuracy < 50) {
+            alerts.push({
+                type: 'critical_performance',
+                priority: 'critical',
+                title: 'Urgent: Very Low Accuracy',
+                description: `Student accuracy is ${metrics.accuracy}% - needs immediate help`,
+                action: 'Schedule one-on-one session',
+                details: {
+                    accuracy: metrics.accuracy,
+                    questionsAttempted: metrics.totalQuestions
+                }
+            });
+        } else if (metrics.accuracy < 60) {
+            alerts.push({
+                type: 'low_performance',
+                priority: 'high',
+                title: 'Low Accuracy Alert',
+                description: `Student struggling with ${metrics.accuracy}% accuracy`,
+                action: 'Review weak topics together',
+                details: {
+                    accuracy: metrics.accuracy,
+                    questionsAttempted: metrics.totalQuestions
+                }
+            });
+        }
+        
+        // Declining performance trend
+        if (metrics.progressTrend.direction === 'declining') {
+            alerts.push({
+                type: 'declining_trend',
+                priority: 'high',
+                title: 'Performance Declining',
+                description: `Accuracy dropped by ${Math.abs(metrics.progressTrend.change)}%`,
+                action: 'Check for learning obstacles',
+                details: {
+                    change: metrics.progressTrend.change,
+                    previousAccuracy: metrics.progressTrend.firstHalfAccuracy,
+                    currentAccuracy: metrics.progressTrend.secondHalfAccuracy
+                }
+            });
+        }
+        
+        // Inconsistent study patterns
+        if (metrics.consistency < 0.3) {
+            alerts.push({
+                type: 'inconsistent_study',
+                priority: 'medium',
+                title: 'Inconsistent Study Pattern',
+                description: 'Student has irregular practice sessions',
+                action: 'Help establish study routine',
+                details: {
+                    consistency: metrics.consistency,
+                    streak: metrics.studyStreak
+                }
+            });
+        }
+        
+        // Subject-specific struggles
+        Object.entries(metrics.subjectStats).forEach(([subject, stats]) => {
+            if (stats.accuracy < 50) {
+                alerts.push({
+                    type: 'subject_struggle',
+                    priority: 'high',
+                    title: `${Utils.capitalize(subject)} Crisis`,
+                    description: `Only ${stats.accuracy}% accuracy in ${subject}`,
+                    action: `Focus on ${subject} fundamentals`,
+                    details: {
+                        subject,
+                        accuracy: stats.accuracy,
+                        questionsAnswered: stats.questionsAnswered
+                    }
+                });
+            }
+        });
+        
+        // Topic mastery alerts
+        const criticalTopics = Object.entries(metrics.topicStats)
+            .filter(([_, stats]) => stats.needsAttention && stats.accuracy < 40)
+            .map(([topic, stats]) => ({ topic, ...stats }));
+            
+        if (criticalTopics.length > 0) {
+            alerts.push({
+                type: 'critical_topics',
+                priority: 'high',
+                title: 'Critical Knowledge Gaps',
+                description: `Student failing in: ${criticalTopics.map(t => t.topic).join(', ')}`,
+                action: 'Address foundational concepts',
+                details: {
+                    topics: criticalTopics
+                }
+            });
+        }
+        
+        // Engagement concerns
+        if (metrics.studyStreak === 0 && metrics.totalQuestions > 0) {
+            const lastSession = this.getSessions('week')[0];
+            const daysSinceLastSession = lastSession ? 
+                Math.floor((Date.now() - lastSession.startTime) / (24 * 60 * 60 * 1000)) : 7;
+                
+            if (daysSinceLastSession > 3) {
+                alerts.push({
+                    type: 'disengagement',
+                    priority: 'medium',
+                    title: 'Student Disengagement',
+                    description: `No practice for ${daysSinceLastSession} days`,
+                    action: 'Check motivation and obstacles',
+                    details: {
+                        daysSinceLastSession,
+                        totalQuestions: metrics.totalQuestions
+                    }
+                });
+            }
+        }
+        
+        return alerts.sort((a, b) => {
+            const priorityOrder = { critical: 3, high: 2, medium: 1, low: 0 };
+            return priorityOrder[b.priority] - priorityOrder[a.priority];
+        });
+    }
+    
+    // Export data for teacher dashboard
+    exportStudentData() {
+        const metrics = this.getPerformanceMetrics('month');
+        const alerts = this.generateStudentAlerts();
+        const insights = this.getStudyInsights();
+        
+        return {
+            studentId: this.getStudentId(),
+            lastUpdated: new Date().toISOString(),
+            alerts,
+            summary: {
+                overallAccuracy: metrics.accuracy,
+                totalQuestions: metrics.totalQuestions,
+                studyStreak: metrics.studyStreak,
+                consistency: metrics.consistency,
+                trend: metrics.progressTrend.direction
+            },
+            subjects: metrics.subjectStats,
+            criticalTopics: Object.entries(metrics.topicStats)
+                .filter(([_, stats]) => stats.needsAttention)
+                .map(([topic, stats]) => ({
+                    topic,
+                    subject: stats.subject,
+                    accuracy: stats.accuracy,
+                    mastery: stats.mastery
+                })),
+            recommendations: this.generateRecommendations(),
+            insights
+        };
+    }
+    
+    getStudentId() {
+        // Generate or retrieve a unique student identifier
+        let studentId = Utils.storage.get('waec_student_id');
+        if (!studentId) {
+            studentId = 'student_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+            Utils.storage.set('waec_student_id', studentId);
+        }
+        return studentId;
+    }
+    
+    // Parent Progress Report System
+    generateParentReport(timeRange = 'week') {
+        const metrics = this.getPerformanceMetrics(timeRange);
+        const insights = this.getStudyInsights();
+        const recommendations = this.generateRecommendations();
+        
+        const report = {
+            reportDate: new Date().toLocaleDateString(),
+            timeRange: timeRange,
+            studentName: this.getStudentName(),
+            
+            // Study habits summary
+            studyHabits: {
+                totalStudyTime: this.formatStudyTime(metrics.totalTimeSpent),
+                sessionsCompleted: metrics.sessionsCompleted,
+                studyStreak: metrics.studyStreak,
+                consistency: this.getConsistencyDescription(metrics.consistency),
+                averageSessionTime: this.formatStudyTime(metrics.totalTimeSpent / Math.max(1, metrics.sessionsCompleted))
+            },
+            
+            // Academic performance
+            performance: {
+                overallAccuracy: `${metrics.accuracy}%`,
+                totalQuestionsAnswered: metrics.totalQuestions,
+                correctAnswers: metrics.correctAnswers,
+                trend: this.getTrendDescription(metrics.progressTrend),
+                grade: this.calculateLetterGrade(metrics.accuracy)
+            },
+            
+            // Subject breakdown
+            subjects: Object.entries(metrics.subjectStats).map(([subject, stats]) => ({
+                name: Utils.capitalize(subject),
+                accuracy: `${stats.accuracy}%`,
+                questionsAnswered: stats.questionsAnswered,
+                timeSpent: this.formatStudyTime(stats.timeSpent),
+                grade: this.calculateLetterGrade(stats.accuracy),
+                status: this.getSubjectStatus(stats.accuracy, stats.improvement)
+            })),
+            
+            // Areas needing attention
+            areasNeedingAttention: Object.entries(metrics.topicStats)
+                .filter(([_, stats]) => stats.needsAttention)
+                .map(([topic, stats]) => ({
+                    topic,
+                    subject: Utils.capitalize(stats.subject),
+                    accuracy: `${stats.accuracy}%`,
+                    mastery: `${stats.mastery}%`,
+                    priority: stats.accuracy < 40 ? 'High' : 'Medium'
+                }))
+                .sort((a, b) => parseFloat(a.accuracy) - parseFloat(b.accuracy))
+                .slice(0, 5),
+            
+            // Strengths
+            strengths: Object.entries(metrics.topicStats)
+                .filter(([_, stats]) => stats.accuracy >= 80 && stats.mastery >= 75)
+                .map(([topic, stats]) => ({
+                    topic,
+                    subject: Utils.capitalize(stats.subject),
+                    accuracy: `${stats.accuracy}%`,
+                    mastery: `${stats.mastery}%`
+                }))
+                .sort((a, b) => parseFloat(b.accuracy) - parseFloat(a.accuracy))
+                .slice(0, 5),
+            
+            // Parent-friendly recommendations
+            parentRecommendations: this.generateParentRecommendations(metrics, recommendations),
+            
+            // Motivational insights
+            achievements: this.getAchievements(metrics),
+            
+            // Next steps
+            nextSteps: this.getNextSteps(metrics, recommendations)
+        };
+        
+        return report;
+    }
+    
+    getStudentName() {
+        return Utils.storage.get('waec_student_name', 'Your Child');
+    }
+    
+    setStudentName(name) {
+        Utils.storage.set('waec_student_name', name);
+    }
+    
+    formatStudyTime(milliseconds) {
+        const hours = Math.floor(milliseconds / (1000 * 60 * 60));
+        const minutes = Math.floor((milliseconds % (1000 * 60 * 60)) / (1000 * 60));
+        
+        if (hours > 0) {
+            return `${hours}h ${minutes}m`;
+        } else {
+            return `${minutes}m`;
+        }
+    }
+    
+    getConsistencyDescription(consistency) {
+        if (consistency >= 0.8) return 'Excellent - studies regularly';
+        if (consistency >= 0.6) return 'Good - mostly consistent';
+        if (consistency >= 0.4) return 'Fair - somewhat irregular';
+        return 'Needs improvement - irregular study pattern';
+    }
+    
+    getTrendDescription(progressTrend) {
+        const change = Math.abs(progressTrend.change);
+        if (progressTrend.direction === 'improving') {
+            return `Improving - accuracy up ${change}%`;
+        } else if (progressTrend.direction === 'declining') {
+            return `Declining - accuracy down ${change}%`;
+        } else {
+            return 'Stable performance';
+        }
+    }
+    
+    calculateLetterGrade(accuracy) {
+        if (accuracy >= 90) return 'A+';
+        if (accuracy >= 80) return 'A';
+        if (accuracy >= 70) return 'B';
+        if (accuracy >= 60) return 'C';
+        if (accuracy >= 50) return 'D';
+        return 'F';
+    }
+    
+    getSubjectStatus(accuracy, improvement) {
+        if (accuracy >= 80) {
+            return improvement > 5 ? 'Excellent & Improving' : 'Excellent';
+        } else if (accuracy >= 70) {
+            return improvement > 5 ? 'Good & Improving' : accuracy < 75 ? 'Good - Room for Growth' : 'Good';
+        } else if (accuracy >= 60) {
+            return improvement > 5 ? 'Fair & Improving' : 'Fair - Needs Attention';
+        } else {
+            return improvement > 5 ? 'Struggling but Improving' : 'Needs Immediate Help';
+        }
+    }
+    
+    generateParentRecommendations(metrics, recommendations) {
+        const parentRecs = [];
+        
+        // Study habit recommendations
+        if (metrics.consistency < 0.5) {
+            parentRecs.push({
+                category: 'Study Routine',
+                recommendation: 'Help establish a daily 15-20 minute WAEC practice routine',
+                reason: 'Consistent short sessions are more effective than long cramming sessions'
+            });
+        }
+        
+        if (metrics.studyStreak === 0) {
+            parentRecs.push({
+                category: 'Motivation',
+                recommendation: 'Encourage daily practice with small rewards or recognition',
+                reason: 'Building momentum is key to exam success'
+            });
+        }
+        
+        // Academic recommendations
+        const criticalSubjects = Object.entries(metrics.subjectStats)
+            .filter(([_, stats]) => stats.accuracy < 60);
+            
+        if (criticalSubjects.length > 0) {
+            parentRecs.push({
+                category: 'Academic Support',
+                recommendation: `Consider extra help in ${criticalSubjects.map(([subject]) => Utils.capitalize(subject)).join(', ')}`,
+                reason: 'These subjects need focused attention before the WAEC exam'
+            });
+        }
+        
+        // Positive reinforcement
+        if (metrics.accuracy >= 70) {
+            parentRecs.push({
+                category: 'Encouragement',
+                recommendation: 'Celebrate your child\'s good progress and maintain momentum',
+                reason: 'Positive reinforcement helps maintain motivation for continued success'
+            });
+        }
+        
+        return parentRecs.slice(0, 4);
+    }
+    
+    getAchievements(metrics) {
+        const achievements = [];
+        
+        if (metrics.studyStreak >= 7) {
+            achievements.push(`🔥 ${metrics.studyStreak}-day study streak!`);
+        }
+        
+        if (metrics.accuracy >= 80) {
+            achievements.push(`🎯 High accuracy (${metrics.accuracy}%)`);
+        }
+        
+        const excellentSubjects = Object.entries(metrics.subjectStats)
+            .filter(([_, stats]) => stats.accuracy >= 80)
+            .map(([subject]) => Utils.capitalize(subject));
+            
+        if (excellentSubjects.length > 0) {
+            achievements.push(`⭐ Excellent in ${excellentSubjects.join(', ')}`);
+        }
+        
+        if (metrics.totalQuestions >= 100) {
+            achievements.push(`📚 Answered ${metrics.totalQuestions}+ questions`);
+        }
+        
+        if (metrics.progressTrend.direction === 'improving') {
+            achievements.push(`📈 Performance improving (+${metrics.progressTrend.change}%)`);
+        }
+        
+        return achievements;
+    }
+    
+    getNextSteps(metrics, recommendations) {
+        const steps = [];
+        
+        // Get top recommendations and convert to next steps
+        recommendations.slice(0, 3).forEach(rec => {
+            steps.push({
+                action: rec.title,
+                description: rec.description,
+                timeframe: this.getTimeframeForRecommendation(rec.type)
+            });
+        });
+        
+        // Add exam readiness step if close to exam
+        const examDate = Utils.storage.get('waec_exam_date');
+        if (examDate) {
+            const daysToExam = Math.ceil((new Date(examDate) - new Date()) / (24 * 60 * 60 * 1000));
+            if (daysToExam <= 90 && daysToExam > 0) {
+                steps.unshift({
+                    action: 'Exam Preparation Focus',
+                    description: `${daysToExam} days to WAEC - intensify practice in weak areas`,
+                    timeframe: 'Immediate'
+                });
+            }
+        }
+        
+        return steps;
+    }
+    
+    getTimeframeForRecommendation(type) {
+        switch (type) {
+            case 'improvement': return 'This week';
+            case 'topics': return 'Next 2 weeks';
+            case 'consistency': return 'Daily';
+            case 'speed': return 'Next week';
+            default: return 'Ongoing';
+        }
+    }
+    
+    // Generate shareable parent report
+    generateShareableReport(timeRange = 'week') {
+        const report = this.generateParentReport(timeRange);
+        
+        return {
+            title: `WAEC Progress Report - ${report.reportDate}`,
+            summary: `${report.studentName} has completed ${report.studyHabits.sessionsCompleted} practice sessions with ${report.performance.overallAccuracy} accuracy`,
+            data: report,
+            shareText: this.generateShareText(report)
+        };
+    }
+    
+    generateShareText(report) {
+        return `📊 WAEC Progress Update
+        
+📚 Study Time: ${report.studyHabits.totalStudyTime}
+🎯 Overall Accuracy: ${report.performance.overallAccuracy}
+📈 Trend: ${report.performance.trend}
+🔥 Study Streak: ${report.studyHabits.studyStreak} days
+
+${report.achievements.length > 0 ? '🏆 Achievements:\n' + report.achievements.join('\n') + '\n' : ''}
+        
+Keep up the great work! 💪`;
+    }
+
     // Real-time insights during practice
     updateRealTimeInsights() {
         // Calculate live session statistics

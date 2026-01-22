@@ -1,4 +1,4 @@
-/* Modern WAEC Ace Styles */
+/* Modern WAEC Ace Styles - Enhanced with AI Educational Features */
 
 /* CSS Custom Properties */
 :root {
@@ -1346,5 +1346,186 @@ body {
     
     .action-card {
         padding: var(--space-md);
+    }
+    
+    .ai-features-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-sm);
+    }
+    
+    .ai-feature-card {
+        padding: var(--space-md);
+    }
+    
+    .ai-feature-icon {
+        font-size: 1.5rem;
+        margin-bottom: var(--space-xs);
+    }
+    
+    .ai-feature-content h3 {
+        font-size: 1rem;
+        margin-bottom: var(--space-xs);
+    }
+    
+    .ai-feature-content p {
+        font-size: 0.8rem;
+    }
+}
+
+/* AI Educational Features Styles */
+.ai-features-section {
+    margin-bottom: var(--space-2xl);
+    padding: 0 var(--space-lg);
+}
+
+.ai-features-section h2 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: var(--space-lg);
+    text-align: center;
+}
+
+.ai-features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-lg);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ai-feature-card {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+}
+
+.ai-feature-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-blue);
+}
+
+.ai-feature-card:active {
+    transform: translateY(0);
+}
+
+.ai-feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: var(--space-md);
+    display: block;
+}
+
+.ai-feature-content h3 {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: var(--space-sm);
+}
+
+.ai-feature-content p {
+    color: var(--gray-600);
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+/* Enhanced Navigation for Teacher/Parent Features */
+.nav-btn[id="teacher-dashboard-btn"],
+.nav-btn[id="parent-report-btn"] {
+    position: relative;
+}
+
+.nav-btn[id="teacher-dashboard-btn"]:hover::after {
+    content: 'Teacher Dashboard';
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--gray-900);
+    color: white;
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    white-space: nowrap;
+    z-index: 1000;
+}
+
+.nav-btn[id="parent-report-btn"]:hover::after {
+    content: 'Parent Report';
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--gray-900);
+    color: white;
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    white-space: nowrap;
+    z-index: 1000;
+}
+
+/* AI Feature Demo Specific Styles */
+.ai-feature-card[id="smart-hints-demo"] {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-color: var(--accent-orange);
+}
+
+.ai-feature-card[id="teacher-alerts-demo"] {
+    background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+    border-color: var(--error);
+}
+
+.ai-feature-card[id="parent-insights-demo"] {
+    background: linear-gradient(135deg, #ddd6fe 0%, #c7d2fe 100%);
+    border-color: var(--accent-purple);
+}
+
+.ai-feature-card[id="test-all-features"] {
+    background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+    border-color: var(--success);
+}
+
+/* Mobile Responsiveness for AI Features */
+@media (max-width: 768px) {
+    .ai-features-section {
+        padding: 0 var(--space-md);
+    }
+    
+    .ai-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-md);
+    }
+    
+    .ai-feature-card {
+        padding: var(--space-md);
+    }
+    
+    .ai-feature-icon {
+        font-size: 2rem;
+        margin-bottom: var(--space-sm);
+    }
+    
+    .ai-feature-content h3 {
+        font-size: 1rem;
+        margin-bottom: var(--space-xs);
+    }
+    
+    .ai-feature-content p {
+        font-size: 0.85rem;
+    }
+    
+    /* Hide tooltips on mobile */
+    .nav-btn[id="teacher-dashboard-btn"]:hover::after,
+    .nav-btn[id="parent-report-btn"]:hover::after {
+        display: none;
     }
 }

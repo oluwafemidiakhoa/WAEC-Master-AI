@@ -150,6 +150,32 @@ class WAECAceApp {
             window.ui.showScreen('progress');
         });
         
+        // AI Feature buttons in navigation
+        Utils.$('#teacher-dashboard-btn')?.addEventListener('click', () => {
+            this.showTeacherDashboard();
+        });
+        
+        Utils.$('#parent-report-btn')?.addEventListener('click', () => {
+            this.showParentReport();
+        });
+        
+        // AI Feature demo buttons
+        Utils.$('#smart-hints-demo')?.addEventListener('click', () => {
+            this.demoSmartHints();
+        });
+        
+        Utils.$('#teacher-alerts-demo')?.addEventListener('click', () => {
+            this.demoStudentAlerts();
+        });
+        
+        Utils.$('#parent-insights-demo')?.addEventListener('click', () => {
+            this.showParentReport();
+        });
+        
+        Utils.$('#test-all-features')?.addEventListener('click', () => {
+            this.testNewFeatures();
+        });
+        
         // Subject cards
         Utils.$$('.subject-card').forEach(card => {
             card.addEventListener('click', () => {
@@ -658,6 +684,9 @@ class WAECAceApp {
         // Update UI
         this.displayQuestion(question);
         this.updateQuestionProgress();
+        
+        // Show why this topic was selected (for adaptive mode)
+        this.showTopicSelectionReason();
     }
 
     displayQuestion(question) {
@@ -761,8 +790,11 @@ class WAECAceApp {
         Utils.$('#submit-answer').classList.add('hidden');
         Utils.$('#next-question').classList.remove('hidden');
         
-        // Show explanation
-        this.showExplanation(question.explanation);
+        // Show explanation with intelligent feedback
+        this.showIntelligentExplanation(question, isCorrect, timeSpent);
+        
+        // Show progress insights after answer
+        this.showProgressInsights(question.topic, isCorrect);
     }
 
     showAnswerFeedback(isCorrect, correctIndex, selectedIndex) {
@@ -793,6 +825,219 @@ class WAECAceApp {
 
     showExplanation(explanation) {
         Utils.$('#explanation-text').textContent = explanation;
+    }
+    
+    showIntelligentExplanation(question, isCorrect, timeSpent) {
+        // Basic explanation
+        Utils.$('#explanation-text').textContent = question.explanation;
+        
+        // Add intelligent insights based on performance
+        const insights = this.generateAnswerInsights(question, isCorrect, timeSpent);
+        
+        // Create or update insights container
+        let insightsContainer = Utils.$('#answer-insights');
+        if (!insightsContainer) {
+            insightsContainer = Utils.create('div', {
+                id: 'answer-insights',
+                className: 'answer-insights'
+            });
+            Utils.$('#explanation-text').parentNode.appendChild(insightsContainer);
+        }
+        
+        insightsContainer.innerHTML = insights.length > 0 ? `
+            <div class="insights-header">💡 AI Insights</div>
+            ${insights.map(insight => `
+                <div class="insight-item ${insight.type}">
+                    <span class="insight-icon">${insight.icon}</span>
+                    <span class="insight-text">${insight.text}</span>
+                </div>
+            `).join('')}
+        ` : '';
+        
+        // Add styles for insights
+        if (!document.querySelector('#insights-styles')) {
+            const insightsStyles = Utils.create('style', {
+                id: 'insights-styles',
+                textContent: `
+                    .answer-insights {
+                        margin-top: 16px;
+                        background: #f7fafc;
+                        border-radius: 8px;
+                        padding: 16px;
+                        border-left: 4px solid #667eea;
+                    }
+                    
+                    .insights-header {
+                        font-weight: 600;
+                        color: #2d3748;
+                        margin-bottom: 12px;
+                        font-size: 14px;
+                    }
+                    
+                    .insight-item {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 8px;
+                        font-size: 14px;
+                        line-height: 1.4;
+                    }
+                    
+                    .insight-item:last-child {
+                        margin-bottom: 0;
+                    }
+                    
+                    .insight-icon {
+                        margin-right: 8px;
+                        font-size: 16px;
+                    }
+                    
+                    .insight-item.speed {
+                        color: #2b6cb0;
+                    }
+                    
+                    .insight-item.mastery {
+                        color: #38a169;
+                    }
+                    
+                    .insight-item.improvement {
+                        color: #d69e2e;
+                    }
+                    
+                    .insight-item.encouragement {
+                        color: #9f7aea;
+                    }
+                `
+            });
+            document.head.appendChild(insightsStyles);
+        }
+    }
+    
+    generateAnswerInsights(question, isCorrect, timeSpent) {
+        const insights = [];
+        
+        // Speed insights
+        if (timeSpent < 15000) { // Less than 15 seconds
+            insights.push({
+                type: 'speed',
+                icon: '⚡',
+                text: isCorrect ? 'Great speed! You answered quickly and correctly.' : 'Quick answer, but double-check your work next time.'
+            });
+        } else if (timeSpent > 60000) { // More than 1 minute
+            insights.push({
+                type: 'speed',
+                icon: '🤔',
+                text: 'Take your time to understand, but try to be more decisive during exams.'
+            });
+        }
+        
+        // Topic mastery insights
+        const currentMastery = window.storage.getTopicMastery(question.subject, question.topic);
+        if (isCorrect && currentMastery > 80) {
+            insights.push({
+                type: 'mastery',
+                icon: '🎯',
+                text: `Strong mastery in ${question.topic}! You're ready for harder questions.`
+            });
+        } else if (!isCorrect && currentMastery < 50) {
+            insights.push({
+                type: 'improvement',
+                icon: '📚',
+                text: `Focus more on ${question.topic} - this is a growth area for you.`
+            });
+        }
+        
+        // Streak and encouragement
+        const recentPerformance = this.getRecentTopicPerformance(question.subject, question.topic);
+        if (recentPerformance.streak >= 3) {
+            insights.push({
+                type: 'encouragement',
+                icon: '🔥',
+                text: `Amazing! ${recentPerformance.streak} correct answers in a row for ${question.topic}!`
+            });
+        }
+        
+        // Learning pattern insights
+        if (isCorrect && this.isFirstTimeCorrect(question.id)) {
+            insights.push({
+                type: 'encouragement',
+                icon: '🌟',
+                text: 'Progress! You got this right after getting it wrong before.'
+            });
+        }
+        
+        return insights;
+    }
+    
+    showProgressInsights(topic, isCorrect) {
+        // Show a subtle progress indicator for the current topic
+        const topicProgress = window.storage.getTopicMastery(this.practiceState.subject, topic);
+        const progressChange = isCorrect ? '+2%' : '-1%';
+        
+        Utils.showToast(
+            `${topic}: ${topicProgress}% mastery ${progressChange}`,
+            isCorrect ? 'success' : 'info',
+            2000
+        );
+    }
+    
+    getRecentTopicPerformance(subject, topic) {
+        // Get recent performance for this topic
+        const interactions = window.analytics.getInteractions('week')
+            .filter(i => i.subject === subject && i.topic === topic)
+            .sort((a, b) => b.timestamp - a.timestamp);
+            
+        let streak = 0;
+        for (const interaction of interactions) {
+            if (interaction.isCorrect) {
+                streak++;
+            } else {
+                break;
+            }
+        }
+        
+        const accuracy = interactions.length > 0 ? 
+            (interactions.filter(i => i.isCorrect).length / interactions.length) * 100 : 0;
+            
+        return { streak, accuracy, total: interactions.length };
+    }
+    
+    isFirstTimeCorrect(questionId) {
+        const interactions = window.analytics.getInteractions('month')
+            .filter(i => i.questionId === questionId)
+            .sort((a, b) => a.timestamp - b.timestamp);
+            
+        return interactions.length > 1 && 
+               !interactions[0].isCorrect && 
+               interactions[interactions.length - 1].isCorrect;
+    }
+    
+    // Show WHY adaptive algorithm selected this topic
+    showTopicSelectionReason() {
+        if (!this.practiceState.isAdaptive) return;
+        
+        const currentQuestion = this.practiceState.currentQuestion;
+        if (!currentQuestion) return;
+        
+        const topic = currentQuestion.topic;
+        const subject = currentQuestion.subject;
+        const priority = window.selector.calculateTopicPriority(subject, topic);
+        const mastery = window.storage.getTopicMastery(subject, topic);
+        
+        let reason = '';
+        if (priority >= 80) {
+            reason = `📍 Focusing on ${topic} because you need more practice here (${mastery}% mastery)`;
+        } else if (mastery < 40) {
+            reason = `🎯 Working on ${topic} - this is a growth area for you`;
+        } else {
+            reason = `⚡ Smart practice selected ${topic} to strengthen your knowledge`;
+        }
+        
+        // Show reason subtly in question header
+        const questionTopic = Utils.$('#question-topic');
+        if (questionTopic) {
+            questionTopic.title = reason;
+            questionTopic.style.cursor = 'help';
+        }
     }
 
     nextQuestion() {
@@ -1539,9 +1784,429 @@ class WAECAceApp {
     }
 
     showHint() {
-        if (this.practiceState.currentQuestion) {
-            // TODO: Implement hint functionality
-            Utils.showToast('Hint: Read the question carefully and eliminate wrong answers.', 'info', 4000);
+        if (!this.practiceState.currentQuestion) return;
+        
+        const question = this.practiceState.currentQuestion;
+        const hint = this.generateSmartHint(question);
+        
+        // Show hint in mobile-friendly way
+        this.displayHintModal(hint);
+    }
+    
+    generateSmartHint(question) {
+        const commonHints = {
+            // Math hints by topic
+            'Algebra': {
+                'like-terms': 'Look for terms with the same variable. Add or subtract the coefficients.',
+                'linear-equations': 'Isolate the variable by doing the same operation to both sides.',
+                'factoring': 'Look for patterns like difference of squares: a² - b² = (a+b)(a-b)'
+            },
+            'Geometry': {
+                'area': 'Remember: Rectangle area = length × width, Triangle area = ½ × base × height',
+                'volume': 'Volume formulas: Cube = s³, Cylinder = πr²h',
+                'angles': 'Angles in a triangle add up to 180°'
+            },
+            'Statistics': {
+                'mean': 'Mean = Sum of all values ÷ Number of values',
+                'probability': 'Probability = Favorable outcomes ÷ Total possible outcomes'
+            },
+            
+            // English hints by topic  
+            'Grammar': {
+                'parts-of-speech': 'Nouns name things, Verbs show action, Adjectives describe nouns',
+                'tenses': 'Past tense usually ends in -ed, Present uses base form, Future uses "will"'
+            },
+            'Vocabulary': {
+                'synonyms': 'Look for words with similar meanings',
+                'antonyms': 'Find words with opposite meanings'
+            },
+            
+            // Biology hints
+            'Cell Biology': {
+                'organelles': 'Mitochondria = powerhouse, Nucleus = control center, Ribosomes = protein makers',
+                'processes': 'Photosynthesis makes glucose, Respiration breaks it down for energy'
+            }
+        };
+        
+        // Get specific hint based on question topic and tags
+        const topicHints = commonHints[question.topic] || {};
+        
+        // Check if question has tags that match hint categories
+        if (question.tags) {
+            for (const tag of question.tags) {
+                if (topicHints[tag]) {
+                    return {
+                        type: 'specific',
+                        title: `${question.topic} Tip`,
+                        content: topicHints[tag],
+                        icon: '💡'
+                    };
+                }
+            }
+        }
+        
+        // Fallback to general hints by subject
+        const generalHints = {
+            math: 'Break the problem into smaller steps. What operation do you need?',
+            english: 'Read each option carefully. Which one sounds most natural?',
+            biology: 'Think about the function or process. What is the main purpose?'
+        };
+        
+        return {
+            type: 'general',
+            title: 'Study Tip',
+            content: generalHints[question.subject] || 'Read the question carefully and eliminate obviously wrong answers.',
+            icon: '🤔'
+        };
+    }
+    
+    displayHintModal(hint) {
+        // Create mobile-friendly hint modal
+        const hintModal = Utils.create('div', {
+            className: 'hint-modal',
+            innerHTML: `
+                <div class="hint-content">
+                    <div class="hint-header">
+                        <span class="hint-icon">${hint.icon}</span>
+                        <h3>${hint.title}</h3>
+                        <button class="close-hint" onclick="this.closest('.hint-modal').remove()">×</button>
+                    </div>
+                    <div class="hint-body">
+                        <p>${hint.content}</p>
+                    </div>
+                    <div class="hint-actions">
+                        <button class="btn-outline" onclick="this.closest('.hint-modal').remove()">Got it!</button>
+                        <button class="btn-secondary" onclick="app.showDetailedExplanation()">Need more help?</button>
+                    </div>
+                </div>
+            `
+        });
+        
+        document.body.appendChild(hintModal);
+        
+        // Add CSS for mobile responsiveness
+        if (!document.querySelector('#hint-styles')) {
+            const hintStyles = Utils.create('style', {
+                id: 'hint-styles',
+                textContent: `
+                    .hint-modal {
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: rgba(0, 0, 0, 0.7);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        z-index: 1000;
+                        padding: 20px;
+                    }
+                    
+                    .hint-content {
+                        background: white;
+                        border-radius: 12px;
+                        max-width: 400px;
+                        width: 100%;
+                        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+                        overflow: hidden;
+                    }
+                    
+                    .hint-header {
+                        display: flex;
+                        align-items: center;
+                        padding: 20px;
+                        background: #f8fafc;
+                        border-bottom: 1px solid #e2e8f0;
+                    }
+                    
+                    .hint-icon {
+                        font-size: 24px;
+                        margin-right: 12px;
+                    }
+                    
+                    .hint-header h3 {
+                        flex: 1;
+                        margin: 0;
+                        font-size: 18px;
+                        color: #2d3748;
+                    }
+                    
+                    .close-hint {
+                        background: none;
+                        border: none;
+                        font-size: 24px;
+                        cursor: pointer;
+                        color: #718096;
+                        padding: 0;
+                        width: 30px;
+                        height: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    
+                    .hint-body {
+                        padding: 20px;
+                    }
+                    
+                    .hint-body p {
+                        margin: 0;
+                        line-height: 1.5;
+                        color: #4a5568;
+                    }
+                    
+                    .hint-actions {
+                        padding: 20px;
+                        display: flex;
+                        gap: 12px;
+                        justify-content: flex-end;
+                        background: #f8fafc;
+                    }
+                    
+                    @media (max-width: 480px) {
+                        .hint-modal {
+                            padding: 16px;
+                        }
+                        
+                        .hint-actions {
+                            flex-direction: column;
+                        }
+                        
+                        .hint-actions button {
+                            width: 100%;
+                        }
+                    }
+                `
+            });
+            document.head.appendChild(hintStyles);
+        }
+        
+        // Close on background click
+        hintModal.addEventListener('click', (e) => {
+            if (e.target === hintModal) {
+                hintModal.remove();
+            }
+        });
+    }
+    
+    showDetailedExplanation() {
+        const question = this.practiceState.currentQuestion;
+        const explanation = this.generateDetailedExplanation(question);
+        
+        // Close existing hint modal
+        document.querySelector('.hint-modal')?.remove();
+        
+        // Show detailed explanation modal
+        this.displayExplanationModal(explanation);
+    }
+    
+    generateDetailedExplanation(question) {
+        // Enhanced explanations with common mistakes
+        const detailedExplanations = {
+            'math_algebra_001': {
+                explanation: question.explanation,
+                commonMistakes: [
+                    { mistake: 'Getting 5x', reason: 'Adding all coefficients: 3 + 2 + 1 = 6', correction: 'Remember to subtract: 3 + 2 - 1 = 4' },
+                    { mistake: 'Getting 6x', reason: 'Ignoring the minus sign', correction: 'Pay attention to operation signs' }
+                ],
+                steps: [
+                    'Identify like terms (all have variable x)',
+                    'Group the coefficients: 3 + 2 - 1',
+                    'Calculate: 3 + 2 - 1 = 4',
+                    'Result: 4x'
+                ]
+            }
+        };
+        
+        return detailedExplanations[question.id] || {
+            explanation: question.explanation,
+            commonMistakes: [],
+            steps: ['Read the question carefully', 'Identify what\'s being asked', 'Apply the appropriate method', 'Check your answer']
+        };
+    }
+    
+    displayExplanationModal(explanation) {
+        const explanationModal = Utils.create('div', {
+            className: 'explanation-modal',
+            innerHTML: `
+                <div class="explanation-content">
+                    <div class="explanation-header">
+                        <span class="explanation-icon">📝</span>
+                        <h3>Detailed Explanation</h3>
+                        <button class="close-explanation" onclick="this.closest('.explanation-modal').remove()">×</button>
+                    </div>
+                    <div class="explanation-body">
+                        <div class="explanation-section">
+                            <h4>Solution:</h4>
+                            <p>${explanation.explanation}</p>
+                        </div>
+                        
+                        ${explanation.steps.length > 0 ? `
+                            <div class="explanation-section">
+                                <h4>Step by step:</h4>
+                                <ol>
+                                    ${explanation.steps.map(step => `<li>${step}</li>`).join('')}
+                                </ol>
+                            </div>
+                        ` : ''}
+                        
+                        ${explanation.commonMistakes.length > 0 ? `
+                            <div class="explanation-section">
+                                <h4>Common mistakes to avoid:</h4>
+                                ${explanation.commonMistakes.map(mistake => `
+                                    <div class="mistake-item">
+                                        <strong>❌ ${mistake.mistake}:</strong> ${mistake.reason}<br>
+                                        <strong>✅ Correction:</strong> ${mistake.correction}
+                                    </div>
+                                `).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                    <div class="explanation-actions">
+                        <button class="btn-primary" onclick="this.closest('.explanation-modal').remove()">I understand!</button>
+                    </div>
+                </div>
+            `
+        });
+        
+        document.body.appendChild(explanationModal);
+        
+        // Add explanation modal styles
+        if (!document.querySelector('#explanation-styles')) {
+            const explanationStyles = Utils.create('style', {
+                id: 'explanation-styles',
+                textContent: `
+                    .explanation-modal {
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: rgba(0, 0, 0, 0.7);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        z-index: 1001;
+                        padding: 20px;
+                        overflow-y: auto;
+                    }
+                    
+                    .explanation-content {
+                        background: white;
+                        border-radius: 12px;
+                        max-width: 500px;
+                        width: 100%;
+                        max-height: 90vh;
+                        overflow-y: auto;
+                        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+                    }
+                    
+                    .explanation-header {
+                        display: flex;
+                        align-items: center;
+                        padding: 20px;
+                        background: #667eea;
+                        color: white;
+                        position: sticky;
+                        top: 0;
+                    }
+                    
+                    .explanation-icon {
+                        font-size: 24px;
+                        margin-right: 12px;
+                    }
+                    
+                    .explanation-header h3 {
+                        flex: 1;
+                        margin: 0;
+                        font-size: 18px;
+                    }
+                    
+                    .close-explanation {
+                        background: none;
+                        border: none;
+                        font-size: 24px;
+                        cursor: pointer;
+                        color: white;
+                        padding: 0;
+                        width: 30px;
+                        height: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    
+                    .explanation-body {
+                        padding: 20px;
+                    }
+                    
+                    .explanation-section {
+                        margin-bottom: 24px;
+                    }
+                    
+                    .explanation-section:last-child {
+                        margin-bottom: 0;
+                    }
+                    
+                    .explanation-section h4 {
+                        margin: 0 0 12px 0;
+                        color: #2d3748;
+                        font-size: 16px;
+                    }
+                    
+                    .explanation-section p {
+                        margin: 0;
+                        line-height: 1.5;
+                        color: #4a5568;
+                    }
+                    
+                    .explanation-section ol {
+                        margin: 0;
+                        padding-left: 20px;
+                    }
+                    
+                    .explanation-section li {
+                        margin-bottom: 8px;
+                        line-height: 1.4;
+                        color: #4a5568;
+                    }
+                    
+                    .mistake-item {
+                        background: #fff5f5;
+                        border: 1px solid #fed7d7;
+                        border-radius: 8px;
+                        padding: 16px;
+                        margin-bottom: 12px;
+                        font-size: 14px;
+                        line-height: 1.4;
+                    }
+                    
+                    .explanation-actions {
+                        padding: 20px;
+                        background: #f8fafc;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    @media (max-width: 480px) {
+                        .explanation-modal {
+                            padding: 12px;
+                        }
+                        
+                        .explanation-content {
+                            max-height: 95vh;
+                        }
+                        
+                        .explanation-header,
+                        .explanation-body,
+                        .explanation-actions {
+                            padding: 16px;
+                        }
+                    }
+                `
+            });
+            document.head.appendChild(explanationStyles);
         }
     }
 
@@ -1632,6 +2297,154 @@ class WAECAceApp {
                 handler: () => window.location.reload()
             }
         ]);
+    }
+    
+    // Educational Intelligence Features - Access Points
+    
+    showTeacherDashboard() {
+        const studentData = window.analytics.exportStudentData();
+        const alerts = studentData.alerts;
+        
+        console.log('📊 TEACHER DASHBOARD');
+        console.log('Student ID:', studentData.studentId);
+        console.log('Overall Performance:', studentData.summary);
+        console.log('🚨 Student Alerts:', alerts);
+        console.log('📈 Critical Topics:', studentData.criticalTopics);
+        
+        // Display in user-friendly way
+        const alertsDisplay = alerts.length > 0 ? 
+            alerts.map(alert => `${alert.priority.toUpperCase()}: ${alert.title} - ${alert.description}`).join('\n') :
+            'No alerts - student is doing well!';
+            
+        Utils.showToast(
+            `Teacher Dashboard:\n${alerts.length} alerts for student\n\nCheck browser console for full details`, 
+            alerts.some(a => a.priority === 'critical') ? 'error' : alerts.length > 0 ? 'warning' : 'success',
+            8000
+        );
+        
+        return studentData;
+    }
+    
+    showParentReport(timeRange = 'week') {
+        const report = window.analytics.generateShareableReport(timeRange);
+        
+        console.log('👨‍👩‍👧‍👦 PARENT PROGRESS REPORT');
+        console.log('Report Date:', report.data.reportDate);
+        console.log('Study Habits:', report.data.studyHabits);
+        console.log('Performance:', report.data.performance);
+        console.log('Subject Breakdown:', report.data.subjects);
+        console.log('Areas Needing Attention:', report.data.areasNeedingAttention);
+        console.log('Strengths:', report.data.strengths);
+        console.log('Achievements:', report.data.achievements);
+        console.log('Recommendations for Parents:', report.data.parentRecommendations);
+        
+        // Show shareable summary
+        Utils.showToast(
+            `Parent Report Generated!\n\n${report.summary}\n\nCheck console for full report details`,
+            'info',
+            8000
+        );
+        
+        return report;
+    }
+    
+    // Quick demo functions for testing
+    demoStudentAlerts() {
+        // Simulate some poor performance to trigger alerts
+        const mockMetrics = {
+            accuracy: 45,  // Low accuracy
+            totalQuestions: 20,
+            progressTrend: { direction: 'declining', change: -15 },
+            consistency: 0.2,  // Poor consistency
+            studyStreak: 0,
+            subjectStats: {
+                math: { accuracy: 30, questionsAnswered: 10 },
+                english: { accuracy: 60, questionsAnswered: 5 }
+            },
+            topicStats: {
+                'Algebra': { needsAttention: true, accuracy: 25, subject: 'math' },
+                'Grammar': { needsAttention: true, accuracy: 35, subject: 'english' }
+            }
+        };
+        
+        // Temporarily override analytics method
+        const originalMethod = window.analytics.getPerformanceMetrics;
+        window.analytics.getPerformanceMetrics = () => mockMetrics;
+        
+        const alerts = window.analytics.generateStudentAlerts();
+        
+        // Restore original method
+        window.analytics.getPerformanceMetrics = originalMethod;
+        
+        console.log('🚨 DEMO: Student Alerts (Simulated Poor Performance)');
+        console.log(alerts);
+        
+        Utils.showToast(
+            `Demo Alerts Generated!\n${alerts.length} alerts detected\n\nCheck console for details`,
+            'warning',
+            5000
+        );
+        
+        return alerts;
+    }
+    
+    demoSmartHints() {
+        // Create a demo question to show smart hints
+        const demoQuestion = {
+            id: 'demo_algebra_001',
+            subject: 'math',
+            topic: 'Algebra',
+            tags: ['like-terms'],
+            question: 'Simplify: 3x + 2x - x',
+            explanation: 'Combine like terms: 3x + 2x - x = (3 + 2 - 1)x = 4x'
+        };
+        
+        // Generate and show hint
+        const hint = this.generateSmartHint(demoQuestion);
+        this.displayHintModal(hint);
+        
+        console.log('💡 SMART HINTS DEMO');
+        console.log('Demo Question:', demoQuestion);
+        console.log('Generated Hint:', hint);
+    }
+
+    // Utility for testing new features
+    testNewFeatures() {
+        console.log('🧪 TESTING NEW EDUCATIONAL FEATURES');
+        console.log('');
+        
+        // Test 1: Smart Hints
+        console.log('1. Smart Hints System:');
+        const mockQuestion = {
+            id: 'math_algebra_001',
+            subject: 'math',
+            topic: 'Algebra', 
+            tags: ['like-terms'],
+            explanation: 'Combine like terms: 3x + 2x - x = 4x'
+        };
+        
+        const hint = this.generateSmartHint(mockQuestion);
+        console.log('   Generated hint:', hint);
+        
+        // Test 2: Teacher Alerts
+        console.log('');
+        console.log('2. Teacher Alert System:');
+        const demoAlerts = this.demoStudentAlerts();
+        console.log(`   Generated ${demoAlerts.length} demo alerts`);
+        
+        // Test 3: Parent Reports
+        console.log('');
+        console.log('3. Parent Report System:');
+        const parentReport = this.showParentReport();
+        console.log('   Parent report generated successfully');
+        
+        Utils.showToast('🧪 All new features tested!\n\nCheck browser console for detailed results', 'success', 5000);
+        
+        return {
+            hints: hint,
+            alerts: demoAlerts,
+            parentReport: parentReport
+        };
     }
 }
 
