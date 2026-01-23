@@ -32,7 +32,10 @@
     // Analytics state
     showingAnalytics: false,
     showingAchievements: false,
-    showingSocial: false
+    showingSocial: false,
+    
+    // Player info for leaderboard
+    playerName: ''
   };
 
   // Core engines and systems
@@ -40,6 +43,7 @@
   let achievementSystem;
   let voiceEngine;
   let analyticsEngine;
+  let firebaseLeaderboard;
   let deferredInstallPrompt = null;
 
   // DOM elements cache
@@ -51,6 +55,7 @@
     questionCount: document.getElementById('questionCount'),
     timeLimit: document.getElementById('timeLimit'),
     timeWrap: document.getElementById('timeWrap'),
+    playerName: document.getElementById('playerName'),
     startBtn: document.getElementById('startBtn'),
     setupNote: document.getElementById('setupNote'),
     autoAdvance: document.getElementById('autoAdvance'),
@@ -119,7 +124,28 @@
     leaderboard: document.getElementById('leaderboard'),
     challenges: document.getElementById('challenges'),
     groups: document.getElementById('groups'),
-    tabButtons: Array.from(document.querySelectorAll('.tab-btn'))
+    account: document.getElementById('account'),
+    tabButtons: Array.from(document.querySelectorAll('.tab-btn')),
+    
+    // Firebase Auth elements
+    authBtn: document.getElementById('authBtn'),
+    userInfo: document.getElementById('userInfo'),
+    userStatus: document.getElementById('userStatus'),
+    loginForm: document.getElementById('loginForm'),
+    userProfile: document.getElementById('userProfile'),
+    authEmail: document.getElementById('authEmail'),
+    authPassword: document.getElementById('authPassword'),
+    authDisplayName: document.getElementById('authDisplayName'),
+    signInBtn: document.getElementById('signInBtn'),
+    createAccountBtn: document.getElementById('createAccountBtn'),
+    anonymousBtn: document.getElementById('anonymousBtn'),
+    signOutBtn: document.getElementById('signOutBtn'),
+    syncDataBtn: document.getElementById('syncDataBtn'),
+    
+    // Leaderboard controls
+    subjectFilter: document.getElementById('subjectFilter'),
+    refreshLeaderboard: document.getElementById('refreshLeaderboard'),
+    leaderboardList: document.getElementById('leaderboardList')
   };
 
   // Storage keys
@@ -132,6 +158,15 @@
     showLoading('Initializing advanced features...');
     
     try {
+      // Initialize Firebase leaderboard
+      try {
+        if (typeof FirebaseManager !== 'undefined') {
+          firebaseLeaderboard = new FirebaseManager();
+        }
+      } catch (error) {
+        console.log('Firebase manager not available:', error);
+      }
+      
       // Initialize AI engine with fallback
       try {
         aiEngine = new AdaptiveLearningEngine();
@@ -1005,36 +1040,113 @@
     els.setup.classList.remove('hidden');
   }
 
-  function renderLeaderboard() {
-    if (!els.leaderboard) return;
+  async function renderLeaderboard() {
+    if (!els.leaderboardList) return;
     
-    // Mock leaderboard data
-    const leaderboardData = [
-      { name: 'Sarah Johnson', score: 95, avatar: 'SJ', sessions: 45 },
-      { name: 'Mike Chen', score: 92, avatar: 'MC', sessions: 38 },
-      { name: 'You', score: 87, avatar: 'YU', sessions: 23 },
-      { name: 'Anna Smith', score: 85, avatar: 'AS', sessions: 31 },
-      { name: 'David Brown', score: 83, avatar: 'DB', sessions: 28 }
-    ];
+    const subject = els.subjectFilter?.value || 'all';
     
-    els.leaderboard.innerHTML = '';
+    // Show loading
+    els.leaderboardList.innerHTML = '<div class="loading-placeholder">Loading leaderboard...</div>';
     
-    leaderboardData.forEach((user, index) => {
-      const item = document.createElement('div');
-      item.className = `leaderboard-item ${user.name === 'You' ? 'current-user' : ''} animate-slide-in-left`;
+    try {
+      let leaderboardData = [];
       
-      item.innerHTML = `
-        <div class=\"leaderboard-rank\">#${index + 1}</div>
-        <div class=\"leaderboard-avatar\">${user.avatar}</div>
-        <div class=\"leaderboard-info\">
-          <div class=\"leaderboard-name\">${user.name}</div>
-          <div class=\"leaderboard-stats\">${user.sessions} sessions completed</div>
+      // Try to get Firebase leaderboard first
+      if (firebaseLeaderboard && firebaseLeaderboard.isInitialized) {
+        leaderboardData = await firebaseLeaderboard.getLeaderboard(subject, 10);
+      }
+      
+      // Fallback to local leaderboard if Firebase fails or returns no data
+      if (leaderboardData.length === 0) {
+        leaderboardData = firebaseLeaderboard ? 
+          firebaseLeaderboard.getLocalLeaderboard(subject, 10) :
+          getLocalLeaderboard(subject, 10);
+      }
+      
+      // Render leaderboard
+      if (leaderboardData.length === 0) {
+        els.leaderboardList.innerHTML = `
+          <div class="loading-placeholder">
+            No scores found yet. Complete a quiz to see your score here!
+          </div>
+        `;
+        return;
+      }
+      
+      els.leaderboardList.innerHTML = leaderboardData.map((entry, index) => {
+        const rank = index + 1;
+        const isTopThree = rank <= 3;
+        const initials = entry.playerName ? 
+          entry.playerName.split(' ').map(n => n[0]).join('').toUpperCase() : 
+          '??';
+        const timeAgo = entry.timestamp ? 
+          formatTimeAgo(entry.timestamp) : 
+          'Unknown time';
+        
+        return `
+          <div class="leaderboard-item ${isTopThree ? 'top-3' : ''} animate-slide-in-left">
+            <div class="leaderboard-rank">#${rank}</div>
+            <div class="leaderboard-avatar">${initials}</div>
+            <div class="leaderboard-info">
+              <div class="leaderboard-name">${entry.playerName}</div>
+              <div class="leaderboard-meta">
+                ${entry.subject} • ${entry.source === 'firebase' ? '🌐' : '📱'} ${timeAgo}
+                ${entry.device ? `• ${entry.device.type}` : ''}
+              </div>
+            </div>
+            <div class="leaderboard-score">${entry.percentage}%</div>
+          </div>
+        `;
+      }).join('');
+      
+    } catch (error) {
+      console.error('Failed to load leaderboard:', error);
+      els.leaderboardList.innerHTML = `
+        <div class="loading-placeholder">
+          Failed to load leaderboard. Please try again.
         </div>
-        <div class=\"leaderboard-score\">${user.score}%</div>
       `;
+    }
+  }
+  
+  // Helper function for local leaderboard fallback
+  function getLocalLeaderboard(subject = 'all', limit = 10) {
+    try {
+      const localKey = 'waec-local-leaderboard';
+      const localLeaderboard = JSON.parse(localStorage.getItem(localKey) || '[]');
       
-      els.leaderboard.appendChild(item);
-    });
+      let filteredScores = localLeaderboard;
+      if (subject !== 'all') {
+        filteredScores = localLeaderboard.filter(score => score.subject === subject);
+      }
+      
+      return filteredScores.slice(0, limit).map(score => ({
+        ...score,
+        source: 'local'
+      }));
+    } catch (error) {
+      console.error('Local leaderboard fetch failed:', error);
+      return [];
+    }
+  }
+  
+  // Helper function to format timestamps
+  function formatTimeAgo(timestamp) {
+    if (!timestamp) return 'Unknown';
+    
+    // Handle Firestore timestamp
+    const date = timestamp.toDate ? timestamp.toDate() : new Date(timestamp);
+    const now = new Date();
+    const diffMs = now - date;
+    const diffMins = Math.floor(diffMs / 60000);
+    const diffHours = Math.floor(diffMins / 60);
+    const diffDays = Math.floor(diffHours / 24);
+    
+    if (diffMins < 1) return 'just now';
+    if (diffMins < 60) return `${diffMins}m ago`;
+    if (diffHours < 24) return `${diffHours}h ago`;
+    if (diffDays < 7) return `${diffDays}d ago`;
+    return date.toLocaleDateString();
   }
 
   // Event handlers and other utility functions
@@ -1386,6 +1498,9 @@
       case 'groups':
         renderGroups();
         break;
+      case 'account':
+        renderAccountTab();
+        break;
     }
   }
 
@@ -1436,8 +1551,207 @@
     `).join('');
   }
 
+  // Firebase Authentication Functions
+  function renderAccountTab() {
+    if (!firebaseLeaderboard) return;
+    
+    const user = firebaseLeaderboard.currentUser;
+    
+    if (user) {
+      // Show user profile
+      els.loginForm?.classList.add('hidden');
+      els.userProfile?.classList.remove('hidden');
+      
+      if (els.profileInfo) {
+        els.profileInfo.innerHTML = `
+          <div class="user-info">
+            <h4>${user.displayName || user.email || 'Anonymous User'}</h4>
+            <p class="muted">${user.email || 'Anonymous account'}</p>
+            <div class="user-stats">
+              <div class="stat">
+                <span class="stat-label">Account Type:</span>
+                <span class="stat-value">${user.isAnonymous ? 'Guest' : 'Registered'}</span>
+              </div>
+              <div class="stat">
+                <span class="stat-label">Joined:</span>
+                <span class="stat-value">${formatTimeAgo(user.metadata?.creationTime)}</span>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+    } else {
+      // Show login form
+      els.loginForm?.classList.remove('hidden');
+      els.userProfile?.classList.add('hidden');
+    }
+    
+    updateAuthUI();
+  }
+  
+  function updateAuthUI() {
+    if (!firebaseLeaderboard) return;
+    
+    const user = firebaseLeaderboard.currentUser;
+    
+    if (user) {
+      const displayName = user.displayName || user.email || 'User';
+      const accountType = user.isAnonymous ? 'Guest' : 'Signed In';
+      
+      if (els.userInfo) {
+        els.userInfo.textContent = `${displayName} (${accountType})`;
+      }
+      
+      if (els.authBtn) {
+        els.authBtn.textContent = 'Profile';
+      }
+    } else {
+      if (els.userInfo) {
+        els.userInfo.textContent = 'Sign in for global leaderboard';
+      }
+      
+      if (els.authBtn) {
+        els.authBtn.textContent = 'Sign In';
+      }
+    }
+  }
+  
+  async function handleSignIn() {
+    if (!firebaseLeaderboard) return;
+    
+    const email = els.authEmail?.value.trim();
+    const password = els.authPassword?.value;
+    
+    if (!email || !password) {
+      alert('Please enter email and password');
+      return;
+    }
+    
+    try {
+      const user = await firebaseLeaderboard.signInWithEmailPassword(email, password);
+      if (user) {
+        alert('Successfully signed in!');
+        clearAuthForm();
+        renderAccountTab();
+      } else {
+        alert('Sign in failed. Please check your credentials.');
+      }
+    } catch (error) {
+      console.error('Sign in error:', error);
+      alert('Sign in failed: ' + error.message);
+    }
+  }
+  
+  async function handleCreateAccount() {
+    if (!firebaseLeaderboard) return;
+    
+    const email = els.authEmail?.value.trim();
+    const password = els.authPassword?.value;
+    const displayName = els.authDisplayName?.value.trim();
+    
+    if (!email || !password) {
+      alert('Please enter email and password');
+      return;
+    }
+    
+    if (password.length < 6) {
+      alert('Password must be at least 6 characters long');
+      return;
+    }
+    
+    try {
+      const user = await firebaseLeaderboard.createAccount(email, password, displayName);
+      if (user) {
+        alert('Account created successfully!');
+        clearAuthForm();
+        renderAccountTab();
+      } else {
+        alert('Account creation failed. Please try again.');
+      }
+    } catch (error) {
+      console.error('Create account error:', error);
+      alert('Account creation failed: ' + error.message);
+    }
+  }
+  
+  async function handleAnonymousSignIn() {
+    if (!firebaseLeaderboard) return;
+    
+    try {
+      const user = await firebaseLeaderboard.signInAnonymously();
+      if (user) {
+        alert('Signed in as guest!');
+        renderAccountTab();
+      } else {
+        alert('Anonymous sign in failed.');
+      }
+    } catch (error) {
+      console.error('Anonymous sign in error:', error);
+      alert('Anonymous sign in failed: ' + error.message);
+    }
+  }
+  
+  async function handleSignOut() {
+    if (!firebaseLeaderboard) return;
+    
+    try {
+      await firebaseLeaderboard.signOut();
+      alert('Successfully signed out!');
+      renderAccountTab();
+      renderLeaderboard(); // Refresh to show local leaderboard
+    } catch (error) {
+      console.error('Sign out error:', error);
+      alert('Sign out failed: ' + error.message);
+    }
+  }
+  
+  async function handleSyncData() {
+    if (!firebaseLeaderboard || !firebaseLeaderboard.currentUser) {
+      alert('Please sign in first');
+      return;
+    }
+    
+    try {
+      await firebaseLeaderboard.syncUserData();
+      alert('Data synced successfully!');
+    } catch (error) {
+      console.error('Sync error:', error);
+      alert('Data sync failed: ' + error.message);
+    }
+  }
+  
+  function clearAuthForm() {
+    if (els.authEmail) els.authEmail.value = '';
+    if (els.authPassword) els.authPassword.value = '';
+    if (els.authDisplayName) els.authDisplayName.value = '';
+  }
+  
+  function toggleCreateAccountFields() {
+    const displayNameGroup = document.getElementById('displayNameGroup');
+    if (displayNameGroup) {
+      const isHidden = displayNameGroup.style.display === 'none';
+      displayNameGroup.style.display = isHidden ? 'block' : 'none';
+    }
+  }
+
   // Main event binding function
   const bindEvents = () => {
+    // Player name handling
+    if (els.playerName) {
+      // Load saved player name
+      const savedName = localStorage.getItem('waec-player-name');
+      if (savedName) {
+        els.playerName.value = savedName;
+        state.playerName = savedName;
+      }
+      
+      // Save player name when changed
+      els.playerName.addEventListener('input', (event) => {
+        state.playerName = event.target.value.trim();
+        localStorage.setItem('waec-player-name', state.playerName);
+      });
+    }
+    
     // Original event handlers
     els.subjectSelect.addEventListener('change', (event) => {
       loadSubject(event.target.value);
@@ -1561,6 +1875,49 @@
         switchTab(btn.dataset.tab);
       });
     });
+
+    // Firebase Authentication event listeners
+    if (els.authBtn) {
+      els.authBtn.addEventListener('click', () => {
+        if (firebaseLeaderboard?.currentUser) {
+          switchTab('account');
+        } else {
+          switchTab('account');
+        }
+      });
+    }
+
+    if (els.signInBtn) {
+      els.signInBtn.addEventListener('click', handleSignIn);
+    }
+
+    if (els.createAccountBtn) {
+      els.createAccountBtn.addEventListener('click', () => {
+        toggleCreateAccountFields();
+        handleCreateAccount();
+      });
+    }
+
+    if (els.anonymousBtn) {
+      els.anonymousBtn.addEventListener('click', handleAnonymousSignIn);
+    }
+
+    if (els.signOutBtn) {
+      els.signOutBtn.addEventListener('click', handleSignOut);
+    }
+
+    if (els.syncDataBtn) {
+      els.syncDataBtn.addEventListener('click', handleSyncData);
+    }
+
+    // Leaderboard controls
+    if (els.subjectFilter) {
+      els.subjectFilter.addEventListener('change', renderLeaderboard);
+    }
+
+    if (els.refreshLeaderboard) {
+      els.refreshLeaderboard.addEventListener('click', renderLeaderboard);
+    }
 
     // PWA install
     window.addEventListener('beforeinstallprompt', (event) => {

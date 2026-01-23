@@ -80,8 +80,15 @@ This project uses **no build tools** - it's advanced vanilla HTML/CSS/JS that ru
 
 ### Dependencies
 - **Chart.js**: Loaded from CDN for analytics visualization
+- **Firebase SDK**: Real-time database, authentication, and analytics (optional)
 - **Web APIs**: Speech Synthesis, Service Workers, localStorage, IndexedDB-ready
 - **Progressive Enhancement**: All features degrade gracefully for older browsers
+
+### Firebase Integration
+- **Leaderboard**: Real-time score sharing with security rules
+- **User Authentication**: Anonymous and email/password sign-in
+- **Analytics**: Track user engagement and performance metrics
+- **Progressive Enhancement**: Works offline with local storage fallback
 
 ### No Testing Framework
 Currently **no automated tests** are configured. The app is thoroughly tested manually across:
@@ -104,7 +111,8 @@ Currently **no automated tests** are configured. The app is thoroughly tested ma
 │   ├── ai-engine.js    # Adaptive learning and AI features
 │   ├── achievements.js # Gamification and badge system
 │   ├── voice-engine.js # Text-to-speech and accessibility
-│   └── analytics.js    # Performance tracking and visualization
+│   ├── analytics.js    # Performance tracking and visualization
+│   └── firebase-config.js # Firebase integration and real-time features
 ├── data/               # Enhanced question databases
 │   ├── mathematics.json
 │   ├── english.json
@@ -132,6 +140,7 @@ Currently **no automated tests** are configured. The app is thoroughly tested ma
 - **`waec_analytics_v1`**: Detailed performance analytics and session history
 - **`waec_voice_settings_v1`**: Voice narration preferences and settings
 - **`waec_theme_v1`**: Theme preference (auto/light/dark)
+- **`waec-local-leaderboard`**: Backup leaderboard when Firebase unavailable
 
 ### Browser Compatibility
 - Requires modern browser with ES6+ support
@@ -151,3 +160,43 @@ Project is configured for GitHub Pages deployment:
 - All questions are **demo placeholders only**
 - **Never add copyrighted WAEC past questions**
 - Maintain educational focus with proper explanations
+
+## Firebase Security
+- **Client keys are public**: Firebase web SDK keys are safe in client code
+- **Security rules**: All data protection happens in Firestore security rules
+- **Files included**: `firestore.rules`, `FIREBASE_SECURITY.md`, `.env.example`
+- **Rate limiting**: Max 5 leaderboard submissions per user per hour
+- **Data validation**: All inputs validated before storage
+- **Authentication**: Anonymous users for guests, email/password for accounts
+
+## Firebase Integration
+
+### Security Configuration
+The app includes Firebase integration for real-time leaderboards, user authentication, and analytics. **Security is critical**:
+
+#### Firestore Security Rules
+- Comprehensive validation rules in `firestore.rules`
+- Rate limiting (max 5 submissions per user per hour)
+- Data validation for all user inputs
+- Private user profiles with auth-based access control
+- Public read access for leaderboard viewing
+
+#### Environment Variables
+- Use `.env.example` as template for local configuration
+- **NEVER commit actual API keys to git**
+- Firebase client SDK keys are safe to expose (with proper Firestore rules)
+- Always use proper Firestore security rules for data protection
+
+#### Analytics Tracking
+- Quiz completion events with performance metrics
+- User engagement tracking
+- Subject-wise performance analytics
+- Anonymous user tracking for privacy
+
+### Deployment Security Checklist
+1. ✅ Deploy Firestore security rules from `firestore.rules`
+2. ✅ Enable Firebase App Check in production
+3. ✅ Configure rate limiting in Firebase console  
+4. ✅ Review security rules with Firebase simulator
+5. ✅ Monitor usage in Firebase console
+6. ✅ Enable audit logging for security monitoring

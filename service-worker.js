@@ -11,6 +11,7 @@ const APP_ASSETS = [
   './js/achievements.js',
   './js/voice-engine.js',
   './js/analytics.js',
+  './js/firebase-config.js',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png'
@@ -26,14 +27,32 @@ const DATA_ASSETS = [
 
 // External CDN assets to cache
 const CDN_ASSETS = [
-  'https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js'
+  'https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js',
+  'https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js',
+  'https://www.gstatic.com/firebasejs/9.0.0/firebase-auth-compat.js',
+  'https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore-compat.js'
 ];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     Promise.all([
       caches.open(APP_CACHE).then((cache) => cache.addAll(APP_ASSETS)),
-      caches.open(DATA_CACHE).then((cache) => cache.addAll(DATA_ASSETS))
+      caches.open(DATA_CACHE).then((cache) => cache.addAll(DATA_ASSETS)),
+      // Cache Firebase and CDN assets with error handling
+      caches.open(APP_CACHE).then((cache) => 
+        Promise.allSettled(
+          CDN_ASSETS.map(url => 
+            fetch(url).then(response => {
+              if (response.ok) {
+                return cache.put(url, response);
+              }
+              console.warn(`Failed to cache CDN asset: ${url}`);
+            }).catch(error => {
+              console.warn(`Failed to fetch CDN asset ${url}:`, error);
+            })
+          )
+        )
+      )
     ]).then(() => self.skipWaiting())
   );
 });
