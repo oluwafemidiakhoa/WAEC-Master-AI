@@ -4,8 +4,11 @@
   --bg: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #667eea 100%);
   --bg-pattern: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.1) 0%, transparent 50%),
                 radial-gradient(circle at 75% 75%, rgba(255,255,255,0.08) 0%, transparent 50%);
-  --card: rgba(255, 255, 255, 0.98);
-  --card-hover: rgba(255, 255, 255, 1);
+  --card: rgba(255, 255, 255, 0.95);
+  --card-hover: rgba(255, 255, 255, 0.98);
+  --card-dark: rgba(20, 20, 30, 0.8);
+  --text-on-gradient: #ffffff;
+  --text-on-card: #1a202c;
   --primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --primary-solid: #667eea;
   --primary-dark: #5a67d8;
@@ -14,10 +17,10 @@
   --secondary-solid: #11998e;
   --accent: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
   --accent-soft: rgba(252, 182, 159, 0.1);
-  --text: #ffffff;
-  --text-bold: #ffffff;
+  --text: #2d3748;
+  --text-bold: #1a202c;
   --text-light: #ffffff;
-  --muted: rgba(255, 255, 255, 0.8);
+  --muted: #4a5568;
   --border: rgba(226, 232, 240, 0.6);
   --success: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
   --danger: linear-gradient(135deg, #f56565 0%, #e53e3e 100%);
@@ -289,27 +292,44 @@ h1 {
   margin: 32px 0 !important;
 }
 
-/* Enhanced Text Contrast and Readability - ALL WHITE TEXT */
+/* Smart Adaptive Text System - Perfect for Mobile & Web */
 body {
-  color: var(--text-bold) !important;
+  color: var(--text-on-gradient) !important;
 }
 
-p, .muted, span, div, li {
-  color: var(--text-bold) !important;
+/* Text on gradient backgrounds (body, header) */
+body > *, body p, body span, body div:not(.card *) {
+  color: var(--text-on-gradient) !important;
+  font-weight: 700 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6) !important;
+}
+
+/* Text inside cards - dark for readability */
+.card, .card * {
+  color: var(--text-on-card) !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1) !important;
+}
+
+.card p, .card span, .card div, .card li {
+  color: var(--text-on-card) !important;
   font-weight: 600 !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
 }
 
-.muted {
+.card .muted {
   color: var(--muted) !important;
   font-weight: 600 !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--text-bold) !important;
+.card h1, .card h2, .card h3, .card h4, .card h5, .card h6 {
+  color: var(--text-on-card) !important;
   font-weight: 800 !important;
-  text-shadow: 0 3px 6px rgba(0,0,0,0.4) !important;
+}
+
+/* Header text - white on gradient */
+.app__header, .app__header * {
+  color: var(--text-on-gradient) !important;
+  font-weight: 700 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6) !important;
 }
 
 /* Specific hero text styling */
@@ -406,9 +426,52 @@ label {
 
 /* Dashboard and summary text */
 .summary__score, .dashboard__content {
-  color: var(--text-bold) !important;
+  color: var(--text-on-card) !important;
   font-weight: 700 !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1) !important;
+}
+
+/* Mobile Optimization for Better Readability */
+@media (max-width: 768px) {
+  /* Increase font sizes on mobile */
+  body {
+    font-size: 1.1rem !important;
+  }
+  
+  h1 {
+    font-size: 2.5rem !important;
+  }
+  
+  h2 {
+    font-size: 1.8rem !important;
+  }
+  
+  .hero__text p {
+    font-size: 1.3rem !important;
+    line-height: 1.7 !important;
+  }
+  
+  #questionText {
+    font-size: 1.5rem !important;
+    line-height: 1.6 !important;
+  }
+  
+  .option {
+    font-size: 1.1rem !important;
+    padding: 16px !important;
+  }
+  
+  /* Enhanced contrast for mobile */
+  .card {
+    background: rgba(255, 255, 255, 0.98) !important;
+  }
+  
+  /* Better button sizes for touch */
+  button {
+    padding: 16px 32px !important;
+    font-size: 1rem !important;
+    min-height: 48px !important;
+  }
 }
 
 /* Advanced animations and effects */
