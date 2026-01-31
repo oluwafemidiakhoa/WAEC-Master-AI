@@ -985,6 +985,403 @@
     els.setup.classList.remove('hidden');
   }
 
+  // Help & Tutorial System
+  function showHelp() {
+    // Check if help modal already exists
+    let helpModal = document.getElementById('helpModal');
+
+    if (!helpModal) {
+      helpModal = createHelpModal();
+      document.body.appendChild(helpModal);
+    }
+
+    helpModal.classList.remove('hidden');
+    helpModal.classList.add('animate-fade-in');
+
+    // Voice announcement
+    if (voiceEngine && voiceEngine.isEnabled) {
+      voiceEngine.speak('Help and tutorials opened');
+    }
+  }
+
+  function hideHelp() {
+    const helpModal = document.getElementById('helpModal');
+    if (helpModal) {
+      helpModal.classList.add('hidden');
+    }
+  }
+
+  function createHelpModal() {
+    const modal = document.createElement('div');
+    modal.id = 'helpModal';
+    modal.className = 'help-modal';
+    modal.innerHTML = `
+      <div class="help-modal__backdrop" onclick="document.getElementById('helpModal').classList.add('hidden')"></div>
+      <div class="help-modal__content">
+        <div class="help-modal__header">
+          <div class="help-modal__title">
+            <span class="help-icon">📚</span>
+            <div>
+              <h2>Help & Tutorials</h2>
+              <p>Learn how to use WAEC Practice effectively</p>
+            </div>
+          </div>
+          <button class="icon-btn help-close-btn" onclick="document.getElementById('helpModal').classList.add('hidden')">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 6L6 18M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="help-modal__tabs">
+          <button class="help-tab active" data-tab="getting-started">Getting Started</button>
+          <button class="help-tab" data-tab="features">Features</button>
+          <button class="help-tab" data-tab="shortcuts">Shortcuts</button>
+          <button class="help-tab" data-tab="faq">FAQ</button>
+        </div>
+
+        <div class="help-modal__body">
+          <!-- Getting Started -->
+          <div class="help-content active" id="help-getting-started">
+            <div class="help-section">
+              <h3>🚀 Quick Start Guide</h3>
+              <div class="help-steps">
+                <div class="help-step">
+                  <div class="help-step__number">1</div>
+                  <div class="help-step__content">
+                    <h4>Choose Your Subject</h4>
+                    <p>Select from Mathematics, English, Physics, Chemistry, or Biology from the dropdown menu.</p>
+                  </div>
+                </div>
+                <div class="help-step">
+                  <div class="help-step__number">2</div>
+                  <div class="help-step__content">
+                    <h4>Select Practice Mode</h4>
+                    <p><strong>Practice:</strong> Untimed, learn at your pace<br><strong>Timed Exam:</strong> Simulates real exam conditions</p>
+                  </div>
+                </div>
+                <div class="help-step">
+                  <div class="help-step__number">3</div>
+                  <div class="help-step__content">
+                    <h4>Set Number of Questions</h4>
+                    <p>Choose 5-60 questions per session. Start with 10-20 for short practice sessions.</p>
+                  </div>
+                </div>
+                <div class="help-step">
+                  <div class="help-step__number">4</div>
+                  <div class="help-step__content">
+                    <h4>Start Learning!</h4>
+                    <p>Click "Start" and answer questions. Get instant feedback and detailed explanations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="help-section">
+              <h3>💡 Pro Tips</h3>
+              <ul class="help-tips">
+                <li><span class="tip-icon">🎯</span> Focus on weak topics shown in your dashboard</li>
+                <li><span class="tip-icon">🔥</span> Maintain your daily streak for consistent progress</li>
+                <li><span class="tip-icon">📊</span> Check Analytics to see your improvement over time</li>
+                <li><span class="tip-icon">🏆</span> Unlock achievements to stay motivated</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Features -->
+          <div class="help-content" id="help-features">
+            <p class="help-features-intro">Click any feature to try it out:</p>
+            <div class="help-features-grid">
+              <div class="help-feature-card clickable" data-action="practice">
+                <div class="feature-icon">📝</div>
+                <h4>Practice Mode</h4>
+                <p>Untimed practice with instant feedback and detailed explanations after each question.</p>
+                <span class="feature-cta">Start Practice →</span>
+              </div>
+              <div class="help-feature-card clickable" data-action="timed">
+                <div class="feature-icon">⏱️</div>
+                <h4>Timed Exam</h4>
+                <p>Simulate real exam conditions with countdown timer. Perfect for test preparation.</p>
+                <span class="feature-cta">Start Exam →</span>
+              </div>
+              <div class="help-feature-card clickable" data-action="analytics">
+                <div class="feature-icon">📊</div>
+                <h4>Analytics Dashboard</h4>
+                <p>Track your performance, see trends, and identify areas that need improvement.</p>
+                <span class="feature-cta">View Analytics →</span>
+              </div>
+              <div class="help-feature-card clickable" data-action="achievements">
+                <div class="feature-icon">🏆</div>
+                <h4>Achievements</h4>
+                <p>Earn badges for milestones like streaks, perfect scores, and completing challenges.</p>
+                <span class="feature-cta">View Badges →</span>
+              </div>
+              <div class="help-feature-card clickable" data-action="voice">
+                <div class="feature-icon">🔊</div>
+                <h4>Voice Narration</h4>
+                <p>Enable voice to have questions read aloud. Great for auditory learners.</p>
+                <span class="feature-cta">Toggle Voice →</span>
+              </div>
+              <div class="help-feature-card clickable" data-action="theme">
+                <div class="feature-icon">🌙</div>
+                <h4>Dark Mode</h4>
+                <p>Switch between light and dark themes to reduce eye strain during night study.</p>
+                <span class="feature-cta">Toggle Theme →</span>
+              </div>
+              <div class="help-feature-card clickable" data-action="offline">
+                <div class="feature-icon">📴</div>
+                <h4>Offline Mode</h4>
+                <p>App works without internet once loaded. Perfect for areas with poor connectivity.</p>
+                <span class="feature-cta">Always Ready ✓</span>
+              </div>
+              <div class="help-feature-card clickable" data-action="leaderboard">
+                <div class="feature-icon">🥇</div>
+                <h4>Leaderboard</h4>
+                <p>Compete with other students and see your ranking. Motivate yourself to improve!</p>
+                <span class="feature-cta">View Rankings →</span>
+              </div>
+              <div class="help-feature-card clickable" data-action="feedback">
+                <div class="feature-icon">💬</div>
+                <h4>Give Feedback</h4>
+                <p>Help us improve by sharing your thoughts and suggestions about the app.</p>
+                <span class="feature-cta">Share Feedback →</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Shortcuts -->
+          <div class="help-content" id="help-shortcuts">
+            <div class="help-section">
+              <h3>⌨️ Keyboard Shortcuts</h3>
+              <p class="help-note">Use these shortcuts during quiz sessions for faster navigation.</p>
+              <div class="shortcuts-grid">
+                <div class="shortcut-item">
+                  <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd>
+                  <span>Select answer option</span>
+                </div>
+                <div class="shortcut-item">
+                  <kbd>Enter</kbd> or <kbd>Space</kbd>
+                  <span>Submit answer / Next question</span>
+                </div>
+                <div class="shortcut-item">
+                  <kbd>N</kbd>
+                  <span>Go to next question</span>
+                </div>
+                <div class="shortcut-item">
+                  <kbd>F</kbd>
+                  <span>Finish quiz early</span>
+                </div>
+                <div class="shortcut-item">
+                  <kbd>V</kbd>
+                  <span>Toggle voice narration</span>
+                </div>
+                <div class="shortcut-item">
+                  <kbd>D</kbd>
+                  <span>Toggle dark mode</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="help-section">
+              <h3>📱 Touch Gestures</h3>
+              <div class="shortcuts-grid">
+                <div class="shortcut-item">
+                  <span class="gesture">Tap</span>
+                  <span>Select answer</span>
+                </div>
+                <div class="shortcut-item">
+                  <span class="gesture">Swipe Left</span>
+                  <span>Next question (when enabled)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ -->
+          <div class="help-content" id="help-faq">
+            <div class="help-section">
+              <h3>❓ Frequently Asked Questions</h3>
+              <div class="faq-list">
+                <div class="faq-item">
+                  <button class="faq-question">
+                    <span>Does this app use real WAEC past questions?</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M6 9l6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  <div class="faq-answer">
+                    <p>No. All questions in this app are <strong>demo placeholders</strong> created for practice purposes only. We do not use copyrighted WAEC past examination questions.</p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button class="faq-question">
+                    <span>Does the app work offline?</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M6 9l6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  <div class="faq-answer">
+                    <p>Yes! Once you've loaded the app with an internet connection, it will work offline. Your progress is saved locally on your device.</p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button class="faq-question">
+                    <span>How is my progress saved?</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M6 9l6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  <div class="faq-answer">
+                    <p>Your progress is automatically saved in your browser's local storage. If you create an account, your data can sync to the cloud for access on multiple devices.</p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button class="faq-question">
+                    <span>What is a "streak"?</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M6 9l6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  <div class="faq-answer">
+                    <p>A streak counts how many consecutive days you've practiced. Complete at least one quiz session each day to maintain your streak. Streaks help build consistent study habits!</p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button class="faq-question">
+                    <span>How do I reset my progress?</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M6 9l6 6 6-6"></path>
+                    </svg>
+                  </button>
+                  <div class="faq-answer">
+                    <p>To reset all progress, clear your browser's site data for this website. Note: This action cannot be undone and will remove all your statistics and achievements.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="help-modal__footer">
+          <p>Need more help? <a href="mailto:support@waecpractice.com">Contact Support</a></p>
+        </div>
+      </div>
+    `;
+
+    // Add tab switching functionality
+    modal.querySelectorAll('.help-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Remove active from all tabs and contents
+        modal.querySelectorAll('.help-tab').forEach(t => t.classList.remove('active'));
+        modal.querySelectorAll('.help-content').forEach(c => c.classList.remove('active'));
+
+        // Add active to clicked tab and corresponding content
+        tab.classList.add('active');
+        const contentId = `help-${tab.dataset.tab}`;
+        modal.querySelector(`#${contentId}`)?.classList.add('active');
+      });
+    });
+
+    // Add FAQ accordion functionality
+    modal.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', () => {
+        const item = question.closest('.faq-item');
+        item.classList.toggle('open');
+      });
+    });
+
+    // Add feature card click actions
+    modal.querySelectorAll('.help-feature-card.clickable').forEach(card => {
+      card.addEventListener('click', () => {
+        const action = card.dataset.action;
+        hideHelp();
+
+        setTimeout(() => {
+          switch(action) {
+            case 'practice':
+              els.modeSelect.value = 'practice';
+              els.setup.classList.remove('hidden');
+              els.setup.scrollIntoView({ behavior: 'smooth' });
+              showToast('Select a subject and click Start to begin practice!', 'info');
+              break;
+            case 'timed':
+              els.modeSelect.value = 'timed';
+              els.modeSelect.dispatchEvent(new Event('change'));
+              els.setup.classList.remove('hidden');
+              els.setup.scrollIntoView({ behavior: 'smooth' });
+              showToast('Timed mode selected! Set your time limit and start.', 'info');
+              break;
+            case 'analytics':
+              showAnalytics();
+              break;
+            case 'achievements':
+              showAchievements();
+              break;
+            case 'voice':
+              if (voiceEngine) {
+                voiceEngine.toggle();
+                const isEnabled = voiceEngine.isEnabled;
+                showToast(isEnabled ? 'Voice narration enabled!' : 'Voice narration disabled', isEnabled ? 'success' : 'info');
+              }
+              break;
+            case 'theme':
+              toggleTheme();
+              showToast('Theme toggled!', 'success');
+              break;
+            case 'offline':
+              showToast('Offline mode is always active! The app works without internet.', 'success');
+              break;
+            case 'leaderboard':
+              showSocial();
+              break;
+            case 'feedback':
+              if (typeof FeedbackEngine !== 'undefined') {
+                FeedbackEngine.openSurvey();
+              }
+              break;
+          }
+        }, 300);
+      });
+    });
+
+    return modal;
+  }
+
+  // Toast notification helper
+  function showToast(message, type = 'info') {
+    // Remove existing toast
+    const existingToast = document.querySelector('.help-toast');
+    if (existingToast) existingToast.remove();
+
+    const toast = document.createElement('div');
+    toast.className = `help-toast help-toast--${type}`;
+
+    const icons = {
+      success: '✅',
+      info: '💡',
+      warning: '⚠️',
+      error: '❌'
+    };
+
+    toast.innerHTML = `
+      <span class="toast-icon">${icons[type] || icons.info}</span>
+      <span class="toast-message">${message}</span>
+    `;
+
+    document.body.appendChild(toast);
+
+    // Animate in
+    requestAnimationFrame(() => {
+      toast.classList.add('show');
+    });
+
+    // Remove after 3 seconds
+    setTimeout(() => {
+      toast.classList.remove('show');
+      setTimeout(() => toast.remove(), 300);
+    }, 3000);
+  }
+
   function renderAchievements() {
     if (!els.achievementsList || !achievementSystem) return;
     
@@ -1867,6 +2264,11 @@
 
     if (els.closeSocial) {
       els.closeSocial.addEventListener('click', hideSocial);
+    }
+
+    // Help button
+    if (els.helpBtn) {
+      els.helpBtn.addEventListener('click', showHelp);
     }
 
     // Tab buttons

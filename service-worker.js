@@ -11,6 +11,7 @@ const APP_ASSETS = [
   './js/achievements.js',
   './js/voice-engine.js',
   './js/analytics.js',
+  './js/feedback.js',
   './js/firebase-config.js',
   './manifest.json',
   './icons/icon-192.png',
