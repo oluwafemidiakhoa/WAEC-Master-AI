@@ -1,0 +1,2102 @@
+[
+  {
+    "topic": "Principles",
+    "difficulty": "easy",
+    "question": "The term 'Business entity concept' refers to ___.",
+    "options": [
+      "assumption that business will continue",
+      "recording income and expenses when incurred",
+      "business is separate from owner",
+      "do not overstate profits or assets"
+    ],
+    "answer": 2,
+    "explanation": "Business entity concept means business is separate from owner.",
+    "id": 1
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "medium",
+    "question": "The term 'Going concern' refers to ___.",
+    "options": [
+      "recording income and expenses when incurred",
+      "assumption that business will continue",
+      "do not overstate profits or assets",
+      "use same accounting methods over time"
+    ],
+    "answer": 1,
+    "explanation": "Going concern means assumption that business will continue.",
+    "id": 2
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "medium",
+    "question": "The term 'Accrual' refers to ___.",
+    "options": [
+      "recording income and expenses when incurred",
+      "do not overstate profits or assets",
+      "use same accounting methods over time",
+      "every transaction affects two accounts"
+    ],
+    "answer": 0,
+    "explanation": "Accrual means recording income and expenses when incurred.",
+    "id": 3
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "medium",
+    "question": "The term 'Prudence' refers to ___.",
+    "options": [
+      "use same accounting methods over time",
+      "every transaction affects two accounts",
+      "left side of an account",
+      "do not overstate profits or assets"
+    ],
+    "answer": 3,
+    "explanation": "Prudence means do not overstate profits or assets.",
+    "id": 4
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "easy",
+    "question": "The term 'Consistency' refers to ___.",
+    "options": [
+      "every transaction affects two accounts",
+      "left side of an account",
+      "use same accounting methods over time",
+      "right side of an account"
+    ],
+    "answer": 2,
+    "explanation": "Consistency means use same accounting methods over time.",
+    "id": 5
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "easy",
+    "question": "The term 'Double entry' refers to ___.",
+    "options": [
+      "left side of an account",
+      "every transaction affects two accounts",
+      "right side of an account",
+      "book of final accounts"
+    ],
+    "answer": 1,
+    "explanation": "Double entry means every transaction affects two accounts.",
+    "id": 6
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "The term 'Debit' refers to ___.",
+    "options": [
+      "left side of an account",
+      "right side of an account",
+      "book of final accounts",
+      "book of original entry"
+    ],
+    "answer": 0,
+    "explanation": "Debit means left side of an account.",
+    "id": 7
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "The term 'Credit' refers to ___.",
+    "options": [
+      "book of final accounts",
+      "book of original entry",
+      "list of balances to check arithmetic",
+      "right side of an account"
+    ],
+    "answer": 3,
+    "explanation": "Credit means right side of an account.",
+    "id": 8
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "The term 'Ledger' refers to ___.",
+    "options": [
+      "book of original entry",
+      "list of balances to check arithmetic",
+      "book of final accounts",
+      "record of cash and bank transactions"
+    ],
+    "answer": 2,
+    "explanation": "Ledger means book of final accounts.",
+    "id": 9
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "The term 'Journal' refers to ___.",
+    "options": [
+      "list of balances to check arithmetic",
+      "book of original entry",
+      "record of cash and bank transactions",
+      "small cash used for minor expenses"
+    ],
+    "answer": 1,
+    "explanation": "Journal means book of original entry.",
+    "id": 10
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "The term 'Trial balance' refers to ___.",
+    "options": [
+      "list of balances to check arithmetic",
+      "record of cash and bank transactions",
+      "small cash used for minor expenses",
+      "statement explaining difference between cash book and bank"
+    ],
+    "answer": 0,
+    "explanation": "Trial balance means list of balances to check arithmetic.",
+    "id": 11
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "easy",
+    "question": "The term 'Cash book' refers to ___.",
+    "options": [
+      "small cash used for minor expenses",
+      "statement explaining difference between cash book and bank",
+      "reduction in value of a fixed asset",
+      "record of cash and bank transactions"
+    ],
+    "answer": 3,
+    "explanation": "Cash book means record of cash and bank transactions.",
+    "id": 12
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "easy",
+    "question": "The term 'Petty cash' refers to ___.",
+    "options": [
+      "statement explaining difference between cash book and bank",
+      "reduction in value of a fixed asset",
+      "small cash used for minor expenses",
+      "equal amount charged each period"
+    ],
+    "answer": 2,
+    "explanation": "Petty cash means small cash used for minor expenses.",
+    "id": 13
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "medium",
+    "question": "The term 'Bank reconciliation' refers to ___.",
+    "options": [
+      "reduction in value of a fixed asset",
+      "statement explaining difference between cash book and bank",
+      "equal amount charged each period",
+      "depreciation on net book value"
+    ],
+    "answer": 1,
+    "explanation": "Bank reconciliation means statement explaining difference between cash book and bank.",
+    "id": 14
+  },
+  {
+    "topic": "Depreciation",
+    "difficulty": "easy",
+    "question": "The term 'Depreciation' refers to ___.",
+    "options": [
+      "reduction in value of a fixed asset",
+      "equal amount charged each period",
+      "depreciation on net book value",
+      "amount set aside for bad debts"
+    ],
+    "answer": 0,
+    "explanation": "Depreciation means reduction in value of a fixed asset.",
+    "id": 15
+  },
+  {
+    "topic": "Depreciation",
+    "difficulty": "medium",
+    "question": "The term 'Straight-line depreciation' refers to ___.",
+    "options": [
+      "depreciation on net book value",
+      "amount set aside for bad debts",
+      "debt that cannot be recovered",
+      "equal amount charged each period"
+    ],
+    "answer": 3,
+    "explanation": "Straight-line depreciation means equal amount charged each period.",
+    "id": 16
+  },
+  {
+    "topic": "Depreciation",
+    "difficulty": "medium",
+    "question": "The term 'Reducing balance' refers to ___.",
+    "options": [
+      "amount set aside for bad debts",
+      "debt that cannot be recovered",
+      "depreciation on net book value",
+      "owner's investment in the business"
+    ],
+    "answer": 2,
+    "explanation": "Reducing balance means depreciation on net book value.",
+    "id": 17
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "The term 'Provision for doubtful debts' refers to ___.",
+    "options": [
+      "debt that cannot be recovered",
+      "amount set aside for bad debts",
+      "owner's investment in the business",
+      "income from normal operations"
+    ],
+    "answer": 1,
+    "explanation": "Provision for doubtful debts means amount set aside for bad debts.",
+    "id": 18
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Bad debt' refers to ___.",
+    "options": [
+      "debt that cannot be recovered",
+      "owner's investment in the business",
+      "income from normal operations",
+      "withdrawals by owner"
+    ],
+    "answer": 0,
+    "explanation": "Bad debt means debt that cannot be recovered.",
+    "id": 19
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Capital' refers to ___.",
+    "options": [
+      "income from normal operations",
+      "withdrawals by owner",
+      "sales minus cost of goods sold",
+      "owner's investment in the business"
+    ],
+    "answer": 3,
+    "explanation": "Capital means owner's investment in the business.",
+    "id": 20
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Revenue' refers to ___.",
+    "options": [
+      "withdrawals by owner",
+      "sales minus cost of goods sold",
+      "income from normal operations",
+      "profit after all expenses"
+    ],
+    "answer": 2,
+    "explanation": "Revenue means income from normal operations.",
+    "id": 21
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Drawings' refers to ___.",
+    "options": [
+      "sales minus cost of goods sold",
+      "withdrawals by owner",
+      "profit after all expenses",
+      "statement of assets and liabilities"
+    ],
+    "answer": 1,
+    "explanation": "Drawings means withdrawals by owner.",
+    "id": 22
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Gross profit' refers to ___.",
+    "options": [
+      "sales minus cost of goods sold",
+      "profit after all expenses",
+      "statement of assets and liabilities",
+      "statement showing profit or loss"
+    ],
+    "answer": 0,
+    "explanation": "Gross profit means sales minus cost of goods sold.",
+    "id": 23
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Net profit' refers to ___.",
+    "options": [
+      "statement of assets and liabilities",
+      "statement showing profit or loss",
+      "summary account for debtors or creditors",
+      "profit after all expenses"
+    ],
+    "answer": 3,
+    "explanation": "Net profit means profit after all expenses.",
+    "id": 24
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Balance sheet' refers to ___.",
+    "options": [
+      "statement showing profit or loss",
+      "summary account for debtors or creditors",
+      "statement of assets and liabilities",
+      "temporary account for errors"
+    ],
+    "answer": 2,
+    "explanation": "Balance sheet means statement of assets and liabilities.",
+    "id": 25
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Income statement' refers to ___.",
+    "options": [
+      "summary account for debtors or creditors",
+      "statement showing profit or loss",
+      "temporary account for errors",
+      "wrong classification of item"
+    ],
+    "answer": 1,
+    "explanation": "Income statement means statement showing profit or loss.",
+    "id": 26
+  },
+  {
+    "topic": "Control Accounts",
+    "difficulty": "hard",
+    "question": "The term 'Control account' refers to ___.",
+    "options": [
+      "summary account for debtors or creditors",
+      "temporary account for errors",
+      "wrong classification of item",
+      "correct amount in wrong account"
+    ],
+    "answer": 0,
+    "explanation": "Control account means summary account for debtors or creditors.",
+    "id": 27
+  },
+  {
+    "topic": "Errors",
+    "difficulty": "medium",
+    "question": "The term 'Suspense account' refers to ___.",
+    "options": [
+      "wrong classification of item",
+      "correct amount in wrong account",
+      "transaction completely left out",
+      "temporary account for errors"
+    ],
+    "answer": 3,
+    "explanation": "Suspense account means temporary account for errors.",
+    "id": 28
+  },
+  {
+    "topic": "Errors",
+    "difficulty": "medium",
+    "question": "The term 'Error of principle' refers to ___.",
+    "options": [
+      "correct amount in wrong account",
+      "transaction completely left out",
+      "wrong classification of item",
+      "wrong amount recorded"
+    ],
+    "answer": 2,
+    "explanation": "Error of principle means wrong classification of item.",
+    "id": 29
+  },
+  {
+    "topic": "Errors",
+    "difficulty": "medium",
+    "question": "The term 'Error of commission' refers to ___.",
+    "options": [
+      "transaction completely left out",
+      "correct amount in wrong account",
+      "wrong amount recorded",
+      "account showing gross profit"
+    ],
+    "answer": 1,
+    "explanation": "Error of commission means correct amount in wrong account.",
+    "id": 30
+  },
+  {
+    "topic": "Errors",
+    "difficulty": "medium",
+    "question": "The term 'Error of omission' refers to ___.",
+    "options": [
+      "transaction completely left out",
+      "wrong amount recorded",
+      "account showing gross profit",
+      "account showing net profit"
+    ],
+    "answer": 0,
+    "explanation": "Error of omission means transaction completely left out.",
+    "id": 31
+  },
+  {
+    "topic": "Errors",
+    "difficulty": "medium",
+    "question": "The term 'Error of original entry' refers to ___.",
+    "options": [
+      "account showing gross profit",
+      "account showing net profit",
+      "business owned by two or more partners",
+      "wrong amount recorded"
+    ],
+    "answer": 3,
+    "explanation": "Error of original entry means wrong amount recorded.",
+    "id": 32
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Trading account' refers to ___.",
+    "options": [
+      "account showing net profit",
+      "business owned by two or more partners",
+      "account showing gross profit",
+      "account showing partner's capital"
+    ],
+    "answer": 2,
+    "explanation": "Trading account means account showing gross profit.",
+    "id": 33
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Profit and loss account' refers to ___.",
+    "options": [
+      "business owned by two or more partners",
+      "account showing net profit",
+      "account showing partner's capital",
+      "account showing partner's drawings and interest"
+    ],
+    "answer": 1,
+    "explanation": "Profit and loss account means account showing net profit.",
+    "id": 34
+  },
+  {
+    "topic": "Partnership",
+    "difficulty": "easy",
+    "question": "The term 'Partnership' refers to ___.",
+    "options": [
+      "business owned by two or more partners",
+      "account showing partner's capital",
+      "account showing partner's drawings and interest",
+      "intangible asset representing reputation"
+    ],
+    "answer": 0,
+    "explanation": "Partnership means business owned by two or more partners.",
+    "id": 35
+  },
+  {
+    "topic": "Partnership",
+    "difficulty": "medium",
+    "question": "The term 'Capital account' refers to ___.",
+    "options": [
+      "account showing partner's drawings and interest",
+      "intangible asset representing reputation",
+      "negative bank balance",
+      "account showing partner's capital"
+    ],
+    "answer": 3,
+    "explanation": "Capital account means account showing partner's capital.",
+    "id": 36
+  },
+  {
+    "topic": "Partnership",
+    "difficulty": "medium",
+    "question": "The term 'Current account' refers to ___.",
+    "options": [
+      "intangible asset representing reputation",
+      "negative bank balance",
+      "account showing partner's drawings and interest",
+      "spending on fixed assets"
+    ],
+    "answer": 2,
+    "explanation": "Current account means account showing partner's drawings and interest.",
+    "id": 37
+  },
+  {
+    "topic": "Partnership",
+    "difficulty": "hard",
+    "question": "The term 'Goodwill' refers to ___.",
+    "options": [
+      "negative bank balance",
+      "intangible asset representing reputation",
+      "spending on fixed assets",
+      "spending on day-to-day operations"
+    ],
+    "answer": 1,
+    "explanation": "Goodwill means intangible asset representing reputation.",
+    "id": 38
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "easy",
+    "question": "The term 'Bank overdraft' refers to ___.",
+    "options": [
+      "negative bank balance",
+      "spending on fixed assets",
+      "spending on day-to-day operations",
+      "record of transactions for a specific item"
+    ],
+    "answer": 0,
+    "explanation": "Bank overdraft means negative bank balance.",
+    "id": 39
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "medium",
+    "question": "The term 'Capital expenditure' refers to ___.",
+    "options": [
+      "spending on day-to-day operations",
+      "record of transactions for a specific item",
+      "document used to record transactions",
+      "spending on fixed assets"
+    ],
+    "answer": 3,
+    "explanation": "Capital expenditure means spending on fixed assets.",
+    "id": 40
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "medium",
+    "question": "The term 'Revenue expenditure' refers to ___.",
+    "options": [
+      "record of transactions for a specific item",
+      "document used to record transactions",
+      "spending on day-to-day operations",
+      "document showing amount owed"
+    ],
+    "answer": 2,
+    "explanation": "Revenue expenditure means spending on day-to-day operations.",
+    "id": 41
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "The term 'Ledger account' refers to ___.",
+    "options": [
+      "document used to record transactions",
+      "record of transactions for a specific item",
+      "document showing amount owed",
+      "document acknowledging payment"
+    ],
+    "answer": 1,
+    "explanation": "Ledger account means record of transactions for a specific item.",
+    "id": 42
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "The term 'Source document' refers to ___.",
+    "options": [
+      "document used to record transactions",
+      "document showing amount owed",
+      "document acknowledging payment",
+      "document for goods returned by buyer"
+    ],
+    "answer": 0,
+    "explanation": "Source document means document used to record transactions.",
+    "id": 43
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "The term 'Invoice' refers to ___.",
+    "options": [
+      "document acknowledging payment",
+      "document for goods returned by buyer",
+      "document for goods returned to seller",
+      "document showing amount owed"
+    ],
+    "answer": 3,
+    "explanation": "Invoice means document showing amount owed.",
+    "id": 44
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "The term 'Receipt' refers to ___.",
+    "options": [
+      "document for goods returned by buyer",
+      "document for goods returned to seller",
+      "document acknowledging payment",
+      "difference between debit and credit"
+    ],
+    "answer": 2,
+    "explanation": "Receipt means document acknowledging payment.",
+    "id": 45
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "medium",
+    "question": "The term 'Debit note' refers to ___.",
+    "options": [
+      "document for goods returned to seller",
+      "document for goods returned by buyer",
+      "difference between debit and credit",
+      "goods available for sale"
+    ],
+    "answer": 1,
+    "explanation": "Debit note means document for goods returned by buyer.",
+    "id": 46
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "medium",
+    "question": "The term 'Credit note' refers to ___.",
+    "options": [
+      "document for goods returned to seller",
+      "difference between debit and credit",
+      "goods available for sale",
+      "ability to meet short-term obligations"
+    ],
+    "answer": 0,
+    "explanation": "Credit note means document for goods returned to seller.",
+    "id": 47
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "The term 'Ledger balance' refers to ___.",
+    "options": [
+      "goods available for sale",
+      "ability to meet short-term obligations",
+      "assets convertible to cash within a year",
+      "difference between debit and credit"
+    ],
+    "answer": 3,
+    "explanation": "Ledger balance means difference between debit and credit.",
+    "id": 48
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Stock' refers to ___.",
+    "options": [
+      "ability to meet short-term obligations",
+      "assets convertible to cash within a year",
+      "goods available for sale",
+      "obligations due within a year"
+    ],
+    "answer": 2,
+    "explanation": "Stock means goods available for sale.",
+    "id": 49
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "The term 'Liquidity' refers to ___.",
+    "options": [
+      "assets convertible to cash within a year",
+      "ability to meet short-term obligations",
+      "obligations due within a year",
+      "long-term assets used in the business"
+    ],
+    "answer": 1,
+    "explanation": "Liquidity means ability to meet short-term obligations.",
+    "id": 50
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Current assets' refers to ___.",
+    "options": [
+      "assets convertible to cash within a year",
+      "obligations due within a year",
+      "long-term assets used in the business",
+      "reserve not available for distribution"
+    ],
+    "answer": 0,
+    "explanation": "Current assets means assets convertible to cash within a year.",
+    "id": 51
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Current liabilities' refers to ___.",
+    "options": [
+      "long-term assets used in the business",
+      "reserve not available for distribution",
+      "reserve created from profits",
+      "obligations due within a year"
+    ],
+    "answer": 3,
+    "explanation": "Current liabilities means obligations due within a year.",
+    "id": 52
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Non-current assets' refers to ___.",
+    "options": [
+      "reserve not available for distribution",
+      "reserve created from profits",
+      "long-term assets used in the business",
+      "expenses paid in advance"
+    ],
+    "answer": 2,
+    "explanation": "Non-current assets means long-term assets used in the business.",
+    "id": 53
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "hard",
+    "question": "The term 'Capital reserve' refers to ___.",
+    "options": [
+      "reserve created from profits",
+      "reserve not available for distribution",
+      "expenses paid in advance",
+      "expense incurred but not yet paid"
+    ],
+    "answer": 1,
+    "explanation": "Capital reserve means reserve not available for distribution.",
+    "id": 54
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "The term 'Revenue reserve' refers to ___.",
+    "options": [
+      "reserve created from profits",
+      "expenses paid in advance",
+      "expense incurred but not yet paid",
+      "debt written off but later collected"
+    ],
+    "answer": 0,
+    "explanation": "Revenue reserve means reserve created from profits.",
+    "id": 55
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "The term 'Prepayment' refers to ___.",
+    "options": [
+      "expense incurred but not yet paid",
+      "debt written off but later collected",
+      "fees charged by the bank",
+      "expenses paid in advance"
+    ],
+    "answer": 3,
+    "explanation": "Prepayment means expenses paid in advance.",
+    "id": 56
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "The term 'Accrued expense' refers to ___.",
+    "options": [
+      "debt written off but later collected",
+      "fees charged by the bank",
+      "expense incurred but not yet paid",
+      "cheque returned unpaid by the bank"
+    ],
+    "answer": 2,
+    "explanation": "Accrued expense means expense incurred but not yet paid.",
+    "id": 57
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "The term 'Bad debt recovered' refers to ___.",
+    "options": [
+      "fees charged by the bank",
+      "debt written off but later collected",
+      "cheque returned unpaid by the bank",
+      "record of bank transactions"
+    ],
+    "answer": 1,
+    "explanation": "Bad debt recovered means debt written off but later collected.",
+    "id": 58
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "easy",
+    "question": "The term 'Bank charges' refers to ___.",
+    "options": [
+      "fees charged by the bank",
+      "cheque returned unpaid by the bank",
+      "record of bank transactions",
+      "amounts owed by customers"
+    ],
+    "answer": 0,
+    "explanation": "Bank charges means fees charged by the bank.",
+    "id": 59
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "medium",
+    "question": "The term 'Dishonoured cheque' refers to ___.",
+    "options": [
+      "record of bank transactions",
+      "amounts owed by customers",
+      "amounts owed to suppliers",
+      "cheque returned unpaid by the bank"
+    ],
+    "answer": 3,
+    "explanation": "Dishonoured cheque means cheque returned unpaid by the bank.",
+    "id": 60
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "easy",
+    "question": "The term 'Bank statement' refers to ___.",
+    "options": [
+      "amounts owed by customers",
+      "amounts owed to suppliers",
+      "record of bank transactions",
+      "entry affecting both cash and bank"
+    ],
+    "answer": 2,
+    "explanation": "Bank statement means record of bank transactions.",
+    "id": 61
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Receivables' refers to ___.",
+    "options": [
+      "amounts owed to suppliers",
+      "amounts owed by customers",
+      "entry affecting both cash and bank",
+      "equality of debit and credit totals"
+    ],
+    "answer": 1,
+    "explanation": "Receivables means amounts owed by customers.",
+    "id": 62
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Payables' refers to ___.",
+    "options": [
+      "amounts owed to suppliers",
+      "entry affecting both cash and bank",
+      "equality of debit and credit totals",
+      "unsold goods at period end"
+    ],
+    "answer": 0,
+    "explanation": "Payables means amounts owed to suppliers.",
+    "id": 63
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "medium",
+    "question": "The term 'Contra entry' refers to ___.",
+    "options": [
+      "equality of debit and credit totals",
+      "unsold goods at period end",
+      "goods at the start of the period",
+      "entry affecting both cash and bank"
+    ],
+    "answer": 3,
+    "explanation": "Contra entry means entry affecting both cash and bank.",
+    "id": 64
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "The term 'Trial balance agreement' refers to ___.",
+    "options": [
+      "unsold goods at period end",
+      "goods at the start of the period",
+      "equality of debit and credit totals",
+      "cost of sales exceeds sales"
+    ],
+    "answer": 2,
+    "explanation": "Trial balance agreement means equality of debit and credit totals.",
+    "id": 65
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Closing stock' refers to ___.",
+    "options": [
+      "goods at the start of the period",
+      "unsold goods at period end",
+      "cost of sales exceeds sales",
+      "expenses exceed gross profit"
+    ],
+    "answer": 1,
+    "explanation": "Closing stock means unsold goods at period end.",
+    "id": 66
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "The term 'Opening stock' refers to ___.",
+    "options": [
+      "goods at the start of the period",
+      "cost of sales exceeds sales",
+      "expenses exceed gross profit",
+      "movement of cash in and out of a business"
+    ],
+    "answer": 0,
+    "explanation": "Opening stock means goods at the start of the period.",
+    "id": 67
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "The term 'Gross loss' refers to ___.",
+    "options": [
+      "expenses exceed gross profit",
+      "movement of cash in and out of a business",
+      "business is separate from owner",
+      "cost of sales exceeds sales"
+    ],
+    "answer": 3,
+    "explanation": "Gross loss means cost of sales exceeds sales.",
+    "id": 68
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "The term 'Net loss' refers to ___.",
+    "options": [
+      "movement of cash in and out of a business",
+      "business is separate from owner",
+      "expenses exceed gross profit",
+      "assumption that business will continue"
+    ],
+    "answer": 2,
+    "explanation": "Net loss means expenses exceed gross profit.",
+    "id": 69
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "The term 'Cash flow' refers to ___.",
+    "options": [
+      "business is separate from owner",
+      "movement of cash in and out of a business",
+      "assumption that business will continue",
+      "recording income and expenses when incurred"
+    ],
+    "answer": 1,
+    "explanation": "Cash flow means movement of cash in and out of a business.",
+    "id": 70
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "easy",
+    "question": "Which term describes: business is separate from owner?",
+    "options": [
+      "Business entity concept",
+      "Going concern",
+      "Accrual",
+      "Prudence"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Business entity concept.",
+    "id": 71
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "medium",
+    "question": "Which term describes: assumption that business will continue?",
+    "options": [
+      "Accrual",
+      "Prudence",
+      "Consistency",
+      "Going concern"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Going concern.",
+    "id": 72
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "medium",
+    "question": "Which term describes: recording income and expenses when incurred?",
+    "options": [
+      "Prudence",
+      "Consistency",
+      "Accrual",
+      "Double entry"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Accrual.",
+    "id": 73
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "medium",
+    "question": "Which term describes: do not overstate profits or assets?",
+    "options": [
+      "Consistency",
+      "Prudence",
+      "Double entry",
+      "Debit"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Prudence.",
+    "id": 74
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "easy",
+    "question": "Which term describes: use same accounting methods over time?",
+    "options": [
+      "Consistency",
+      "Double entry",
+      "Debit",
+      "Credit"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Consistency.",
+    "id": 75
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "easy",
+    "question": "Which term describes: every transaction affects two accounts?",
+    "options": [
+      "Debit",
+      "Credit",
+      "Ledger",
+      "Double entry"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Double entry.",
+    "id": 76
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "Which term describes: left side of an account?",
+    "options": [
+      "Credit",
+      "Ledger",
+      "Debit",
+      "Journal"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Debit.",
+    "id": 77
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "Which term describes: right side of an account?",
+    "options": [
+      "Ledger",
+      "Credit",
+      "Journal",
+      "Trial balance"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Credit.",
+    "id": 78
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "Which term describes: book of final accounts?",
+    "options": [
+      "Ledger",
+      "Journal",
+      "Trial balance",
+      "Cash book"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Ledger.",
+    "id": 79
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "Which term describes: book of original entry?",
+    "options": [
+      "Trial balance",
+      "Cash book",
+      "Petty cash",
+      "Journal"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Journal.",
+    "id": 80
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "Which term describes: list of balances to check arithmetic?",
+    "options": [
+      "Cash book",
+      "Petty cash",
+      "Trial balance",
+      "Bank reconciliation"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Trial balance.",
+    "id": 81
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "easy",
+    "question": "Which term describes: record of cash and bank transactions?",
+    "options": [
+      "Petty cash",
+      "Cash book",
+      "Bank reconciliation",
+      "Depreciation"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Cash book.",
+    "id": 82
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "easy",
+    "question": "Which term describes: small cash used for minor expenses?",
+    "options": [
+      "Petty cash",
+      "Bank reconciliation",
+      "Depreciation",
+      "Straight-line depreciation"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Petty cash.",
+    "id": 83
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "medium",
+    "question": "Which term describes: statement explaining difference between cash book and bank?",
+    "options": [
+      "Depreciation",
+      "Straight-line depreciation",
+      "Reducing balance",
+      "Bank reconciliation"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Bank reconciliation.",
+    "id": 84
+  },
+  {
+    "topic": "Depreciation",
+    "difficulty": "easy",
+    "question": "Which term describes: reduction in value of a fixed asset?",
+    "options": [
+      "Straight-line depreciation",
+      "Reducing balance",
+      "Depreciation",
+      "Provision for doubtful debts"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Depreciation.",
+    "id": 85
+  },
+  {
+    "topic": "Depreciation",
+    "difficulty": "medium",
+    "question": "Which term describes: equal amount charged each period?",
+    "options": [
+      "Reducing balance",
+      "Straight-line depreciation",
+      "Provision for doubtful debts",
+      "Bad debt"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Straight-line depreciation.",
+    "id": 86
+  },
+  {
+    "topic": "Depreciation",
+    "difficulty": "medium",
+    "question": "Which term describes: depreciation on net book value?",
+    "options": [
+      "Reducing balance",
+      "Provision for doubtful debts",
+      "Bad debt",
+      "Capital"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Reducing balance.",
+    "id": 87
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Which term describes: amount set aside for bad debts?",
+    "options": [
+      "Bad debt",
+      "Capital",
+      "Revenue",
+      "Provision for doubtful debts"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Provision for doubtful debts.",
+    "id": 88
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: debt that cannot be recovered?",
+    "options": [
+      "Capital",
+      "Revenue",
+      "Bad debt",
+      "Drawings"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Bad debt.",
+    "id": 89
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: owner's investment in the business?",
+    "options": [
+      "Revenue",
+      "Capital",
+      "Drawings",
+      "Gross profit"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Capital.",
+    "id": 90
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: income from normal operations?",
+    "options": [
+      "Revenue",
+      "Drawings",
+      "Gross profit",
+      "Net profit"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Revenue.",
+    "id": 91
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: withdrawals by owner?",
+    "options": [
+      "Gross profit",
+      "Net profit",
+      "Balance sheet",
+      "Drawings"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Drawings.",
+    "id": 92
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: sales minus cost of goods sold?",
+    "options": [
+      "Net profit",
+      "Balance sheet",
+      "Gross profit",
+      "Income statement"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Gross profit.",
+    "id": 93
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: profit after all expenses?",
+    "options": [
+      "Balance sheet",
+      "Net profit",
+      "Income statement",
+      "Control account"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Net profit.",
+    "id": 94
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: statement of assets and liabilities?",
+    "options": [
+      "Balance sheet",
+      "Income statement",
+      "Control account",
+      "Suspense account"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Balance sheet.",
+    "id": 95
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: statement showing profit or loss?",
+    "options": [
+      "Control account",
+      "Suspense account",
+      "Error of principle",
+      "Income statement"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Income statement.",
+    "id": 96
+  },
+  {
+    "topic": "Control Accounts",
+    "difficulty": "hard",
+    "question": "Which term describes: summary account for debtors or creditors?",
+    "options": [
+      "Suspense account",
+      "Error of principle",
+      "Control account",
+      "Error of commission"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Control account.",
+    "id": 97
+  },
+  {
+    "topic": "Errors",
+    "difficulty": "medium",
+    "question": "Which term describes: temporary account for errors?",
+    "options": [
+      "Error of principle",
+      "Suspense account",
+      "Error of commission",
+      "Error of omission"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Suspense account.",
+    "id": 98
+  },
+  {
+    "topic": "Errors",
+    "difficulty": "medium",
+    "question": "Which term describes: wrong classification of item?",
+    "options": [
+      "Error of principle",
+      "Error of commission",
+      "Error of omission",
+      "Error of original entry"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Error of principle.",
+    "id": 99
+  },
+  {
+    "topic": "Errors",
+    "difficulty": "medium",
+    "question": "Which term describes: correct amount in wrong account?",
+    "options": [
+      "Error of omission",
+      "Error of original entry",
+      "Trading account",
+      "Error of commission"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Error of commission.",
+    "id": 100
+  },
+  {
+    "topic": "Errors",
+    "difficulty": "medium",
+    "question": "Which term describes: transaction completely left out?",
+    "options": [
+      "Error of original entry",
+      "Trading account",
+      "Error of omission",
+      "Profit and loss account"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Error of omission.",
+    "id": 101
+  },
+  {
+    "topic": "Errors",
+    "difficulty": "medium",
+    "question": "Which term describes: wrong amount recorded?",
+    "options": [
+      "Trading account",
+      "Error of original entry",
+      "Profit and loss account",
+      "Partnership"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Error of original entry.",
+    "id": 102
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: account showing gross profit?",
+    "options": [
+      "Trading account",
+      "Profit and loss account",
+      "Partnership",
+      "Capital account"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Trading account.",
+    "id": 103
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: account showing net profit?",
+    "options": [
+      "Partnership",
+      "Capital account",
+      "Current account",
+      "Profit and loss account"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Profit and loss account.",
+    "id": 104
+  },
+  {
+    "topic": "Partnership",
+    "difficulty": "easy",
+    "question": "Which term describes: business owned by two or more partners?",
+    "options": [
+      "Capital account",
+      "Current account",
+      "Partnership",
+      "Goodwill"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Partnership.",
+    "id": 105
+  },
+  {
+    "topic": "Partnership",
+    "difficulty": "medium",
+    "question": "Which term describes: account showing partner's capital?",
+    "options": [
+      "Current account",
+      "Capital account",
+      "Goodwill",
+      "Bank overdraft"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Capital account.",
+    "id": 106
+  },
+  {
+    "topic": "Partnership",
+    "difficulty": "medium",
+    "question": "Which term describes: account showing partner's drawings and interest?",
+    "options": [
+      "Current account",
+      "Goodwill",
+      "Bank overdraft",
+      "Capital expenditure"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Current account.",
+    "id": 107
+  },
+  {
+    "topic": "Partnership",
+    "difficulty": "hard",
+    "question": "Which term describes: intangible asset representing reputation?",
+    "options": [
+      "Bank overdraft",
+      "Capital expenditure",
+      "Revenue expenditure",
+      "Goodwill"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Goodwill.",
+    "id": 108
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "easy",
+    "question": "Which term describes: negative bank balance?",
+    "options": [
+      "Capital expenditure",
+      "Revenue expenditure",
+      "Bank overdraft",
+      "Ledger account"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Bank overdraft.",
+    "id": 109
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "medium",
+    "question": "Which term describes: spending on fixed assets?",
+    "options": [
+      "Revenue expenditure",
+      "Capital expenditure",
+      "Ledger account",
+      "Source document"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Capital expenditure.",
+    "id": 110
+  },
+  {
+    "topic": "Principles",
+    "difficulty": "medium",
+    "question": "Which term describes: spending on day-to-day operations?",
+    "options": [
+      "Revenue expenditure",
+      "Ledger account",
+      "Source document",
+      "Invoice"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Revenue expenditure.",
+    "id": 111
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "Which term describes: record of transactions for a specific item?",
+    "options": [
+      "Source document",
+      "Invoice",
+      "Receipt",
+      "Ledger account"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Ledger account.",
+    "id": 112
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "Which term describes: document used to record transactions?",
+    "options": [
+      "Invoice",
+      "Receipt",
+      "Source document",
+      "Debit note"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Source document.",
+    "id": 113
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "Which term describes: document showing amount owed?",
+    "options": [
+      "Receipt",
+      "Invoice",
+      "Debit note",
+      "Credit note"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Invoice.",
+    "id": 114
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "Which term describes: document acknowledging payment?",
+    "options": [
+      "Receipt",
+      "Debit note",
+      "Credit note",
+      "Ledger balance"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Receipt.",
+    "id": 115
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "medium",
+    "question": "Which term describes: document for goods returned by buyer?",
+    "options": [
+      "Credit note",
+      "Ledger balance",
+      "Stock",
+      "Debit note"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Debit note.",
+    "id": 116
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "medium",
+    "question": "Which term describes: document for goods returned to seller?",
+    "options": [
+      "Ledger balance",
+      "Stock",
+      "Credit note",
+      "Liquidity"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Credit note.",
+    "id": 117
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "Which term describes: difference between debit and credit?",
+    "options": [
+      "Stock",
+      "Ledger balance",
+      "Liquidity",
+      "Current assets"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Ledger balance.",
+    "id": 118
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: goods available for sale?",
+    "options": [
+      "Stock",
+      "Liquidity",
+      "Current assets",
+      "Current liabilities"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Stock.",
+    "id": 119
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Which term describes: ability to meet short-term obligations?",
+    "options": [
+      "Current assets",
+      "Current liabilities",
+      "Non-current assets",
+      "Liquidity"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Liquidity.",
+    "id": 120
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: assets convertible to cash within a year?",
+    "options": [
+      "Current liabilities",
+      "Non-current assets",
+      "Current assets",
+      "Capital reserve"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Current assets.",
+    "id": 121
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: obligations due within a year?",
+    "options": [
+      "Non-current assets",
+      "Current liabilities",
+      "Capital reserve",
+      "Revenue reserve"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Current liabilities.",
+    "id": 122
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: long-term assets used in the business?",
+    "options": [
+      "Non-current assets",
+      "Capital reserve",
+      "Revenue reserve",
+      "Prepayment"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Non-current assets.",
+    "id": 123
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "hard",
+    "question": "Which term describes: reserve not available for distribution?",
+    "options": [
+      "Revenue reserve",
+      "Prepayment",
+      "Accrued expense",
+      "Capital reserve"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Capital reserve.",
+    "id": 124
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Which term describes: reserve created from profits?",
+    "options": [
+      "Prepayment",
+      "Accrued expense",
+      "Revenue reserve",
+      "Bad debt recovered"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Revenue reserve.",
+    "id": 125
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Which term describes: expenses paid in advance?",
+    "options": [
+      "Accrued expense",
+      "Prepayment",
+      "Bad debt recovered",
+      "Bank charges"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Prepayment.",
+    "id": 126
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Which term describes: expense incurred but not yet paid?",
+    "options": [
+      "Accrued expense",
+      "Bad debt recovered",
+      "Bank charges",
+      "Dishonoured cheque"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Accrued expense.",
+    "id": 127
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Which term describes: debt written off but later collected?",
+    "options": [
+      "Bank charges",
+      "Dishonoured cheque",
+      "Bank statement",
+      "Bad debt recovered"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Bad debt recovered.",
+    "id": 128
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "easy",
+    "question": "Which term describes: fees charged by the bank?",
+    "options": [
+      "Dishonoured cheque",
+      "Bank statement",
+      "Bank charges",
+      "Receivables"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Bank charges.",
+    "id": 129
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "medium",
+    "question": "Which term describes: cheque returned unpaid by the bank?",
+    "options": [
+      "Bank statement",
+      "Dishonoured cheque",
+      "Receivables",
+      "Payables"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Dishonoured cheque.",
+    "id": 130
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "easy",
+    "question": "Which term describes: record of bank transactions?",
+    "options": [
+      "Bank statement",
+      "Receivables",
+      "Payables",
+      "Contra entry"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Bank statement.",
+    "id": 131
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: amounts owed by customers?",
+    "options": [
+      "Payables",
+      "Contra entry",
+      "Trial balance agreement",
+      "Receivables"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Receivables.",
+    "id": 132
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: amounts owed to suppliers?",
+    "options": [
+      "Contra entry",
+      "Trial balance agreement",
+      "Payables",
+      "Closing stock"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Payables.",
+    "id": 133
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "medium",
+    "question": "Which term describes: entry affecting both cash and bank?",
+    "options": [
+      "Trial balance agreement",
+      "Contra entry",
+      "Closing stock",
+      "Opening stock"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Contra entry.",
+    "id": 134
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "easy",
+    "question": "Which term describes: equality of debit and credit totals?",
+    "options": [
+      "Trial balance agreement",
+      "Closing stock",
+      "Opening stock",
+      "Gross loss"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Trial balance agreement.",
+    "id": 135
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: unsold goods at period end?",
+    "options": [
+      "Opening stock",
+      "Gross loss",
+      "Net loss",
+      "Closing stock"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Closing stock.",
+    "id": 136
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Which term describes: goods at the start of the period?",
+    "options": [
+      "Gross loss",
+      "Net loss",
+      "Opening stock",
+      "Cash flow"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Opening stock.",
+    "id": 137
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Which term describes: cost of sales exceeds sales?",
+    "options": [
+      "Net loss",
+      "Gross loss",
+      "Cash flow",
+      "Business entity concept"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Gross loss.",
+    "id": 138
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Which term describes: expenses exceed gross profit?",
+    "options": [
+      "Net loss",
+      "Cash flow",
+      "Business entity concept",
+      "Going concern"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Net loss.",
+    "id": 139
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Which term describes: movement of cash in and out of a business?",
+    "options": [
+      "Business entity concept",
+      "Going concern",
+      "Accrual",
+      "Cash flow"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Cash flow.",
+    "id": 140
+  },
+  {
+    "topic": "Depreciation",
+    "difficulty": "medium",
+    "question": "A machine costs 10000 and has a scrap value of 1000 after 5 years. Annual straight-line depreciation is ___.",
+    "options": [
+      "2000",
+      "1500",
+      "1800",
+      "2200"
+    ],
+    "answer": 2,
+    "explanation": "Depreciation = (10000-1000)/5.",
+    "id": 141
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Sales are 50000 and cost of sales is 35000. Gross profit is ___.",
+    "options": [
+      "20000",
+      "15000",
+      "14000",
+      "12000"
+    ],
+    "answer": 1,
+    "explanation": "Gross profit = sales - cost of sales.",
+    "id": 142
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Gross profit is 15000 and expenses are 6000. Net profit is ___.",
+    "options": [
+      "9000",
+      "6000",
+      "12000",
+      "21000"
+    ],
+    "answer": 0,
+    "explanation": "Net profit = gross profit - expenses.",
+    "id": 143
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "medium",
+    "question": "A business buys goods on credit from Okon. The account to credit is ___.",
+    "options": [
+      "Purchases account",
+      "Cash account",
+      "Sales account",
+      "Okon's account"
+    ],
+    "answer": 3,
+    "explanation": "Credit supplier's account for credit purchase.",
+    "id": 144
+  },
+  {
+    "topic": "Errors",
+    "difficulty": "medium",
+    "question": "If total debits are 120000 and total credits are 119000, the suspense account has ___.",
+    "options": [
+      "1000 credit balance",
+      "1000 debit balance",
+      "2000 debit balance",
+      "2000 credit balance"
+    ],
+    "answer": 0,
+    "explanation": "Difference is 1000; suspense is credited to balance.",
+    "id": 145
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Current assets are 40000 and current liabilities are 20000. The current ratio is ___.",
+    "options": [
+      "1:2",
+      "2:1",
+      "3:1",
+      "1:1"
+    ],
+    "answer": 1,
+    "explanation": "Current ratio = 40000/20000.",
+    "id": 146
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Electricity expense of 2000 is unpaid at year end. This should be ___.",
+    "options": [
+      "added to expenses as accrual",
+      "deducted from expenses",
+      "ignored",
+      "treated as prepaid"
+    ],
+    "answer": 0,
+    "explanation": "Unpaid expense is an accrual.",
+    "id": 147
+  },
+  {
+    "topic": "Ledger",
+    "difficulty": "hard",
+    "question": "A bad debt of 1500 was written off and later recovered in cash. The correct treatment is to ___.",
+    "options": [
+      "debit bad debt and credit cash",
+      "debit sales and credit cash",
+      "debit purchases and credit cash",
+      "debit cash and credit bad debt recovered"
+    ],
+    "answer": 3,
+    "explanation": "Recovery increases cash and income.",
+    "id": 148
+  },
+  {
+    "topic": "Cash Book",
+    "difficulty": "medium",
+    "question": "A cheque issued but not yet presented will make the bank balance in the cash book ___.",
+    "options": [
+      "higher than the bank statement",
+      "equal to the bank statement",
+      "lower than the bank statement",
+      "unaffected"
+    ],
+    "answer": 2,
+    "explanation": "Unpresented cheques reduce cash book balance.",
+    "id": 149
+  },
+  {
+    "topic": "Final Accounts",
+    "difficulty": "easy",
+    "question": "Owner's capital is 50000 and drawings are 3000. Closing capital is ___.",
+    "options": [
+      "53000",
+      "47000",
+      "50000",
+      "48000"
+    ],
+    "answer": 1,
+    "explanation": "Drawings reduce capital.",
+    "id": 150
+  }
+]

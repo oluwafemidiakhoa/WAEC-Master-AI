@@ -317,7 +317,20 @@ class FirebaseManager {
 
       if (playerScores.length === 0) return null;
 
-      const subjects = ['mathematics', 'english', 'physics', 'chemistry', 'biology'];
+      const subjects = [
+        'mathematics',
+        'english',
+        'physics',
+        'chemistry',
+        'biology',
+        'economics',
+        'government',
+        'literature',
+        'geography',
+        'commerce',
+        'accounting',
+        'agricultural_science'
+      ];
       const stats = {
         totalSessions: playerScores.length,
         bestOverall: Math.max(...playerScores.map(s => s.percentage)),

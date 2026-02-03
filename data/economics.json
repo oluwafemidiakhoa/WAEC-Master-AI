@@ -1,0 +1,2102 @@
+[
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "The term 'Scarcity' refers to ___.",
+    "options": [
+      "the next best alternative forgone",
+      "limited resources relative to unlimited wants",
+      "land, labor, capital and enterprise",
+      "willingness and ability to buy at a given price"
+    ],
+    "answer": 1,
+    "explanation": "Scarcity means limited resources relative to unlimited wants.",
+    "id": 1
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "The term 'Opportunity cost' refers to ___.",
+    "options": [
+      "the next best alternative forgone",
+      "land, labor, capital and enterprise",
+      "willingness and ability to buy at a given price",
+      "quantity offered for sale at various prices"
+    ],
+    "answer": 0,
+    "explanation": "Opportunity cost means the next best alternative forgone.",
+    "id": 2
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "The term 'Factors of production' refers to ___.",
+    "options": [
+      "willingness and ability to buy at a given price",
+      "quantity offered for sale at various prices",
+      "land, labor, capital and enterprise",
+      "where quantity demanded equals quantity supplied"
+    ],
+    "answer": 2,
+    "explanation": "Factors of production means land, labor, capital and enterprise.",
+    "id": 3
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "easy",
+    "question": "The term 'Demand' refers to ___.",
+    "options": [
+      "quantity offered for sale at various prices",
+      "where quantity demanded equals quantity supplied",
+      "responsiveness of quantity demanded to price changes",
+      "willingness and ability to buy at a given price"
+    ],
+    "answer": 3,
+    "explanation": "Demand means willingness and ability to buy at a given price.",
+    "id": 4
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "easy",
+    "question": "The term 'Supply' refers to ___.",
+    "options": [
+      "where quantity demanded equals quantity supplied",
+      "quantity offered for sale at various prices",
+      "responsiveness of quantity demanded to price changes",
+      "a good whose demand falls as income rises"
+    ],
+    "answer": 1,
+    "explanation": "Supply means quantity offered for sale at various prices.",
+    "id": 5
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "The term 'Equilibrium' refers to ___.",
+    "options": [
+      "where quantity demanded equals quantity supplied",
+      "responsiveness of quantity demanded to price changes",
+      "a good whose demand falls as income rises",
+      "a good that can replace another"
+    ],
+    "answer": 0,
+    "explanation": "Equilibrium means where quantity demanded equals quantity supplied.",
+    "id": 6
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "The term 'Elasticity of demand' refers to ___.",
+    "options": [
+      "a good whose demand falls as income rises",
+      "a good that can replace another",
+      "responsiveness of quantity demanded to price changes",
+      "a good used together with another"
+    ],
+    "answer": 2,
+    "explanation": "Elasticity of demand means responsiveness of quantity demanded to price changes.",
+    "id": 7
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "The term 'Inferior good' refers to ___.",
+    "options": [
+      "a good that can replace another",
+      "a good used together with another",
+      "cost of producing one extra unit",
+      "a good whose demand falls as income rises"
+    ],
+    "answer": 3,
+    "explanation": "Inferior good means a good whose demand falls as income rises.",
+    "id": 8
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "easy",
+    "question": "The term 'Substitute' refers to ___.",
+    "options": [
+      "a good used together with another",
+      "a good that can replace another",
+      "cost of producing one extra unit",
+      "total cost divided by output"
+    ],
+    "answer": 1,
+    "explanation": "Substitute means a good that can replace another.",
+    "id": 9
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "easy",
+    "question": "The term 'Complement' refers to ___.",
+    "options": [
+      "a good used together with another",
+      "cost of producing one extra unit",
+      "total cost divided by output",
+      "cost that does not change with output"
+    ],
+    "answer": 0,
+    "explanation": "Complement means a good used together with another.",
+    "id": 10
+  },
+  {
+    "topic": "Production",
+    "difficulty": "medium",
+    "question": "The term 'Marginal cost' refers to ___.",
+    "options": [
+      "total cost divided by output",
+      "cost that does not change with output",
+      "cost of producing one extra unit",
+      "cost that changes with output"
+    ],
+    "answer": 2,
+    "explanation": "Marginal cost means cost of producing one extra unit.",
+    "id": 11
+  },
+  {
+    "topic": "Production",
+    "difficulty": "medium",
+    "question": "The term 'Average cost' refers to ___.",
+    "options": [
+      "cost that does not change with output",
+      "cost that changes with output",
+      "cost advantages from large-scale production",
+      "total cost divided by output"
+    ],
+    "answer": 3,
+    "explanation": "Average cost means total cost divided by output.",
+    "id": 12
+  },
+  {
+    "topic": "Production",
+    "difficulty": "easy",
+    "question": "The term 'Fixed cost' refers to ___.",
+    "options": [
+      "cost that changes with output",
+      "cost that does not change with output",
+      "cost advantages from large-scale production",
+      "cost disadvantages from too large a scale"
+    ],
+    "answer": 1,
+    "explanation": "Fixed cost means cost that does not change with output.",
+    "id": 13
+  },
+  {
+    "topic": "Production",
+    "difficulty": "easy",
+    "question": "The term 'Variable cost' refers to ___.",
+    "options": [
+      "cost that changes with output",
+      "cost advantages from large-scale production",
+      "cost disadvantages from too large a scale",
+      "market with a single seller"
+    ],
+    "answer": 0,
+    "explanation": "Variable cost means cost that changes with output.",
+    "id": 14
+  },
+  {
+    "topic": "Production",
+    "difficulty": "medium",
+    "question": "The term 'Economies of scale' refers to ___.",
+    "options": [
+      "cost disadvantages from too large a scale",
+      "market with a single seller",
+      "cost advantages from large-scale production",
+      "market with many sellers and identical products"
+    ],
+    "answer": 2,
+    "explanation": "Economies of scale means cost advantages from large-scale production.",
+    "id": 15
+  },
+  {
+    "topic": "Production",
+    "difficulty": "medium",
+    "question": "The term 'Diseconomies of scale' refers to ___.",
+    "options": [
+      "market with a single seller",
+      "market with many sellers and identical products",
+      "market with a few dominant firms",
+      "cost disadvantages from too large a scale"
+    ],
+    "answer": 3,
+    "explanation": "Diseconomies of scale means cost disadvantages from too large a scale.",
+    "id": 16
+  },
+  {
+    "topic": "Market Structures",
+    "difficulty": "easy",
+    "question": "The term 'Monopoly' refers to ___.",
+    "options": [
+      "market with many sellers and identical products",
+      "market with a single seller",
+      "market with a few dominant firms",
+      "total value of goods and services produced within a country"
+    ],
+    "answer": 1,
+    "explanation": "Monopoly means market with a single seller.",
+    "id": 17
+  },
+  {
+    "topic": "Market Structures",
+    "difficulty": "easy",
+    "question": "The term 'Perfect competition' refers to ___.",
+    "options": [
+      "market with many sellers and identical products",
+      "market with a few dominant firms",
+      "total value of goods and services produced within a country",
+      "GDP plus net income from abroad"
+    ],
+    "answer": 0,
+    "explanation": "Perfect competition means market with many sellers and identical products.",
+    "id": 18
+  },
+  {
+    "topic": "Market Structures",
+    "difficulty": "medium",
+    "question": "The term 'Oligopoly' refers to ___.",
+    "options": [
+      "total value of goods and services produced within a country",
+      "GDP plus net income from abroad",
+      "market with a few dominant firms",
+      "general rise in price levels"
+    ],
+    "answer": 2,
+    "explanation": "Oligopoly means market with a few dominant firms.",
+    "id": 19
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "easy",
+    "question": "The term 'GDP' refers to ___.",
+    "options": [
+      "GDP plus net income from abroad",
+      "general rise in price levels",
+      "general fall in price levels",
+      "total value of goods and services produced within a country"
+    ],
+    "answer": 3,
+    "explanation": "GDP means total value of goods and services produced within a country.",
+    "id": 20
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "medium",
+    "question": "The term 'GNP' refers to ___.",
+    "options": [
+      "general rise in price levels",
+      "GDP plus net income from abroad",
+      "general fall in price levels",
+      "willing and able workers without jobs"
+    ],
+    "answer": 1,
+    "explanation": "GNP means GDP plus net income from abroad.",
+    "id": 21
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "easy",
+    "question": "The term 'Inflation' refers to ___.",
+    "options": [
+      "general rise in price levels",
+      "general fall in price levels",
+      "willing and able workers without jobs",
+      "measure of changes in average prices"
+    ],
+    "answer": 0,
+    "explanation": "Inflation means general rise in price levels.",
+    "id": 22
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "easy",
+    "question": "The term 'Deflation' refers to ___.",
+    "options": [
+      "willing and able workers without jobs",
+      "measure of changes in average prices",
+      "general fall in price levels",
+      "use of taxation and government spending"
+    ],
+    "answer": 2,
+    "explanation": "Deflation means general fall in price levels.",
+    "id": 23
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "easy",
+    "question": "The term 'Unemployment' refers to ___.",
+    "options": [
+      "measure of changes in average prices",
+      "use of taxation and government spending",
+      "control of money supply and interest rates",
+      "willing and able workers without jobs"
+    ],
+    "answer": 3,
+    "explanation": "Unemployment means willing and able workers without jobs.",
+    "id": 24
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "medium",
+    "question": "The term 'CPI' refers to ___.",
+    "options": [
+      "use of taxation and government spending",
+      "measure of changes in average prices",
+      "control of money supply and interest rates",
+      "bank that regulates monetary policy"
+    ],
+    "answer": 1,
+    "explanation": "CPI means measure of changes in average prices.",
+    "id": 25
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "medium",
+    "question": "The term 'Fiscal policy' refers to ___.",
+    "options": [
+      "use of taxation and government spending",
+      "control of money supply and interest rates",
+      "bank that regulates monetary policy",
+      "bank that accepts deposits and lends"
+    ],
+    "answer": 0,
+    "explanation": "Fiscal policy means use of taxation and government spending.",
+    "id": 26
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "medium",
+    "question": "The term 'Monetary policy' refers to ___.",
+    "options": [
+      "bank that regulates monetary policy",
+      "bank that accepts deposits and lends",
+      "control of money supply and interest rates",
+      "total amount of money in circulation"
+    ],
+    "answer": 2,
+    "explanation": "Monetary policy means control of money supply and interest rates.",
+    "id": 27
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "easy",
+    "question": "The term 'Central bank' refers to ___.",
+    "options": [
+      "bank that accepts deposits and lends",
+      "total amount of money in circulation",
+      "government spending exceeds revenue",
+      "bank that regulates monetary policy"
+    ],
+    "answer": 3,
+    "explanation": "Central bank means bank that regulates monetary policy.",
+    "id": 28
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "easy",
+    "question": "The term 'Commercial bank' refers to ___.",
+    "options": [
+      "total amount of money in circulation",
+      "bank that accepts deposits and lends",
+      "government spending exceeds revenue",
+      "government revenue exceeds spending"
+    ],
+    "answer": 1,
+    "explanation": "Commercial bank means bank that accepts deposits and lends.",
+    "id": 29
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "medium",
+    "question": "The term 'Money supply' refers to ___.",
+    "options": [
+      "total amount of money in circulation",
+      "government spending exceeds revenue",
+      "government revenue exceeds spending",
+      "difference between exports and imports of goods"
+    ],
+    "answer": 0,
+    "explanation": "Money supply means total amount of money in circulation.",
+    "id": 30
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "easy",
+    "question": "The term 'Budget deficit' refers to ___.",
+    "options": [
+      "government revenue exceeds spending",
+      "difference between exports and imports of goods",
+      "government spending exceeds revenue",
+      "record of all transactions with the rest of the world"
+    ],
+    "answer": 2,
+    "explanation": "Budget deficit means government spending exceeds revenue.",
+    "id": 31
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "easy",
+    "question": "The term 'Budget surplus' refers to ___.",
+    "options": [
+      "difference between exports and imports of goods",
+      "record of all transactions with the rest of the world",
+      "official reduction in the value of a currency",
+      "government revenue exceeds spending"
+    ],
+    "answer": 3,
+    "explanation": "Budget surplus means government revenue exceeds spending.",
+    "id": 32
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "The term 'Balance of trade' refers to ___.",
+    "options": [
+      "record of all transactions with the rest of the world",
+      "difference between exports and imports of goods",
+      "official reduction in the value of a currency",
+      "price of one currency in terms of another"
+    ],
+    "answer": 1,
+    "explanation": "Balance of trade means difference between exports and imports of goods.",
+    "id": 33
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "The term 'Balance of payments' refers to ___.",
+    "options": [
+      "record of all transactions with the rest of the world",
+      "official reduction in the value of a currency",
+      "price of one currency in terms of another",
+      "tax on imported goods"
+    ],
+    "answer": 0,
+    "explanation": "Balance of payments means record of all transactions with the rest of the world.",
+    "id": 34
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "The term 'Devaluation' refers to ___.",
+    "options": [
+      "price of one currency in terms of another",
+      "tax on imported goods",
+      "official reduction in the value of a currency",
+      "financial assistance to producers"
+    ],
+    "answer": 2,
+    "explanation": "Devaluation means official reduction in the value of a currency.",
+    "id": 35
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "The term 'Exchange rate' refers to ___.",
+    "options": [
+      "tax on imported goods",
+      "financial assistance to producers",
+      "good that is non-rival and non-excludable",
+      "price of one currency in terms of another"
+    ],
+    "answer": 3,
+    "explanation": "Exchange rate means price of one currency in terms of another.",
+    "id": 36
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "easy",
+    "question": "The term 'Tariff' refers to ___.",
+    "options": [
+      "financial assistance to producers",
+      "tax on imported goods",
+      "good that is non-rival and non-excludable",
+      "cost or benefit imposed on third parties"
+    ],
+    "answer": 1,
+    "explanation": "Tariff means tax on imported goods.",
+    "id": 37
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "medium",
+    "question": "The term 'Subsidy' refers to ___.",
+    "options": [
+      "financial assistance to producers",
+      "good that is non-rival and non-excludable",
+      "cost or benefit imposed on third parties",
+      "increase in real output over time"
+    ],
+    "answer": 0,
+    "explanation": "Subsidy means financial assistance to producers.",
+    "id": 38
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "hard",
+    "question": "The term 'Public good' refers to ___.",
+    "options": [
+      "cost or benefit imposed on third parties",
+      "increase in real output over time",
+      "good that is non-rival and non-excludable",
+      "improvement in standard of living and welfare"
+    ],
+    "answer": 2,
+    "explanation": "Public good means good that is non-rival and non-excludable.",
+    "id": 39
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "hard",
+    "question": "The term 'Externality' refers to ___.",
+    "options": [
+      "increase in real output over time",
+      "improvement in standard of living and welfare",
+      "national income divided by population",
+      "cost or benefit imposed on third parties"
+    ],
+    "answer": 3,
+    "explanation": "Externality means cost or benefit imposed on third parties.",
+    "id": 40
+  },
+  {
+    "topic": "Development",
+    "difficulty": "medium",
+    "question": "The term 'Economic growth' refers to ___.",
+    "options": [
+      "improvement in standard of living and welfare",
+      "increase in real output over time",
+      "national income divided by population",
+      "income not spent on consumption"
+    ],
+    "answer": 1,
+    "explanation": "Economic growth means increase in real output over time.",
+    "id": 41
+  },
+  {
+    "topic": "Development",
+    "difficulty": "medium",
+    "question": "The term 'Development' refers to ___.",
+    "options": [
+      "improvement in standard of living and welfare",
+      "national income divided by population",
+      "income not spent on consumption",
+      "purchase of capital goods"
+    ],
+    "answer": 0,
+    "explanation": "Development means improvement in standard of living and welfare.",
+    "id": 42
+  },
+  {
+    "topic": "Development",
+    "difficulty": "easy",
+    "question": "The term 'Per capita income' refers to ___.",
+    "options": [
+      "income not spent on consumption",
+      "purchase of capital goods",
+      "national income divided by population",
+      "consumers determine what is produced"
+    ],
+    "answer": 2,
+    "explanation": "Per capita income means national income divided by population.",
+    "id": 43
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "easy",
+    "question": "The term 'Savings' refers to ___.",
+    "options": [
+      "purchase of capital goods",
+      "consumers determine what is produced",
+      "maximum legal price",
+      "income not spent on consumption"
+    ],
+    "answer": 3,
+    "explanation": "Savings means income not spent on consumption.",
+    "id": 44
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "medium",
+    "question": "The term 'Investment' refers to ___.",
+    "options": [
+      "consumers determine what is produced",
+      "purchase of capital goods",
+      "maximum legal price",
+      "minimum legal price"
+    ],
+    "answer": 1,
+    "explanation": "Investment means purchase of capital goods.",
+    "id": 45
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "medium",
+    "question": "The term 'Consumer sovereignty' refers to ___.",
+    "options": [
+      "consumers determine what is produced",
+      "maximum legal price",
+      "minimum legal price",
+      "transfer of public enterprises to private ownership"
+    ],
+    "answer": 0,
+    "explanation": "Consumer sovereignty means consumers determine what is produced.",
+    "id": 46
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "The term 'Price ceiling' refers to ___.",
+    "options": [
+      "minimum legal price",
+      "transfer of public enterprises to private ownership",
+      "maximum legal price",
+      "inefficient allocation of resources by the market"
+    ],
+    "answer": 2,
+    "explanation": "Price ceiling means maximum legal price.",
+    "id": 47
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "The term 'Price floor' refers to ___.",
+    "options": [
+      "transfer of public enterprises to private ownership",
+      "inefficient allocation of resources by the market",
+      "responsiveness of quantity supplied to price changes",
+      "minimum legal price"
+    ],
+    "answer": 3,
+    "explanation": "Price floor means minimum legal price.",
+    "id": 48
+  },
+  {
+    "topic": "Development",
+    "difficulty": "hard",
+    "question": "The term 'Privatization' refers to ___.",
+    "options": [
+      "inefficient allocation of resources by the market",
+      "transfer of public enterprises to private ownership",
+      "responsiveness of quantity supplied to price changes",
+      "extra satisfaction from one more unit consumed"
+    ],
+    "answer": 1,
+    "explanation": "Privatization means transfer of public enterprises to private ownership.",
+    "id": 49
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "hard",
+    "question": "The term 'Market failure' refers to ___.",
+    "options": [
+      "inefficient allocation of resources by the market",
+      "responsiveness of quantity supplied to price changes",
+      "extra satisfaction from one more unit consumed",
+      "overall satisfaction from consumption"
+    ],
+    "answer": 0,
+    "explanation": "Market failure means inefficient allocation of resources by the market.",
+    "id": 50
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "The term 'Price elasticity of supply' refers to ___.",
+    "options": [
+      "extra satisfaction from one more unit consumed",
+      "overall satisfaction from consumption",
+      "responsiveness of quantity supplied to price changes",
+      "output rises at a decreasing rate when one input increases"
+    ],
+    "answer": 2,
+    "explanation": "Price elasticity of supply means responsiveness of quantity supplied to price changes.",
+    "id": 51
+  },
+  {
+    "topic": "Consumer Behavior",
+    "difficulty": "medium",
+    "question": "The term 'Marginal utility' refers to ___.",
+    "options": [
+      "overall satisfaction from consumption",
+      "output rises at a decreasing rate when one input increases",
+      "specialization of tasks in production",
+      "extra satisfaction from one more unit consumed"
+    ],
+    "answer": 3,
+    "explanation": "Marginal utility means extra satisfaction from one more unit consumed.",
+    "id": 52
+  },
+  {
+    "topic": "Consumer Behavior",
+    "difficulty": "easy",
+    "question": "The term 'Total utility' refers to ___.",
+    "options": [
+      "output rises at a decreasing rate when one input increases",
+      "overall satisfaction from consumption",
+      "specialization of tasks in production",
+      "government spending on goods and services"
+    ],
+    "answer": 1,
+    "explanation": "Total utility means overall satisfaction from consumption.",
+    "id": 53
+  },
+  {
+    "topic": "Production",
+    "difficulty": "hard",
+    "question": "The term 'Law of diminishing returns' refers to ___.",
+    "options": [
+      "output rises at a decreasing rate when one input increases",
+      "specialization of tasks in production",
+      "government spending on goods and services",
+      "total money owed by the government"
+    ],
+    "answer": 0,
+    "explanation": "Law of diminishing returns means output rises at a decreasing rate when one input increases.",
+    "id": 54
+  },
+  {
+    "topic": "Production",
+    "difficulty": "easy",
+    "question": "The term 'Division of labor' refers to ___.",
+    "options": [
+      "government spending on goods and services",
+      "total money owed by the government",
+      "specialization of tasks in production",
+      "funding government deficit by borrowing"
+    ],
+    "answer": 2,
+    "explanation": "Division of labor means specialization of tasks in production.",
+    "id": 55
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "easy",
+    "question": "The term 'Public expenditure' refers to ___.",
+    "options": [
+      "total money owed by the government",
+      "funding government deficit by borrowing",
+      "ease of converting assets to cash",
+      "government spending on goods and services"
+    ],
+    "answer": 3,
+    "explanation": "Public expenditure means government spending on goods and services.",
+    "id": 56
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "medium",
+    "question": "The term 'Public debt' refers to ___.",
+    "options": [
+      "funding government deficit by borrowing",
+      "total money owed by the government",
+      "ease of converting assets to cash",
+      "money accepted by law for payments"
+    ],
+    "answer": 1,
+    "explanation": "Public debt means total money owed by the government.",
+    "id": 57
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "hard",
+    "question": "The term 'Deficit financing' refers to ___.",
+    "options": [
+      "funding government deficit by borrowing",
+      "ease of converting assets to cash",
+      "money accepted by law for payments",
+      "market for long-term funds"
+    ],
+    "answer": 0,
+    "explanation": "Deficit financing means funding government deficit by borrowing.",
+    "id": 58
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "medium",
+    "question": "The term 'Liquidity' refers to ___.",
+    "options": [
+      "money accepted by law for payments",
+      "market for long-term funds",
+      "ease of converting assets to cash",
+      "excess demand at full employment"
+    ],
+    "answer": 2,
+    "explanation": "Liquidity means ease of converting assets to cash.",
+    "id": 59
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "easy",
+    "question": "The term 'Legal tender' refers to ___.",
+    "options": [
+      "market for long-term funds",
+      "excess demand at full employment",
+      "period of declining economic activity",
+      "money accepted by law for payments"
+    ],
+    "answer": 3,
+    "explanation": "Legal tender means money accepted by law for payments.",
+    "id": 60
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "medium",
+    "question": "The term 'Capital market' refers to ___.",
+    "options": [
+      "excess demand at full employment",
+      "market for long-term funds",
+      "period of declining economic activity",
+      "replacing imports with local production"
+    ],
+    "answer": 1,
+    "explanation": "Capital market means market for long-term funds.",
+    "id": 61
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "hard",
+    "question": "The term 'Inflationary gap' refers to ___.",
+    "options": [
+      "excess demand at full employment",
+      "period of declining economic activity",
+      "replacing imports with local production",
+      "ratio of export prices to import prices"
+    ],
+    "answer": 0,
+    "explanation": "Inflationary gap means excess demand at full employment.",
+    "id": 62
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "medium",
+    "question": "The term 'Recession' refers to ___.",
+    "options": [
+      "replacing imports with local production",
+      "ratio of export prices to import prices",
+      "period of declining economic activity",
+      "government regulation of foreign exchange"
+    ],
+    "answer": 2,
+    "explanation": "Recession means period of declining economic activity.",
+    "id": 63
+  },
+  {
+    "topic": "Development",
+    "difficulty": "medium",
+    "question": "The term 'Import substitution' refers to ___.",
+    "options": [
+      "ratio of export prices to import prices",
+      "government regulation of foreign exchange",
+      "receipts exceed payments",
+      "replacing imports with local production"
+    ],
+    "answer": 3,
+    "explanation": "Import substitution means replacing imports with local production.",
+    "id": 64
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "The term 'Terms of trade' refers to ___.",
+    "options": [
+      "government regulation of foreign exchange",
+      "ratio of export prices to import prices",
+      "receipts exceed payments",
+      "employed and unemployed working-age people"
+    ],
+    "answer": 1,
+    "explanation": "Terms of trade means ratio of export prices to import prices.",
+    "id": 65
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "The term 'Exchange control' refers to ___.",
+    "options": [
+      "government regulation of foreign exchange",
+      "receipts exceed payments",
+      "employed and unemployed working-age people",
+      "lowest legal wage rate"
+    ],
+    "answer": 0,
+    "explanation": "Exchange control means government regulation of foreign exchange.",
+    "id": 66
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "The term 'Balance of payments surplus' refers to ___.",
+    "options": [
+      "employed and unemployed working-age people",
+      "lowest legal wage rate",
+      "receipts exceed payments",
+      "output per unit of input"
+    ],
+    "answer": 2,
+    "explanation": "Balance of payments surplus means receipts exceed payments.",
+    "id": 67
+  },
+  {
+    "topic": "Labor",
+    "difficulty": "easy",
+    "question": "The term 'Labor force' refers to ___.",
+    "options": [
+      "lowest legal wage rate",
+      "output per unit of input",
+      "limited resources relative to unlimited wants",
+      "employed and unemployed working-age people"
+    ],
+    "answer": 3,
+    "explanation": "Labor force means employed and unemployed working-age people.",
+    "id": 68
+  },
+  {
+    "topic": "Labor",
+    "difficulty": "medium",
+    "question": "The term 'Minimum wage' refers to ___.",
+    "options": [
+      "output per unit of input",
+      "lowest legal wage rate",
+      "limited resources relative to unlimited wants",
+      "the next best alternative forgone"
+    ],
+    "answer": 1,
+    "explanation": "Minimum wage means lowest legal wage rate.",
+    "id": 69
+  },
+  {
+    "topic": "Production",
+    "difficulty": "medium",
+    "question": "The term 'Productivity' refers to ___.",
+    "options": [
+      "output per unit of input",
+      "limited resources relative to unlimited wants",
+      "the next best alternative forgone",
+      "land, labor, capital and enterprise"
+    ],
+    "answer": 0,
+    "explanation": "Productivity means output per unit of input.",
+    "id": 70
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "Which term describes: limited resources relative to unlimited wants?",
+    "options": [
+      "Opportunity cost",
+      "Factors of production",
+      "Scarcity",
+      "Demand"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Scarcity.",
+    "id": 71
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "Which term describes: the next best alternative forgone?",
+    "options": [
+      "Factors of production",
+      "Demand",
+      "Supply",
+      "Opportunity cost"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Opportunity cost.",
+    "id": 72
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "Which term describes: land, labor, capital and enterprise?",
+    "options": [
+      "Demand",
+      "Factors of production",
+      "Supply",
+      "Equilibrium"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Factors of production.",
+    "id": 73
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "easy",
+    "question": "Which term describes: willingness and ability to buy at a given price?",
+    "options": [
+      "Demand",
+      "Supply",
+      "Equilibrium",
+      "Elasticity of demand"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Demand.",
+    "id": 74
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "easy",
+    "question": "Which term describes: quantity offered for sale at various prices?",
+    "options": [
+      "Equilibrium",
+      "Elasticity of demand",
+      "Supply",
+      "Inferior good"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Supply.",
+    "id": 75
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "Which term describes: where quantity demanded equals quantity supplied?",
+    "options": [
+      "Elasticity of demand",
+      "Inferior good",
+      "Substitute",
+      "Equilibrium"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Equilibrium.",
+    "id": 76
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "Which term describes: responsiveness of quantity demanded to price changes?",
+    "options": [
+      "Inferior good",
+      "Elasticity of demand",
+      "Substitute",
+      "Complement"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Elasticity of demand.",
+    "id": 77
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "Which term describes: a good whose demand falls as income rises?",
+    "options": [
+      "Inferior good",
+      "Substitute",
+      "Complement",
+      "Marginal cost"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Inferior good.",
+    "id": 78
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "easy",
+    "question": "Which term describes: a good that can replace another?",
+    "options": [
+      "Complement",
+      "Marginal cost",
+      "Substitute",
+      "Average cost"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Substitute.",
+    "id": 79
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "easy",
+    "question": "Which term describes: a good used together with another?",
+    "options": [
+      "Marginal cost",
+      "Average cost",
+      "Fixed cost",
+      "Complement"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Complement.",
+    "id": 80
+  },
+  {
+    "topic": "Production",
+    "difficulty": "medium",
+    "question": "Which term describes: cost of producing one extra unit?",
+    "options": [
+      "Average cost",
+      "Marginal cost",
+      "Fixed cost",
+      "Variable cost"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Marginal cost.",
+    "id": 81
+  },
+  {
+    "topic": "Production",
+    "difficulty": "medium",
+    "question": "Which term describes: total cost divided by output?",
+    "options": [
+      "Average cost",
+      "Fixed cost",
+      "Variable cost",
+      "Economies of scale"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Average cost.",
+    "id": 82
+  },
+  {
+    "topic": "Production",
+    "difficulty": "easy",
+    "question": "Which term describes: cost that does not change with output?",
+    "options": [
+      "Variable cost",
+      "Economies of scale",
+      "Fixed cost",
+      "Diseconomies of scale"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Fixed cost.",
+    "id": 83
+  },
+  {
+    "topic": "Production",
+    "difficulty": "easy",
+    "question": "Which term describes: cost that changes with output?",
+    "options": [
+      "Economies of scale",
+      "Diseconomies of scale",
+      "Monopoly",
+      "Variable cost"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Variable cost.",
+    "id": 84
+  },
+  {
+    "topic": "Production",
+    "difficulty": "medium",
+    "question": "Which term describes: cost advantages from large-scale production?",
+    "options": [
+      "Diseconomies of scale",
+      "Economies of scale",
+      "Monopoly",
+      "Perfect competition"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Economies of scale.",
+    "id": 85
+  },
+  {
+    "topic": "Production",
+    "difficulty": "medium",
+    "question": "Which term describes: cost disadvantages from too large a scale?",
+    "options": [
+      "Diseconomies of scale",
+      "Monopoly",
+      "Perfect competition",
+      "Oligopoly"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Diseconomies of scale.",
+    "id": 86
+  },
+  {
+    "topic": "Market Structures",
+    "difficulty": "easy",
+    "question": "Which term describes: market with a single seller?",
+    "options": [
+      "Perfect competition",
+      "Oligopoly",
+      "Monopoly",
+      "GDP"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Monopoly.",
+    "id": 87
+  },
+  {
+    "topic": "Market Structures",
+    "difficulty": "easy",
+    "question": "Which term describes: market with many sellers and identical products?",
+    "options": [
+      "Oligopoly",
+      "GDP",
+      "GNP",
+      "Perfect competition"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Perfect competition.",
+    "id": 88
+  },
+  {
+    "topic": "Market Structures",
+    "difficulty": "medium",
+    "question": "Which term describes: market with a few dominant firms?",
+    "options": [
+      "GDP",
+      "Oligopoly",
+      "GNP",
+      "Inflation"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Oligopoly.",
+    "id": 89
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "easy",
+    "question": "Which term describes: total value of goods and services produced within a country?",
+    "options": [
+      "GDP",
+      "GNP",
+      "Inflation",
+      "Deflation"
+    ],
+    "answer": 0,
+    "explanation": "That description matches GDP.",
+    "id": 90
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "medium",
+    "question": "Which term describes: GDP plus net income from abroad?",
+    "options": [
+      "Inflation",
+      "Deflation",
+      "GNP",
+      "Unemployment"
+    ],
+    "answer": 2,
+    "explanation": "That description matches GNP.",
+    "id": 91
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "easy",
+    "question": "Which term describes: general rise in price levels?",
+    "options": [
+      "Deflation",
+      "Unemployment",
+      "CPI",
+      "Inflation"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Inflation.",
+    "id": 92
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "easy",
+    "question": "Which term describes: general fall in price levels?",
+    "options": [
+      "Unemployment",
+      "Deflation",
+      "CPI",
+      "Fiscal policy"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Deflation.",
+    "id": 93
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "easy",
+    "question": "Which term describes: willing and able workers without jobs?",
+    "options": [
+      "Unemployment",
+      "CPI",
+      "Fiscal policy",
+      "Monetary policy"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Unemployment.",
+    "id": 94
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "medium",
+    "question": "Which term describes: measure of changes in average prices?",
+    "options": [
+      "Fiscal policy",
+      "Monetary policy",
+      "CPI",
+      "Central bank"
+    ],
+    "answer": 2,
+    "explanation": "That description matches CPI.",
+    "id": 95
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "medium",
+    "question": "Which term describes: use of taxation and government spending?",
+    "options": [
+      "Monetary policy",
+      "Central bank",
+      "Commercial bank",
+      "Fiscal policy"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Fiscal policy.",
+    "id": 96
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "medium",
+    "question": "Which term describes: control of money supply and interest rates?",
+    "options": [
+      "Central bank",
+      "Monetary policy",
+      "Commercial bank",
+      "Money supply"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Monetary policy.",
+    "id": 97
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "easy",
+    "question": "Which term describes: bank that regulates monetary policy?",
+    "options": [
+      "Central bank",
+      "Commercial bank",
+      "Money supply",
+      "Budget deficit"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Central bank.",
+    "id": 98
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "easy",
+    "question": "Which term describes: bank that accepts deposits and lends?",
+    "options": [
+      "Money supply",
+      "Budget deficit",
+      "Commercial bank",
+      "Budget surplus"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Commercial bank.",
+    "id": 99
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "medium",
+    "question": "Which term describes: total amount of money in circulation?",
+    "options": [
+      "Budget deficit",
+      "Budget surplus",
+      "Balance of trade",
+      "Money supply"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Money supply.",
+    "id": 100
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "easy",
+    "question": "Which term describes: government spending exceeds revenue?",
+    "options": [
+      "Budget surplus",
+      "Budget deficit",
+      "Balance of trade",
+      "Balance of payments"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Budget deficit.",
+    "id": 101
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "easy",
+    "question": "Which term describes: government revenue exceeds spending?",
+    "options": [
+      "Budget surplus",
+      "Balance of trade",
+      "Balance of payments",
+      "Devaluation"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Budget surplus.",
+    "id": 102
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "Which term describes: difference between exports and imports of goods?",
+    "options": [
+      "Balance of payments",
+      "Devaluation",
+      "Balance of trade",
+      "Exchange rate"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Balance of trade.",
+    "id": 103
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "Which term describes: record of all transactions with the rest of the world?",
+    "options": [
+      "Devaluation",
+      "Exchange rate",
+      "Tariff",
+      "Balance of payments"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Balance of payments.",
+    "id": 104
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "Which term describes: official reduction in the value of a currency?",
+    "options": [
+      "Exchange rate",
+      "Devaluation",
+      "Tariff",
+      "Subsidy"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Devaluation.",
+    "id": 105
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "Which term describes: price of one currency in terms of another?",
+    "options": [
+      "Exchange rate",
+      "Tariff",
+      "Subsidy",
+      "Public good"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Exchange rate.",
+    "id": 106
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: tax on imported goods?",
+    "options": [
+      "Subsidy",
+      "Public good",
+      "Tariff",
+      "Externality"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Tariff.",
+    "id": 107
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "medium",
+    "question": "Which term describes: financial assistance to producers?",
+    "options": [
+      "Public good",
+      "Externality",
+      "Economic growth",
+      "Subsidy"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Subsidy.",
+    "id": 108
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "hard",
+    "question": "Which term describes: good that is non-rival and non-excludable?",
+    "options": [
+      "Externality",
+      "Public good",
+      "Economic growth",
+      "Development"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Public good.",
+    "id": 109
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "hard",
+    "question": "Which term describes: cost or benefit imposed on third parties?",
+    "options": [
+      "Externality",
+      "Economic growth",
+      "Development",
+      "Per capita income"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Externality.",
+    "id": 110
+  },
+  {
+    "topic": "Development",
+    "difficulty": "medium",
+    "question": "Which term describes: increase in real output over time?",
+    "options": [
+      "Development",
+      "Per capita income",
+      "Economic growth",
+      "Savings"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Economic growth.",
+    "id": 111
+  },
+  {
+    "topic": "Development",
+    "difficulty": "medium",
+    "question": "Which term describes: improvement in standard of living and welfare?",
+    "options": [
+      "Per capita income",
+      "Savings",
+      "Investment",
+      "Development"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Development.",
+    "id": 112
+  },
+  {
+    "topic": "Development",
+    "difficulty": "easy",
+    "question": "Which term describes: national income divided by population?",
+    "options": [
+      "Savings",
+      "Per capita income",
+      "Investment",
+      "Consumer sovereignty"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Per capita income.",
+    "id": 113
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "easy",
+    "question": "Which term describes: income not spent on consumption?",
+    "options": [
+      "Savings",
+      "Investment",
+      "Consumer sovereignty",
+      "Price ceiling"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Savings.",
+    "id": 114
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "medium",
+    "question": "Which term describes: purchase of capital goods?",
+    "options": [
+      "Consumer sovereignty",
+      "Price ceiling",
+      "Investment",
+      "Price floor"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Investment.",
+    "id": 115
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "medium",
+    "question": "Which term describes: consumers determine what is produced?",
+    "options": [
+      "Price ceiling",
+      "Price floor",
+      "Privatization",
+      "Consumer sovereignty"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Consumer sovereignty.",
+    "id": 116
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "Which term describes: maximum legal price?",
+    "options": [
+      "Price floor",
+      "Price ceiling",
+      "Privatization",
+      "Market failure"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Price ceiling.",
+    "id": 117
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "Which term describes: minimum legal price?",
+    "options": [
+      "Price floor",
+      "Privatization",
+      "Market failure",
+      "Price elasticity of supply"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Price floor.",
+    "id": 118
+  },
+  {
+    "topic": "Development",
+    "difficulty": "hard",
+    "question": "Which term describes: transfer of public enterprises to private ownership?",
+    "options": [
+      "Market failure",
+      "Price elasticity of supply",
+      "Privatization",
+      "Marginal utility"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Privatization.",
+    "id": 119
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "hard",
+    "question": "Which term describes: inefficient allocation of resources by the market?",
+    "options": [
+      "Price elasticity of supply",
+      "Marginal utility",
+      "Total utility",
+      "Market failure"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Market failure.",
+    "id": 120
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "Which term describes: responsiveness of quantity supplied to price changes?",
+    "options": [
+      "Marginal utility",
+      "Price elasticity of supply",
+      "Total utility",
+      "Law of diminishing returns"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Price elasticity of supply.",
+    "id": 121
+  },
+  {
+    "topic": "Consumer Behavior",
+    "difficulty": "medium",
+    "question": "Which term describes: extra satisfaction from one more unit consumed?",
+    "options": [
+      "Marginal utility",
+      "Total utility",
+      "Law of diminishing returns",
+      "Division of labor"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Marginal utility.",
+    "id": 122
+  },
+  {
+    "topic": "Consumer Behavior",
+    "difficulty": "easy",
+    "question": "Which term describes: overall satisfaction from consumption?",
+    "options": [
+      "Law of diminishing returns",
+      "Division of labor",
+      "Total utility",
+      "Public expenditure"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Total utility.",
+    "id": 123
+  },
+  {
+    "topic": "Production",
+    "difficulty": "hard",
+    "question": "Which term describes: output rises at a decreasing rate when one input increases?",
+    "options": [
+      "Division of labor",
+      "Public expenditure",
+      "Public debt",
+      "Law of diminishing returns"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Law of diminishing returns.",
+    "id": 124
+  },
+  {
+    "topic": "Production",
+    "difficulty": "easy",
+    "question": "Which term describes: specialization of tasks in production?",
+    "options": [
+      "Public expenditure",
+      "Division of labor",
+      "Public debt",
+      "Deficit financing"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Division of labor.",
+    "id": 125
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "easy",
+    "question": "Which term describes: government spending on goods and services?",
+    "options": [
+      "Public expenditure",
+      "Public debt",
+      "Deficit financing",
+      "Liquidity"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Public expenditure.",
+    "id": 126
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "medium",
+    "question": "Which term describes: total money owed by the government?",
+    "options": [
+      "Deficit financing",
+      "Liquidity",
+      "Public debt",
+      "Legal tender"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Public debt.",
+    "id": 127
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "hard",
+    "question": "Which term describes: funding government deficit by borrowing?",
+    "options": [
+      "Liquidity",
+      "Legal tender",
+      "Capital market",
+      "Deficit financing"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Deficit financing.",
+    "id": 128
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "medium",
+    "question": "Which term describes: ease of converting assets to cash?",
+    "options": [
+      "Legal tender",
+      "Liquidity",
+      "Capital market",
+      "Inflationary gap"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Liquidity.",
+    "id": 129
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "easy",
+    "question": "Which term describes: money accepted by law for payments?",
+    "options": [
+      "Legal tender",
+      "Capital market",
+      "Inflationary gap",
+      "Recession"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Legal tender.",
+    "id": 130
+  },
+  {
+    "topic": "Money and Banking",
+    "difficulty": "medium",
+    "question": "Which term describes: market for long-term funds?",
+    "options": [
+      "Inflationary gap",
+      "Recession",
+      "Capital market",
+      "Import substitution"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Capital market.",
+    "id": 131
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "hard",
+    "question": "Which term describes: excess demand at full employment?",
+    "options": [
+      "Recession",
+      "Import substitution",
+      "Terms of trade",
+      "Inflationary gap"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Inflationary gap.",
+    "id": 132
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "medium",
+    "question": "Which term describes: period of declining economic activity?",
+    "options": [
+      "Import substitution",
+      "Recession",
+      "Terms of trade",
+      "Exchange control"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Recession.",
+    "id": 133
+  },
+  {
+    "topic": "Development",
+    "difficulty": "medium",
+    "question": "Which term describes: replacing imports with local production?",
+    "options": [
+      "Import substitution",
+      "Terms of trade",
+      "Exchange control",
+      "Balance of payments surplus"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Import substitution.",
+    "id": 134
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "Which term describes: ratio of export prices to import prices?",
+    "options": [
+      "Exchange control",
+      "Balance of payments surplus",
+      "Terms of trade",
+      "Labor force"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Terms of trade.",
+    "id": 135
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "Which term describes: government regulation of foreign exchange?",
+    "options": [
+      "Balance of payments surplus",
+      "Labor force",
+      "Minimum wage",
+      "Exchange control"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Exchange control.",
+    "id": 136
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "Which term describes: receipts exceed payments?",
+    "options": [
+      "Labor force",
+      "Balance of payments surplus",
+      "Minimum wage",
+      "Productivity"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Balance of payments surplus.",
+    "id": 137
+  },
+  {
+    "topic": "Labor",
+    "difficulty": "easy",
+    "question": "Which term describes: employed and unemployed working-age people?",
+    "options": [
+      "Labor force",
+      "Minimum wage",
+      "Productivity",
+      "Scarcity"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Labor force.",
+    "id": 138
+  },
+  {
+    "topic": "Labor",
+    "difficulty": "medium",
+    "question": "Which term describes: lowest legal wage rate?",
+    "options": [
+      "Productivity",
+      "Scarcity",
+      "Minimum wage",
+      "Opportunity cost"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Minimum wage.",
+    "id": 139
+  },
+  {
+    "topic": "Production",
+    "difficulty": "medium",
+    "question": "Which term describes: output per unit of input?",
+    "options": [
+      "Scarcity",
+      "Opportunity cost",
+      "Factors of production",
+      "Productivity"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Productivity.",
+    "id": 140
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "medium",
+    "question": "A market has Qd and Qs as follows: Price 100 -> Qd 80, Qs 20; Price 150 -> Qd 60, Qs 60; Price 200 -> Qd 40, Qs 100. What is the equilibrium price?",
+    "options": [
+      "100",
+      "150",
+      "200",
+      "250"
+    ],
+    "answer": 1,
+    "explanation": "Equilibrium is where Qd equals Qs.",
+    "id": 141
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "easy",
+    "question": "If the CPI rises from 200 to 220, the inflation rate is ___.",
+    "options": [
+      "10%",
+      "5%",
+      "20%",
+      "15%"
+    ],
+    "answer": 0,
+    "explanation": "Inflation rate = (220-200)/200 x 100%.",
+    "id": 142
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "easy",
+    "question": "GDP increases from 500 billion to 550 billion. The growth rate is ___.",
+    "options": [
+      "5%",
+      "12%",
+      "10%",
+      "15%"
+    ],
+    "answer": 2,
+    "explanation": "Growth rate = 50/500 x 100%.",
+    "id": 143
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "medium",
+    "question": "A student can study Economics or Mathematics in the evening but not both. Choosing Economics means giving up Mathematics. This is an example of ___.",
+    "options": [
+      "marginal cost",
+      "inflation",
+      "deflation",
+      "opportunity cost"
+    ],
+    "answer": 3,
+    "explanation": "The next best alternative forgone is opportunity cost.",
+    "id": 144
+  },
+  {
+    "topic": "Labor",
+    "difficulty": "medium",
+    "question": "A country has 5 million employed and 1 million unemployed people. The unemployment rate is ___.",
+    "options": [
+      "10%",
+      "16.7%",
+      "20%",
+      "25%"
+    ],
+    "answer": 1,
+    "explanation": "Unemployment rate = 1/(5+1) x 100%.",
+    "id": 145
+  },
+  {
+    "topic": "Public Finance",
+    "difficulty": "easy",
+    "question": "Government revenue is 800 billion and expenditure is 950 billion. This results in a ___.",
+    "options": [
+      "budget deficit",
+      "budget surplus",
+      "balanced budget",
+      "trade surplus"
+    ],
+    "answer": 0,
+    "explanation": "Expenditure exceeds revenue.",
+    "id": 146
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "If a country's currency depreciates, its exports become ___.",
+    "options": [
+      "more expensive to foreigners",
+      "unchanged",
+      "cheaper to foreigners",
+      "illegal to sell"
+    ],
+    "answer": 2,
+    "explanation": "Depreciation lowers foreign price of exports.",
+    "id": 147
+  },
+  {
+    "topic": "Demand and Supply",
+    "difficulty": "hard",
+    "question": "Price of a good rises from 100 to 110, while quantity demanded falls from 50 to 49. Demand is ___.",
+    "options": [
+      "elastic",
+      "unitary",
+      "perfectly elastic",
+      "inelastic"
+    ],
+    "answer": 3,
+    "explanation": "Small quantity change relative to price change implies inelastic demand.",
+    "id": 148
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "If exports are 300 million and imports are 250 million, the balance of trade is ___.",
+    "options": [
+      "50 million deficit",
+      "50 million surplus",
+      "0",
+      "250 million surplus"
+    ],
+    "answer": 1,
+    "explanation": "Exports minus imports = 50 million.",
+    "id": 149
+  },
+  {
+    "topic": "Macroeconomics",
+    "difficulty": "medium",
+    "question": "When prices rise, the purchasing power of money ___.",
+    "options": [
+      "falls",
+      "rises",
+      "stays the same",
+      "doubles"
+    ],
+    "answer": 0,
+    "explanation": "Inflation reduces purchasing power.",
+    "id": 150
+  }
+]

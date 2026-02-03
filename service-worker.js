@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v2.0.0';
+const CACHE_VERSION = 'v2.4.1';
 const APP_CACHE = `waec-app-${CACHE_VERSION}`;
 const DATA_CACHE = `waec-data-${CACHE_VERSION}`;
 
@@ -23,7 +23,14 @@ const DATA_ASSETS = [
   './data/english.json',
   './data/physics.json',
   './data/chemistry.json',
-  './data/biology.json'
+  './data/biology.json',
+  './data/economics.json',
+  './data/government.json',
+  './data/literature.json',
+  './data/geography.json',
+  './data/commerce.json',
+  './data/accounting.json',
+  './data/agricultural_science.json'
 ];
 
 // External CDN assets to cache

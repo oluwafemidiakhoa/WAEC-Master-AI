@@ -1,0 +1,2102 @@
+[
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "The term 'Latitude' refers to ___.",
+    "options": [
+      "angular distance north or south of the equator",
+      "angular distance east or west of the prime meridian",
+      "ratio between map distance and ground distance",
+      "line joining points of equal height"
+    ],
+    "answer": 0,
+    "explanation": "Latitude means angular distance north or south of the equator.",
+    "id": 1
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "The term 'Longitude' refers to ___.",
+    "options": [
+      "ratio between map distance and ground distance",
+      "angular distance east or west of the prime meridian",
+      "line joining points of equal height",
+      "variation in height of land"
+    ],
+    "answer": 1,
+    "explanation": "Longitude means angular distance east or west of the prime meridian.",
+    "id": 2
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "The term 'Scale' refers to ___.",
+    "options": [
+      "line joining points of equal height",
+      "variation in height of land",
+      "ratio between map distance and ground distance",
+      "daily state of the atmosphere"
+    ],
+    "answer": 2,
+    "explanation": "Scale means ratio between map distance and ground distance.",
+    "id": 3
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "medium",
+    "question": "The term 'Contour' refers to ___.",
+    "options": [
+      "variation in height of land",
+      "daily state of the atmosphere",
+      "average weather over long period",
+      "line joining points of equal height"
+    ],
+    "answer": 3,
+    "explanation": "Contour means line joining points of equal height.",
+    "id": 4
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "The term 'Relief' refers to ___.",
+    "options": [
+      "variation in height of land",
+      "daily state of the atmosphere",
+      "average weather over long period",
+      "amount of water vapor in air"
+    ],
+    "answer": 0,
+    "explanation": "Relief means variation in height of land.",
+    "id": 5
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "The term 'Weather' refers to ___.",
+    "options": [
+      "average weather over long period",
+      "daily state of the atmosphere",
+      "amount of water vapor in air",
+      "force exerted by air per unit area"
+    ],
+    "answer": 1,
+    "explanation": "Weather means daily state of the atmosphere.",
+    "id": 6
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "The term 'Climate' refers to ___.",
+    "options": [
+      "amount of water vapor in air",
+      "force exerted by air per unit area",
+      "average weather over long period",
+      "movement of air from high to low pressure"
+    ],
+    "answer": 2,
+    "explanation": "Climate means average weather over long period.",
+    "id": 7
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "The term 'Humidity' refers to ___.",
+    "options": [
+      "force exerted by air per unit area",
+      "movement of air from high to low pressure",
+      "rain caused by rising warm air",
+      "amount of water vapor in air"
+    ],
+    "answer": 3,
+    "explanation": "Humidity means amount of water vapor in air.",
+    "id": 8
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "The term 'Pressure' refers to ___.",
+    "options": [
+      "force exerted by air per unit area",
+      "movement of air from high to low pressure",
+      "rain caused by rising warm air",
+      "rain caused by air rising over mountains"
+    ],
+    "answer": 0,
+    "explanation": "Pressure means force exerted by air per unit area.",
+    "id": 9
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "The term 'Wind' refers to ___.",
+    "options": [
+      "rain caused by rising warm air",
+      "movement of air from high to low pressure",
+      "rain caused by air rising over mountains",
+      "rocks formed from cooled magma"
+    ],
+    "answer": 1,
+    "explanation": "Wind means movement of air from high to low pressure.",
+    "id": 10
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "The term 'Convectional rainfall' refers to ___.",
+    "options": [
+      "rain caused by air rising over mountains",
+      "rocks formed from cooled magma",
+      "rain caused by rising warm air",
+      "rocks formed from deposited sediments"
+    ],
+    "answer": 2,
+    "explanation": "Convectional rainfall means rain caused by rising warm air.",
+    "id": 11
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "The term 'Orographic rainfall' refers to ___.",
+    "options": [
+      "rocks formed from cooled magma",
+      "rocks formed from deposited sediments",
+      "rocks changed by heat and pressure",
+      "rain caused by air rising over mountains"
+    ],
+    "answer": 3,
+    "explanation": "Orographic rainfall means rain caused by air rising over mountains.",
+    "id": 12
+  },
+  {
+    "topic": "Rocks",
+    "difficulty": "easy",
+    "question": "The term 'Igneous rocks' refers to ___.",
+    "options": [
+      "rocks formed from cooled magma",
+      "rocks formed from deposited sediments",
+      "rocks changed by heat and pressure",
+      "wearing away of the earth's surface"
+    ],
+    "answer": 0,
+    "explanation": "Igneous rocks means rocks formed from cooled magma.",
+    "id": 13
+  },
+  {
+    "topic": "Rocks",
+    "difficulty": "easy",
+    "question": "The term 'Sedimentary rocks' refers to ___.",
+    "options": [
+      "rocks changed by heat and pressure",
+      "rocks formed from deposited sediments",
+      "wearing away of the earth's surface",
+      "laying down of eroded materials"
+    ],
+    "answer": 1,
+    "explanation": "Sedimentary rocks means rocks formed from deposited sediments.",
+    "id": 14
+  },
+  {
+    "topic": "Rocks",
+    "difficulty": "easy",
+    "question": "The term 'Metamorphic rocks' refers to ___.",
+    "options": [
+      "wearing away of the earth's surface",
+      "laying down of eroded materials",
+      "rocks changed by heat and pressure",
+      "landform at river mouth from deposition"
+    ],
+    "answer": 2,
+    "explanation": "Metamorphic rocks means rocks changed by heat and pressure.",
+    "id": 15
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "The term 'Erosion' refers to ___.",
+    "options": [
+      "laying down of eroded materials",
+      "landform at river mouth from deposition",
+      "area drained by a river and its tributaries",
+      "wearing away of the earth's surface"
+    ],
+    "answer": 3,
+    "explanation": "Erosion means wearing away of the earth's surface.",
+    "id": 16
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "The term 'Deposition' refers to ___.",
+    "options": [
+      "laying down of eroded materials",
+      "landform at river mouth from deposition",
+      "area drained by a river and its tributaries",
+      "pattern of river channels"
+    ],
+    "answer": 0,
+    "explanation": "Deposition means laying down of eroded materials.",
+    "id": 17
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "medium",
+    "question": "The term 'Delta' refers to ___.",
+    "options": [
+      "area drained by a river and its tributaries",
+      "landform at river mouth from deposition",
+      "pattern of river channels",
+      "number of people per unit area"
+    ],
+    "answer": 1,
+    "explanation": "Delta means landform at river mouth from deposition.",
+    "id": 18
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "The term 'River basin' refers to ___.",
+    "options": [
+      "pattern of river channels",
+      "number of people per unit area",
+      "area drained by a river and its tributaries",
+      "movement of people from one place to another"
+    ],
+    "answer": 2,
+    "explanation": "River basin means area drained by a river and its tributaries.",
+    "id": 19
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "The term 'Drainage' refers to ___.",
+    "options": [
+      "number of people per unit area",
+      "movement of people from one place to another",
+      "increase in urban population",
+      "pattern of river channels"
+    ],
+    "answer": 3,
+    "explanation": "Drainage means pattern of river channels.",
+    "id": 20
+  },
+  {
+    "topic": "Population",
+    "difficulty": "easy",
+    "question": "The term 'Population density' refers to ___.",
+    "options": [
+      "number of people per unit area",
+      "movement of people from one place to another",
+      "increase in urban population",
+      "place where people live"
+    ],
+    "answer": 0,
+    "explanation": "Population density means number of people per unit area.",
+    "id": 21
+  },
+  {
+    "topic": "Population",
+    "difficulty": "easy",
+    "question": "The term 'Migration' refers to ___.",
+    "options": [
+      "increase in urban population",
+      "movement of people from one place to another",
+      "place where people live",
+      "ways land is utilized"
+    ],
+    "answer": 1,
+    "explanation": "Migration means movement of people from one place to another.",
+    "id": 22
+  },
+  {
+    "topic": "Population",
+    "difficulty": "medium",
+    "question": "The term 'Urbanization' refers to ___.",
+    "options": [
+      "place where people live",
+      "ways land is utilized",
+      "increase in urban population",
+      "spread of desert conditions"
+    ],
+    "answer": 2,
+    "explanation": "Urbanization means increase in urban population.",
+    "id": 23
+  },
+  {
+    "topic": "Population",
+    "difficulty": "easy",
+    "question": "The term 'Settlement' refers to ___.",
+    "options": [
+      "ways land is utilized",
+      "spread of desert conditions",
+      "removal of forest cover",
+      "place where people live"
+    ],
+    "answer": 3,
+    "explanation": "Settlement means place where people live.",
+    "id": 24
+  },
+  {
+    "topic": "Population",
+    "difficulty": "easy",
+    "question": "The term 'Land use' refers to ___.",
+    "options": [
+      "ways land is utilized",
+      "spread of desert conditions",
+      "removal of forest cover",
+      "interaction of living and non-living components"
+    ],
+    "answer": 0,
+    "explanation": "Land use means ways land is utilized.",
+    "id": 25
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "medium",
+    "question": "The term 'Desertification' refers to ___.",
+    "options": [
+      "removal of forest cover",
+      "spread of desert conditions",
+      "interaction of living and non-living components",
+      "plant life of a region"
+    ],
+    "answer": 1,
+    "explanation": "Desertification means spread of desert conditions.",
+    "id": 26
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "easy",
+    "question": "The term 'Deforestation' refers to ___.",
+    "options": [
+      "interaction of living and non-living components",
+      "plant life of a region",
+      "removal of forest cover",
+      "tropical grassland with scattered trees"
+    ],
+    "answer": 2,
+    "explanation": "Deforestation means removal of forest cover.",
+    "id": 27
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "medium",
+    "question": "The term 'Ecosystem' refers to ___.",
+    "options": [
+      "plant life of a region",
+      "tropical grassland with scattered trees",
+      "dense tropical forest with high rainfall",
+      "interaction of living and non-living components"
+    ],
+    "answer": 3,
+    "explanation": "Ecosystem means interaction of living and non-living components.",
+    "id": 28
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "easy",
+    "question": "The term 'Vegetation' refers to ___.",
+    "options": [
+      "plant life of a region",
+      "tropical grassland with scattered trees",
+      "dense tropical forest with high rainfall",
+      "cultivation of crops and rearing of animals"
+    ],
+    "answer": 0,
+    "explanation": "Vegetation means plant life of a region.",
+    "id": 29
+  },
+  {
+    "topic": "Vegetation",
+    "difficulty": "medium",
+    "question": "The term 'Savanna' refers to ___.",
+    "options": [
+      "dense tropical forest with high rainfall",
+      "tropical grassland with scattered trees",
+      "cultivation of crops and rearing of animals",
+      "extraction of minerals from the earth"
+    ],
+    "answer": 1,
+    "explanation": "Savanna means tropical grassland with scattered trees.",
+    "id": 30
+  },
+  {
+    "topic": "Vegetation",
+    "difficulty": "easy",
+    "question": "The term 'Rainforest' refers to ___.",
+    "options": [
+      "cultivation of crops and rearing of animals",
+      "extraction of minerals from the earth",
+      "dense tropical forest with high rainfall",
+      "manufacturing or processing of goods"
+    ],
+    "answer": 2,
+    "explanation": "Rainforest means dense tropical forest with high rainfall.",
+    "id": 31
+  },
+  {
+    "topic": "Economic Activities",
+    "difficulty": "easy",
+    "question": "The term 'Agriculture' refers to ___.",
+    "options": [
+      "extraction of minerals from the earth",
+      "manufacturing or processing of goods",
+      "movement of goods and people",
+      "cultivation of crops and rearing of animals"
+    ],
+    "answer": 3,
+    "explanation": "Agriculture means cultivation of crops and rearing of animals.",
+    "id": 32
+  },
+  {
+    "topic": "Economic Activities",
+    "difficulty": "easy",
+    "question": "The term 'Mining' refers to ___.",
+    "options": [
+      "extraction of minerals from the earth",
+      "manufacturing or processing of goods",
+      "movement of goods and people",
+      "continuous movement of water on Earth"
+    ],
+    "answer": 0,
+    "explanation": "Mining means extraction of minerals from the earth.",
+    "id": 33
+  },
+  {
+    "topic": "Economic Activities",
+    "difficulty": "easy",
+    "question": "The term 'Industry' refers to ___.",
+    "options": [
+      "movement of goods and people",
+      "manufacturing or processing of goods",
+      "continuous movement of water on Earth",
+      "elevated flat land"
+    ],
+    "answer": 1,
+    "explanation": "Industry means manufacturing or processing of goods.",
+    "id": 34
+  },
+  {
+    "topic": "Economic Activities",
+    "difficulty": "easy",
+    "question": "The term 'Transport' refers to ___.",
+    "options": [
+      "continuous movement of water on Earth",
+      "elevated flat land",
+      "movement of goods and people",
+      "high elevated land with steep slopes"
+    ],
+    "answer": 2,
+    "explanation": "Transport means movement of goods and people.",
+    "id": 35
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "The term 'Hydrological cycle' refers to ___.",
+    "options": [
+      "elevated flat land",
+      "high elevated land with steep slopes",
+      "low area between hills",
+      "continuous movement of water on Earth"
+    ],
+    "answer": 3,
+    "explanation": "Hydrological cycle means continuous movement of water on Earth.",
+    "id": 36
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "The term 'Plateau' refers to ___.",
+    "options": [
+      "elevated flat land",
+      "high elevated land with steep slopes",
+      "low area between hills",
+      "fracture in the Earth's crust"
+    ],
+    "answer": 0,
+    "explanation": "Plateau means elevated flat land.",
+    "id": 37
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "The term 'Mountain' refers to ___.",
+    "options": [
+      "low area between hills",
+      "high elevated land with steep slopes",
+      "fracture in the Earth's crust",
+      "sudden movement of the Earth's crust"
+    ],
+    "answer": 1,
+    "explanation": "Mountain means high elevated land with steep slopes.",
+    "id": 38
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "The term 'Valley' refers to ___.",
+    "options": [
+      "fracture in the Earth's crust",
+      "sudden movement of the Earth's crust",
+      "low area between hills",
+      "opening through which magma erupts"
+    ],
+    "answer": 2,
+    "explanation": "Valley means low area between hills.",
+    "id": 39
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "hard",
+    "question": "The term 'Fault' refers to ___.",
+    "options": [
+      "sudden movement of the Earth's crust",
+      "opening through which magma erupts",
+      "contamination of the environment",
+      "fracture in the Earth's crust"
+    ],
+    "answer": 3,
+    "explanation": "Fault means fracture in the Earth's crust.",
+    "id": 40
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "medium",
+    "question": "The term 'Earthquake' refers to ___.",
+    "options": [
+      "sudden movement of the Earth's crust",
+      "opening through which magma erupts",
+      "contamination of the environment",
+      "excess nutrients in water causing algal bloom"
+    ],
+    "answer": 0,
+    "explanation": "Earthquake means sudden movement of the Earth's crust.",
+    "id": 41
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "medium",
+    "question": "The term 'Volcano' refers to ___.",
+    "options": [
+      "contamination of the environment",
+      "opening through which magma erupts",
+      "excess nutrients in water causing algal bloom",
+      "warming due to trapped heat"
+    ],
+    "answer": 1,
+    "explanation": "Volcano means opening through which magma erupts.",
+    "id": 42
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "easy",
+    "question": "The term 'Pollution' refers to ___.",
+    "options": [
+      "excess nutrients in water causing algal bloom",
+      "warming due to trapped heat",
+      "contamination of the environment",
+      "rise in average global temperatures"
+    ],
+    "answer": 2,
+    "explanation": "Pollution means contamination of the environment.",
+    "id": 43
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "hard",
+    "question": "The term 'Eutrophication' refers to ___.",
+    "options": [
+      "warming due to trapped heat",
+      "rise in average global temperatures",
+      "region with same standard time",
+      "excess nutrients in water causing algal bloom"
+    ],
+    "answer": 3,
+    "explanation": "Eutrophication means excess nutrients in water causing algal bloom.",
+    "id": 44
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "medium",
+    "question": "The term 'Greenhouse effect' refers to ___.",
+    "options": [
+      "warming due to trapped heat",
+      "rise in average global temperatures",
+      "region with same standard time",
+      "line of longitude"
+    ],
+    "answer": 0,
+    "explanation": "Greenhouse effect means warming due to trapped heat.",
+    "id": 45
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "medium",
+    "question": "The term 'Global warming' refers to ___.",
+    "options": [
+      "region with same standard time",
+      "rise in average global temperatures",
+      "line of longitude",
+      "parallels"
+    ],
+    "answer": 1,
+    "explanation": "Global warming means rise in average global temperatures.",
+    "id": 46
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "medium",
+    "question": "The term 'Time zone' refers to ___.",
+    "options": [
+      "line of longitude",
+      "parallels",
+      "region with same standard time",
+      "method to locate a point on a map"
+    ],
+    "answer": 2,
+    "explanation": "Time zone means region with same standard time.",
+    "id": 47
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "The term 'Meridian' refers to ___.",
+    "options": [
+      "parallels",
+      "method to locate a point on a map",
+      "breakdown of rocks at the Earth's surface",
+      "line of longitude"
+    ],
+    "answer": 3,
+    "explanation": "Meridian means line of longitude.",
+    "id": 48
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "The term 'Latitude lines' refers to ___.",
+    "options": [
+      "parallels",
+      "method to locate a point on a map",
+      "breakdown of rocks at the Earth's surface",
+      "breakdown of rocks without chemical change"
+    ],
+    "answer": 0,
+    "explanation": "Latitude lines means parallels.",
+    "id": 49
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "medium",
+    "question": "The term 'Grid reference' refers to ___.",
+    "options": [
+      "breakdown of rocks at the Earth's surface",
+      "method to locate a point on a map",
+      "breakdown of rocks without chemical change",
+      "decomposition of rocks by chemical action"
+    ],
+    "answer": 1,
+    "explanation": "Grid reference means method to locate a point on a map.",
+    "id": 50
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "The term 'Weathering' refers to ___.",
+    "options": [
+      "breakdown of rocks without chemical change",
+      "decomposition of rocks by chemical action",
+      "breakdown of rocks at the Earth's surface",
+      "downslope movement of soil and rock"
+    ],
+    "answer": 2,
+    "explanation": "Weathering means breakdown of rocks at the Earth's surface.",
+    "id": 51
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "medium",
+    "question": "The term 'Physical weathering' refers to ___.",
+    "options": [
+      "decomposition of rocks by chemical action",
+      "downslope movement of soil and rock",
+      "bend in a river's course",
+      "breakdown of rocks without chemical change"
+    ],
+    "answer": 3,
+    "explanation": "Physical weathering means breakdown of rocks without chemical change.",
+    "id": 52
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "medium",
+    "question": "The term 'Chemical weathering' refers to ___.",
+    "options": [
+      "decomposition of rocks by chemical action",
+      "downslope movement of soil and rock",
+      "bend in a river's course",
+      "cut-off meander forming a lake"
+    ],
+    "answer": 0,
+    "explanation": "Chemical weathering means decomposition of rocks by chemical action.",
+    "id": 53
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "hard",
+    "question": "The term 'Mass wasting' refers to ___.",
+    "options": [
+      "bend in a river's course",
+      "downslope movement of soil and rock",
+      "cut-off meander forming a lake",
+      "highland dividing drainage basins"
+    ],
+    "answer": 1,
+    "explanation": "Mass wasting means downslope movement of soil and rock.",
+    "id": 54
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "easy",
+    "question": "The term 'Meander' refers to ___.",
+    "options": [
+      "cut-off meander forming a lake",
+      "highland dividing drainage basins",
+      "bend in a river's course",
+      "upper level of groundwater"
+    ],
+    "answer": 2,
+    "explanation": "Meander means bend in a river's course.",
+    "id": 55
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "The term 'Ox-bow lake' refers to ___.",
+    "options": [
+      "highland dividing drainage basins",
+      "upper level of groundwater",
+      "line joining points of equal pressure",
+      "cut-off meander forming a lake"
+    ],
+    "answer": 3,
+    "explanation": "Ox-bow lake means cut-off meander forming a lake.",
+    "id": 56
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "The term 'Watershed' refers to ___.",
+    "options": [
+      "highland dividing drainage basins",
+      "upper level of groundwater",
+      "line joining points of equal pressure",
+      "line joining points of equal temperature"
+    ],
+    "answer": 0,
+    "explanation": "Watershed means highland dividing drainage basins.",
+    "id": 57
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "The term 'Water table' refers to ___.",
+    "options": [
+      "line joining points of equal pressure",
+      "upper level of groundwater",
+      "line joining points of equal temperature",
+      "line joining points of equal rainfall"
+    ],
+    "answer": 1,
+    "explanation": "Water table means upper level of groundwater.",
+    "id": 58
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "The term 'Isobar' refers to ___.",
+    "options": [
+      "line joining points of equal temperature",
+      "line joining points of equal rainfall",
+      "line joining points of equal pressure",
+      "dry dusty trade wind in West Africa"
+    ],
+    "answer": 2,
+    "explanation": "Isobar means line joining points of equal pressure.",
+    "id": 59
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "The term 'Isotherm' refers to ___.",
+    "options": [
+      "line joining points of equal rainfall",
+      "dry dusty trade wind in West Africa",
+      "seasonal wind bringing heavy rain",
+      "line joining points of equal temperature"
+    ],
+    "answer": 3,
+    "explanation": "Isotherm means line joining points of equal temperature.",
+    "id": 60
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "The term 'Isohyet' refers to ___.",
+    "options": [
+      "line joining points of equal rainfall",
+      "dry dusty trade wind in West Africa",
+      "seasonal wind bringing heavy rain",
+      "intense low-pressure storm"
+    ],
+    "answer": 0,
+    "explanation": "Isohyet means line joining points of equal rainfall.",
+    "id": 61
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "The term 'Harmattan' refers to ___.",
+    "options": [
+      "seasonal wind bringing heavy rain",
+      "dry dusty trade wind in West Africa",
+      "intense low-pressure storm",
+      "spread of city into rural areas"
+    ],
+    "answer": 1,
+    "explanation": "Harmattan means dry dusty trade wind in West Africa.",
+    "id": 62
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "The term 'Monsoon' refers to ___.",
+    "options": [
+      "intense low-pressure storm",
+      "spread of city into rural areas",
+      "seasonal wind bringing heavy rain",
+      "movement from rural to urban areas"
+    ],
+    "answer": 2,
+    "explanation": "Monsoon means seasonal wind bringing heavy rain.",
+    "id": 63
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "hard",
+    "question": "The term 'Tropical cyclone' refers to ___.",
+    "options": [
+      "spread of city into rural areas",
+      "movement from rural to urban areas",
+      "population exceeding available resources",
+      "intense low-pressure storm"
+    ],
+    "answer": 3,
+    "explanation": "Tropical cyclone means intense low-pressure storm.",
+    "id": 64
+  },
+  {
+    "topic": "Population",
+    "difficulty": "medium",
+    "question": "The term 'Urban sprawl' refers to ___.",
+    "options": [
+      "spread of city into rural areas",
+      "movement from rural to urban areas",
+      "population exceeding available resources",
+      "resource that can be replenished"
+    ],
+    "answer": 0,
+    "explanation": "Urban sprawl means spread of city into rural areas.",
+    "id": 65
+  },
+  {
+    "topic": "Population",
+    "difficulty": "easy",
+    "question": "The term 'Rural-urban migration' refers to ___.",
+    "options": [
+      "population exceeding available resources",
+      "movement from rural to urban areas",
+      "resource that can be replenished",
+      "resource that cannot be quickly replaced"
+    ],
+    "answer": 1,
+    "explanation": "Rural-urban migration means movement from rural to urban areas.",
+    "id": 66
+  },
+  {
+    "topic": "Population",
+    "difficulty": "medium",
+    "question": "The term 'Overpopulation' refers to ___.",
+    "options": [
+      "resource that can be replenished",
+      "resource that cannot be quickly replaced",
+      "population exceeding available resources",
+      "severe erosion forming channels"
+    ],
+    "answer": 2,
+    "explanation": "Overpopulation means population exceeding available resources.",
+    "id": 67
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "easy",
+    "question": "The term 'Renewable resource' refers to ___.",
+    "options": [
+      "resource that cannot be quickly replaced",
+      "severe erosion forming channels",
+      "angular distance north or south of the equator",
+      "resource that can be replenished"
+    ],
+    "answer": 3,
+    "explanation": "Renewable resource means resource that can be replenished.",
+    "id": 68
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "easy",
+    "question": "The term 'Non-renewable resource' refers to ___.",
+    "options": [
+      "resource that cannot be quickly replaced",
+      "severe erosion forming channels",
+      "angular distance north or south of the equator",
+      "angular distance east or west of the prime meridian"
+    ],
+    "answer": 0,
+    "explanation": "Non-renewable resource means resource that cannot be quickly replaced.",
+    "id": 69
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "hard",
+    "question": "The term 'Gully erosion' refers to ___.",
+    "options": [
+      "angular distance north or south of the equator",
+      "severe erosion forming channels",
+      "angular distance east or west of the prime meridian",
+      "ratio between map distance and ground distance"
+    ],
+    "answer": 1,
+    "explanation": "Gully erosion means severe erosion forming channels.",
+    "id": 70
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "Which term describes: angular distance north or south of the equator?",
+    "options": [
+      "Longitude",
+      "Scale",
+      "Latitude",
+      "Contour"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Latitude.",
+    "id": 71
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "Which term describes: angular distance east or west of the prime meridian?",
+    "options": [
+      "Scale",
+      "Contour",
+      "Relief",
+      "Longitude"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Longitude.",
+    "id": 72
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "Which term describes: ratio between map distance and ground distance?",
+    "options": [
+      "Scale",
+      "Contour",
+      "Relief",
+      "Weather"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Scale.",
+    "id": 73
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "medium",
+    "question": "Which term describes: line joining points of equal height?",
+    "options": [
+      "Relief",
+      "Contour",
+      "Weather",
+      "Climate"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Contour.",
+    "id": 74
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "Which term describes: variation in height of land?",
+    "options": [
+      "Weather",
+      "Climate",
+      "Relief",
+      "Humidity"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Relief.",
+    "id": 75
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "Which term describes: daily state of the atmosphere?",
+    "options": [
+      "Climate",
+      "Humidity",
+      "Pressure",
+      "Weather"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Weather.",
+    "id": 76
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "Which term describes: average weather over long period?",
+    "options": [
+      "Climate",
+      "Humidity",
+      "Pressure",
+      "Wind"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Climate.",
+    "id": 77
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "Which term describes: amount of water vapor in air?",
+    "options": [
+      "Pressure",
+      "Humidity",
+      "Wind",
+      "Convectional rainfall"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Humidity.",
+    "id": 78
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "Which term describes: force exerted by air per unit area?",
+    "options": [
+      "Wind",
+      "Convectional rainfall",
+      "Pressure",
+      "Orographic rainfall"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Pressure.",
+    "id": 79
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "Which term describes: movement of air from high to low pressure?",
+    "options": [
+      "Convectional rainfall",
+      "Orographic rainfall",
+      "Igneous rocks",
+      "Wind"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Wind.",
+    "id": 80
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "Which term describes: rain caused by rising warm air?",
+    "options": [
+      "Convectional rainfall",
+      "Orographic rainfall",
+      "Igneous rocks",
+      "Sedimentary rocks"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Convectional rainfall.",
+    "id": 81
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "Which term describes: rain caused by air rising over mountains?",
+    "options": [
+      "Igneous rocks",
+      "Orographic rainfall",
+      "Sedimentary rocks",
+      "Metamorphic rocks"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Orographic rainfall.",
+    "id": 82
+  },
+  {
+    "topic": "Rocks",
+    "difficulty": "easy",
+    "question": "Which term describes: rocks formed from cooled magma?",
+    "options": [
+      "Sedimentary rocks",
+      "Metamorphic rocks",
+      "Igneous rocks",
+      "Erosion"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Igneous rocks.",
+    "id": 83
+  },
+  {
+    "topic": "Rocks",
+    "difficulty": "easy",
+    "question": "Which term describes: rocks formed from deposited sediments?",
+    "options": [
+      "Metamorphic rocks",
+      "Erosion",
+      "Deposition",
+      "Sedimentary rocks"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Sedimentary rocks.",
+    "id": 84
+  },
+  {
+    "topic": "Rocks",
+    "difficulty": "easy",
+    "question": "Which term describes: rocks changed by heat and pressure?",
+    "options": [
+      "Metamorphic rocks",
+      "Erosion",
+      "Deposition",
+      "Delta"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Metamorphic rocks.",
+    "id": 85
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "Which term describes: wearing away of the earth's surface?",
+    "options": [
+      "Deposition",
+      "Erosion",
+      "Delta",
+      "River basin"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Erosion.",
+    "id": 86
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "Which term describes: laying down of eroded materials?",
+    "options": [
+      "Delta",
+      "River basin",
+      "Deposition",
+      "Drainage"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Deposition.",
+    "id": 87
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "medium",
+    "question": "Which term describes: landform at river mouth from deposition?",
+    "options": [
+      "River basin",
+      "Drainage",
+      "Population density",
+      "Delta"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Delta.",
+    "id": 88
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "Which term describes: area drained by a river and its tributaries?",
+    "options": [
+      "River basin",
+      "Drainage",
+      "Population density",
+      "Migration"
+    ],
+    "answer": 0,
+    "explanation": "That description matches River basin.",
+    "id": 89
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "Which term describes: pattern of river channels?",
+    "options": [
+      "Population density",
+      "Drainage",
+      "Migration",
+      "Urbanization"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Drainage.",
+    "id": 90
+  },
+  {
+    "topic": "Population",
+    "difficulty": "easy",
+    "question": "Which term describes: number of people per unit area?",
+    "options": [
+      "Migration",
+      "Urbanization",
+      "Population density",
+      "Settlement"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Population density.",
+    "id": 91
+  },
+  {
+    "topic": "Population",
+    "difficulty": "easy",
+    "question": "Which term describes: movement of people from one place to another?",
+    "options": [
+      "Urbanization",
+      "Settlement",
+      "Land use",
+      "Migration"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Migration.",
+    "id": 92
+  },
+  {
+    "topic": "Population",
+    "difficulty": "medium",
+    "question": "Which term describes: increase in urban population?",
+    "options": [
+      "Urbanization",
+      "Settlement",
+      "Land use",
+      "Desertification"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Urbanization.",
+    "id": 93
+  },
+  {
+    "topic": "Population",
+    "difficulty": "easy",
+    "question": "Which term describes: place where people live?",
+    "options": [
+      "Land use",
+      "Settlement",
+      "Desertification",
+      "Deforestation"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Settlement.",
+    "id": 94
+  },
+  {
+    "topic": "Population",
+    "difficulty": "easy",
+    "question": "Which term describes: ways land is utilized?",
+    "options": [
+      "Desertification",
+      "Deforestation",
+      "Land use",
+      "Ecosystem"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Land use.",
+    "id": 95
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "medium",
+    "question": "Which term describes: spread of desert conditions?",
+    "options": [
+      "Deforestation",
+      "Ecosystem",
+      "Vegetation",
+      "Desertification"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Desertification.",
+    "id": 96
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "easy",
+    "question": "Which term describes: removal of forest cover?",
+    "options": [
+      "Deforestation",
+      "Ecosystem",
+      "Vegetation",
+      "Savanna"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Deforestation.",
+    "id": 97
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "medium",
+    "question": "Which term describes: interaction of living and non-living components?",
+    "options": [
+      "Vegetation",
+      "Ecosystem",
+      "Savanna",
+      "Rainforest"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Ecosystem.",
+    "id": 98
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "easy",
+    "question": "Which term describes: plant life of a region?",
+    "options": [
+      "Savanna",
+      "Rainforest",
+      "Vegetation",
+      "Agriculture"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Vegetation.",
+    "id": 99
+  },
+  {
+    "topic": "Vegetation",
+    "difficulty": "medium",
+    "question": "Which term describes: tropical grassland with scattered trees?",
+    "options": [
+      "Rainforest",
+      "Agriculture",
+      "Mining",
+      "Savanna"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Savanna.",
+    "id": 100
+  },
+  {
+    "topic": "Vegetation",
+    "difficulty": "easy",
+    "question": "Which term describes: dense tropical forest with high rainfall?",
+    "options": [
+      "Rainforest",
+      "Agriculture",
+      "Mining",
+      "Industry"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Rainforest.",
+    "id": 101
+  },
+  {
+    "topic": "Economic Activities",
+    "difficulty": "easy",
+    "question": "Which term describes: cultivation of crops and rearing of animals?",
+    "options": [
+      "Mining",
+      "Agriculture",
+      "Industry",
+      "Transport"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Agriculture.",
+    "id": 102
+  },
+  {
+    "topic": "Economic Activities",
+    "difficulty": "easy",
+    "question": "Which term describes: extraction of minerals from the earth?",
+    "options": [
+      "Industry",
+      "Transport",
+      "Mining",
+      "Hydrological cycle"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Mining.",
+    "id": 103
+  },
+  {
+    "topic": "Economic Activities",
+    "difficulty": "easy",
+    "question": "Which term describes: manufacturing or processing of goods?",
+    "options": [
+      "Transport",
+      "Hydrological cycle",
+      "Plateau",
+      "Industry"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Industry.",
+    "id": 104
+  },
+  {
+    "topic": "Economic Activities",
+    "difficulty": "easy",
+    "question": "Which term describes: movement of goods and people?",
+    "options": [
+      "Transport",
+      "Hydrological cycle",
+      "Plateau",
+      "Mountain"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Transport.",
+    "id": 105
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "Which term describes: continuous movement of water on Earth?",
+    "options": [
+      "Plateau",
+      "Hydrological cycle",
+      "Mountain",
+      "Valley"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Hydrological cycle.",
+    "id": 106
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "Which term describes: elevated flat land?",
+    "options": [
+      "Mountain",
+      "Valley",
+      "Plateau",
+      "Fault"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Plateau.",
+    "id": 107
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "Which term describes: high elevated land with steep slopes?",
+    "options": [
+      "Valley",
+      "Fault",
+      "Earthquake",
+      "Mountain"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Mountain.",
+    "id": 108
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "Which term describes: low area between hills?",
+    "options": [
+      "Valley",
+      "Fault",
+      "Earthquake",
+      "Volcano"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Valley.",
+    "id": 109
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "hard",
+    "question": "Which term describes: fracture in the Earth's crust?",
+    "options": [
+      "Earthquake",
+      "Fault",
+      "Volcano",
+      "Pollution"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Fault.",
+    "id": 110
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "medium",
+    "question": "Which term describes: sudden movement of the Earth's crust?",
+    "options": [
+      "Volcano",
+      "Pollution",
+      "Earthquake",
+      "Eutrophication"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Earthquake.",
+    "id": 111
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "medium",
+    "question": "Which term describes: opening through which magma erupts?",
+    "options": [
+      "Pollution",
+      "Eutrophication",
+      "Greenhouse effect",
+      "Volcano"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Volcano.",
+    "id": 112
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "easy",
+    "question": "Which term describes: contamination of the environment?",
+    "options": [
+      "Pollution",
+      "Eutrophication",
+      "Greenhouse effect",
+      "Global warming"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Pollution.",
+    "id": 113
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "hard",
+    "question": "Which term describes: excess nutrients in water causing algal bloom?",
+    "options": [
+      "Greenhouse effect",
+      "Eutrophication",
+      "Global warming",
+      "Time zone"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Eutrophication.",
+    "id": 114
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "medium",
+    "question": "Which term describes: warming due to trapped heat?",
+    "options": [
+      "Global warming",
+      "Time zone",
+      "Greenhouse effect",
+      "Meridian"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Greenhouse effect.",
+    "id": 115
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "medium",
+    "question": "Which term describes: rise in average global temperatures?",
+    "options": [
+      "Time zone",
+      "Meridian",
+      "Latitude lines",
+      "Global warming"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Global warming.",
+    "id": 116
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "medium",
+    "question": "Which term describes: region with same standard time?",
+    "options": [
+      "Time zone",
+      "Meridian",
+      "Latitude lines",
+      "Grid reference"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Time zone.",
+    "id": 117
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "Which term describes: line of longitude?",
+    "options": [
+      "Latitude lines",
+      "Meridian",
+      "Grid reference",
+      "Weathering"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Meridian.",
+    "id": 118
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "easy",
+    "question": "Which term describes: parallels?",
+    "options": [
+      "Grid reference",
+      "Weathering",
+      "Latitude lines",
+      "Physical weathering"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Latitude lines.",
+    "id": 119
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "medium",
+    "question": "Which term describes: method to locate a point on a map?",
+    "options": [
+      "Weathering",
+      "Physical weathering",
+      "Chemical weathering",
+      "Grid reference"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Grid reference.",
+    "id": 120
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "easy",
+    "question": "Which term describes: breakdown of rocks at the Earth's surface?",
+    "options": [
+      "Weathering",
+      "Physical weathering",
+      "Chemical weathering",
+      "Mass wasting"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Weathering.",
+    "id": 121
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "medium",
+    "question": "Which term describes: breakdown of rocks without chemical change?",
+    "options": [
+      "Chemical weathering",
+      "Physical weathering",
+      "Mass wasting",
+      "Meander"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Physical weathering.",
+    "id": 122
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "medium",
+    "question": "Which term describes: decomposition of rocks by chemical action?",
+    "options": [
+      "Mass wasting",
+      "Meander",
+      "Chemical weathering",
+      "Ox-bow lake"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Chemical weathering.",
+    "id": 123
+  },
+  {
+    "topic": "Landforms",
+    "difficulty": "hard",
+    "question": "Which term describes: downslope movement of soil and rock?",
+    "options": [
+      "Meander",
+      "Ox-bow lake",
+      "Watershed",
+      "Mass wasting"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Mass wasting.",
+    "id": 124
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "easy",
+    "question": "Which term describes: bend in a river's course?",
+    "options": [
+      "Meander",
+      "Ox-bow lake",
+      "Watershed",
+      "Water table"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Meander.",
+    "id": 125
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "Which term describes: cut-off meander forming a lake?",
+    "options": [
+      "Watershed",
+      "Ox-bow lake",
+      "Water table",
+      "Isobar"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Ox-bow lake.",
+    "id": 126
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "Which term describes: highland dividing drainage basins?",
+    "options": [
+      "Water table",
+      "Isobar",
+      "Watershed",
+      "Isotherm"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Watershed.",
+    "id": 127
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "Which term describes: upper level of groundwater?",
+    "options": [
+      "Isobar",
+      "Isotherm",
+      "Isohyet",
+      "Water table"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Water table.",
+    "id": 128
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "Which term describes: line joining points of equal pressure?",
+    "options": [
+      "Isobar",
+      "Isotherm",
+      "Isohyet",
+      "Harmattan"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Isobar.",
+    "id": 129
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "Which term describes: line joining points of equal temperature?",
+    "options": [
+      "Isohyet",
+      "Isotherm",
+      "Harmattan",
+      "Monsoon"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Isotherm.",
+    "id": 130
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "Which term describes: line joining points of equal rainfall?",
+    "options": [
+      "Harmattan",
+      "Monsoon",
+      "Isohyet",
+      "Tropical cyclone"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Isohyet.",
+    "id": 131
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "Which term describes: dry dusty trade wind in West Africa?",
+    "options": [
+      "Monsoon",
+      "Tropical cyclone",
+      "Urban sprawl",
+      "Harmattan"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Harmattan.",
+    "id": 132
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "Which term describes: seasonal wind bringing heavy rain?",
+    "options": [
+      "Monsoon",
+      "Tropical cyclone",
+      "Urban sprawl",
+      "Rural-urban migration"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Monsoon.",
+    "id": 133
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "hard",
+    "question": "Which term describes: intense low-pressure storm?",
+    "options": [
+      "Urban sprawl",
+      "Tropical cyclone",
+      "Rural-urban migration",
+      "Overpopulation"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Tropical cyclone.",
+    "id": 134
+  },
+  {
+    "topic": "Population",
+    "difficulty": "medium",
+    "question": "Which term describes: spread of city into rural areas?",
+    "options": [
+      "Rural-urban migration",
+      "Overpopulation",
+      "Urban sprawl",
+      "Renewable resource"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Urban sprawl.",
+    "id": 135
+  },
+  {
+    "topic": "Population",
+    "difficulty": "easy",
+    "question": "Which term describes: movement from rural to urban areas?",
+    "options": [
+      "Overpopulation",
+      "Renewable resource",
+      "Non-renewable resource",
+      "Rural-urban migration"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Rural-urban migration.",
+    "id": 136
+  },
+  {
+    "topic": "Population",
+    "difficulty": "medium",
+    "question": "Which term describes: population exceeding available resources?",
+    "options": [
+      "Overpopulation",
+      "Renewable resource",
+      "Non-renewable resource",
+      "Gully erosion"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Overpopulation.",
+    "id": 137
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "easy",
+    "question": "Which term describes: resource that can be replenished?",
+    "options": [
+      "Non-renewable resource",
+      "Renewable resource",
+      "Gully erosion",
+      "Latitude"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Renewable resource.",
+    "id": 138
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "easy",
+    "question": "Which term describes: resource that cannot be quickly replaced?",
+    "options": [
+      "Gully erosion",
+      "Latitude",
+      "Non-renewable resource",
+      "Longitude"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Non-renewable resource.",
+    "id": 139
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "hard",
+    "question": "Which term describes: severe erosion forming channels?",
+    "options": [
+      "Latitude",
+      "Longitude",
+      "Scale",
+      "Gully erosion"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Gully erosion.",
+    "id": 140
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "medium",
+    "question": "A map scale is 1:50,000. If two towns are 4 cm apart on the map, the actual distance is ___.",
+    "options": [
+      "2 km",
+      "4 km",
+      "8 km",
+      "0.5 km"
+    ],
+    "answer": 0,
+    "explanation": "1 cm represents 0.5 km.",
+    "id": 141
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "medium",
+    "question": "A place at 15 degE is when it is 12 noon at 0 deg. Local time at 30 degE is ___.",
+    "options": [
+      "1:00 pm",
+      "2:00 pm",
+      "3:00 pm",
+      "10:00 am"
+    ],
+    "answer": 1,
+    "explanation": "Every 15 deg is 1 hour; 30 degE is +2 hours.",
+    "id": 142
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "Rainfall data: Jan 20 mm, Feb 45 mm, Mar 70 mm, Apr 110 mm. The wettest month is ___.",
+    "options": [
+      "January",
+      "February",
+      "April",
+      "March"
+    ],
+    "answer": 2,
+    "explanation": "April has the highest rainfall.",
+    "id": 143
+  },
+  {
+    "topic": "Population",
+    "difficulty": "easy",
+    "question": "A town has 200,000 people and an area of 500 km^2. Population density is ___.",
+    "options": [
+      "250 per km^2",
+      "500 per km^2",
+      "100 per km^2",
+      "400 per km^2"
+    ],
+    "answer": 3,
+    "explanation": "Density = population / area.",
+    "id": 144
+  },
+  {
+    "topic": "Settlement",
+    "difficulty": "medium",
+    "question": "Houses built in a long line along a major road show a ___ settlement pattern.",
+    "options": [
+      "linear",
+      "nucleated",
+      "dispersed",
+      "radial"
+    ],
+    "answer": 0,
+    "explanation": "Linear settlements follow transport routes.",
+    "id": 145
+  },
+  {
+    "topic": "Environment",
+    "difficulty": "easy",
+    "question": "Large-scale tree cutting without replacement often leads to ___.",
+    "options": [
+      "increased rainfall",
+      "soil erosion",
+      "urbanization",
+      "lower temperature"
+    ],
+    "answer": 1,
+    "explanation": "Deforestation increases erosion.",
+    "id": 146
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "easy",
+    "question": "Wind generally blows from areas of ___ pressure to ___ pressure.",
+    "options": [
+      "low to high",
+      "warm to cold",
+      "high to low",
+      "east to west"
+    ],
+    "answer": 2,
+    "explanation": "Air moves from high to low pressure.",
+    "id": 147
+  },
+  {
+    "topic": "Hydrology",
+    "difficulty": "medium",
+    "question": "A meander that is cut off from the main river forms a ___.",
+    "options": [
+      "delta",
+      "waterfall",
+      "gorge",
+      "ox-bow lake"
+    ],
+    "answer": 3,
+    "explanation": "Cut-off meanders form ox-bow lakes.",
+    "id": 148
+  },
+  {
+    "topic": "Map Reading",
+    "difficulty": "medium",
+    "question": "Closely spaced contour lines indicate a ___ slope.",
+    "options": [
+      "steep",
+      "gentle",
+      "flat",
+      "convex"
+    ],
+    "answer": 0,
+    "explanation": "Close contours mean steep gradient.",
+    "id": 149
+  },
+  {
+    "topic": "Climate",
+    "difficulty": "medium",
+    "question": "A coastal town with small annual temperature range and high humidity has a ___ climate.",
+    "options": [
+      "continental",
+      "maritime",
+      "desert",
+      "tundra"
+    ],
+    "answer": 1,
+    "explanation": "Maritime climates are moderated by the sea.",
+    "id": 150
+  }
+]

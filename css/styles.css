@@ -1542,6 +1542,12 @@ label {
   box-shadow: 0 4px 20px rgba(244, 67, 54, 0.3);
 }
 
+.option.selected {
+  border-color: var(--primary);
+  background: var(--accent-soft);
+  box-shadow: var(--shadow-soft);
+}
+
 .option:disabled {
   cursor: not-allowed;
   opacity: 0.8;
@@ -1904,6 +1910,34 @@ h2 {
   margin-bottom: 16px;
 }
 
+.exam-settings {
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  box-shadow: var(--shadow-soft);
+}
+
+.exam-settings__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.exam-settings__header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.exam-settings__grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
 label {
   display: flex;
   flex-direction: column;
@@ -2187,6 +2221,11 @@ button:active {
 .option.incorrect {
   border-color: rgba(176, 50, 59, 0.5);
   background: rgba(176, 50, 59, 0.1);
+}
+
+.option.selected {
+  border-color: rgba(15, 76, 129, 0.5);
+  background: rgba(15, 76, 129, 0.08);
 }
 
 .quiz__top {

@@ -1,442 +1,2102 @@
 [
   {
-    "id": 1,
     "topic": "Grammar",
-    "question": "Choose the correct sentence.",
-    "options": ["She don't like tea.", "She doesn't like tea.", "She not likes tea.", "She isn't like tea."],
+    "difficulty": "easy",
+    "question": "Select the correct verb: Neither the teacher nor the students ___ ready.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "has been"
+    ],
     "answer": 1,
-    "explanation": "For third-person singular subjects (she, he, it), we use 'doesn't' (does not) for negative statements in present tense."
+    "explanation": "Verb agrees with nearest subject.",
+    "id": 1
   },
   {
-    "id": 2,
     "topic": "Grammar",
-    "question": "Select the correct verb: The students ___ to school every day.",
-    "options": ["go", "goes", "gone", "going"],
-    "answer": 0,
-    "explanation": "With plural subjects like 'students', we use the base form of the verb 'go' in present tense."
-  },
-  {
-    "id": 3,
-    "topic": "Vocabulary",
-    "question": "Choose the word closest in meaning to 'rapid'.",
-    "options": ["slow", "quick", "late", "calm"],
-    "answer": 1,
-    "explanation": "Rapid means happening or moving at high speed, which is synonymous with quick or fast."
-  },
-  {
-    "id": 4,
-    "topic": "Vocabulary",
-    "question": "Choose the word opposite in meaning to 'expand'.",
-    "options": ["increase", "stretch", "reduce", "grow"],
+    "difficulty": "easy",
+    "question": "Select the correct verb: The committee ___ its report yesterday.",
+    "options": [
+      "submit",
+      "submits",
+      "submitted",
+      "have submitted"
+    ],
     "answer": 2,
-    "explanation": "Expand means to become larger or increase in size. The opposite would be to reduce or decrease."
+    "explanation": "Collective noun as a unit takes singular past.",
+    "id": 2
   },
   {
-    "id": 5,
-    "topic": "Comprehension",
-    "question": "A passage says: 'The market opens early for fresh produce.' The best inference is that vendors",
-    "options": ["prefer late mornings", "sell fresh items", "close at noon", "avoid vegetables"],
-    "answer": 1,
-    "explanation": "The phrase 'fresh produce' directly suggests that vendors sell fresh items, making this the most logical inference."
-  },
-  {
-    "id": 6,
     "topic": "Grammar",
-    "question": "Choose the correct form: Neither of the boys ___ present.",
-    "options": ["are", "were", "is", "have been"],
-    "answer": 2,
-    "explanation": "'Neither' is a singular subject, so it requires the singular verb 'is' in present tense."
-  },
-  {
-    "id": 7,
-    "topic": "Grammar",
-    "question": "Identify the error: 'The dog wagged it's tail happily.'",
-    "options": ["No error", "it's should be its", "wagged should be wags", "happily should be happy"],
-    "answer": 1,
-    "explanation": "'Its' is the possessive form. 'It's' is a contraction meaning 'it is' or 'it has'."
-  },
-  {
-    "id": 8,
-    "topic": "Tenses",
-    "question": "Choose the correct form: By next year, I ___ my degree.",
-    "options": ["will complete", "will have completed", "complete", "am completing"],
-    "answer": 1,
-    "explanation": "Future perfect tense (will have + past participle) shows an action completed before a specific future time."
-  },
-  {
-    "id": 9,
-    "topic": "Tenses",
-    "question": "Select the correct past participle: The letter was ___ yesterday.",
-    "options": ["wrote", "written", "writing", "write"],
-    "answer": 1,
-    "explanation": "The past participle of 'write' is 'written', used in passive voice constructions."
-  },
-  {
-    "id": 10,
-    "topic": "Punctuation",
-    "question": "Where should the comma be placed? 'After eating the lion slept.'",
-    "options": ["After eating, the lion slept.", "After, eating the lion slept.", "After eating the, lion slept.", "No comma needed"],
-    "answer": 0,
-    "explanation": "A comma is needed after the introductory phrase 'After eating' to separate it from the main clause."
-  },
-  {
-    "id": 11,
-    "topic": "Punctuation",
-    "question": "Choose the correctly punctuated sentence.",
-    "options": ["Its a beautiful day isnt it?", "It's a beautiful day, isn't it?", "Its a beautiful day, isnt it?", "It's a beautiful day isnt it?"],
-    "answer": 1,
-    "explanation": "Contractions need apostrophes (It's, isn't), and tag questions require a comma before them."
-  },
-  {
-    "id": 12,
-    "topic": "Spelling",
-    "question": "Choose the correctly spelled word.",
-    "options": ["recieve", "receive", "recieve", "receave"],
-    "answer": 1,
-    "explanation": "The correct spelling is 'receive'. Remember: 'i' before 'e' except after 'c' when the sound is 'ee'."
-  },
-  {
-    "id": 13,
-    "topic": "Spelling",
-    "question": "Identify the misspelled word.",
-    "options": ["necessary", "occassion", "privilege", "definitely"],
-    "answer": 1,
-    "explanation": "'Occasion' is spelled with one 'c' and two 's's. The correct spelling is 'occasion'."
-  },
-  {
-    "id": 14,
-    "topic": "Vocabulary",
-    "question": "Choose the word that means 'to make something clear'.",
-    "options": ["clarify", "classify", "qualify", "magnify"],
-    "answer": 0,
-    "explanation": "'Clarify' means to make something clear or easier to understand."
-  },
-  {
-    "id": 15,
-    "topic": "Vocabulary",
-    "question": "What is the opposite of 'optimistic'?",
-    "options": ["realistic", "pessimistic", "enthusiastic", "dramatic"],
-    "answer": 1,
-    "explanation": "'Pessimistic' means having a negative outlook, which is the opposite of optimistic (positive outlook)."
-  },
-  {
-    "id": 16,
-    "topic": "Figures of Speech",
-    "question": "Identify the figure of speech: 'The classroom was a zoo.'",
-    "options": ["Simile", "Metaphor", "Personification", "Alliteration"],
-    "answer": 1,
-    "explanation": "This is a metaphor because it directly compares the classroom to a zoo without using 'like' or 'as'."
-  },
-  {
-    "id": 17,
-    "topic": "Figures of Speech",
-    "question": "Which sentence contains personification?",
-    "options": ["The wind whistled through the trees.", "She runs like the wind.", "The wind was very strong.", "Wind power is renewable."],
-    "answer": 0,
-    "explanation": "Personification gives human qualities (whistling) to non-human things (wind)."
-  },
-  {
-    "id": 18,
-    "topic": "Literature",
-    "question": "What is the main character in a story called?",
-    "options": ["Antagonist", "Protagonist", "Narrator", "Supporting character"],
-    "answer": 1,
-    "explanation": "The protagonist is the main character around whom the story revolves."
-  },
-  {
-    "id": 19,
-    "topic": "Literature",
-    "question": "Which literary device involves a contrast between expectation and reality?",
-    "options": ["Symbolism", "Irony", "Allusion", "Foreshadowing"],
-    "answer": 1,
-    "explanation": "Irony occurs when there's a contrast between what is expected and what actually happens."
-  },
-  {
-    "id": 20,
-    "topic": "Comprehension",
-    "question": "The passage states: 'Regular exercise improves both physical and mental health.' What can be inferred?",
-    "options": ["Exercise is only good for the body", "Exercise benefits multiple aspects of health", "Mental health is more important", "Exercise is difficult"],
-    "answer": 1,
-    "explanation": "The word 'both' indicates that exercise benefits multiple aspects - physical and mental health."
-  },
-  {
-    "id": 21,
-    "topic": "Grammar",
-    "question": "Choose the correct pronoun: John and ___ went to the store.",
-    "options": ["me", "I", "myself", "mine"],
-    "answer": 1,
-    "explanation": "Use 'I' as the subject pronoun. You can test this by removing 'John and' - 'I went to the store' is correct."
-  },
-  {
-    "id": 22,
-    "topic": "Grammar",
-    "question": "Select the correct article: He wants to be ___ engineer.",
-    "options": ["a", "an", "the", "no article"],
-    "answer": 1,
-    "explanation": "Use 'an' before words beginning with vowel sounds. 'Engineer' starts with a vowel sound."
-  },
-  {
-    "id": 23,
-    "topic": "Tenses",
-    "question": "Choose the correct form: She ___ her homework when I called.",
-    "options": ["does", "was doing", "has done", "will do"],
-    "answer": 1,
-    "explanation": "Past continuous tense (was doing) shows an ongoing action interrupted by another past action."
-  },
-  {
-    "id": 24,
-    "topic": "Tenses",
-    "question": "Select the correct present perfect form: I ___ that movie three times.",
-    "options": ["see", "saw", "have seen", "am seeing"],
-    "answer": 2,
-    "explanation": "Present perfect (have + past participle) connects past actions to the present moment."
-  },
-  {
-    "id": 25,
-    "topic": "Writing",
-    "question": "Which sentence is most appropriate for a formal letter?",
-    "options": ["Hey, what's up?", "I am writing to inquire about...", "How are you doing?", "Thanks a bunch!"],
-    "answer": 1,
-    "explanation": "Formal letters require respectful, professional language. 'I am writing to inquire about...' is appropriately formal."
-  },
-  {
-    "id": 26,
-    "topic": "Writing",
-    "question": "What is the purpose of a topic sentence?",
-    "options": ["To end the paragraph", "To introduce the main idea", "To provide examples", "To ask questions"],
-    "answer": 1,
-    "explanation": "A topic sentence introduces the main idea or theme that will be developed in the paragraph."
-  },
-  {
-    "id": 27,
-    "topic": "Vocabulary",
-    "question": "Choose the word that means 'brief' or 'short':",
-    "options": ["elaborate", "concise", "verbose", "extensive"],
-    "answer": 1,
-    "explanation": "'Concise' means expressing much in few words; brief and clear."
-  },
-  {
-    "id": 28,
-    "topic": "Vocabulary",
-    "question": "What does 'meticulous' mean?",
-    "options": ["Careless", "Very careful about details", "Quick", "Loud"],
-    "answer": 1,
-    "explanation": "'Meticulous' means showing great attention to detail; very careful and precise."
-  },
-  {
-    "id": 29,
-    "topic": "Grammar",
-    "question": "Choose the correct comparative form: This book is ___ than that one.",
-    "options": ["more interesting", "most interesting", "interestinger", "much interesting"],
-    "answer": 0,
-    "explanation": "For adjectives of three or more syllables, use 'more + adjective' for comparative form."
-  },
-  {
-    "id": 30,
-    "topic": "Grammar",
-    "question": "Identify the subject in: 'Under the bridge, the homeless man slept.'",
-    "options": ["bridge", "homeless", "man", "Under the bridge"],
-    "answer": 2,
-    "explanation": "The subject is 'man' - the person performing the action of sleeping."
-  },
-  {
-    "id": 31,
-    "topic": "Punctuation",
-    "question": "Where should quotation marks be placed? She said I'll be there soon.",
-    "options": ["She said 'I'll be there soon.'", "She said \"I'll be there soon.\"", "'She said I'll be there soon.'", "She 'said I'll be there soon.'"],
-    "answer": 1,
-    "explanation": "Direct speech should be enclosed in quotation marks: She said \"I'll be there soon.\""
-  },
-  {
-    "id": 32,
-    "topic": "Punctuation",
-    "question": "Choose the correct use of semicolon:",
-    "options": ["I like; apples", "I like apples; you like oranges", "I like apples; and oranges", "I; like apples"],
-    "answer": 1,
-    "explanation": "Semicolons connect two related independent clauses: 'I like apples' and 'you like oranges' are both complete thoughts."
-  },
-  {
-    "id": 33,
-    "topic": "Figures of Speech",
-    "question": "Identify the alliteration: 'Peter picked peppers'",
-    "options": ["Repetition of 'p' sound", "Rhyming words", "Similar meanings", "Opposite meanings"],
-    "answer": 0,
-    "explanation": "Alliteration is the repetition of initial consonant sounds - here, the 'p' sound is repeated."
-  },
-  {
-    "id": 34,
-    "topic": "Figures of Speech",
-    "question": "What type of figurative language is 'Busy as a bee'?",
-    "options": ["Metaphor", "Personification", "Simile", "Hyperbole"],
-    "answer": 2,
-    "explanation": "A simile compares two things using 'like' or 'as'. 'Busy as a bee' uses 'as' to compare."
-  },
-  {
-    "id": 35,
-    "topic": "Literature",
-    "question": "What is the setting of a story?",
-    "options": ["The main character", "The time and place", "The ending", "The conflict"],
-    "answer": 1,
-    "explanation": "Setting refers to the time and place where the events of a story occur."
-  },
-  {
-    "id": 36,
-    "topic": "Literature",
-    "question": "Which is an example of internal conflict?",
-    "options": ["Man vs. nature", "Man vs. society", "Man vs. himself", "Man vs. machine"],
-    "answer": 2,
-    "explanation": "Internal conflict occurs within a character's mind - a struggle with thoughts, feelings, or decisions."
-  },
-  {
-    "id": 37,
-    "topic": "Spelling",
-    "question": "Choose the correctly spelled word:",
-    "options": ["seperate", "separate", "seprate", "seperrate"],
-    "answer": 1,
-    "explanation": "The correct spelling is 'separate'. Remember: there's 'a rat' in separate."
-  },
-  {
-    "id": 38,
-    "topic": "Spelling",
-    "question": "Which word is spelled incorrectly?",
-    "options": ["beautiful", "piece", "friend", "beleive"],
+    "difficulty": "easy",
+    "question": "Select the correct verb: Each of the boys brought ___ book.",
+    "options": [
+      "their",
+      "her",
+      "them",
+      "his"
+    ],
     "answer": 3,
-    "explanation": "'Believe' is the correct spelling. Remember: 'i' before 'e' except after 'c'."
+    "explanation": "'Each' is singular.",
+    "id": 3
   },
   {
-    "id": 39,
-    "topic": "Comprehension",
-    "question": "From 'The student studied diligently and achieved excellent grades,' we can conclude:",
-    "options": ["Studying guarantees good grades", "Hard work often leads to success", "The student was naturally smart", "Grades don't matter"],
-    "answer": 1,
-    "explanation": "The passage shows a cause-and-effect relationship between diligent studying and excellent grades."
-  },
-  {
-    "id": 40,
-    "topic": "Comprehension",
-    "question": "What is the main purpose of a conclusion paragraph?",
-    "options": ["Introduce new ideas", "Summarize main points", "Ask more questions", "Provide examples"],
-    "answer": 1,
-    "explanation": "A conclusion paragraph summarizes the main points and brings closure to the essay or passage."
-  },
-  {
-    "id": 41,
     "topic": "Grammar",
-    "question": "Choose the correct passive voice: The chef cooks the meal.",
-    "options": ["The meal cooks by the chef", "The meal is cooked by the chef", "The meal was cooking by the chef", "The meal has cooked by the chef"],
-    "answer": 1,
-    "explanation": "Passive voice uses 'be' verb + past participle: 'The meal is cooked by the chef.'"
+    "difficulty": "easy",
+    "question": "Select the correct verb: The number of applicants ___ increasing.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have been"
+    ],
+    "answer": 0,
+    "explanation": "'The number of' is singular.",
+    "id": 4
   },
   {
-    "id": 42,
     "topic": "Grammar",
-    "question": "Identify the adverb: 'She sang beautifully last night.'",
-    "options": ["She", "sang", "beautifully", "night"],
+    "difficulty": "easy",
+    "question": "Select the correct verb: A number of applicants ___ qualified.",
+    "options": [
+      "was",
+      "were",
+      "is",
+      "has"
+    ],
+    "answer": 1,
+    "explanation": "'A number of' is plural.",
+    "id": 5
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: Either of the answers ___ acceptable.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have been"
+    ],
     "answer": 2,
-    "explanation": "'Beautifully' is an adverb modifying the verb 'sang', telling us how she sang."
+    "explanation": "Either is singular.",
+    "id": 6
   },
   {
-    "id": 43,
-    "topic": "Vocabulary",
-    "question": "Choose a synonym for 'abundant':",
-    "options": ["scarce", "plentiful", "small", "empty"],
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: The police ___ arrived.",
+    "options": [
+      "has",
+      "is",
+      "was",
+      "have"
+    ],
+    "answer": 3,
+    "explanation": "Police is plural in meaning.",
+    "id": 7
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: Mathematics ___ my favorite subject.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have been"
+    ],
+    "answer": 0,
+    "explanation": "Names of subjects are singular.",
+    "id": 8
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: One of the players ___ injured.",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+    ],
     "answer": 1,
-    "explanation": "'Abundant' means existing in large quantities; 'plentiful' has the same meaning."
+    "explanation": "'One of' takes singular.",
+    "id": 9
   },
   {
-    "id": 44,
-    "topic": "Vocabulary",
-    "question": "What does 'procrastinate' mean?",
-    "options": ["To work hard", "To delay action", "To complete quickly", "To organize"],
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "question": "Select the correct verb: Bread and butter ___ his breakfast.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": 2,
+    "explanation": "Two items as one idea take singular.",
+    "id": 10
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "question": "Select the correct verb: Neither of the answers ___ correct.",
+    "options": [
+      "are",
+      "were",
+      "have",
+      "is"
+    ],
+    "answer": 3,
+    "explanation": "Neither is singular.",
+    "id": 11
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "question": "Select the correct verb: The jury ___ reached a verdict.",
+    "options": [
+      "has",
+      "have",
+      "are",
+      "were"
+    ],
+    "answer": 0,
+    "explanation": "Jury as a unit takes singular.",
+    "id": 12
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "question": "Select the correct verb: Every student and teacher ___ invited.",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "have"
+    ],
     "answer": 1,
-    "explanation": "'Procrastinate' means to delay or postpone action, especially something that should be done."
+    "explanation": "With 'every', verb is singular.",
+    "id": 13
   },
   {
-    "id": 45,
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "question": "Select the correct verb: The data ___ accurate.",
+    "options": [
+      "is",
+      "was",
+      "are",
+      "has"
+    ],
+    "answer": 2,
+    "explanation": "Data is plural in formal usage.",
+    "id": 14
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: The news ___ encouraging.",
+    "options": [
+      "are",
+      "were",
+      "have",
+      "is"
+    ],
+    "answer": 3,
+    "explanation": "News is singular in usage.",
+    "id": 15
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: The pair of shoes ___ new.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": 0,
+    "explanation": "Pair is singular.",
+    "id": 16
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: No one ___ allowed in.",
+    "options": [
+      "are",
+      "is",
+      "were",
+      "have"
+    ],
+    "answer": 1,
+    "explanation": "No one is singular.",
+    "id": 17
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "question": "Select the correct verb: Either John or his friends ___ coming.",
+    "options": [
+      "is",
+      "was",
+      "are",
+      "has"
+    ],
+    "answer": 2,
+    "explanation": "Verb agrees with nearer subject.",
+    "id": 18
+  },
+  {
     "topic": "Tenses",
-    "question": "Choose the correct future tense: Tomorrow, I ___ to Lagos.",
-    "options": ["travel", "traveled", "will travel", "am travel"],
-    "answer": 2,
-    "explanation": "Future tense uses 'will + base form of verb' to express actions that will happen."
+    "difficulty": "medium",
+    "question": "Choose the correct form: By the time he arrived, the meeting ___.",
+    "options": [
+      "started",
+      "has started",
+      "was starting",
+      "had started"
+    ],
+    "answer": 3,
+    "explanation": "Past perfect for earlier past.",
+    "id": 19
   },
   {
-    "id": 46,
     "topic": "Tenses",
-    "question": "Select the correct past continuous: They ___ when it started raining.",
-    "options": ["play", "played", "were playing", "have played"],
+    "difficulty": "medium",
+    "question": "Choose the correct form: If she ___ earlier, she would have met him.",
+    "options": [
+      "had left",
+      "left",
+      "leaves",
+      "would leave"
+    ],
+    "answer": 0,
+    "explanation": "Third conditional uses past perfect.",
+    "id": 20
+  },
+  {
+    "topic": "Tenses",
+    "difficulty": "medium",
+    "question": "Choose the correct form: I ___ here for five years by next month.",
+    "options": [
+      "have been",
+      "will have been",
+      "am",
+      "will be"
+    ],
+    "answer": 1,
+    "explanation": "Future perfect continuous.",
+    "id": 21
+  },
+  {
+    "topic": "Tenses",
+    "difficulty": "easy",
+    "question": "Choose the correct form: She ___ her homework when I called.",
+    "options": [
+      "did",
+      "does",
+      "was doing",
+      "has done"
+    ],
     "answer": 2,
-    "explanation": "Past continuous uses 'was/were + verb-ing' to show ongoing past actions."
+    "explanation": "Past continuous for ongoing action.",
+    "id": 22
   },
   {
-    "id": 47,
-    "topic": "Writing",
-    "question": "What makes a good thesis statement?",
-    "options": ["It asks a question", "It states the main argument clearly", "It provides all the evidence", "It summarizes everything"],
+    "topic": "Tenses",
+    "difficulty": "easy",
+    "question": "Choose the correct form: The train ___ before we reached the station.",
+    "options": [
+      "left",
+      "has left",
+      "leaves",
+      "had left"
+    ],
+    "answer": 3,
+    "explanation": "Past perfect.",
+    "id": 23
+  },
+  {
+    "topic": "Tenses",
+    "difficulty": "easy",
+    "question": "Choose the correct form: He usually ___ to work by bus.",
+    "options": [
+      "goes",
+      "go",
+      "gone",
+      "going"
+    ],
+    "answer": 0,
+    "explanation": "Third-person singular takes -s.",
+    "id": 24
+  },
+  {
+    "topic": "Tenses",
+    "difficulty": "easy",
+    "question": "Choose the correct form: We ___ the match tomorrow.",
+    "options": [
+      "played",
+      "will play",
+      "play",
+      "have played"
+    ],
     "answer": 1,
-    "explanation": "A thesis statement clearly presents the main argument or central idea of an essay."
+    "explanation": "Simple future.",
+    "id": 25
   },
   {
-    "id": 48,
-    "topic": "Writing",
-    "question": "Which transition word shows contrast?",
-    "options": ["Therefore", "However", "Furthermore", "Additionally"],
-    "answer": 1,
-    "explanation": "'However' is a transitional word that indicates contrast or opposition to a previous statement."
+    "topic": "Tenses",
+    "difficulty": "medium",
+    "question": "Choose the correct form: They ___ since morning.",
+    "options": [
+      "studied",
+      "study",
+      "have been studying",
+      "are studying"
+    ],
+    "answer": 2,
+    "explanation": "Present perfect continuous.",
+    "id": 26
   },
   {
-    "id": 49,
-    "topic": "Literature",
-    "question": "What is foreshadowing?",
-    "options": ["Describing the past", "Hinting at future events", "Ending the story", "Developing characters"],
-    "answer": 1,
-    "explanation": "Foreshadowing is a literary device that gives hints or clues about what will happen later in the story."
+    "topic": "Tenses",
+    "difficulty": "medium",
+    "question": "Choose the correct form: By next year, she ___ her degree.",
+    "options": [
+      "will complete",
+      "complete",
+      "am completing",
+      "will have completed"
+    ],
+    "answer": 3,
+    "explanation": "Future perfect.",
+    "id": 27
   },
   {
-    "id": 50,
-    "topic": "Literature",
-    "question": "What is the climax of a story?",
-    "options": ["The beginning", "The turning point", "The end", "The setting"],
-    "answer": 1,
-    "explanation": "The climax is the turning point or most intense moment in a story where the main conflict reaches its peak."
+    "topic": "Tenses",
+    "difficulty": "easy",
+    "question": "Choose the correct form: When I arrived, he ___ already left.",
+    "options": [
+      "had",
+      "has",
+      "was",
+      "is"
+    ],
+    "answer": 0,
+    "explanation": "Past perfect auxiliary.",
+    "id": 28
   },
   {
-    "id": 51,
-    "topic": "Figures of Speech",
-    "question": "Identify the hyperbole: 'I've told you a million times!'",
-    "options": ["Exact number", "Exaggeration for effect", "Mathematical calculation", "Literal statement"],
-    "answer": 1,
-    "explanation": "Hyperbole is deliberate exaggeration for emphasis or effect. 'A million times' is an exaggeration."
-  },
-  {
-    "id": 52,
-    "topic": "Grammar",
-    "question": "Choose the correct preposition: The book is ___ the table.",
-    "options": ["in", "on", "at", "by"],
-    "answer": 1,
-    "explanation": "'On' is used for surfaces. The book rests on the surface of the table."
-  },
-  {
-    "id": 53,
     "topic": "Punctuation",
-    "question": "When do we use an apostrophe in 'its'?",
-    "options": ["For possession", "Never", "For contraction only", "Always"],
-    "answer": 2,
-    "explanation": "Use apostrophe in 'it's' only for contraction (it is/it has). For possession, use 'its' without apostrophe."
-  },
-  {
-    "id": 54,
-    "topic": "Comprehension",
-    "question": "What is the tone of this sentence: 'What a wonderful surprise this is!'?",
-    "options": ["Angry", "Sad", "Excited", "Confused"],
-    "answer": 2,
-    "explanation": "The exclamation mark and positive words 'wonderful' and 'surprise' indicate excitement and joy."
-  },
-  {
-    "id": 55,
-    "topic": "Vocabulary",
-    "question": "Choose the word that means 'to support or strengthen':",
-    "options": ["weaken", "reinforce", "destroy", "ignore"],
+    "difficulty": "easy",
+    "question": "However we decided to continue.",
+    "options": [
+      "However; we decided to continue.",
+      "However, we decided to continue.",
+      "However we decided; to continue.",
+      "However: we decided to continue."
+    ],
     "answer": 1,
-    "explanation": "'Reinforce' means to support, strengthen, or make stronger."
+    "explanation": "Comma after introductory adverb.",
+    "id": 29
+  },
+  {
+    "topic": "Punctuation",
+    "difficulty": "easy",
+    "question": "Its a beautiful day isnt it?",
+    "options": [
+      "Its a beautiful day, isnt it?",
+      "It's a beautiful day isnt it?",
+      "It's a beautiful day, isn't it?",
+      "Its a beautiful day isn't it?"
+    ],
+    "answer": 2,
+    "explanation": "Use apostrophes and comma.",
+    "id": 30
+  },
+  {
+    "topic": "Punctuation",
+    "difficulty": "easy",
+    "question": "After eating the lion slept.",
+    "options": [
+      "After, eating the lion slept.",
+      "After eating the, lion slept.",
+      "No comma needed",
+      "After eating, the lion slept."
+    ],
+    "answer": 3,
+    "explanation": "Comma after introductory phrase.",
+    "id": 31
+  },
+  {
+    "topic": "Punctuation",
+    "difficulty": "medium",
+    "question": "Pick the correctly punctuated sentence.",
+    "options": [
+      "The teacher said, 'Be quiet.'",
+      "The teacher said 'Be quiet'.",
+      "The teacher said, 'Be quiet'",
+      "The teacher said 'Be quiet.'"
+    ],
+    "answer": 0,
+    "explanation": "Comma before a direct quote.",
+    "id": 32
+  },
+  {
+    "topic": "Punctuation",
+    "difficulty": "easy",
+    "question": "Choose the correct punctuation.",
+    "options": [
+      "Please bring pens pencils, and rulers.",
+      "Please bring pens, pencils, and rulers.",
+      "Please bring pens, pencils and rulers.",
+      "Please bring pens; pencils, and rulers."
+    ],
+    "answer": 1,
+    "explanation": "Use commas in a list.",
+    "id": 33
+  },
+  {
+    "topic": "Punctuation",
+    "difficulty": "easy",
+    "question": "Select the correctly punctuated sentence.",
+    "options": [
+      "When he arrived the class had started.",
+      "When, he arrived the class had started.",
+      "When he arrived, the class had started.",
+      "When he arrived the class, had started."
+    ],
+    "answer": 2,
+    "explanation": "Comma after introductory clause.",
+    "id": 34
+  },
+  {
+    "topic": "Punctuation",
+    "difficulty": "easy",
+    "question": "Pick the correct punctuation.",
+    "options": [
+      "Yes I can help you.",
+      "Yes; I can help you.",
+      "Yes: I can help you.",
+      "Yes, I can help you."
+    ],
+    "answer": 3,
+    "explanation": "Comma after a response word.",
+    "id": 35
+  },
+  {
+    "topic": "Punctuation",
+    "difficulty": "easy",
+    "question": "Choose the correctly punctuated sentence.",
+    "options": [
+      "She bought bread, milk, and eggs.",
+      "She bought bread milk, and eggs.",
+      "She bought bread, milk and eggs.",
+      "She bought bread; milk, and eggs."
+    ],
+    "answer": 0,
+    "explanation": "Comma to separate items.",
+    "id": 36
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'abundant'.",
+    "options": [
+      "scarce",
+      "plentiful",
+      "tiny",
+      "late"
+    ],
+    "answer": 1,
+    "explanation": "Abundant means plentiful.",
+    "id": 37
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'obstinate'.",
+    "options": [
+      "gentle",
+      "quick",
+      "stubborn",
+      "careful"
+    ],
+    "answer": 2,
+    "explanation": "Obstinate means stubborn.",
+    "id": 38
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'succinct'.",
+    "options": [
+      "confusing",
+      "lengthy",
+      "uncertain",
+      "brief"
+    ],
+    "answer": 3,
+    "explanation": "Succinct means brief.",
+    "id": 39
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'mitigate'.",
+    "options": [
+      "reduce",
+      "increase",
+      "ignore",
+      "delay"
+    ],
+    "answer": 0,
+    "explanation": "Mitigate means reduce severity.",
+    "id": 40
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'inevitable'.",
+    "options": [
+      "optional",
+      "unavoidable",
+      "temporary",
+      "doubtful"
+    ],
+    "answer": 1,
+    "explanation": "Inevitable means unavoidable.",
+    "id": 41
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'cautious'.",
+    "options": [
+      "careful",
+      "reckless",
+      "fast",
+      "angry"
+    ],
+    "answer": 0,
+    "explanation": "Cautious means careful.",
+    "id": 42
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'candid'.",
+    "options": [
+      "secret",
+      "silent",
+      "careless",
+      "frank"
+    ],
+    "answer": 3,
+    "explanation": "Candid means frank.",
+    "id": 43
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'diligent'.",
+    "options": [
+      "hardworking",
+      "lazy",
+      "careful",
+      "weak"
+    ],
+    "answer": 0,
+    "explanation": "Diligent means hardworking.",
+    "id": 44
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'frugal'.",
+    "options": [
+      "wasteful",
+      "thrifty",
+      "rich",
+      "slow"
+    ],
+    "answer": 1,
+    "explanation": "Frugal means thrifty.",
+    "id": 45
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'vivid'.",
+    "options": [
+      "dull",
+      "dark",
+      "bright",
+      "late"
+    ],
+    "answer": 2,
+    "explanation": "Vivid means bright or clear.",
+    "id": 46
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'select'.",
+    "options": [
+      "choose",
+      "reject",
+      "delay",
+      "hide"
+    ],
+    "answer": 0,
+    "explanation": "Select means choose.",
+    "id": 47
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'commence'.",
+    "options": [
+      "begin",
+      "end",
+      "stop",
+      "pause"
+    ],
+    "answer": 0,
+    "explanation": "Commence means begin.",
+    "id": 48
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'reluctant'.",
+    "options": [
+      "eager",
+      "unwilling",
+      "quick",
+      "happy"
+    ],
+    "answer": 1,
+    "explanation": "Reluctant means unwilling.",
+    "id": 49
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'exhausted'.",
+    "options": [
+      "fresh",
+      "alert",
+      "tired",
+      "lively"
+    ],
+    "answer": 2,
+    "explanation": "Exhausted means very tired.",
+    "id": 50
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'accurate'.",
+    "options": [
+      "wrong",
+      "rough",
+      "unclear",
+      "exact"
+    ],
+    "answer": 3,
+    "explanation": "Accurate means exact.",
+    "id": 51
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'scarce'.",
+    "options": [
+      "abundant",
+      "rare",
+      "tiny",
+      "few"
+    ],
+    "answer": 0,
+    "explanation": "Opposite of scarce is abundant.",
+    "id": 52
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'expand'.",
+    "options": [
+      "increase",
+      "reduce",
+      "stretch",
+      "grow"
+    ],
+    "answer": 1,
+    "explanation": "Opposite of expand is reduce.",
+    "id": 53
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'optimistic'.",
+    "options": [
+      "realistic",
+      "enthusiastic",
+      "pessimistic",
+      "dramatic"
+    ],
+    "answer": 2,
+    "explanation": "Opposite of optimistic is pessimistic.",
+    "id": 54
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'domestic'.",
+    "options": [
+      "local",
+      "national",
+      "home",
+      "foreign"
+    ],
+    "answer": 3,
+    "explanation": "Opposite of domestic is foreign.",
+    "id": 55
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'success'.",
+    "options": [
+      "failure",
+      "win",
+      "triumph",
+      "progress"
+    ],
+    "answer": 0,
+    "explanation": "Opposite of success is failure.",
+    "id": 56
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'ancient'.",
+    "options": [
+      "old",
+      "modern",
+      "antique",
+      "aged"
+    ],
+    "answer": 1,
+    "explanation": "Opposite of ancient is modern.",
+    "id": 57
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'accept'.",
+    "options": [
+      "receive",
+      "allow",
+      "reject",
+      "permit"
+    ],
+    "answer": 2,
+    "explanation": "Opposite of accept is reject.",
+    "id": 58
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'generous'.",
+    "options": [
+      "kind",
+      "gifted",
+      "rich",
+      "stingy"
+    ],
+    "answer": 3,
+    "explanation": "Opposite of generous is stingy.",
+    "id": 59
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'diminish'.",
+    "options": [
+      "increase",
+      "reduce",
+      "lower",
+      "cut"
+    ],
+    "answer": 0,
+    "explanation": "Opposite of diminish is increase.",
+    "id": 60
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'transparent'.",
+    "options": [
+      "clear",
+      "opaque",
+      "bright",
+      "visible"
+    ],
+    "answer": 1,
+    "explanation": "Opposite of transparent is opaque.",
+    "id": 61
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'advance'.",
+    "options": [
+      "progress",
+      "move",
+      "retreat",
+      "lead"
+    ],
+    "answer": 2,
+    "explanation": "Opposite of advance is retreat.",
+    "id": 62
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'major'.",
+    "options": [
+      "large",
+      "main",
+      "chief",
+      "minor"
+    ],
+    "answer": 3,
+    "explanation": "Opposite of major is minor.",
+    "id": 63
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'frequent'.",
+    "options": [
+      "rare",
+      "often",
+      "regular",
+      "usual"
+    ],
+    "answer": 0,
+    "explanation": "Opposite of frequent is rare.",
+    "id": 64
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'early'.",
+    "options": [
+      "late",
+      "soon",
+      "fast",
+      "quick"
+    ],
+    "answer": 0,
+    "explanation": "Opposite of early is late.",
+    "id": 65
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'permanent'.",
+    "options": [
+      "lasting",
+      "stable",
+      "temporary",
+      "fixed"
+    ],
+    "answer": 2,
+    "explanation": "Opposite of permanent is temporary.",
+    "id": 66
+  },
+  {
+    "topic": "Idioms",
+    "difficulty": "medium",
+    "question": "The idiom 'spill the beans' means to ___.",
+    "options": [
+      "cook a meal",
+      "make a mistake",
+      "lose money",
+      "reveal a secret"
+    ],
+    "answer": 3,
+    "explanation": "It means to reveal a secret.",
+    "id": 67
+  },
+  {
+    "topic": "Idioms",
+    "difficulty": "medium",
+    "question": "The idiom 'a blessing in disguise' means to ___.",
+    "options": [
+      "a good thing that seemed bad",
+      "a sure loss",
+      "a public insult",
+      "a risky decision"
+    ],
+    "answer": 0,
+    "explanation": "It is something good hidden in a bad event.",
+    "id": 68
+  },
+  {
+    "topic": "Idioms",
+    "difficulty": "medium",
+    "question": "The idiom 'once in a blue moon' means to ___.",
+    "options": [
+      "every night",
+      "very rarely",
+      "suddenly",
+      "very quickly"
+    ],
+    "answer": 1,
+    "explanation": "It means very rarely.",
+    "id": 69
+  },
+  {
+    "topic": "Idioms",
+    "difficulty": "medium",
+    "question": "The idiom 'hit the nail on the head' means to ___.",
+    "options": [
+      "make a mistake",
+      "lose money",
+      "say the exact truth",
+      "avoid the issue"
+    ],
+    "answer": 2,
+    "explanation": "It means to be exactly right.",
+    "id": 70
+  },
+  {
+    "topic": "Idioms",
+    "difficulty": "medium",
+    "question": "The idiom 'break the ice' means to ___.",
+    "options": [
+      "end a meeting",
+      "cause trouble",
+      "keep quiet",
+      "start a conversation"
+    ],
+    "answer": 3,
+    "explanation": "It means to ease tension.",
+    "id": 71
+  },
+  {
+    "topic": "Idioms",
+    "difficulty": "medium",
+    "question": "The idiom 'burn the midnight oil' means to ___.",
+    "options": [
+      "work late at night",
+      "sleep early",
+      "waste money",
+      "travel far"
+    ],
+    "answer": 0,
+    "explanation": "It means to study or work late.",
+    "id": 72
+  },
+  {
+    "topic": "Idioms",
+    "difficulty": "medium",
+    "question": "The idiom 'beat around the bush' means to ___.",
+    "options": [
+      "speak clearly",
+      "avoid the main point",
+      "answer quickly",
+      "decide fast"
+    ],
+    "answer": 1,
+    "explanation": "It means to be indirect.",
+    "id": 73
+  },
+  {
+    "topic": "Idioms",
+    "difficulty": "medium",
+    "question": "The idiom 'back to square one' means to ___.",
+    "options": [
+      "finish quickly",
+      "win easily",
+      "back to the beginning",
+      "change sides"
+    ],
+    "answer": 2,
+    "explanation": "It means to start over.",
+    "id": 74
+  },
+  {
+    "topic": "Phrasal Verbs",
+    "difficulty": "medium",
+    "question": "The phrasal verb 'put up with' means to ___.",
+    "options": [
+      "build",
+      "admire",
+      "postpone",
+      "tolerate"
+    ],
+    "answer": 3,
+    "explanation": "It means tolerate.",
+    "id": 75
+  },
+  {
+    "topic": "Phrasal Verbs",
+    "difficulty": "medium",
+    "question": "The phrasal verb 'call off' means to ___.",
+    "options": [
+      "cancel",
+      "invite",
+      "approve",
+      "discover"
+    ],
+    "answer": 0,
+    "explanation": "It means cancel.",
+    "id": 76
+  },
+  {
+    "topic": "Phrasal Verbs",
+    "difficulty": "medium",
+    "question": "The phrasal verb 'look into' means to ___.",
+    "options": [
+      "ignore",
+      "investigate",
+      "celebrate",
+      "finish"
+    ],
+    "answer": 1,
+    "explanation": "It means investigate.",
+    "id": 77
+  },
+  {
+    "topic": "Phrasal Verbs",
+    "difficulty": "medium",
+    "question": "The phrasal verb 'carry out' means to ___.",
+    "options": [
+      "cancel",
+      "delay",
+      "perform",
+      "hide"
+    ],
+    "answer": 2,
+    "explanation": "It means perform.",
+    "id": 78
+  },
+  {
+    "topic": "Phrasal Verbs",
+    "difficulty": "medium",
+    "question": "The phrasal verb 'break down' means to ___.",
+    "options": [
+      "start",
+      "increase",
+      "repair",
+      "stop working"
+    ],
+    "answer": 3,
+    "explanation": "It means stop working.",
+    "id": 79
+  },
+  {
+    "topic": "Phrasal Verbs",
+    "difficulty": "medium",
+    "question": "The phrasal verb 'turn down' means to ___.",
+    "options": [
+      "reject",
+      "accept",
+      "raise",
+      "increase"
+    ],
+    "answer": 0,
+    "explanation": "It means reject.",
+    "id": 80
+  },
+  {
+    "topic": "Phrasal Verbs",
+    "difficulty": "medium",
+    "question": "The phrasal verb 'give up' means to ___.",
+    "options": [
+      "continue",
+      "quit",
+      "support",
+      "return"
+    ],
+    "answer": 1,
+    "explanation": "It means quit.",
+    "id": 81
+  },
+  {
+    "topic": "Phrasal Verbs",
+    "difficulty": "medium",
+    "question": "The phrasal verb 'set off' means to ___.",
+    "options": [
+      "finish",
+      "forget",
+      "begin a journey",
+      "hide"
+    ],
+    "answer": 2,
+    "explanation": "It means start a journey.",
+    "id": 82
+  },
+  {
+    "topic": "Figures of Speech",
+    "difficulty": "medium",
+    "question": "Identify the figure of speech: 'The wind howled all night.'",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Hyperbole",
+      "Personification"
+    ],
+    "answer": 3,
+    "explanation": "Human action given to wind.",
+    "id": 83
+  },
+  {
+    "topic": "Figures of Speech",
+    "difficulty": "medium",
+    "question": "Identify the figure of speech: 'The classroom was a zoo.'",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Personification",
+      "Alliteration"
+    ],
+    "answer": 0,
+    "explanation": "Direct comparison.",
+    "id": 84
+  },
+  {
+    "topic": "Figures of Speech",
+    "difficulty": "medium",
+    "question": "Identify the figure of speech: 'He ran like the wind.'",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Irony",
+      "Personification"
+    ],
+    "answer": 1,
+    "explanation": "Comparison using like/as.",
+    "id": 85
+  },
+  {
+    "topic": "Figures of Speech",
+    "difficulty": "medium",
+    "question": "Identify the figure of speech: 'Peter Piper picked a peck of peppers.'",
+    "options": [
+      "Metaphor",
+      "Irony",
+      "Alliteration",
+      "Symbolism"
+    ],
+    "answer": 2,
+    "explanation": "Repeated initial consonant sound.",
+    "id": 86
+  },
+  {
+    "topic": "Figures of Speech",
+    "difficulty": "medium",
+    "question": "Identify the figure of speech: 'I have told you a thousand times.'",
+    "options": [
+      "Understatement",
+      "Irony",
+      "Metaphor",
+      "Hyperbole"
+    ],
+    "answer": 3,
+    "explanation": "Deliberate exaggeration.",
+    "id": 87
+  },
+  {
+    "topic": "Figures of Speech",
+    "difficulty": "medium",
+    "question": "Identify the figure of speech: 'The pen is mightier than the sword.'",
+    "options": [
+      "Metonymy",
+      "Simile",
+      "Hyperbole",
+      "Irony"
+    ],
+    "answer": 0,
+    "explanation": "Associated thing stands for another.",
+    "id": 88
+  },
+  {
+    "topic": "Figures of Speech",
+    "difficulty": "medium",
+    "question": "Identify the figure of speech: 'The city never sleeps.'",
+    "options": [
+      "Simile",
+      "Personification",
+      "Metaphor",
+      "Alliteration"
+    ],
+    "answer": 1,
+    "explanation": "City given human trait.",
+    "id": 89
+  },
+  {
+    "topic": "Figures of Speech",
+    "difficulty": "medium",
+    "question": "Identify the figure of speech: 'It is as clear as crystal.'",
+    "options": [
+      "Metaphor",
+      "Personification",
+      "Simile",
+      "Irony"
+    ],
+    "answer": 2,
+    "explanation": "Comparison using 'as'.",
+    "id": 90
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The farmer waited for the first heavy rains before planting maize, knowing that early showers often disappear.' What can be inferred?",
+    "options": [
+      "early showers are always heavy",
+      "fertilizer was unavailable",
+      "laborers were absent",
+      "waiting reduced the risk of seed failure"
+    ],
+    "answer": 3,
+    "explanation": "Waiting for heavy rains reduces risk of seed failure.",
+    "id": 91
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'Prices rose steadily, so households reduced non-essential spending and postponed major purchases.' What can be inferred?",
+    "options": [
+      "rising prices cut discretionary spending",
+      "spending on luxuries increased",
+      "prices had no effect",
+      "borrowers bought more"
+    ],
+    "answer": 0,
+    "explanation": "Higher prices reduce non-essential spending.",
+    "id": 92
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The town installed solar panels to cut diesel costs and reduce noise from generators.' What can be inferred?",
+    "options": [
+      "solar panels increased noise",
+      "solar panels reduced fuel costs and noise",
+      "streetlights were removed",
+      "tourism declined"
+    ],
+    "answer": 1,
+    "explanation": "Both cost and noise reduction are stated.",
+    "id": 93
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'He studied daily and kept a strict schedule, which helped him pass the examination.' What can be inferred?",
+    "options": [
+      "luck was the main factor",
+      "he avoided studying",
+      "discipline improved his success",
+      "the exam was canceled"
+    ],
+    "answer": 2,
+    "explanation": "The passage links discipline to success.",
+    "id": 94
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The road was flooded, so vehicles were diverted to a longer route.' What can be inferred?",
+    "options": [
+      "drivers refused to travel",
+      "the weather was sunny",
+      "fuel prices dropped",
+      "the usual route was unusable"
+    ],
+    "answer": 3,
+    "explanation": "Flooding made the usual road unusable.",
+    "id": 95
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The manager praised workers who met deadlines and followed safety rules.' What can be inferred?",
+    "options": [
+      "punctual and careful workers are valued",
+      "careless workers are rewarded",
+      "deadlines are not important",
+      "safety rules were removed"
+    ],
+    "answer": 0,
+    "explanation": "The manager values punctuality and safety compliance.",
+    "id": 96
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The clinic introduced a reminder system for appointments, and missed visits fell sharply.' What can be inferred?",
+    "options": [
+      "appointments were canceled",
+      "reminders improved attendance",
+      "patients avoided the clinic",
+      "fees were removed"
+    ],
+    "answer": 1,
+    "explanation": "Reminders reduced missed visits.",
+    "id": 97
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'A new bus route reduced travel time, so more commuters switched from private cars.' What can be inferred?",
+    "options": [
+      "travel time increased",
+      "car use rose",
+      "faster transport increased public use",
+      "routes were closed"
+    ],
+    "answer": 2,
+    "explanation": "Shorter travel time encouraged switching.",
+    "id": 98
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The factory installed filters to reduce smoke, improving air quality near the plant.' What can be inferred?",
+    "options": [
+      "smoke levels rose",
+      "air quality worsened",
+      "filters were removed",
+      "filters reduced pollution"
+    ],
+    "answer": 3,
+    "explanation": "Filters improved air quality.",
+    "id": 99
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'Rainwater harvesting supplied households during dry months, lowering water shortages.' What can be inferred?",
+    "options": [
+      "stored rainwater reduced shortages",
+      "shortages increased",
+      "harvesting caused drought",
+      "rainwater was wasted"
+    ],
+    "answer": 0,
+    "explanation": "Stored rainwater helped during dry months.",
+    "id": 100
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: Neither of the girls ___ late.",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+    ],
+    "answer": 1,
+    "explanation": "Neither is singular.",
+    "id": 101
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "question": "Select the correct verb: The teacher with the students ___ traveling.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": 2,
+    "explanation": "Subject is 'teacher'.",
+    "id": 102
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "question": "Select the correct verb: Either the boys or the girl ___ responsible.",
+    "options": [
+      "are",
+      "were",
+      "have",
+      "is"
+    ],
+    "answer": 3,
+    "explanation": "Verb agrees with nearest subject.",
+    "id": 103
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: One of the books ___ missing.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": 0,
+    "explanation": "'One of' is singular.",
+    "id": 104
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: The team ___ its match yesterday.",
+    "options": [
+      "win",
+      "won",
+      "wins",
+      "have won"
+    ],
+    "answer": 1,
+    "explanation": "Collective noun as a unit.",
+    "id": 105
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "question": "Select the correct verb: Each student must submit ___ assignment.",
+    "options": [
+      "their",
+      "them",
+      "his or her",
+      "his"
+    ],
+    "answer": 2,
+    "explanation": "Each is singular.",
+    "id": 106
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: The scissors ___ on the table.",
+    "options": [
+      "is",
+      "was",
+      "has",
+      "are"
+    ],
+    "answer": 3,
+    "explanation": "Scissors is plural in form.",
+    "id": 107
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: The list of items ___ long.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": 0,
+    "explanation": "Main subject is 'list'.",
+    "id": 108
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "question": "Select the correct verb: Bread and butter ___ my breakfast.",
+    "options": [
+      "are",
+      "is",
+      "were",
+      "have"
+    ],
+    "answer": 1,
+    "explanation": "Two items as one idea.",
+    "id": 109
+  },
+  {
+    "topic": "Grammar",
+    "difficulty": "easy",
+    "question": "Select the correct verb: The police ___ arrested the suspect.",
+    "options": [
+      "has",
+      "was",
+      "have",
+      "is"
+    ],
+    "answer": 2,
+    "explanation": "Police is plural in meaning.",
+    "id": 110
+  },
+  {
+    "topic": "Prepositions",
+    "difficulty": "medium",
+    "question": "Choose the correct preposition: He insisted ___ paying the bill.",
+    "options": [
+      "in",
+      "at",
+      "for",
+      "on"
+    ],
+    "answer": 3,
+    "explanation": "Insist on.",
+    "id": 111
+  },
+  {
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "question": "Choose the correct preposition: She is good ___ mathematics.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "answer": 0,
+    "explanation": "Good at a subject.",
+    "id": 112
+  },
+  {
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "question": "Choose the correct preposition: The manager was angry ___ the delay.",
+    "options": [
+      "for",
+      "about",
+      "on",
+      "with"
+    ],
+    "answer": 1,
+    "explanation": "Angry about something.",
+    "id": 113
+  },
+  {
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "question": "Choose the correct preposition: We arrived ___ the airport early.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": 2,
+    "explanation": "Arrive at a place.",
+    "id": 114
+  },
+  {
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "question": "Choose the correct preposition: He is afraid ___ snakes.",
+    "options": [
+      "from",
+      "about",
+      "for",
+      "of"
+    ],
+    "answer": 3,
+    "explanation": "Afraid of.",
+    "id": 115
+  },
+  {
+    "topic": "Prepositions",
+    "difficulty": "medium",
+    "question": "Choose the correct preposition: They congratulated him ___ his success.",
+    "options": [
+      "on",
+      "for",
+      "about",
+      "with"
+    ],
+    "answer": 0,
+    "explanation": "Congratulate on.",
+    "id": 116
+  },
+  {
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "question": "Choose the correct preposition: The book belongs ___ her.",
+    "options": [
+      "for",
+      "to",
+      "with",
+      "at"
+    ],
+    "answer": 1,
+    "explanation": "Belongs to.",
+    "id": 117
+  },
+  {
+    "topic": "Prepositions",
+    "difficulty": "easy",
+    "question": "Choose the correct preposition: She apologized ___ being late.",
+    "options": [
+      "about",
+      "to",
+      "for",
+      "on"
+    ],
+    "answer": 2,
+    "explanation": "Apologize for.",
+    "id": 118
+  },
+  {
+    "topic": "Prepositions",
+    "difficulty": "medium",
+    "question": "Choose the correct preposition: He died ___ malaria.",
+    "options": [
+      "from",
+      "by",
+      "with",
+      "of"
+    ],
+    "answer": 3,
+    "explanation": "Die of illness.",
+    "id": 119
+  },
+  {
+    "topic": "Prepositions",
+    "difficulty": "medium",
+    "question": "Choose the correct preposition: The class divided the work ___ themselves.",
+    "options": [
+      "among",
+      "between",
+      "with",
+      "for"
+    ],
+    "answer": 0,
+    "explanation": "Among for more than two.",
+    "id": 120
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'brief'.",
+    "options": [
+      "long",
+      "short",
+      "slow",
+      "late"
+    ],
+    "answer": 1,
+    "explanation": "Brief means short.",
+    "id": 121
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'increase'.",
+    "options": [
+      "raise",
+      "reduce",
+      "drop",
+      "delay"
+    ],
+    "answer": 0,
+    "explanation": "Increase means raise.",
+    "id": 122
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'hostile'.",
+    "options": [
+      "calm",
+      "gentle",
+      "quiet",
+      "unfriendly"
+    ],
+    "answer": 3,
+    "explanation": "Hostile means unfriendly.",
+    "id": 123
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'ancient'.",
+    "options": [
+      "old",
+      "modern",
+      "new",
+      "fresh"
+    ],
+    "answer": 0,
+    "explanation": "Ancient means old.",
+    "id": 124
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'obvious'.",
+    "options": [
+      "vague",
+      "clear",
+      "hidden",
+      "late"
+    ],
+    "answer": 1,
+    "explanation": "Obvious means clear.",
+    "id": 125
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'repair'.",
+    "options": [
+      "break",
+      "avoid",
+      "fix",
+      "postpone"
+    ],
+    "answer": 2,
+    "explanation": "Repair means fix.",
+    "id": 126
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word closest in meaning to 'fragile'.",
+    "options": [
+      "delicate",
+      "strong",
+      "rough",
+      "loud"
+    ],
+    "answer": 0,
+    "explanation": "Fragile means delicate.",
+    "id": 127
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'noisy'.",
+    "options": [
+      "quiet",
+      "loud",
+      "shouting",
+      "echoing"
+    ],
+    "answer": 0,
+    "explanation": "Opposite of noisy is quiet.",
+    "id": 128
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'increase'.",
+    "options": [
+      "grow",
+      "decrease",
+      "add",
+      "expand"
+    ],
+    "answer": 1,
+    "explanation": "Opposite of increase is decrease.",
+    "id": 129
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'brave'.",
+    "options": [
+      "bold",
+      "strong",
+      "cowardly",
+      "calm"
+    ],
+    "answer": 2,
+    "explanation": "Opposite of brave is cowardly.",
+    "id": 130
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'agree'.",
+    "options": [
+      "disagree",
+      "accept",
+      "allow",
+      "approve"
+    ],
+    "answer": 0,
+    "explanation": "Opposite of agree is disagree.",
+    "id": 131
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'complex'.",
+    "options": [
+      "simple",
+      "difficult",
+      "hard",
+      "complicated"
+    ],
+    "answer": 0,
+    "explanation": "Opposite of complex is simple.",
+    "id": 132
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'arrive'.",
+    "options": [
+      "come",
+      "depart",
+      "reach",
+      "enter"
+    ],
+    "answer": 1,
+    "explanation": "Opposite of arrive is depart.",
+    "id": 133
+  },
+  {
+    "topic": "Vocabulary",
+    "difficulty": "easy",
+    "question": "Choose the word opposite in meaning to 'permit'.",
+    "options": [
+      "forbid",
+      "allow",
+      "approve",
+      "accept"
+    ],
+    "answer": 0,
+    "explanation": "Opposite of permit is forbid.",
+    "id": 134
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The library extended its hours during the examination period, and student visits doubled.' What can be inferred?",
+    "options": [
+      "students stopped studying",
+      "the library closed",
+      "books became fewer",
+      "longer hours increased library use"
+    ],
+    "answer": 3,
+    "explanation": "Extended hours led to higher usage.",
+    "id": 135
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'Farmers adopted drought-resistant seeds, which helped stabilize yields during dry seasons.' What can be inferred?",
+    "options": [
+      "new seeds improved harvests in dry periods",
+      "rainfall increased sharply",
+      "yields fell further",
+      "seeds were rejected"
+    ],
+    "answer": 0,
+    "explanation": "Drought-resistant seeds stabilized yields.",
+    "id": 136
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The coach emphasized teamwork and communication, and the team's performance improved.' What can be inferred?",
+    "options": [
+      "the team ignored the coach",
+      "teamwork helped performance",
+      "communication reduced performance",
+      "training was canceled"
+    ],
+    "answer": 1,
+    "explanation": "Emphasis on teamwork improved results.",
+    "id": 137
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'A new health campaign encouraged handwashing, reducing reported infections in schools.' What can be inferred?",
+    "options": [
+      "infections increased",
+      "schools closed",
+      "handwashing reduced infections",
+      "handwashing stopped"
+    ],
+    "answer": 2,
+    "explanation": "Reported infections reduced after campaign.",
+    "id": 138
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The company upgraded its machines, cutting production time and costs.' What can be inferred?",
+    "options": [
+      "costs rose",
+      "production stopped",
+      "machines were removed",
+      "automation improved efficiency"
+    ],
+    "answer": 3,
+    "explanation": "Upgrade reduced time and cost.",
+    "id": 139
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The town repaired its drainage system, and flooding became less frequent.' What can be inferred?",
+    "options": [
+      "better drainage reduced flooding",
+      "rainfall ended",
+      "drainage was blocked",
+      "floods worsened"
+    ],
+    "answer": 0,
+    "explanation": "Improved drainage reduced floods.",
+    "id": 140
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'Students formed study groups, and average scores rose across the class.' What can be inferred?",
+    "options": [
+      "scores fell",
+      "collaboration improved results",
+      "groups disbanded",
+      "students stopped studying"
+    ],
+    "answer": 1,
+    "explanation": "Study groups improved scores.",
+    "id": 141
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The market introduced price labels, and customers complained less about overcharging.' What can be inferred?",
+    "options": [
+      "prices doubled",
+      "labels were removed",
+      "price labels increased transparency",
+      "complaints increased"
+    ],
+    "answer": 2,
+    "explanation": "Labels reduced complaints.",
+    "id": 142
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The village built a borehole, providing clean water and reducing waterborne disease.' What can be inferred?",
+    "options": [
+      "disease increased",
+      "water scarcity worsened",
+      "borehole failed",
+      "clean water improved health"
+    ],
+    "answer": 3,
+    "explanation": "Clean water reduced disease.",
+    "id": 143
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'The school planted trees around the compound, creating shade and cooler classrooms.' What can be inferred?",
+    "options": [
+      "trees improved learning environment",
+      "classrooms became hotter",
+      "trees were removed",
+      "students stopped attending"
+    ],
+    "answer": 0,
+    "explanation": "Shade cooled the classrooms.",
+    "id": 144
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'In many schools, teachers noticed that students who planned their study time performed better than those who relied on last-minute reading. One group created a weekly timetable, assigning short study sessions to each subject and reviewing notes after every class. Over several weeks, their confidence grew. They asked more questions in class, corrected their mistakes quickly, and improved their test scores. Another group only studied a day before exams and often felt anxious, forgetting key points. The difference was not only in time spent, but in how consistently the time was managed.' What is the main idea?",
+    "options": [
+      "late reading is always effective",
+      "consistent planning improved performance",
+      "short study sessions reduce learning",
+      "asking questions lowers confidence"
+    ],
+    "answer": 1,
+    "explanation": "The passage links consistent planning with better outcomes.",
+    "id": 145
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'A community health team encouraged households to boil water and cover storage containers. They also repaired broken taps that allowed dirty water to seep into pipes. Within two months, clinic records showed fewer cases of diarrhea, and children missed fewer school days. The team noted that the changes were simple and inexpensive, but the impact was significant because families practiced them daily.' What is the main idea?",
+    "options": [
+      "water boiling caused sickness",
+      "repairs increased contamination",
+      "simple hygiene actions reduced illness",
+      "health records worsened"
+    ],
+    "answer": 2,
+    "explanation": "Daily hygiene practices reduced disease.",
+    "id": 146
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'During the dry season, farmers who planted early-maturing maize varieties harvested before the worst heat arrived. Others who used late-maturing seeds faced lower yields and higher pest attacks. The early harvest gave some farmers extra income, which they invested in better storage bags and fertilizers for the next season.' What is the main idea?",
+    "options": [
+      "late varieties always yield more",
+      "pests prefer early crops",
+      "storage bags reduce heat",
+      "seed choice affected harvest timing and income"
+    ],
+    "answer": 3,
+    "explanation": "Early-maturing seeds helped farmers avoid losses.",
+    "id": 147
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'A town introduced separate bins for plastic, paper, and organic waste. At first, some residents complained that sorting took extra effort. After a few months, the recycling center reported higher recovery rates, and streets became cleaner because less waste overflowed. The town also saved money on landfill fees.' What is the main idea?",
+    "options": [
+      "sorting waste improved cleanliness and reduced costs",
+      "recycling increased landfill fees",
+      "sorting reduced recovery rates",
+      "streets became dirtier"
+    ],
+    "answer": 0,
+    "explanation": "Sorting improved recycling and reduced costs.",
+    "id": 148
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'A small business adopted digital payments to reduce cash handling. Customers paid using mobile transfers, which reduced theft and made daily sales easier to track. The owner used the transaction records to identify peak sales hours and adjusted staffing accordingly. This improved customer service without increasing costs.' What is the main idea?",
+    "options": [
+      "digital payments increased theft",
+      "digital records helped improve business decisions",
+      "tracking sales became harder",
+      "staffing changes reduced service"
+    ],
+    "answer": 1,
+    "explanation": "Digital records supported better planning.",
+    "id": 149
+  },
+  {
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "question": "Read the passage: 'In a literature club, members compared two stories about migration. One story focused on the hardships of leaving home, while the other highlighted hope and new opportunities. The discussion helped students see that writers can present the same theme from different perspectives, changing the reader's emotional response.' What is the main idea?",
+    "options": [
+      "themes never change",
+      "writers avoid emotional response",
+      "perspective shapes how a theme is felt",
+      "hardship and hope cannot coexist"
+    ],
+    "answer": 2,
+    "explanation": "Different perspectives alter reader response.",
+    "id": 150
   }
 ]

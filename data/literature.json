@@ -1,0 +1,2102 @@
+[
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "The term 'Alliteration' refers to ___.",
+    "options": [
+      "repetition of vowel sounds",
+      "direct comparison without like/as",
+      "repetition of initial consonant sounds",
+      "comparison using like or as"
+    ],
+    "answer": 2,
+    "explanation": "Alliteration means repetition of initial consonant sounds.",
+    "id": 1
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "The term 'Assonance' refers to ___.",
+    "options": [
+      "direct comparison without like/as",
+      "repetition of vowel sounds",
+      "comparison using like or as",
+      "giving human qualities to non-human things"
+    ],
+    "answer": 1,
+    "explanation": "Assonance means repetition of vowel sounds.",
+    "id": 2
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "The term 'Metaphor' refers to ___.",
+    "options": [
+      "direct comparison without like/as",
+      "comparison using like or as",
+      "giving human qualities to non-human things",
+      "deliberate exaggeration"
+    ],
+    "answer": 0,
+    "explanation": "Metaphor means direct comparison without like/as.",
+    "id": 3
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "The term 'Simile' refers to ___.",
+    "options": [
+      "giving human qualities to non-human things",
+      "deliberate exaggeration",
+      "contrast between expectation and reality",
+      "comparison using like or as"
+    ],
+    "answer": 3,
+    "explanation": "Simile means comparison using like or as.",
+    "id": 4
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "The term 'Personification' refers to ___.",
+    "options": [
+      "deliberate exaggeration",
+      "contrast between expectation and reality",
+      "giving human qualities to non-human things",
+      "writing that criticizes with humor"
+    ],
+    "answer": 2,
+    "explanation": "Personification means giving human qualities to non-human things.",
+    "id": 5
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "The term 'Hyperbole' refers to ___.",
+    "options": [
+      "contrast between expectation and reality",
+      "deliberate exaggeration",
+      "writing that criticizes with humor",
+      "use of symbols to represent ideas"
+    ],
+    "answer": 1,
+    "explanation": "Hyperbole means deliberate exaggeration.",
+    "id": 6
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "The term 'Irony' refers to ___.",
+    "options": [
+      "contrast between expectation and reality",
+      "writing that criticizes with humor",
+      "use of symbols to represent ideas",
+      "reference to a known person or event"
+    ],
+    "answer": 0,
+    "explanation": "Irony means contrast between expectation and reality.",
+    "id": 7
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "The term 'Satire' refers to ___.",
+    "options": [
+      "use of symbols to represent ideas",
+      "reference to a known person or event",
+      "combination of contradictory terms",
+      "writing that criticizes with humor"
+    ],
+    "answer": 3,
+    "explanation": "Satire means writing that criticizes with humor.",
+    "id": 8
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "The term 'Symbolism' refers to ___.",
+    "options": [
+      "reference to a known person or event",
+      "combination of contradictory terms",
+      "use of symbols to represent ideas",
+      "use of words that imitate sounds"
+    ],
+    "answer": 2,
+    "explanation": "Symbolism means use of symbols to represent ideas.",
+    "id": 9
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "The term 'Allusion' refers to ___.",
+    "options": [
+      "combination of contradictory terms",
+      "reference to a known person or event",
+      "use of words that imitate sounds",
+      "short wise saying"
+    ],
+    "answer": 1,
+    "explanation": "Allusion means reference to a known person or event.",
+    "id": 10
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "The term 'Oxymoron' refers to ___.",
+    "options": [
+      "combination of contradictory terms",
+      "use of words that imitate sounds",
+      "short wise saying",
+      "central idea of a work"
+    ],
+    "answer": 0,
+    "explanation": "Oxymoron means combination of contradictory terms.",
+    "id": 11
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "The term 'Onomatopoeia' refers to ___.",
+    "options": [
+      "short wise saying",
+      "central idea of a work",
+      "time and place of a story",
+      "use of words that imitate sounds"
+    ],
+    "answer": 3,
+    "explanation": "Onomatopoeia means use of words that imitate sounds.",
+    "id": 12
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "The term 'Proverb' refers to ___.",
+    "options": [
+      "central idea of a work",
+      "time and place of a story",
+      "short wise saying",
+      "sequence of events in a story"
+    ],
+    "answer": 2,
+    "explanation": "Proverb means short wise saying.",
+    "id": 13
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "The term 'Theme' refers to ___.",
+    "options": [
+      "time and place of a story",
+      "central idea of a work",
+      "sequence of events in a story",
+      "main character"
+    ],
+    "answer": 1,
+    "explanation": "Theme means central idea of a work.",
+    "id": 14
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "The term 'Setting' refers to ___.",
+    "options": [
+      "time and place of a story",
+      "sequence of events in a story",
+      "main character",
+      "character opposing the protagonist"
+    ],
+    "answer": 0,
+    "explanation": "Setting means time and place of a story.",
+    "id": 15
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "The term 'Plot' refers to ___.",
+    "options": [
+      "main character",
+      "character opposing the protagonist",
+      "person who tells the story",
+      "sequence of events in a story"
+    ],
+    "answer": 3,
+    "explanation": "Plot means sequence of events in a story.",
+    "id": 16
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "The term 'Protagonist' refers to ___.",
+    "options": [
+      "character opposing the protagonist",
+      "person who tells the story",
+      "main character",
+      "highest point of tension"
+    ],
+    "answer": 2,
+    "explanation": "Protagonist means main character.",
+    "id": 17
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "The term 'Antagonist' refers to ___.",
+    "options": [
+      "person who tells the story",
+      "character opposing the protagonist",
+      "highest point of tension",
+      "struggle between opposing forces"
+    ],
+    "answer": 1,
+    "explanation": "Antagonist means character opposing the protagonist.",
+    "id": 18
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "The term 'Narrator' refers to ___.",
+    "options": [
+      "person who tells the story",
+      "highest point of tension",
+      "struggle between opposing forces",
+      "hint of future events"
+    ],
+    "answer": 0,
+    "explanation": "Narrator means person who tells the story.",
+    "id": 19
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "The term 'Climax' refers to ___.",
+    "options": [
+      "struggle between opposing forces",
+      "hint of future events",
+      "scene set in the past",
+      "highest point of tension"
+    ],
+    "answer": 3,
+    "explanation": "Climax means highest point of tension.",
+    "id": 20
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "The term 'Conflict' refers to ___.",
+    "options": [
+      "hint of future events",
+      "scene set in the past",
+      "struggle between opposing forces",
+      "emotional atmosphere"
+    ],
+    "answer": 2,
+    "explanation": "Conflict means struggle between opposing forces.",
+    "id": 21
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "The term 'Foreshadowing' refers to ___.",
+    "options": [
+      "scene set in the past",
+      "hint of future events",
+      "emotional atmosphere",
+      "writer's attitude"
+    ],
+    "answer": 1,
+    "explanation": "Foreshadowing means hint of future events.",
+    "id": 22
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "The term 'Flashback' refers to ___.",
+    "options": [
+      "scene set in the past",
+      "emotional atmosphere",
+      "writer's attitude",
+      "category of literature"
+    ],
+    "answer": 0,
+    "explanation": "Flashback means scene set in the past.",
+    "id": 23
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "The term 'Mood' refers to ___.",
+    "options": [
+      "writer's attitude",
+      "category of literature",
+      "long narrative poem",
+      "emotional atmosphere"
+    ],
+    "answer": 3,
+    "explanation": "Mood means emotional atmosphere.",
+    "id": 24
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "The term 'Tone' refers to ___.",
+    "options": [
+      "category of literature",
+      "long narrative poem",
+      "writer's attitude",
+      "poem of 14 lines"
+    ],
+    "answer": 2,
+    "explanation": "Tone means writer's attitude.",
+    "id": 25
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "The term 'Genre' refers to ___.",
+    "options": [
+      "long narrative poem",
+      "category of literature",
+      "poem of 14 lines",
+      "lyrical poem of praise"
+    ],
+    "answer": 1,
+    "explanation": "Genre means category of literature.",
+    "id": 26
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "medium",
+    "question": "The term 'Epic' refers to ___.",
+    "options": [
+      "long narrative poem",
+      "poem of 14 lines",
+      "lyrical poem of praise",
+      "poem of mourning"
+    ],
+    "answer": 0,
+    "explanation": "Epic means long narrative poem.",
+    "id": 27
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "The term 'Sonnet' refers to ___.",
+    "options": [
+      "lyrical poem of praise",
+      "poem of mourning",
+      "short narrative poem",
+      "poem of 14 lines"
+    ],
+    "answer": 3,
+    "explanation": "Sonnet means poem of 14 lines.",
+    "id": 28
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "medium",
+    "question": "The term 'Ode' refers to ___.",
+    "options": [
+      "poem of mourning",
+      "short narrative poem",
+      "lyrical poem of praise",
+      "play with serious theme and sad ending"
+    ],
+    "answer": 2,
+    "explanation": "Ode means lyrical poem of praise.",
+    "id": 29
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "medium",
+    "question": "The term 'Elegy' refers to ___.",
+    "options": [
+      "short narrative poem",
+      "poem of mourning",
+      "play with serious theme and sad ending",
+      "play that amuses"
+    ],
+    "answer": 1,
+    "explanation": "Elegy means poem of mourning.",
+    "id": 30
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "The term 'Ballad' refers to ___.",
+    "options": [
+      "short narrative poem",
+      "play with serious theme and sad ending",
+      "play that amuses",
+      "literature meant to be performed"
+    ],
+    "answer": 0,
+    "explanation": "Ballad means short narrative poem.",
+    "id": 31
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "easy",
+    "question": "The term 'Tragedy' refers to ___.",
+    "options": [
+      "play that amuses",
+      "literature meant to be performed",
+      "speech by a character alone",
+      "play with serious theme and sad ending"
+    ],
+    "answer": 3,
+    "explanation": "Tragedy means play with serious theme and sad ending.",
+    "id": 32
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "easy",
+    "question": "The term 'Comedy' refers to ___.",
+    "options": [
+      "literature meant to be performed",
+      "speech by a character alone",
+      "play that amuses",
+      "short remark to the audience"
+    ],
+    "answer": 2,
+    "explanation": "Comedy means play that amuses.",
+    "id": 33
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "easy",
+    "question": "The term 'Drama' refers to ___.",
+    "options": [
+      "speech by a character alone",
+      "literature meant to be performed",
+      "short remark to the audience",
+      "long speech by one character"
+    ],
+    "answer": 1,
+    "explanation": "Drama means literature meant to be performed.",
+    "id": 34
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "medium",
+    "question": "The term 'Soliloquy' refers to ___.",
+    "options": [
+      "speech by a character alone",
+      "short remark to the audience",
+      "long speech by one character",
+      "conversation between characters"
+    ],
+    "answer": 0,
+    "explanation": "Soliloquy means speech by a character alone.",
+    "id": 35
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "medium",
+    "question": "The term 'Aside' refers to ___.",
+    "options": [
+      "long speech by one character",
+      "conversation between characters",
+      "language that appeals to the senses",
+      "short remark to the audience"
+    ],
+    "answer": 3,
+    "explanation": "Aside means short remark to the audience.",
+    "id": 36
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "easy",
+    "question": "The term 'Monologue' refers to ___.",
+    "options": [
+      "conversation between characters",
+      "language that appeals to the senses",
+      "long speech by one character",
+      "repetition of similar sounds"
+    ],
+    "answer": 2,
+    "explanation": "Monologue means long speech by one character.",
+    "id": 37
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "easy",
+    "question": "The term 'Dialogue' refers to ___.",
+    "options": [
+      "language that appeals to the senses",
+      "conversation between characters",
+      "repetition of similar sounds",
+      "group of lines in a poem"
+    ],
+    "answer": 1,
+    "explanation": "Dialogue means conversation between characters.",
+    "id": 38
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "medium",
+    "question": "The term 'Imagery' refers to ___.",
+    "options": [
+      "language that appeals to the senses",
+      "repetition of similar sounds",
+      "group of lines in a poem",
+      "pattern of stressed and unstressed syllables"
+    ],
+    "answer": 0,
+    "explanation": "Imagery means language that appeals to the senses.",
+    "id": 39
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "easy",
+    "question": "The term 'Rhyme' refers to ___.",
+    "options": [
+      "group of lines in a poem",
+      "pattern of stressed and unstressed syllables",
+      "choice of words",
+      "repetition of similar sounds"
+    ],
+    "answer": 3,
+    "explanation": "Rhyme means repetition of similar sounds.",
+    "id": 40
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "easy",
+    "question": "The term 'Stanza' refers to ___.",
+    "options": [
+      "pattern of stressed and unstressed syllables",
+      "choice of words",
+      "group of lines in a poem",
+      "distinctive way of writing"
+    ],
+    "answer": 2,
+    "explanation": "Stanza means group of lines in a poem.",
+    "id": 41
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "hard",
+    "question": "The term 'Meter' refers to ___.",
+    "options": [
+      "choice of words",
+      "pattern of stressed and unstressed syllables",
+      "distinctive way of writing",
+      "recurring element in a work"
+    ],
+    "answer": 1,
+    "explanation": "Meter means pattern of stressed and unstressed syllables.",
+    "id": 42
+  },
+  {
+    "topic": "Style",
+    "difficulty": "medium",
+    "question": "The term 'Diction' refers to ___.",
+    "options": [
+      "choice of words",
+      "distinctive way of writing",
+      "recurring element in a work",
+      "story with a hidden meaning"
+    ],
+    "answer": 0,
+    "explanation": "Diction means choice of words.",
+    "id": 43
+  },
+  {
+    "topic": "Style",
+    "difficulty": "medium",
+    "question": "The term 'Style' refers to ___.",
+    "options": [
+      "recurring element in a work",
+      "story with a hidden meaning",
+      "statement that seems contradictory but is true",
+      "distinctive way of writing"
+    ],
+    "answer": 3,
+    "explanation": "Style means distinctive way of writing.",
+    "id": 44
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "The term 'Motif' refers to ___.",
+    "options": [
+      "story with a hidden meaning",
+      "statement that seems contradictory but is true",
+      "recurring element in a work",
+      "substitution with a related term"
+    ],
+    "answer": 2,
+    "explanation": "Motif means recurring element in a work.",
+    "id": 45
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "The term 'Allegory' refers to ___.",
+    "options": [
+      "statement that seems contradictory but is true",
+      "story with a hidden meaning",
+      "substitution with a related term",
+      "perspective from which story is told"
+    ],
+    "answer": 1,
+    "explanation": "Allegory means story with a hidden meaning.",
+    "id": 46
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "The term 'Paradox' refers to ___.",
+    "options": [
+      "statement that seems contradictory but is true",
+      "substitution with a related term",
+      "perspective from which story is told",
+      "ordinary written language without meter"
+    ],
+    "answer": 0,
+    "explanation": "Paradox means statement that seems contradictory but is true.",
+    "id": 47
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "The term 'Metonymy' refers to ___.",
+    "options": [
+      "perspective from which story is told",
+      "ordinary written language without meter",
+      "short story with a moral lesson",
+      "substitution with a related term"
+    ],
+    "answer": 3,
+    "explanation": "Metonymy means substitution with a related term.",
+    "id": 48
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "The term 'Point of view' refers to ___.",
+    "options": [
+      "ordinary written language without meter",
+      "short story with a moral lesson",
+      "perspective from which story is told",
+      "traditional story explaining origins"
+    ],
+    "answer": 2,
+    "explanation": "Point of view means perspective from which story is told.",
+    "id": 49
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "The term 'Prose' refers to ___.",
+    "options": [
+      "short story with a moral lesson",
+      "ordinary written language without meter",
+      "traditional story explaining origins",
+      "traditional story passed orally"
+    ],
+    "answer": 1,
+    "explanation": "Prose means ordinary written language without meter.",
+    "id": 50
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "The term 'Fable' refers to ___.",
+    "options": [
+      "short story with a moral lesson",
+      "traditional story explaining origins",
+      "traditional story passed orally",
+      "short poem expressing feelings"
+    ],
+    "answer": 0,
+    "explanation": "Fable means short story with a moral lesson.",
+    "id": 51
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "medium",
+    "question": "The term 'Myth' refers to ___.",
+    "options": [
+      "traditional story passed orally",
+      "short poem expressing feelings",
+      "poetry without regular meter or rhyme",
+      "traditional story explaining origins"
+    ],
+    "answer": 3,
+    "explanation": "Myth means traditional story explaining origins.",
+    "id": 52
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "The term 'Folktale' refers to ___.",
+    "options": [
+      "short poem expressing feelings",
+      "poetry without regular meter or rhyme",
+      "traditional story passed orally",
+      "unrhymed iambic pentameter"
+    ],
+    "answer": 2,
+    "explanation": "Folktale means traditional story passed orally.",
+    "id": 53
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "medium",
+    "question": "The term 'Lyric' refers to ___.",
+    "options": [
+      "poetry without regular meter or rhyme",
+      "short poem expressing feelings",
+      "unrhymed iambic pentameter",
+      "pattern of rhymes in a poem"
+    ],
+    "answer": 1,
+    "explanation": "Lyric means short poem expressing feelings.",
+    "id": 54
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "medium",
+    "question": "The term 'Free verse' refers to ___.",
+    "options": [
+      "poetry without regular meter or rhyme",
+      "unrhymed iambic pentameter",
+      "pattern of rhymes in a poem",
+      "continuation of a sentence without a pause"
+    ],
+    "answer": 0,
+    "explanation": "Free verse means poetry without regular meter or rhyme.",
+    "id": 55
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "hard",
+    "question": "The term 'Blank verse' refers to ___.",
+    "options": [
+      "pattern of rhymes in a poem",
+      "continuation of a sentence without a pause",
+      "audience knows more than a character",
+      "unrhymed iambic pentameter"
+    ],
+    "answer": 3,
+    "explanation": "Blank verse means unrhymed iambic pentameter.",
+    "id": 56
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "medium",
+    "question": "The term 'Rhyme scheme' refers to ___.",
+    "options": [
+      "continuation of a sentence without a pause",
+      "audience knows more than a character",
+      "pattern of rhymes in a poem",
+      "character weakness causing downfall"
+    ],
+    "answer": 2,
+    "explanation": "Rhyme scheme means pattern of rhymes in a poem.",
+    "id": 57
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "hard",
+    "question": "The term 'Enjambment' refers to ___.",
+    "options": [
+      "audience knows more than a character",
+      "continuation of a sentence without a pause",
+      "character weakness causing downfall",
+      "emotional release in tragedy"
+    ],
+    "answer": 1,
+    "explanation": "Enjambment means continuation of a sentence without a pause.",
+    "id": 58
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "hard",
+    "question": "The term 'Dramatic irony' refers to ___.",
+    "options": [
+      "audience knows more than a character",
+      "character weakness causing downfall",
+      "emotional release in tragedy",
+      "method of developing characters"
+    ],
+    "answer": 0,
+    "explanation": "Dramatic irony means audience knows more than a character.",
+    "id": 59
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "hard",
+    "question": "The term 'Tragic flaw' refers to ___.",
+    "options": [
+      "emotional release in tragedy",
+      "method of developing characters",
+      "secondary plot within a story",
+      "character weakness causing downfall"
+    ],
+    "answer": 3,
+    "explanation": "Tragic flaw means character weakness causing downfall.",
+    "id": 60
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "hard",
+    "question": "The term 'Catharsis' refers to ___.",
+    "options": [
+      "method of developing characters",
+      "secondary plot within a story",
+      "emotional release in tragedy",
+      "resolution after the climax"
+    ],
+    "answer": 2,
+    "explanation": "Catharsis means emotional release in tragedy.",
+    "id": 61
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "The term 'Characterization' refers to ___.",
+    "options": [
+      "secondary plot within a story",
+      "method of developing characters",
+      "resolution after the climax",
+      "story begins in the middle of events"
+    ],
+    "answer": 1,
+    "explanation": "Characterization means method of developing characters.",
+    "id": 62
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "The term 'Subplot' refers to ___.",
+    "options": [
+      "secondary plot within a story",
+      "resolution after the climax",
+      "story begins in the middle of events",
+      "character who contrasts with another"
+    ],
+    "answer": 0,
+    "explanation": "Subplot means secondary plot within a story.",
+    "id": 63
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "The term 'Denouement' refers to ___.",
+    "options": [
+      "story begins in the middle of events",
+      "character who contrasts with another",
+      "distinct voice of the narrator",
+      "resolution after the climax"
+    ],
+    "answer": 3,
+    "explanation": "Denouement means resolution after the climax.",
+    "id": 64
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "The term 'In medias res' refers to ___.",
+    "options": [
+      "character who contrasts with another",
+      "distinct voice of the narrator",
+      "story begins in the middle of events",
+      "narrator uses I or we"
+    ],
+    "answer": 2,
+    "explanation": "In medias res means story begins in the middle of events.",
+    "id": 65
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "The term 'Foil' refers to ___.",
+    "options": [
+      "distinct voice of the narrator",
+      "character who contrasts with another",
+      "narrator uses I or we",
+      "narrator knows all characters' thoughts"
+    ],
+    "answer": 1,
+    "explanation": "Foil means character who contrasts with another.",
+    "id": 66
+  },
+  {
+    "topic": "Style",
+    "difficulty": "medium",
+    "question": "The term 'Narrative voice' refers to ___.",
+    "options": [
+      "distinct voice of the narrator",
+      "narrator uses I or we",
+      "narrator knows all characters' thoughts",
+      "narrative of continuous thoughts"
+    ],
+    "answer": 0,
+    "explanation": "Narrative voice means distinct voice of the narrator.",
+    "id": 67
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "The term 'First-person narration' refers to ___.",
+    "options": [
+      "narrator knows all characters' thoughts",
+      "narrative of continuous thoughts",
+      "repetition of initial consonant sounds",
+      "narrator uses I or we"
+    ],
+    "answer": 3,
+    "explanation": "First-person narration means narrator uses I or we.",
+    "id": 68
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "hard",
+    "question": "The term 'Third-person omniscient' refers to ___.",
+    "options": [
+      "narrative of continuous thoughts",
+      "repetition of initial consonant sounds",
+      "narrator knows all characters' thoughts",
+      "repetition of vowel sounds"
+    ],
+    "answer": 2,
+    "explanation": "Third-person omniscient means narrator knows all characters' thoughts.",
+    "id": 69
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "The term 'Stream of consciousness' refers to ___.",
+    "options": [
+      "repetition of initial consonant sounds",
+      "narrative of continuous thoughts",
+      "repetition of vowel sounds",
+      "direct comparison without like/as"
+    ],
+    "answer": 1,
+    "explanation": "Stream of consciousness means narrative of continuous thoughts.",
+    "id": 70
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "Which term describes: repetition of initial consonant sounds?",
+    "options": [
+      "Alliteration",
+      "Assonance",
+      "Metaphor",
+      "Simile"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Alliteration.",
+    "id": 71
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "Which term describes: repetition of vowel sounds?",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Personification",
+      "Assonance"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Assonance.",
+    "id": 72
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "Which term describes: direct comparison without like/as?",
+    "options": [
+      "Simile",
+      "Personification",
+      "Metaphor",
+      "Hyperbole"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Metaphor.",
+    "id": 73
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "Which term describes: comparison using like or as?",
+    "options": [
+      "Personification",
+      "Simile",
+      "Hyperbole",
+      "Irony"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Simile.",
+    "id": 74
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "Which term describes: giving human qualities to non-human things?",
+    "options": [
+      "Personification",
+      "Hyperbole",
+      "Irony",
+      "Satire"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Personification.",
+    "id": 75
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "Which term describes: deliberate exaggeration?",
+    "options": [
+      "Irony",
+      "Satire",
+      "Symbolism",
+      "Hyperbole"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Hyperbole.",
+    "id": 76
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "Which term describes: contrast between expectation and reality?",
+    "options": [
+      "Satire",
+      "Symbolism",
+      "Irony",
+      "Allusion"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Irony.",
+    "id": 77
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "Which term describes: writing that criticizes with humor?",
+    "options": [
+      "Symbolism",
+      "Satire",
+      "Allusion",
+      "Oxymoron"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Satire.",
+    "id": 78
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "Which term describes: use of symbols to represent ideas?",
+    "options": [
+      "Symbolism",
+      "Allusion",
+      "Oxymoron",
+      "Onomatopoeia"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Symbolism.",
+    "id": 79
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "Which term describes: reference to a known person or event?",
+    "options": [
+      "Oxymoron",
+      "Onomatopoeia",
+      "Proverb",
+      "Allusion"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Allusion.",
+    "id": 80
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "Which term describes: combination of contradictory terms?",
+    "options": [
+      "Onomatopoeia",
+      "Proverb",
+      "Oxymoron",
+      "Theme"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Oxymoron.",
+    "id": 81
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "Which term describes: use of words that imitate sounds?",
+    "options": [
+      "Proverb",
+      "Onomatopoeia",
+      "Theme",
+      "Setting"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Onomatopoeia.",
+    "id": 82
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "Which term describes: short wise saying?",
+    "options": [
+      "Proverb",
+      "Theme",
+      "Setting",
+      "Plot"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Proverb.",
+    "id": 83
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "Which term describes: central idea of a work?",
+    "options": [
+      "Setting",
+      "Plot",
+      "Protagonist",
+      "Theme"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Theme.",
+    "id": 84
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "Which term describes: time and place of a story?",
+    "options": [
+      "Plot",
+      "Protagonist",
+      "Setting",
+      "Antagonist"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Setting.",
+    "id": 85
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "Which term describes: sequence of events in a story?",
+    "options": [
+      "Protagonist",
+      "Plot",
+      "Antagonist",
+      "Narrator"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Plot.",
+    "id": 86
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "Which term describes: main character?",
+    "options": [
+      "Protagonist",
+      "Antagonist",
+      "Narrator",
+      "Climax"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Protagonist.",
+    "id": 87
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "Which term describes: character opposing the protagonist?",
+    "options": [
+      "Narrator",
+      "Climax",
+      "Conflict",
+      "Antagonist"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Antagonist.",
+    "id": 88
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "Which term describes: person who tells the story?",
+    "options": [
+      "Climax",
+      "Conflict",
+      "Narrator",
+      "Foreshadowing"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Narrator.",
+    "id": 89
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "Which term describes: highest point of tension?",
+    "options": [
+      "Conflict",
+      "Climax",
+      "Foreshadowing",
+      "Flashback"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Climax.",
+    "id": 90
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "easy",
+    "question": "Which term describes: struggle between opposing forces?",
+    "options": [
+      "Conflict",
+      "Foreshadowing",
+      "Flashback",
+      "Mood"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Conflict.",
+    "id": 91
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "Which term describes: hint of future events?",
+    "options": [
+      "Flashback",
+      "Mood",
+      "Tone",
+      "Foreshadowing"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Foreshadowing.",
+    "id": 92
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "Which term describes: scene set in the past?",
+    "options": [
+      "Mood",
+      "Tone",
+      "Flashback",
+      "Genre"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Flashback.",
+    "id": 93
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "Which term describes: emotional atmosphere?",
+    "options": [
+      "Tone",
+      "Mood",
+      "Genre",
+      "Epic"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Mood.",
+    "id": 94
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "Which term describes: writer's attitude?",
+    "options": [
+      "Tone",
+      "Genre",
+      "Epic",
+      "Sonnet"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Tone.",
+    "id": 95
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "Which term describes: category of literature?",
+    "options": [
+      "Epic",
+      "Sonnet",
+      "Ode",
+      "Genre"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Genre.",
+    "id": 96
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "medium",
+    "question": "Which term describes: long narrative poem?",
+    "options": [
+      "Sonnet",
+      "Ode",
+      "Epic",
+      "Elegy"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Epic.",
+    "id": 97
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "Which term describes: poem of 14 lines?",
+    "options": [
+      "Ode",
+      "Sonnet",
+      "Elegy",
+      "Ballad"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Sonnet.",
+    "id": 98
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "medium",
+    "question": "Which term describes: lyrical poem of praise?",
+    "options": [
+      "Ode",
+      "Elegy",
+      "Ballad",
+      "Tragedy"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Ode.",
+    "id": 99
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "medium",
+    "question": "Which term describes: poem of mourning?",
+    "options": [
+      "Ballad",
+      "Tragedy",
+      "Comedy",
+      "Elegy"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Elegy.",
+    "id": 100
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "Which term describes: short narrative poem?",
+    "options": [
+      "Tragedy",
+      "Comedy",
+      "Ballad",
+      "Drama"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Ballad.",
+    "id": 101
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "easy",
+    "question": "Which term describes: play with serious theme and sad ending?",
+    "options": [
+      "Comedy",
+      "Tragedy",
+      "Drama",
+      "Soliloquy"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Tragedy.",
+    "id": 102
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "easy",
+    "question": "Which term describes: play that amuses?",
+    "options": [
+      "Comedy",
+      "Drama",
+      "Soliloquy",
+      "Aside"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Comedy.",
+    "id": 103
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "easy",
+    "question": "Which term describes: literature meant to be performed?",
+    "options": [
+      "Soliloquy",
+      "Aside",
+      "Monologue",
+      "Drama"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Drama.",
+    "id": 104
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "medium",
+    "question": "Which term describes: speech by a character alone?",
+    "options": [
+      "Aside",
+      "Monologue",
+      "Soliloquy",
+      "Dialogue"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Soliloquy.",
+    "id": 105
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "medium",
+    "question": "Which term describes: short remark to the audience?",
+    "options": [
+      "Monologue",
+      "Aside",
+      "Dialogue",
+      "Imagery"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Aside.",
+    "id": 106
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "easy",
+    "question": "Which term describes: long speech by one character?",
+    "options": [
+      "Monologue",
+      "Dialogue",
+      "Imagery",
+      "Rhyme"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Monologue.",
+    "id": 107
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "easy",
+    "question": "Which term describes: conversation between characters?",
+    "options": [
+      "Imagery",
+      "Rhyme",
+      "Stanza",
+      "Dialogue"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Dialogue.",
+    "id": 108
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "medium",
+    "question": "Which term describes: language that appeals to the senses?",
+    "options": [
+      "Rhyme",
+      "Stanza",
+      "Imagery",
+      "Meter"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Imagery.",
+    "id": 109
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "easy",
+    "question": "Which term describes: repetition of similar sounds?",
+    "options": [
+      "Stanza",
+      "Rhyme",
+      "Meter",
+      "Diction"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Rhyme.",
+    "id": 110
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "easy",
+    "question": "Which term describes: group of lines in a poem?",
+    "options": [
+      "Stanza",
+      "Meter",
+      "Diction",
+      "Style"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Stanza.",
+    "id": 111
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "hard",
+    "question": "Which term describes: pattern of stressed and unstressed syllables?",
+    "options": [
+      "Diction",
+      "Style",
+      "Motif",
+      "Meter"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Meter.",
+    "id": 112
+  },
+  {
+    "topic": "Style",
+    "difficulty": "medium",
+    "question": "Which term describes: choice of words?",
+    "options": [
+      "Style",
+      "Motif",
+      "Diction",
+      "Allegory"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Diction.",
+    "id": 113
+  },
+  {
+    "topic": "Style",
+    "difficulty": "medium",
+    "question": "Which term describes: distinctive way of writing?",
+    "options": [
+      "Motif",
+      "Style",
+      "Allegory",
+      "Paradox"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Style.",
+    "id": 114
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "Which term describes: recurring element in a work?",
+    "options": [
+      "Motif",
+      "Allegory",
+      "Paradox",
+      "Metonymy"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Motif.",
+    "id": 115
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "Which term describes: story with a hidden meaning?",
+    "options": [
+      "Paradox",
+      "Metonymy",
+      "Point of view",
+      "Allegory"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Allegory.",
+    "id": 116
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "Which term describes: statement that seems contradictory but is true?",
+    "options": [
+      "Metonymy",
+      "Point of view",
+      "Paradox",
+      "Prose"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Paradox.",
+    "id": 117
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "Which term describes: substitution with a related term?",
+    "options": [
+      "Point of view",
+      "Metonymy",
+      "Prose",
+      "Fable"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Metonymy.",
+    "id": 118
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "Which term describes: perspective from which story is told?",
+    "options": [
+      "Point of view",
+      "Prose",
+      "Fable",
+      "Myth"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Point of view.",
+    "id": 119
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "Which term describes: ordinary written language without meter?",
+    "options": [
+      "Fable",
+      "Myth",
+      "Folktale",
+      "Prose"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Prose.",
+    "id": 120
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "Which term describes: short story with a moral lesson?",
+    "options": [
+      "Myth",
+      "Folktale",
+      "Fable",
+      "Lyric"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Fable.",
+    "id": 121
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "medium",
+    "question": "Which term describes: traditional story explaining origins?",
+    "options": [
+      "Folktale",
+      "Myth",
+      "Lyric",
+      "Free verse"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Myth.",
+    "id": 122
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "easy",
+    "question": "Which term describes: traditional story passed orally?",
+    "options": [
+      "Folktale",
+      "Lyric",
+      "Free verse",
+      "Blank verse"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Folktale.",
+    "id": 123
+  },
+  {
+    "topic": "Genres",
+    "difficulty": "medium",
+    "question": "Which term describes: short poem expressing feelings?",
+    "options": [
+      "Free verse",
+      "Blank verse",
+      "Rhyme scheme",
+      "Lyric"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Lyric.",
+    "id": 124
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "medium",
+    "question": "Which term describes: poetry without regular meter or rhyme?",
+    "options": [
+      "Blank verse",
+      "Rhyme scheme",
+      "Free verse",
+      "Enjambment"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Free verse.",
+    "id": 125
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "hard",
+    "question": "Which term describes: unrhymed iambic pentameter?",
+    "options": [
+      "Rhyme scheme",
+      "Blank verse",
+      "Enjambment",
+      "Dramatic irony"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Blank verse.",
+    "id": 126
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "medium",
+    "question": "Which term describes: pattern of rhymes in a poem?",
+    "options": [
+      "Rhyme scheme",
+      "Enjambment",
+      "Dramatic irony",
+      "Tragic flaw"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Rhyme scheme.",
+    "id": 127
+  },
+  {
+    "topic": "Poetry",
+    "difficulty": "hard",
+    "question": "Which term describes: continuation of a sentence without a pause?",
+    "options": [
+      "Dramatic irony",
+      "Tragic flaw",
+      "Catharsis",
+      "Enjambment"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Enjambment.",
+    "id": 128
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "hard",
+    "question": "Which term describes: audience knows more than a character?",
+    "options": [
+      "Tragic flaw",
+      "Catharsis",
+      "Dramatic irony",
+      "Characterization"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Dramatic irony.",
+    "id": 129
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "hard",
+    "question": "Which term describes: character weakness causing downfall?",
+    "options": [
+      "Catharsis",
+      "Tragic flaw",
+      "Characterization",
+      "Subplot"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Tragic flaw.",
+    "id": 130
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "hard",
+    "question": "Which term describes: emotional release in tragedy?",
+    "options": [
+      "Catharsis",
+      "Characterization",
+      "Subplot",
+      "Denouement"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Catharsis.",
+    "id": 131
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "Which term describes: method of developing characters?",
+    "options": [
+      "Subplot",
+      "Denouement",
+      "In medias res",
+      "Characterization"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Characterization.",
+    "id": 132
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "Which term describes: secondary plot within a story?",
+    "options": [
+      "Denouement",
+      "In medias res",
+      "Subplot",
+      "Foil"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Subplot.",
+    "id": 133
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "Which term describes: resolution after the climax?",
+    "options": [
+      "In medias res",
+      "Denouement",
+      "Foil",
+      "Narrative voice"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Denouement.",
+    "id": 134
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "Which term describes: story begins in the middle of events?",
+    "options": [
+      "In medias res",
+      "Foil",
+      "Narrative voice",
+      "First-person narration"
+    ],
+    "answer": 0,
+    "explanation": "That description matches In medias res.",
+    "id": 135
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "Which term describes: character who contrasts with another?",
+    "options": [
+      "Narrative voice",
+      "First-person narration",
+      "Third-person omniscient",
+      "Foil"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Foil.",
+    "id": 136
+  },
+  {
+    "topic": "Style",
+    "difficulty": "medium",
+    "question": "Which term describes: distinct voice of the narrator?",
+    "options": [
+      "First-person narration",
+      "Third-person omniscient",
+      "Narrative voice",
+      "Stream of consciousness"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Narrative voice.",
+    "id": 137
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "Which term describes: narrator uses I or we?",
+    "options": [
+      "Third-person omniscient",
+      "First-person narration",
+      "Stream of consciousness",
+      "Alliteration"
+    ],
+    "answer": 1,
+    "explanation": "That description matches First-person narration.",
+    "id": 138
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "hard",
+    "question": "Which term describes: narrator knows all characters' thoughts?",
+    "options": [
+      "Third-person omniscient",
+      "Stream of consciousness",
+      "Alliteration",
+      "Assonance"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Third-person omniscient.",
+    "id": 139
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "Which term describes: narrative of continuous thoughts?",
+    "options": [
+      "Alliteration",
+      "Assonance",
+      "Metaphor",
+      "Stream of consciousness"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Stream of consciousness.",
+    "id": 140
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "Identify the device: \"The thunder grumbled angrily.\"",
+    "options": [
+      "simile",
+      "metaphor",
+      "personification",
+      "hyperbole"
+    ],
+    "answer": 2,
+    "explanation": "Giving human traits to thunder is personification.",
+    "id": 141
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "Identify the device: \"Her smile was a sunrise.\"",
+    "options": [
+      "simile",
+      "metaphor",
+      "alliteration",
+      "irony"
+    ],
+    "answer": 1,
+    "explanation": "Direct comparison without like/as is metaphor.",
+    "id": 142
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "Identify the device: \"The silence was loud.\"",
+    "options": [
+      "oxymoron",
+      "paradox",
+      "symbolism",
+      "allusion"
+    ],
+    "answer": 0,
+    "explanation": "Contradictory terms make an oxymoron.",
+    "id": 143
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "Identify the device: \"I waited a thousand years.\"",
+    "options": [
+      "irony",
+      "metonymy",
+      "simile",
+      "hyperbole"
+    ],
+    "answer": 3,
+    "explanation": "Deliberate exaggeration is hyperbole.",
+    "id": 144
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "easy",
+    "question": "Identify the device: \"He is as brave as a lion.\"",
+    "options": [
+      "metaphor",
+      "alliteration",
+      "simile",
+      "irony"
+    ],
+    "answer": 2,
+    "explanation": "Comparison using 'as' is simile.",
+    "id": 145
+  },
+  {
+    "topic": "Literary Devices",
+    "difficulty": "medium",
+    "question": "Identify the device: \"The flag stood for freedom.\"",
+    "options": [
+      "alliteration",
+      "symbolism",
+      "satire",
+      "personification"
+    ],
+    "answer": 1,
+    "explanation": "A symbol represents an idea.",
+    "id": 146
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "A writer hints that a character will soon leave home. This is ___.",
+    "options": [
+      "foreshadowing",
+      "flashback",
+      "climax",
+      "resolution"
+    ],
+    "answer": 0,
+    "explanation": "Foreshadowing hints at future events.",
+    "id": 147
+  },
+  {
+    "topic": "Style",
+    "difficulty": "hard",
+    "question": "A story that opens in the middle of action uses ___.",
+    "options": [
+      "denouement",
+      "subplot",
+      "flashback",
+      "in medias res"
+    ],
+    "answer": 3,
+    "explanation": "In medias res starts mid-action.",
+    "id": 148
+  },
+  {
+    "topic": "Elements",
+    "difficulty": "medium",
+    "question": "A narrator who uses \"I\" and knows only their own thoughts is ___.",
+    "options": [
+      "third-person omniscient",
+      "stream of consciousness",
+      "first-person narration",
+      "dramatic irony"
+    ],
+    "answer": 2,
+    "explanation": "First-person uses 'I' perspective.",
+    "id": 149
+  },
+  {
+    "topic": "Drama",
+    "difficulty": "hard",
+    "question": "A hero's mistake that leads to downfall is called a ___.",
+    "options": [
+      "climax",
+      "tragic flaw",
+      "genre",
+      "mood"
+    ],
+    "answer": 1,
+    "explanation": "Tragic flaw causes the downfall.",
+    "id": 150
+  }
+]

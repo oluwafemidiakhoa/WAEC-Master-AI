@@ -10,7 +10,7 @@
 
 ## 🎯 **Revolutionary WAEC Practice Experience**
 
-Transform your WAEC preparation with cutting-edge AI technology, advanced analytics, and gamified learning. This isn't just another practice app—it's your intelligent study companion that adapts to your learning style and accelerates your success.
+Transform your WAEC preparation with cutting-edge AI technology, advanced analytics, and gamified learning. Practice across 12 subjects with 150+ demo questions per subject, plus WAEC-style timing presets for realistic exam drills.
 
 ### 🌟 **Live Demo**
 **🔗 [Try WAEC Master AI Now](https://oluwafemidiakhoa.github.io/WAEC-Master-AI/)**
@@ -64,13 +64,24 @@ Transform your WAEC preparation with cutting-edge AI technology, advanced analyt
 
 ## 📚 **Comprehensive Subject Coverage**
 
-| Subject | Topics Covered | AI Features |
-|---------|----------------|-------------|
-| 📐 **Mathematics** | Algebra, Geometry, Statistics, Calculus | ✅ Adaptive difficulty |
-| 📖 **English** | Grammar, Comprehension, Literature | ✅ Learning pattern analysis |
-| ⚗️ **Chemistry** | Organic, Inorganic, Physical Chemistry | ✅ Weak area identification |
-| 🔬 **Physics** | Mechanics, Waves, Electricity, Thermodynamics | ✅ Performance prediction |
-| 🧬 **Biology** | Cell Biology, Genetics, Ecology, Human Biology | ✅ Personalized recommendations |
+| Subject | Coverage | Question Bank |
+|---------|----------|---------------|
+| 📐 **Mathematics** | Core WAEC topics | 150 demo questions |
+| 📖 **English** | Core WAEC topics | 150 demo questions |
+| ⚗️ **Chemistry** | Core WAEC topics | 150 demo questions |
+| 🔬 **Physics** | Core WAEC topics | 150 demo questions |
+| 🧬 **Biology** | Core WAEC topics | 150 demo questions |
+| 💹 **Economics** | Core WAEC topics | 150 demo questions |
+| 🏛️ **Government** | Core WAEC topics | 150 demo questions |
+| 📚 **Literature** | Core WAEC topics | 150 demo questions |
+| 🗺️ **Geography** | Core WAEC topics | 150 demo questions |
+| 🧾 **Accounting** | Core WAEC topics | 150 demo questions |
+| 🛒 **Commerce** | Core WAEC topics | 150 demo questions |
+| 🌾 **Agricultural Science** | Core WAEC topics | 150 demo questions |
+
+### **Content Notice**
+- All questions are original demo items (no copyrighted WAEC past questions).
+- The app is offline-first and stores progress locally in the browser.
 
 ---
 
@@ -108,14 +119,16 @@ git clone https://github.com/oluwafemidiakhoa/WAEC-Master-AI.git
 cd WAEC-Master-AI
 
 # Start local server (choose one)
-python3 -m http.server 8080
+python -m http.server 8080
+# OR (Windows)
+py -m http.server 8080
 # OR
 npx http-server -p 8080
 # OR  
 npx serve -p 8080
 
 # Open in browser
-open http://localhost:8080
+http://localhost:8080
 ```
 
 ---
@@ -124,7 +137,7 @@ open http://localhost:8080
 
 ### **🔥 Quick Start Tips**
 1. **Choose your subject** from the dropdown
-2. **Select practice mode** (Practice or Timed Exam)
+2. **Select practice mode** (Practice, Timed Exam, or WAEC Exam preset)
 3. **Enable voice narration** 🎙️ for hands-free learning
 4. **Use keyboard shortcuts**: 1-4 for options, Space/Enter to continue
 5. **Check Analytics** 📊 to track your progress
@@ -138,6 +151,7 @@ open http://localhost:8080
 - Set and track daily goals for consistency
 - Review missed questions using the review mode
 - Install as PWA for native app experience
+- Use 5-150 questions per session and the WAEC Exam preset for realistic pacing
 
 ---
 

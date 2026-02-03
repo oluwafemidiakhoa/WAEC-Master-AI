@@ -1,442 +1,2102 @@
 [
   {
-    "id": 1,
     "topic": "Cell Biology",
-    "question": "Which organelle is known as the powerhouse of the cell?",
-    "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"],
-    "answer": 1,
-    "explanation": "Mitochondria produce ATP (energy) for the cell through cellular respiration, earning the nickname 'powerhouse of the cell'."
-  },
-  {
-    "id": 2,
-    "topic": "Genetics",
-    "question": "What does DNA stand for?",
-    "options": ["Deoxyribonucleic Acid", "Deoxyribonuclear Acid", "Diribonucleic Acid", "Diribonuclear Acid"],
+    "difficulty": "easy",
+    "question": "Which organelle is the site of cellular respiration?",
+    "options": [
+      "mitochondrion",
+      "ribosome",
+      "nucleus",
+      "chloroplast"
+    ],
     "answer": 0,
-    "explanation": "DNA stands for Deoxyribonucleic Acid, the molecule that carries genetic information in living organisms."
+    "explanation": "Mitochondria produce ATP.",
+    "id": 1
   },
   {
-    "id": 3,
-    "topic": "Plant Biology",
-    "question": "What is the process by which plants make their own food?",
-    "options": ["Respiration", "Photosynthesis", "Transpiration", "Germination"],
-    "answer": 1,
-    "explanation": "Photosynthesis is the process where plants use sunlight, carbon dioxide, and water to produce glucose and oxygen."
-  },
-  {
-    "id": 4,
-    "topic": "Human Biology",
-    "question": "How many chambers does a human heart have?",
-    "options": ["2", "3", "4", "5"],
+    "topic": "Cell Biology",
+    "difficulty": "easy",
+    "question": "Photosynthesis takes place in the ___.",
+    "options": [
+      "mitochondrion",
+      "nucleus",
+      "chloroplast",
+      "cell wall"
+    ],
     "answer": 2,
-    "explanation": "The human heart has 4 chambers: 2 atria (left and right) and 2 ventricles (left and right)."
+    "explanation": "Chloroplasts contain chlorophyll.",
+    "id": 2
   },
   {
-    "id": 5,
-    "topic": "Evolution",
-    "question": "Who proposed the theory of evolution by natural selection?",
-    "options": ["Gregor Mendel", "Charles Darwin", "Louis Pasteur", "Alfred Wallace"],
-    "answer": 1,
-    "explanation": "Charles Darwin proposed the theory of evolution by natural selection in his book 'On the Origin of Species' (1859)."
-  },
-  {
-    "id": 6,
     "topic": "Cell Biology",
-    "question": "The basic unit of life is the",
-    "options": ["tissue", "cell", "organ", "system"],
+    "difficulty": "easy",
+    "question": "The cell membrane is ___.",
+    "options": [
+      "completely permeable",
+      "selectively permeable",
+      "rigid",
+      "non-living"
+    ],
     "answer": 1,
-    "explanation": "Cells are the basic structural and functional units of all living organisms."
+    "explanation": "It controls movement of substances.",
+    "id": 3
   },
   {
-    "id": 7,
     "topic": "Cell Biology",
-    "question": "The part of the cell that controls activities is the",
-    "options": ["nucleus", "cell wall", "vacuole", "mitochondrion"],
+    "difficulty": "easy",
+    "question": "Ribosomes are responsible for ___.",
+    "options": [
+      "energy production",
+      "cell division",
+      "transport",
+      "protein synthesis"
+    ],
+    "answer": 3,
+    "explanation": "Ribosomes make proteins.",
+    "id": 4
+  },
+  {
+    "topic": "Cell Biology",
+    "difficulty": "easy",
+    "question": "The nucleus controls ___.",
+    "options": [
+      "cell activities",
+      "digestion",
+      "excretion",
+      "movement"
+    ],
     "answer": 0,
-    "explanation": "The nucleus contains the cell's DNA and controls most cellular activities including growth and reproduction."
+    "explanation": "The nucleus controls cell activities.",
+    "id": 5
   },
   {
-    "id": 8,
+    "topic": "Cell Biology",
+    "difficulty": "easy",
+    "question": "Plant cells have a cell wall made of ___.",
+    "options": [
+      "protein",
+      "glycogen",
+      "cellulose",
+      "lipid"
+    ],
+    "answer": 2,
+    "explanation": "Cell wall is cellulose.",
+    "id": 6
+  },
+  {
+    "topic": "Cell Biology",
+    "difficulty": "easy",
+    "question": "The fluid in which cell organelles are suspended is ___.",
+    "options": [
+      "nucleus",
+      "cytoplasm",
+      "membrane",
+      "cell wall"
+    ],
+    "answer": 1,
+    "explanation": "Organelles are in cytoplasm.",
+    "id": 7
+  },
+  {
+    "topic": "Cell Biology",
+    "difficulty": "medium",
+    "question": "A cell that lacks a nucleus is ___.",
+    "options": [
+      "nerve cell",
+      "liver cell",
+      "egg cell",
+      "red blood cell"
+    ],
+    "answer": 3,
+    "explanation": "Mature RBCs lack nucleus.",
+    "id": 8
+  },
+  {
+    "topic": "Cell Biology",
+    "difficulty": "easy",
+    "question": "Which structure controls movement of substances in and out of cell?",
+    "options": [
+      "cell membrane",
+      "cell wall",
+      "nucleus",
+      "vacuole"
+    ],
+    "answer": 0,
+    "explanation": "Membrane is selective barrier.",
+    "id": 9
+  },
+  {
+    "topic": "Cell Biology",
+    "difficulty": "easy",
+    "question": "The large central vacuole in plant cells is used for ___.",
+    "options": [
+      "respiration",
+      "photosynthesis",
+      "storage",
+      "movement"
+    ],
+    "answer": 2,
+    "explanation": "Vacuole stores substances.",
+    "id": 10
+  },
+  {
     "topic": "Nutrition",
-    "question": "Photosynthesis occurs in the",
-    "options": ["chloroplast", "nucleus", "ribosome", "mitochondrion"],
-    "answer": 0,
-    "explanation": "Chloroplasts contain chlorophyll and are the sites where photosynthesis takes place in plant cells."
+    "difficulty": "easy",
+    "question": "Salivary amylase acts on ___.",
+    "options": [
+      "protein",
+      "starch",
+      "fat",
+      "glucose"
+    ],
+    "answer": 1,
+    "explanation": "Amylase breaks down starch.",
+    "id": 11
   },
   {
-    "id": 9,
     "topic": "Nutrition",
-    "question": "The process of taking in food is called",
-    "options": ["respiration", "excretion", "nutrition", "transpiration"],
+    "difficulty": "easy",
+    "question": "The end product of protein digestion is ___.",
+    "options": [
+      "fatty acids",
+      "glucose",
+      "starch",
+      "amino acids"
+    ],
+    "answer": 3,
+    "explanation": "Proteins break down to amino acids.",
+    "id": 12
+  },
+  {
+    "topic": "Nutrition",
+    "difficulty": "easy",
+    "question": "Bile is produced by the ___.",
+    "options": [
+      "liver",
+      "pancreas",
+      "stomach",
+      "kidney"
+    ],
+    "answer": 0,
+    "explanation": "Bile is produced in the liver.",
+    "id": 13
+  },
+  {
+    "topic": "Nutrition",
+    "difficulty": "easy",
+    "question": "Which vitamin is produced in the skin by sunlight?",
+    "options": [
+      "vitamin A",
+      "vitamin C",
+      "vitamin D",
+      "vitamin K"
+    ],
     "answer": 2,
-    "explanation": "Nutrition is the process by which organisms obtain and utilize food for growth, maintenance, and energy."
+    "explanation": "Sunlight enables vitamin D synthesis.",
+    "id": 14
   },
   {
-    "id": 10,
-    "topic": "Respiration",
-    "question": "Aerobic respiration uses",
-    "options": ["oxygen", "carbon dioxide", "nitrogen", "water"],
+    "topic": "Nutrition",
+    "difficulty": "easy",
+    "question": "The main function of carbohydrates is to provide ___.",
+    "options": [
+      "growth",
+      "energy",
+      "immunity",
+      "water"
+    ],
+    "answer": 1,
+    "explanation": "Carbohydrates are primary energy sources.",
+    "id": 15
+  },
+  {
+    "topic": "Nutrition",
+    "difficulty": "easy",
+    "question": "The enzyme pepsin acts in the ___.",
+    "options": [
+      "mouth",
+      "small intestine",
+      "large intestine",
+      "stomach"
+    ],
+    "answer": 3,
+    "explanation": "Pepsin works in the stomach.",
+    "id": 16
+  },
+  {
+    "topic": "Nutrition",
+    "difficulty": "medium",
+    "question": "The enzyme that digests fats is ___.",
+    "options": [
+      "lipase",
+      "amylase",
+      "pepsin",
+      "trypsin"
+    ],
     "answer": 0,
-    "explanation": "Aerobic respiration requires oxygen to break down glucose and produce ATP efficiently."
+    "explanation": "Lipase digests fats.",
+    "id": 17
   },
   {
-    "id": 11,
-    "topic": "Respiration",
-    "question": "Gas exchange in humans occurs in the",
-    "options": ["trachea", "bronchi", "alveoli", "larynx"],
+    "topic": "Nutrition",
+    "difficulty": "easy",
+    "question": "Absorption of digested food occurs mainly in the ___.",
+    "options": [
+      "stomach",
+      "large intestine",
+      "small intestine",
+      "mouth"
+    ],
     "answer": 2,
-    "explanation": "Alveoli are tiny air sacs in the lungs where oxygen and carbon dioxide exchange occurs."
+    "explanation": "Small intestine absorbs nutrients.",
+    "id": 18
   },
   {
-    "id": 12,
-    "topic": "Ecology",
-    "question": "A group of organisms of the same species in an area is a",
-    "options": ["community", "population", "ecosystem", "biome"],
+    "topic": "Nutrition",
+    "difficulty": "easy",
+    "question": "The product of starch digestion is ___.",
+    "options": [
+      "amino acids",
+      "glucose",
+      "fatty acids",
+      "glycerol"
+    ],
     "answer": 1,
-    "explanation": "A population is all individuals of the same species living in a particular geographic area."
+    "explanation": "Starch ultimately becomes glucose.",
+    "id": 19
   },
   {
-    "id": 13,
-    "topic": "Ecology",
-    "question": "The role of an organism in its habitat is its",
-    "options": ["niche", "trophic level", "population", "biome"],
+    "topic": "Nutrition",
+    "difficulty": "easy",
+    "question": "Which mineral is needed for hemoglobin formation?",
+    "options": [
+      "calcium",
+      "iodine",
+      "potassium",
+      "iron"
+    ],
+    "answer": 3,
+    "explanation": "Iron is needed for hemoglobin.",
+    "id": 20
+  },
+  {
+    "topic": "Transport",
+    "difficulty": "easy",
+    "question": "Which blood component is responsible for clotting?",
+    "options": [
+      "platelets",
+      "red blood cells",
+      "white blood cells",
+      "plasma"
+    ],
     "answer": 0,
-    "explanation": "An ecological niche describes how an organism fits into its environment and interacts with other organisms."
+    "explanation": "Platelets help in clotting.",
+    "id": 21
   },
   {
-    "id": 14,
-    "topic": "Genetics",
-    "question": "A segment of DNA that codes for a trait is a",
-    "options": ["chromosome", "gene", "nucleus", "allele"],
+    "topic": "Transport",
+    "difficulty": "easy",
+    "question": "Arteries carry blood ___.",
+    "options": [
+      "towards the heart",
+      "to the lungs only",
+      "away from the heart",
+      "only to the brain"
+    ],
+    "answer": 2,
+    "explanation": "Arteries carry blood away.",
+    "id": 22
+  },
+  {
+    "topic": "Transport",
+    "difficulty": "easy",
+    "question": "Veins carry blood ___.",
+    "options": [
+      "away from the heart",
+      "towards the heart",
+      "only to the lungs",
+      "only to the brain"
+    ],
     "answer": 1,
-    "explanation": "Genes are specific sequences of DNA that contain instructions for making proteins and determining traits."
+    "explanation": "Veins return blood.",
+    "id": 23
   },
   {
-    "id": 15,
-    "topic": "Genetics",
-    "question": "Offspring receive half their chromosomes from each",
-    "options": ["organ", "parent", "tissue", "species"],
+    "topic": "Transport",
+    "difficulty": "easy",
+    "question": "Capillaries are important for ___.",
+    "options": [
+      "pumping blood",
+      "producing blood cells",
+      "storing oxygen",
+      "exchange of materials"
+    ],
+    "answer": 3,
+    "explanation": "Capillaries allow exchange.",
+    "id": 24
+  },
+  {
+    "topic": "Transport",
+    "difficulty": "easy",
+    "question": "The fluid part of blood is ___.",
+    "options": [
+      "plasma",
+      "serum",
+      "platelets",
+      "hemoglobin"
+    ],
+    "answer": 0,
+    "explanation": "Plasma is the liquid component.",
+    "id": 25
+  },
+  {
+    "topic": "Transport",
+    "difficulty": "easy",
+    "question": "White blood cells are important for ___.",
+    "options": [
+      "carrying oxygen",
+      "clotting",
+      "defense against disease",
+      "digestion"
+    ],
+    "answer": 2,
+    "explanation": "They fight infections.",
+    "id": 26
+  },
+  {
+    "topic": "Transport",
+    "difficulty": "easy",
+    "question": "The main function of red blood cells is to ___.",
+    "options": [
+      "fight infection",
+      "carry oxygen",
+      "clot blood",
+      "digest food"
+    ],
     "answer": 1,
-    "explanation": "During sexual reproduction, offspring inherit half their chromosomes from each parent."
+    "explanation": "RBCs carry oxygen.",
+    "id": 27
   },
   {
-    "id": 16,
-    "topic": "Human Physiology",
-    "question": "The organ that pumps blood is the",
-    "options": ["lung", "heart", "kidney", "liver"],
+    "topic": "Transport",
+    "difficulty": "easy",
+    "question": "The pulse is caused by ___.",
+    "options": [
+      "breathing",
+      "digestion",
+      "excretion",
+      "heartbeat"
+    ],
+    "answer": 3,
+    "explanation": "Pulse is due to heartbeats.",
+    "id": 28
+  },
+  {
+    "topic": "Transport",
+    "difficulty": "medium",
+    "question": "The blood vessel with the thickest wall is the ___.",
+    "options": [
+      "artery",
+      "vein",
+      "capillary",
+      "venule"
+    ],
+    "answer": 0,
+    "explanation": "Arteries have thick walls.",
+    "id": 29
+  },
+  {
+    "topic": "Transport",
+    "difficulty": "medium",
+    "question": "Lymph is returned to the blood through the ___.",
+    "options": [
+      "arteries",
+      "veins",
+      "lymphatic vessels",
+      "capillaries"
+    ],
+    "answer": 2,
+    "explanation": "Lymphatic vessels return lymph.",
+    "id": 30
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "easy",
+    "question": "Xylem transports ___.",
+    "options": [
+      "food",
+      "water and mineral salts",
+      "oxygen",
+      "carbon dioxide"
+    ],
     "answer": 1,
-    "explanation": "The heart is a muscular organ that pumps blood throughout the circulatory system."
+    "explanation": "Xylem carries water and minerals.",
+    "id": 31
   },
   {
-    "id": 17,
-    "topic": "Human Physiology",
-    "question": "The main function of red blood cells is to",
-    "options": ["fight infection", "carry oxygen", "digest food", "produce hormones"],
+    "topic": "Plant Physiology",
+    "difficulty": "easy",
+    "question": "Phloem transports ___.",
+    "options": [
+      "water only",
+      "minerals only",
+      "gases",
+      "manufactured food"
+    ],
+    "answer": 3,
+    "explanation": "Phloem carries sugars.",
+    "id": 32
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "easy",
+    "question": "Transpiration is the ___.",
+    "options": [
+      "loss of water vapor from leaves",
+      "absorption of water by roots",
+      "movement of food in phloem",
+      "release of oxygen at night"
+    ],
+    "answer": 0,
+    "explanation": "Transpiration is water loss.",
+    "id": 33
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "easy",
+    "question": "Which of the following is NOT required for seed germination?",
+    "options": [
+      "water",
+      "oxygen",
+      "light",
+      "suitable temperature"
+    ],
+    "answer": 2,
+    "explanation": "Most seeds do not require light.",
+    "id": 34
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "easy",
+    "question": "Stomata are found mainly on the ___.",
+    "options": [
+      "upper surface",
+      "lower surface of leaves",
+      "roots",
+      "flowers"
+    ],
     "answer": 1,
-    "explanation": "Red blood cells contain hemoglobin which binds oxygen and transports it throughout the body."
+    "explanation": "Stomata are mostly on lower surface.",
+    "id": 35
   },
   {
-    "id": 18,
-    "topic": "Plant Biology",
-    "question": "Water transport in plants occurs through",
-    "options": ["phloem", "xylem", "cambium", "stoma"],
+    "topic": "Plant Physiology",
+    "difficulty": "easy",
+    "question": "The main function of chlorophyll is to ___.",
+    "options": [
+      "produce oxygen",
+      "store starch",
+      "transport water",
+      "absorb light energy"
+    ],
+    "answer": 3,
+    "explanation": "Chlorophyll absorbs light.",
+    "id": 36
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "medium",
+    "question": "Translocation occurs in the ___.",
+    "options": [
+      "phloem",
+      "xylem",
+      "root hair",
+      "stomata"
+    ],
+    "answer": 0,
+    "explanation": "Phloem translocates food.",
+    "id": 37
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "medium",
+    "question": "Root pressure helps in ___.",
+    "options": [
+      "absorbing light",
+      "making food",
+      "pushing water up",
+      "pollination"
+    ],
+    "answer": 2,
+    "explanation": "Root pressure pushes water upward.",
+    "id": 38
+  },
+  {
+    "topic": "Respiration",
+    "difficulty": "easy",
+    "question": "Gas exchange in humans occurs in the ___.",
+    "options": [
+      "bronchi",
+      "alveoli",
+      "trachea",
+      "larynx"
+    ],
     "answer": 1,
-    "explanation": "Xylem tissue transports water and dissolved minerals from roots to leaves."
+    "explanation": "Alveoli provide large surface area.",
+    "id": 39
   },
   {
-    "id": 19,
-    "topic": "Plant Biology",
-    "question": "Transpiration mainly occurs through",
-    "options": ["roots", "stomata", "flowers", "seeds"],
+    "topic": "Respiration",
+    "difficulty": "easy",
+    "question": "The functional unit of the kidney is the ___.",
+    "options": [
+      "neuron",
+      "alveolus",
+      "villus",
+      "nephron"
+    ],
+    "answer": 3,
+    "explanation": "Nephrons filter blood.",
+    "id": 40
+  },
+  {
+    "topic": "Respiration",
+    "difficulty": "easy",
+    "question": "Urea is formed in the ___.",
+    "options": [
+      "liver",
+      "kidney",
+      "lungs",
+      "heart"
+    ],
+    "answer": 0,
+    "explanation": "Urea is produced in the liver.",
+    "id": 41
+  },
+  {
+    "topic": "Respiration",
+    "difficulty": "medium",
+    "question": "Breathing is controlled by the ___.",
+    "options": [
+      "cerebrum",
+      "cerebellum",
+      "medulla oblongata",
+      "spinal cord"
+    ],
+    "answer": 2,
+    "explanation": "Medulla controls breathing.",
+    "id": 42
+  },
+  {
+    "topic": "Respiration",
+    "difficulty": "medium",
+    "question": "Anaerobic respiration in humans produces ___.",
+    "options": [
+      "ethanol",
+      "lactic acid",
+      "carbon dioxide only",
+      "water"
+    ],
     "answer": 1,
-    "explanation": "Stomata are small openings on leaf surfaces through which water vapor escapes during transpiration."
+    "explanation": "Anaerobic respiration yields lactic acid.",
+    "id": 43
   },
   {
-    "id": 20,
+    "topic": "Respiration",
+    "difficulty": "easy",
+    "question": "The main excretory product in humans is ___.",
+    "options": [
+      "glucose",
+      "starch",
+      "fat",
+      "urea"
+    ],
+    "answer": 3,
+    "explanation": "Urea is the main nitrogenous waste.",
+    "id": 44
+  },
+  {
+    "topic": "Respiration",
+    "difficulty": "easy",
+    "question": "The organ that removes CO2 from the body is the ___.",
+    "options": [
+      "lungs",
+      "liver",
+      "kidney",
+      "skin"
+    ],
+    "answer": 0,
+    "explanation": "Lungs remove CO2.",
+    "id": 45
+  },
+  {
+    "topic": "Respiration",
+    "difficulty": "easy",
+    "question": "The process of breathing in is called ___.",
+    "options": [
+      "exhalation",
+      "digestion",
+      "inhalation",
+      "circulation"
+    ],
+    "answer": 2,
+    "explanation": "Breathing in is inhalation.",
+    "id": 46
+  },
+  {
+    "topic": "Respiration",
+    "difficulty": "medium",
+    "question": "During inhalation, the diaphragm ___.",
+    "options": [
+      "relaxes",
+      "contracts",
+      "expands upward",
+      "stops moving"
+    ],
+    "answer": 1,
+    "explanation": "Diaphragm contracts and flattens.",
+    "id": 47
+  },
+  {
+    "topic": "Respiration",
+    "difficulty": "hard",
+    "question": "Excretion differs from egestion because excretion removes ___.",
+    "options": [
+      "undigested food",
+      "water only",
+      "excess heat",
+      "metabolic waste"
+    ],
+    "answer": 3,
+    "explanation": "Excretion removes metabolic waste.",
+    "id": 48
+  },
+  {
     "topic": "Reproduction",
-    "question": "Fertilization is the fusion of",
-    "options": ["two nuclei", "two embryos", "two ovaries", "two placentas"],
+    "difficulty": "easy",
+    "question": "Fertilization in humans normally occurs in the ___.",
+    "options": [
+      "oviduct",
+      "uterus",
+      "cervix",
+      "vagina"
+    ],
     "answer": 0,
-    "explanation": "Fertilization occurs when male and female gamete nuclei fuse to form a zygote."
+    "explanation": "Fertilization occurs in oviduct.",
+    "id": 49
   },
   {
-    "id": 21,
     "topic": "Reproduction",
-    "question": "Asexual reproduction produces offspring that are",
-    "options": ["genetically identical", "genetically different", "always larger", "always smaller"],
-    "answer": 0,
-    "explanation": "Asexual reproduction creates genetically identical clones of the parent organism."
+    "difficulty": "easy",
+    "question": "The male gamete is the ___.",
+    "options": [
+      "ovum",
+      "zygote",
+      "sperm cell",
+      "embryo"
+    ],
+    "answer": 2,
+    "explanation": "Male gamete is sperm.",
+    "id": 50
   },
   {
-    "id": 22,
-    "topic": "Classification",
-    "question": "The scientific naming system uses",
-    "options": ["one name", "two names", "three names", "four names"],
+    "topic": "Reproduction",
+    "difficulty": "easy",
+    "question": "The female reproductive cell is the ___.",
+    "options": [
+      "sperm",
+      "ovum",
+      "zygote",
+      "foetus"
+    ],
     "answer": 1,
-    "explanation": "Binomial nomenclature uses two names: genus and species (e.g., Homo sapiens)."
+    "explanation": "Ovum is female gamete.",
+    "id": 51
   },
   {
-    "id": 23,
+    "topic": "Reproduction",
+    "difficulty": "easy",
+    "question": "The placenta connects the ___.",
+    "options": [
+      "foetus and cervix",
+      "ovary and uterus",
+      "mother and ovary",
+      "mother and foetus"
+    ],
+    "answer": 3,
+    "explanation": "Placenta connects mother and foetus.",
+    "id": 52
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "medium",
+    "question": "Pollination is the transfer of pollen from ___.",
+    "options": [
+      "anther to stigma",
+      "stigma to ovary",
+      "ovule to anther",
+      "leaf to stem"
+    ],
+    "answer": 0,
+    "explanation": "Pollination is anther to stigma.",
+    "id": 53
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "medium",
+    "question": "Self-pollination occurs within the same ___.",
+    "options": [
+      "plant family",
+      "species only",
+      "flower",
+      "fruit"
+    ],
+    "answer": 2,
+    "explanation": "Self-pollination is within same flower.",
+    "id": 54
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "easy",
+    "question": "Asexual reproduction produces offspring that are ___.",
+    "options": [
+      "genetically different",
+      "genetically identical",
+      "half the genes",
+      "always weaker"
+    ],
+    "answer": 1,
+    "explanation": "Asexual reproduction yields clones.",
+    "id": 55
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "easy",
+    "question": "The fusion of gametes is called ___.",
+    "options": [
+      "germination",
+      "pollination",
+      "mutation",
+      "fertilization"
+    ],
+    "answer": 3,
+    "explanation": "Fusion of gametes is fertilization.",
+    "id": 56
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "easy",
+    "question": "The chromosome number in a normal human somatic cell is ___.",
+    "options": [
+      "46",
+      "23",
+      "92",
+      "44"
+    ],
+    "answer": 0,
+    "explanation": "Somatic cells have 46 chromosomes.",
+    "id": 57
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "easy",
+    "question": "Which of the following represents a heterozygous genotype?",
+    "options": [
+      "TT",
+      "tt",
+      "Tt",
+      "t"
+    ],
+    "answer": 2,
+    "explanation": "Heterozygous has two different alleles.",
+    "id": 58
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "easy",
+    "question": "An example of continuous variation is ___.",
+    "options": [
+      "blood group",
+      "human height",
+      "tongue rolling",
+      "attached earlobe"
+    ],
+    "answer": 1,
+    "explanation": "Height varies continuously.",
+    "id": 59
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "medium",
+    "question": "Which of the following is a sex-linked trait?",
+    "options": [
+      "blood group",
+      "tongue rolling",
+      "height",
+      "color blindness"
+    ],
+    "answer": 3,
+    "explanation": "Color blindness is sex-linked.",
+    "id": 60
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "hard",
+    "question": "Crossing over occurs during ___.",
+    "options": [
+      "meiosis",
+      "mitosis",
+      "fertilization",
+      "germination"
+    ],
+    "answer": 0,
+    "explanation": "Crossing over occurs in meiosis.",
+    "id": 61
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "easy",
+    "question": "Mitosis results in ___.",
+    "options": [
+      "four haploid cells",
+      "two haploid cells",
+      "two identical diploid cells",
+      "four identical diploid cells"
+    ],
+    "answer": 2,
+    "explanation": "Mitosis produces identical cells.",
+    "id": 62
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "easy",
+    "question": "Meiosis results in ___.",
+    "options": [
+      "two diploid cells",
+      "four haploid gametes",
+      "two haploid cells",
+      "four diploid cells"
+    ],
+    "answer": 1,
+    "explanation": "Meiosis produces haploid gametes.",
+    "id": 63
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "medium",
+    "question": "A trait controlled by many genes shows ___.",
+    "options": [
+      "discontinuous variation",
+      "no variation",
+      "sex linkage",
+      "continuous variation"
+    ],
+    "answer": 3,
+    "explanation": "Polygenic traits show continuous variation.",
+    "id": 64
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "easy",
+    "question": "The unit of heredity is the ___.",
+    "options": [
+      "gene",
+      "cell",
+      "tissue",
+      "organelle"
+    ],
+    "answer": 0,
+    "explanation": "Genes carry hereditary information.",
+    "id": 65
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "medium",
+    "question": "A recessive trait is expressed when ___.",
+    "options": [
+      "one recessive allele is present",
+      "only dominant allele is present",
+      "two recessive alleles are present",
+      "no allele is present"
+    ],
+    "answer": 2,
+    "explanation": "Recessive shows in homozygous condition.",
+    "id": 66
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "easy",
+    "question": "The phenotype refers to the ___.",
+    "options": [
+      "genetic makeup",
+      "observable traits",
+      "chromosome number",
+      "cell type"
+    ],
+    "answer": 1,
+    "explanation": "Phenotype is observable characteristics.",
+    "id": 67
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "easy",
+    "question": "The genotype refers to the ___.",
+    "options": [
+      "observable traits",
+      "environment",
+      "diet",
+      "genetic makeup"
+    ],
+    "answer": 3,
+    "explanation": "Genotype is genetic constitution.",
+    "id": 68
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "In the food chain grass -> grasshopper -> frog -> snake, the grasshopper is a ___.",
+    "options": [
+      "primary consumer",
+      "secondary consumer",
+      "producer",
+      "decomposer"
+    ],
+    "answer": 0,
+    "explanation": "Grasshopper feeds on grass.",
+    "id": 69
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "Green plants are called ___.",
+    "options": [
+      "consumers",
+      "decomposers",
+      "producers",
+      "parasites"
+    ],
+    "answer": 2,
+    "explanation": "They produce food by photosynthesis.",
+    "id": 70
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "Nitrifying bacteria convert ___.",
+    "options": [
+      "nitrates to nitrogen gas",
+      "ammonia to nitrates",
+      "nitrogen gas to ammonia",
+      "proteins to amino acids"
+    ],
+    "answer": 1,
+    "explanation": "Nitrifying bacteria form nitrates.",
+    "id": 71
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "The oxygen released during photosynthesis comes from ___.",
+    "options": [
+      "carbon dioxide",
+      "glucose",
+      "chlorophyll",
+      "water"
+    ],
+    "answer": 3,
+    "explanation": "Water is split in photosynthesis.",
+    "id": 72
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "The relationship in which both organisms benefit is called ___.",
+    "options": [
+      "mutualism",
+      "parasitism",
+      "commensalism",
+      "predation"
+    ],
+    "answer": 0,
+    "explanation": "Mutualism benefits both.",
+    "id": 73
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "The total number of organisms in a habitat is the ___.",
+    "options": [
+      "community",
+      "ecosystem",
+      "population",
+      "biome"
+    ],
+    "answer": 2,
+    "explanation": "Population is one species count.",
+    "id": 74
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "An organism that breaks down dead matter is a ___.",
+    "options": [
+      "producer",
+      "decomposer",
+      "primary consumer",
+      "predator"
+    ],
+    "answer": 1,
+    "explanation": "Decomposers break down dead matter.",
+    "id": 75
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "Overgrazing can lead to ___.",
+    "options": [
+      "increased fertility",
+      "flood control",
+      "more rainfall",
+      "soil erosion"
+    ],
+    "answer": 3,
+    "explanation": "Overgrazing removes cover.",
+    "id": 76
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "A habitat with many different species has high ___.",
+    "options": [
+      "biodiversity",
+      "pollution",
+      "salinity",
+      "density"
+    ],
+    "answer": 0,
+    "explanation": "Biodiversity is species variety.",
+    "id": 77
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "The cycling of nutrients in nature is called ___.",
+    "options": [
+      "photosynthesis",
+      "digestion",
+      "nutrient cycle",
+      "respiration"
+    ],
+    "answer": 2,
+    "explanation": "Nutrients cycle through ecosystems.",
+    "id": 78
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "A group of organisms of different species in the same area is a ___.",
+    "options": [
+      "population",
+      "community",
+      "ecosystem",
+      "biome"
+    ],
+    "answer": 1,
+    "explanation": "Community is multiple species.",
+    "id": 79
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "An ecosystem includes ___.",
+    "options": [
+      "living components only",
+      "plants only",
+      "animals only",
+      "living and non-living components"
+    ],
+    "answer": 3,
+    "explanation": "Ecosystem includes biotic and abiotic.",
+    "id": 80
+  },
+  {
+    "topic": "Nervous System",
+    "difficulty": "medium",
+    "question": "In a reflex arc, the neuron that connects the sensory and motor neurons is the ___.",
+    "options": [
+      "relay neuron",
+      "sensory neuron",
+      "motor neuron",
+      "receptor"
+    ],
+    "answer": 0,
+    "explanation": "Relay neuron links sensory and motor neurons.",
+    "id": 81
+  },
+  {
+    "topic": "Nervous System",
+    "difficulty": "easy",
+    "question": "Insulin is produced by the ___.",
+    "options": [
+      "liver",
+      "thyroid",
+      "pancreas",
+      "adrenal gland"
+    ],
+    "answer": 2,
+    "explanation": "Pancreas produces insulin.",
+    "id": 82
+  },
+  {
+    "topic": "Nervous System",
+    "difficulty": "easy",
+    "question": "Adrenaline is secreted by the ___.",
+    "options": [
+      "thyroid",
+      "adrenal gland",
+      "pancreas",
+      "pituitary"
+    ],
+    "answer": 1,
+    "explanation": "Adrenal glands release adrenaline.",
+    "id": 83
+  },
+  {
+    "topic": "Nervous System",
+    "difficulty": "easy",
+    "question": "The brain part responsible for balance is the ___.",
+    "options": [
+      "cerebrum",
+      "medulla",
+      "spinal cord",
+      "cerebellum"
+    ],
+    "answer": 3,
+    "explanation": "Cerebellum controls balance.",
+    "id": 84
+  },
+  {
+    "topic": "Nervous System",
+    "difficulty": "easy",
+    "question": "The hormone that regulates blood sugar is ___.",
+    "options": [
+      "insulin",
+      "adrenaline",
+      "thyroxine",
+      "growth hormone"
+    ],
+    "answer": 0,
+    "explanation": "Insulin lowers blood sugar.",
+    "id": 85
+  },
+  {
+    "topic": "Nervous System",
+    "difficulty": "easy",
+    "question": "Nerves transmit impulses as ___.",
+    "options": [
+      "sound waves",
+      "light waves",
+      "electrical signals",
+      "chemical fumes"
+    ],
+    "answer": 2,
+    "explanation": "Nerve impulses are electrical.",
+    "id": 86
+  },
+  {
+    "topic": "Nervous System",
+    "difficulty": "medium",
+    "question": "The pituitary gland is called the ___.",
+    "options": [
+      "digestive gland",
+      "master gland",
+      "excretory gland",
+      "salivary gland"
+    ],
+    "answer": 1,
+    "explanation": "Pituitary controls other glands.",
+    "id": 87
+  },
+  {
+    "topic": "Nervous System",
+    "difficulty": "medium",
+    "question": "Homeostasis is the maintenance of a ___.",
+    "options": [
+      "constant external environment",
+      "high temperature",
+      "low pressure",
+      "constant internal environment"
+    ],
+    "answer": 3,
+    "explanation": "Homeostasis keeps internal conditions stable.",
+    "id": 88
+  },
+  {
+    "topic": "Nervous System",
+    "difficulty": "medium",
+    "question": "The hormone that controls metabolism is ___.",
+    "options": [
+      "thyroxine",
+      "insulin",
+      "adrenaline",
+      "estrogen"
+    ],
+    "answer": 0,
+    "explanation": "Thyroxine regulates metabolism.",
+    "id": 89
+  },
+  {
+    "topic": "Nervous System",
+    "difficulty": "easy",
+    "question": "The receptor for light in the eye is the ___.",
+    "options": [
+      "lens",
+      "iris",
+      "retina",
+      "cornea"
+    ],
+    "answer": 2,
+    "explanation": "Retina contains photoreceptors.",
+    "id": 90
+  },
+  {
     "topic": "Microbiology",
-    "question": "Bacteria are classified as",
-    "options": ["multicellular", "unicellular", "nonliving", "plant"],
+    "difficulty": "easy",
+    "question": "Viruses can reproduce only inside ___.",
+    "options": [
+      "water",
+      "living cells",
+      "air",
+      "dead tissue"
+    ],
     "answer": 1,
-    "explanation": "Bacteria are single-celled prokaryotic organisms without a membrane-bound nucleus."
+    "explanation": "Viruses are obligate intracellular parasites.",
+    "id": 91
   },
   {
-    "id": 24,
-    "topic": "Evolution",
-    "question": "Natural selection favors organisms that",
-    "options": ["are largest", "are fastest", "are best adapted", "live longest"],
+    "topic": "Microbiology",
+    "difficulty": "medium",
+    "question": "Vaccination provides ___ immunity.",
+    "options": [
+      "natural active",
+      "artificial passive",
+      "natural passive",
+      "artificial active"
+    ],
+    "answer": 3,
+    "explanation": "Vaccines stimulate antibody production.",
+    "id": 92
+  },
+  {
+    "topic": "Microbiology",
+    "difficulty": "easy",
+    "question": "The organism that causes malaria is ___.",
+    "options": [
+      "Plasmodium",
+      "Trypanosoma",
+      "Amoeba",
+      "Bacteria"
+    ],
+    "answer": 0,
+    "explanation": "Plasmodium causes malaria.",
+    "id": 93
+  },
+  {
+    "topic": "Microbiology",
+    "difficulty": "easy",
+    "question": "Antibiotics are effective against ___.",
+    "options": [
+      "viruses",
+      "fungi",
+      "bacteria",
+      "worms"
+    ],
     "answer": 2,
-    "explanation": "Natural selection favors organisms best adapted to their environment, increasing their survival and reproduction."
+    "explanation": "Antibiotics target bacteria.",
+    "id": 94
   },
   {
-    "id": 25,
-    "topic": "Health",
-    "question": "A balanced diet should include",
-    "options": ["only carbohydrates", "only proteins", "all food groups", "only fats"],
+    "topic": "Microbiology",
+    "difficulty": "easy",
+    "question": "A disease that can be transmitted is called ___.",
+    "options": [
+      "genetic",
+      "communicable",
+      "non-infectious",
+      "deficiency"
+    ],
+    "answer": 1,
+    "explanation": "Communicable diseases spread.",
+    "id": 95
+  },
+  {
+    "topic": "Microbiology",
+    "difficulty": "easy",
+    "question": "The vector of malaria is the ___.",
+    "options": [
+      "housefly",
+      "tsetse fly",
+      "cockroach",
+      "female Anopheles mosquito"
+    ],
+    "answer": 3,
+    "explanation": "Anopheles mosquito transmits malaria.",
+    "id": 96
+  },
+  {
+    "topic": "Microbiology",
+    "difficulty": "medium",
+    "question": "Immunity developed after recovering from a disease is ___.",
+    "options": [
+      "natural active",
+      "artificial active",
+      "natural passive",
+      "artificial passive"
+    ],
+    "answer": 0,
+    "explanation": "Recovery gives natural active immunity.",
+    "id": 97
+  },
+  {
+    "topic": "Microbiology",
+    "difficulty": "easy",
+    "question": "HIV affects the body's ___.",
+    "options": [
+      "digestive system",
+      "skeletal system",
+      "immune system",
+      "circulatory system"
+    ],
     "answer": 2,
-    "explanation": "A balanced diet includes carbohydrates, proteins, fats, vitamins, minerals, and water in appropriate proportions."
+    "explanation": "HIV attacks immune system.",
+    "id": 98
   },
   {
-    "id": 26,
-    "topic": "Enzymes",
-    "question": "Enzymes are biological",
-    "options": ["carbohydrates", "lipids", "proteins", "nucleic acids"],
-    "answer": 2,
-    "explanation": "Enzymes are proteins that catalyze biochemical reactions by lowering activation energy."
-  },
-  {
-    "id": 27,
-    "topic": "Enzymes",
-    "question": "High temperature affects enzyme activity by",
-    "options": ["increasing activity permanently", "denaturing the enzyme", "having no effect", "making it more specific"],
+    "topic": "Microbiology",
+    "difficulty": "easy",
+    "question": "The vaccine that prevents tuberculosis is ___.",
+    "options": [
+      "OPV",
+      "BCG",
+      "DPT",
+      "Measles"
+    ],
     "answer": 1,
-    "explanation": "High temperatures denature enzymes by disrupting their protein structure and active sites."
+    "explanation": "BCG prevents TB.",
+    "id": 99
   },
   {
-    "id": 28,
-    "topic": "Circulatory System",
-    "question": "Blood vessels that carry blood away from the heart are",
-    "options": ["veins", "arteries", "capillaries", "lymphatics"],
-    "answer": 1,
-    "explanation": "Arteries carry oxygenated blood away from the heart to body tissues."
+    "topic": "Microbiology",
+    "difficulty": "medium",
+    "question": "A disease caused by lack of vitamin C is ___.",
+    "options": [
+      "rickets",
+      "goiter",
+      "beriberi",
+      "scurvy"
+    ],
+    "answer": 3,
+    "explanation": "Vitamin C deficiency causes scurvy.",
+    "id": 100
   },
   {
-    "id": 29,
-    "topic": "Circulatory System",
-    "question": "The largest artery in the human body is the",
-    "options": ["pulmonary artery", "aorta", "carotid artery", "femoral artery"],
-    "answer": 1,
-    "explanation": "The aorta is the largest artery, carrying oxygenated blood from the heart to the body."
-  },
-  {
-    "id": 30,
-    "topic": "Nervous System",
-    "question": "The basic unit of the nervous system is the",
-    "options": ["brain", "neuron", "spinal cord", "ganglion"],
-    "answer": 1,
-    "explanation": "Neurons are specialized cells that transmit electrical and chemical signals in the nervous system."
-  },
-  {
-    "id": 31,
-    "topic": "Nervous System",
-    "question": "Reflexes are controlled by the",
-    "options": ["brain", "spinal cord", "muscles", "hormones"],
-    "answer": 1,
-    "explanation": "Reflex arcs are processed in the spinal cord for rapid, automatic responses to stimuli."
-  },
-  {
-    "id": 32,
-    "topic": "Digestive System",
-    "question": "Chemical digestion of proteins begins in the",
-    "options": ["mouth", "stomach", "small intestine", "large intestine"],
-    "answer": 1,
-    "explanation": "Protein digestion begins in the stomach with pepsin enzyme in acidic conditions."
-  },
-  {
-    "id": 33,
-    "topic": "Digestive System",
-    "question": "Most nutrient absorption occurs in the",
-    "options": ["stomach", "small intestine", "large intestine", "liver"],
-    "answer": 1,
-    "explanation": "The small intestine has villi and microvilli that maximize surface area for nutrient absorption."
-  },
-  {
-    "id": 34,
-    "topic": "Excretory System",
-    "question": "The main nitrogenous waste in humans is",
-    "options": ["ammonia", "urea", "uric acid", "creatinine"],
-    "answer": 1,
-    "explanation": "Urea is the primary nitrogenous waste product formed in the liver and excreted by kidneys."
-  },
-  {
-    "id": 35,
-    "topic": "Excretory System",
-    "question": "Filtration in kidneys occurs in the",
-    "options": ["collecting duct", "glomerulus", "ureter", "urethra"],
-    "answer": 1,
-    "explanation": "Glomerulus is a cluster of capillaries where blood filtration begins in the kidney."
-  },
-  {
-    "id": 36,
-    "topic": "Endocrine System",
-    "question": "Insulin is produced by the",
-    "options": ["liver", "pancreas", "kidneys", "adrenal glands"],
-    "answer": 1,
-    "explanation": "Insulin is produced by beta cells in the islets of Langerhans in the pancreas."
-  },
-  {
-    "id": 37,
-    "topic": "Endocrine System",
-    "question": "The master gland of the endocrine system is the",
-    "options": ["thyroid", "pituitary", "adrenal", "pancreas"],
-    "answer": 1,
-    "explanation": "The pituitary gland controls other endocrine glands and is called the master gland."
-  },
-  {
-    "id": 38,
-    "topic": "Immune System",
-    "question": "White blood cells that produce antibodies are",
-    "options": ["T cells", "B cells", "platelets", "red blood cells"],
-    "answer": 1,
-    "explanation": "B lymphocytes differentiate into plasma cells that produce specific antibodies."
-  },
-  {
-    "id": 39,
-    "topic": "Immune System",
-    "question": "Vaccination works by",
-    "options": ["killing pathogens", "providing antibodies", "stimulating immunity", "blocking infection"],
-    "answer": 2,
-    "explanation": "Vaccines stimulate the immune system to develop memory cells for future protection."
-  },
-  {
-    "id": 40,
-    "topic": "Molecular Biology",
-    "question": "RNA differs from DNA in that RNA",
-    "options": ["is double-stranded", "contains thymine", "contains ribose sugar", "is always longer"],
-    "answer": 2,
-    "explanation": "RNA contains ribose sugar while DNA contains deoxyribose sugar."
-  },
-  {
-    "id": 41,
-    "topic": "Molecular Biology",
-    "question": "Protein synthesis occurs at",
-    "options": ["nucleus", "ribosomes", "mitochondria", "Golgi apparatus"],
-    "answer": 1,
-    "explanation": "Ribosomes are the cellular organelles where mRNA is translated into proteins."
-  },
-  {
-    "id": 42,
-    "topic": "Biotechnology",
-    "question": "Restriction enzymes are used to",
-    "options": ["copy DNA", "cut DNA", "join DNA", "read DNA"],
-    "answer": 1,
-    "explanation": "Restriction enzymes cut DNA at specific recognition sequences, used in genetic engineering."
-  },
-  {
-    "id": 43,
     "topic": "Ecology",
-    "question": "Producers in an ecosystem are",
-    "options": ["carnivores", "herbivores", "autotrophs", "decomposers"],
-    "answer": 2,
-    "explanation": "Autotrophs (plants) produce their own food through photosynthesis and form the base of food chains."
+    "difficulty": "medium",
+    "question": "A stable climax community is reached after ___.",
+    "options": [
+      "succession",
+      "germination",
+      "pollination",
+      "transpiration"
+    ],
+    "answer": 0,
+    "explanation": "Succession leads to climax.",
+    "id": 101
   },
   {
-    "id": 44,
     "topic": "Ecology",
-    "question": "The greenhouse effect is primarily caused by",
-    "options": ["oxygen", "nitrogen", "carbon dioxide", "hydrogen"],
+    "difficulty": "hard",
+    "question": "Biomagnification is the increase of toxins along a ___.",
+    "options": [
+      "water cycle",
+      "carbon cycle",
+      "food chain",
+      "nitrogen cycle"
+    ],
     "answer": 2,
-    "explanation": "Carbon dioxide traps heat in the atmosphere, contributing to the greenhouse effect."
+    "explanation": "Toxins build up in food chains.",
+    "id": 102
   },
   {
-    "id": 45,
-    "topic": "Biodiversity",
-    "question": "The greatest biodiversity is found in",
-    "options": ["deserts", "tundra", "tropical rainforests", "grasslands"],
+    "topic": "Ecology",
+    "difficulty": "medium",
+    "question": "The maximum population an environment can support is its ___.",
+    "options": [
+      "density",
+      "carrying capacity",
+      "niche",
+      "biomass"
+    ],
+    "answer": 1,
+    "explanation": "Carrying capacity limits growth.",
+    "id": 103
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "Organisms that make their own food are ___.",
+    "options": [
+      "heterotrophs",
+      "parasites",
+      "saprophytes",
+      "autotrophs"
+    ],
+    "answer": 3,
+    "explanation": "Autotrophs produce food.",
+    "id": 104
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "An organism that feeds on dead organic matter is a ___.",
+    "options": [
+      "saprophyte",
+      "producer",
+      "herbivore",
+      "omnivore"
+    ],
+    "answer": 0,
+    "explanation": "Saprophytes feed on dead matter.",
+    "id": 105
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "The transfer of energy between organisms is a ___.",
+    "options": [
+      "habitat",
+      "ecosystem",
+      "food chain",
+      "biome"
+    ],
     "answer": 2,
-    "explanation": "Tropical rainforests have the highest species diversity due to stable climate and complex habitats."
+    "explanation": "Food chain shows energy flow.",
+    "id": 106
   },
   {
-    "id": 46,
-    "topic": "Animal Behavior",
-    "question": "Learned behavior that occurs during a critical period is called",
-    "options": ["instinct", "imprinting", "conditioning", "habituation"],
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "The organism that eats both plants and animals is ___.",
+    "options": [
+      "herbivore",
+      "omnivore",
+      "carnivore",
+      "producer"
+    ],
     "answer": 1,
-    "explanation": "Imprinting is rapid learning during a critical period, often seen in young animals."
+    "explanation": "Omnivores eat both.",
+    "id": 107
   },
   {
-    "id": 47,
-    "topic": "Homeostasis",
-    "question": "The maintenance of stable internal conditions is called",
-    "options": ["metabolism", "homeostasis", "reproduction", "adaptation"],
-    "answer": 1,
-    "explanation": "Homeostasis maintains optimal internal conditions despite external changes."
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "Conservation is important to prevent ___.",
+    "options": [
+      "mutation",
+      "pollination",
+      "photosynthesis",
+      "extinction"
+    ],
+    "answer": 3,
+    "explanation": "Conservation protects species.",
+    "id": 108
   },
   {
-    "id": 48,
-    "topic": "Cell Division",
-    "question": "Meiosis results in cells with",
-    "options": ["same chromosome number", "double chromosome number", "half chromosome number", "no chromosomes"],
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "Rainfall and temperature are ___ factors in an ecosystem.",
+    "options": [
+      "abiotic",
+      "biotic",
+      "parasitic",
+      "symbiotic"
+    ],
+    "answer": 0,
+    "explanation": "Abiotic = non-living.",
+    "id": 109
+  },
+  {
+    "topic": "Ecology",
+    "difficulty": "easy",
+    "question": "A group of similar organisms that can interbreed is a ___.",
+    "options": [
+      "population",
+      "community",
+      "species",
+      "habitat"
+    ],
     "answer": 2,
-    "explanation": "Meiosis produces gametes with half the chromosome number of the parent cell."
+    "explanation": "Species interbreed.",
+    "id": 110
   },
   {
-    "id": 49,
-    "topic": "Cell Division",
-    "question": "Mitosis produces cells that are",
-    "options": ["genetically different", "genetically identical", "haploid", "gametes"],
+    "topic": "Genetics",
+    "difficulty": "hard",
+    "question": "Human blood group AB is an example of ___.",
+    "options": [
+      "incomplete dominance",
+      "codominance",
+      "linkage",
+      "mutation"
+    ],
     "answer": 1,
-    "explanation": "Mitosis produces two genetically identical diploid daughter cells."
+    "explanation": "A and B alleles are both expressed.",
+    "id": 111
   },
   {
-    "id": 50,
-    "topic": "Biomolecules",
-    "question": "The main energy storage molecule in animals is",
-    "options": ["starch", "glycogen", "cellulose", "chitin"],
-    "answer": 1,
-    "explanation": "Glycogen is the primary carbohydrate energy storage molecule in animal cells."
+    "topic": "Genetics",
+    "difficulty": "medium",
+    "question": "A sudden change in genetic material is a ___.",
+    "options": [
+      "variation",
+      "selection",
+      "hybrid",
+      "mutation"
+    ],
+    "answer": 3,
+    "explanation": "Mutation alters DNA.",
+    "id": 112
   },
   {
-    "id": 51,
-    "topic": "Biomolecules",
-    "question": "Phospholipids are major components of",
-    "options": ["cell walls", "cell membranes", "ribosomes", "chromosomes"],
-    "answer": 1,
-    "explanation": "Phospholipids form the bilayer structure of cell membranes."
+    "topic": "Genetics",
+    "difficulty": "medium",
+    "question": "DNA stands for ___.",
+    "options": [
+      "deoxyribonucleic acid",
+      "dideoxyribonucleic acid",
+      "deoxyribose acid",
+      "dinitrogen acid"
+    ],
+    "answer": 0,
+    "explanation": "DNA full name.",
+    "id": 113
   },
   {
-    "id": 52,
-    "topic": "Photosynthesis",
-    "question": "The light-dependent reactions of photosynthesis occur in the",
-    "options": ["stroma", "thylakoids", "nucleus", "cytoplasm"],
-    "answer": 1,
-    "explanation": "Light-dependent reactions occur in thylakoid membranes where chlorophyll captures light energy."
-  },
-  {
-    "id": 53,
-    "topic": "Cellular Respiration",
-    "question": "The Krebs cycle occurs in the",
-    "options": ["cytoplasm", "mitochondrial matrix", "nucleus", "ribosome"],
-    "answer": 1,
-    "explanation": "The Krebs cycle (citric acid cycle) occurs in the mitochondrial matrix."
-  },
-  {
-    "id": 54,
-    "topic": "Adaptation",
-    "question": "Cacti have spines instead of leaves to",
-    "options": ["attract pollinators", "reduce water loss", "increase photosynthesis", "improve reproduction"],
-    "answer": 1,
-    "explanation": "Spines reduce surface area and water loss through transpiration in desert environments."
-  },
-  {
-    "id": 55,
-    "topic": "Food Webs",
-    "question": "Decomposers are important because they",
-    "options": ["produce oxygen", "eat herbivores", "recycle nutrients", "control population"],
+    "topic": "Genetics",
+    "difficulty": "medium",
+    "question": "The molecule that carries genetic code to ribosomes is ___.",
+    "options": [
+      "tRNA",
+      "rRNA",
+      "mRNA",
+      "DNA"
+    ],
     "answer": 2,
-    "explanation": "Decomposers break down dead matter, returning nutrients to the ecosystem for reuse."
+    "explanation": "mRNA carries code.",
+    "id": 114
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "hard",
+    "question": "The process of making mRNA from DNA is ___.",
+    "options": [
+      "translation",
+      "transcription",
+      "replication",
+      "mutation"
+    ],
+    "answer": 1,
+    "explanation": "Transcription makes RNA.",
+    "id": 115
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "hard",
+    "question": "The process of making proteins from mRNA is ___.",
+    "options": [
+      "transcription",
+      "replication",
+      "mutation",
+      "translation"
+    ],
+    "answer": 3,
+    "explanation": "Translation makes proteins.",
+    "id": 116
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "medium",
+    "question": "The set of all genes in an organism is its ___.",
+    "options": [
+      "genome",
+      "phenotype",
+      "chromatid",
+      "nucleus"
+    ],
+    "answer": 0,
+    "explanation": "Genome is total genetic material.",
+    "id": 117
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "easy",
+    "question": "A dominant allele is represented by a ___.",
+    "options": [
+      "small letter",
+      "number",
+      "capital letter",
+      "symbol"
+    ],
+    "answer": 2,
+    "explanation": "Dominant allele uses capital.",
+    "id": 118
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "easy",
+    "question": "Chromosomes are found in the ___.",
+    "options": [
+      "cytoplasm",
+      "nucleus",
+      "cell wall",
+      "ribosome"
+    ],
+    "answer": 1,
+    "explanation": "Chromosomes are nuclear.",
+    "id": 119
+  },
+  {
+    "topic": "Genetics",
+    "difficulty": "medium",
+    "question": "Sex-linked traits are carried on the ___.",
+    "options": [
+      "Y chromosome only",
+      "autosome",
+      "mitochondrion",
+      "X chromosome"
+    ],
+    "answer": 3,
+    "explanation": "Most sex-linked traits are on X.",
+    "id": 120
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "medium",
+    "question": "Cross-pollination occurs between ___.",
+    "options": [
+      "different plants",
+      "same flower",
+      "same plant only",
+      "same ovary"
+    ],
+    "answer": 0,
+    "explanation": "Cross-pollination involves different plants.",
+    "id": 121
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "easy",
+    "question": "Asexual reproduction in yeast is by ___.",
+    "options": [
+      "fragmentation",
+      "spores",
+      "budding",
+      "fusion"
+    ],
+    "answer": 2,
+    "explanation": "Yeast reproduces by budding.",
+    "id": 122
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "easy",
+    "question": "Asexual reproduction in spirogyra is by ___.",
+    "options": [
+      "budding",
+      "fragmentation",
+      "spores",
+      "conjugation"
+    ],
+    "answer": 1,
+    "explanation": "Spirogyra fragments.",
+    "id": 123
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "medium",
+    "question": "Vegetative propagation using stem cuttings is common in ___.",
+    "options": [
+      "maize",
+      "rice",
+      "wheat",
+      "cassava"
+    ],
+    "answer": 3,
+    "explanation": "Cassava is propagated by cuttings.",
+    "id": 124
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "easy",
+    "question": "The period of pregnancy in humans is about ___.",
+    "options": [
+      "9 months",
+      "6 months",
+      "12 months",
+      "3 months"
+    ],
+    "answer": 0,
+    "explanation": "Human gestation is about 9 months.",
+    "id": 125
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "hard",
+    "question": "The female reproductive hormone that maintains pregnancy is ___.",
+    "options": [
+      "estrogen",
+      "testosterone",
+      "progesterone",
+      "insulin"
+    ],
+    "answer": 2,
+    "explanation": "Progesterone maintains pregnancy.",
+    "id": 126
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "easy",
+    "question": "The male reproductive hormone is ___.",
+    "options": [
+      "estrogen",
+      "testosterone",
+      "progesterone",
+      "insulin"
+    ],
+    "answer": 1,
+    "explanation": "Testosterone is male hormone.",
+    "id": 127
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "easy",
+    "question": "The ovum is released during ___.",
+    "options": [
+      "fertilization",
+      "menstruation",
+      "implantation",
+      "ovulation"
+    ],
+    "answer": 3,
+    "explanation": "Ovum release is ovulation.",
+    "id": 128
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "medium",
+    "question": "The embryo attaches to the uterus during ___.",
+    "options": [
+      "implantation",
+      "ovulation",
+      "pollination",
+      "germination"
+    ],
+    "answer": 0,
+    "explanation": "Implantation anchors embryo.",
+    "id": 129
+  },
+  {
+    "topic": "Reproduction",
+    "difficulty": "easy",
+    "question": "The placenta develops in the ___.",
+    "options": [
+      "ovary",
+      "oviduct",
+      "uterus",
+      "vagina"
+    ],
+    "answer": 2,
+    "explanation": "Placenta forms in uterus.",
+    "id": 130
+  },
+  {
+    "topic": "Human Physiology",
+    "difficulty": "medium",
+    "question": "The largest artery in the body is the ___.",
+    "options": [
+      "vena cava",
+      "aorta",
+      "capillary",
+      "pulmonary vein"
+    ],
+    "answer": 1,
+    "explanation": "Aorta carries blood from heart.",
+    "id": 131
+  },
+  {
+    "topic": "Human Physiology",
+    "difficulty": "easy",
+    "question": "The enzyme that digests protein in the stomach is ___.",
+    "options": [
+      "amylase",
+      "lipase",
+      "maltase",
+      "pepsin"
+    ],
+    "answer": 3,
+    "explanation": "Pepsin digests proteins.",
+    "id": 132
+  },
+  {
+    "topic": "Human Physiology",
+    "difficulty": "easy",
+    "question": "Bile is stored in the ___.",
+    "options": [
+      "gall bladder",
+      "pancreas",
+      "stomach",
+      "kidney"
+    ],
+    "answer": 0,
+    "explanation": "Gall bladder stores bile.",
+    "id": 133
+  },
+  {
+    "topic": "Human Physiology",
+    "difficulty": "easy",
+    "question": "The organ that filters blood and produces urine is the ___.",
+    "options": [
+      "liver",
+      "heart",
+      "kidney",
+      "lung"
+    ],
+    "answer": 2,
+    "explanation": "Kidney filters blood.",
+    "id": 134
+  },
+  {
+    "topic": "Human Physiology",
+    "difficulty": "easy",
+    "question": "The smallest blood vessels are ___.",
+    "options": [
+      "arteries",
+      "capillaries",
+      "veins",
+      "aorta"
+    ],
+    "answer": 1,
+    "explanation": "Capillaries are smallest.",
+    "id": 135
+  },
+  {
+    "topic": "Human Physiology",
+    "difficulty": "easy",
+    "question": "The bone that protects the brain is the ___.",
+    "options": [
+      "rib",
+      "femur",
+      "humerus",
+      "skull"
+    ],
+    "answer": 3,
+    "explanation": "Skull protects brain.",
+    "id": 136
+  },
+  {
+    "topic": "Human Physiology",
+    "difficulty": "easy",
+    "question": "The white blood cells are responsible for ___.",
+    "options": [
+      "defense",
+      "oxygen transport",
+      "blood clotting",
+      "energy storage"
+    ],
+    "answer": 0,
+    "explanation": "WBCs defend the body.",
+    "id": 137
+  },
+  {
+    "topic": "Human Physiology",
+    "difficulty": "hard",
+    "question": "The valve between the left atrium and left ventricle is the ___.",
+    "options": [
+      "tricuspid valve",
+      "aortic valve",
+      "bicuspid valve",
+      "pulmonary valve"
+    ],
+    "answer": 2,
+    "explanation": "Bicuspid is on left side.",
+    "id": 138
+  },
+  {
+    "topic": "Human Physiology",
+    "difficulty": "medium",
+    "question": "The part of the ear responsible for balance is the ___.",
+    "options": [
+      "cochlea",
+      "semicircular canals",
+      "eardrum",
+      "pinna"
+    ],
+    "answer": 1,
+    "explanation": "Semicircular canals control balance.",
+    "id": 139
+  },
+  {
+    "topic": "Human Physiology",
+    "difficulty": "medium",
+    "question": "The main function of the large intestine is ___.",
+    "options": [
+      "digestion of protein",
+      "bile production",
+      "gas exchange",
+      "water absorption"
+    ],
+    "answer": 3,
+    "explanation": "Large intestine absorbs water.",
+    "id": 140
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "easy",
+    "question": "A plant response to gravity is called ___.",
+    "options": [
+      "geotropism",
+      "phototropism",
+      "hydrotropism",
+      "thigmotropism"
+    ],
+    "answer": 0,
+    "explanation": "Gravity response is geotropism.",
+    "id": 141
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "medium",
+    "question": "A plant response to touch is called ___.",
+    "options": [
+      "phototropism",
+      "geotropism",
+      "thigmotropism",
+      "hydrotropism"
+    ],
+    "answer": 2,
+    "explanation": "Touch response is thigmotropism.",
+    "id": 142
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "easy",
+    "question": "Seeds require ___ for germination.",
+    "options": [
+      "light only",
+      "water and oxygen",
+      "carbon dioxide",
+      "mineral salts only"
+    ],
+    "answer": 1,
+    "explanation": "Water and oxygen are essential.",
+    "id": 143
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "easy",
+    "question": "The opening in a leaf for gas exchange is the ___.",
+    "options": [
+      "lenticel",
+      "xylem",
+      "phloem",
+      "stomata"
+    ],
+    "answer": 3,
+    "explanation": "Stomata allow gas exchange.",
+    "id": 144
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "medium",
+    "question": "A plant that grows in water is a ___.",
+    "options": [
+      "hydrophyte",
+      "xerophyte",
+      "mesophyte",
+      "epiphyte"
+    ],
+    "answer": 0,
+    "explanation": "Hydrophytes live in water.",
+    "id": 145
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "medium",
+    "question": "A plant that grows in dry areas is a ___.",
+    "options": [
+      "hydrophyte",
+      "mesophyte",
+      "xerophyte",
+      "epiphyte"
+    ],
+    "answer": 2,
+    "explanation": "Xerophytes survive dry areas.",
+    "id": 146
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "easy",
+    "question": "The process of making food in plants is ___.",
+    "options": [
+      "respiration",
+      "photosynthesis",
+      "transpiration",
+      "germination"
+    ],
+    "answer": 1,
+    "explanation": "Photosynthesis makes food.",
+    "id": 147
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "easy",
+    "question": "The pigment that absorbs light for photosynthesis is ___.",
+    "options": [
+      "hemoglobin",
+      "melanin",
+      "keratin",
+      "chlorophyll"
+    ],
+    "answer": 3,
+    "explanation": "Chlorophyll absorbs light.",
+    "id": 148
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "medium",
+    "question": "Closing of stomata reduces ___.",
+    "options": [
+      "water loss",
+      "food production",
+      "oxygen release",
+      "root growth"
+    ],
+    "answer": 0,
+    "explanation": "Stomata control transpiration.",
+    "id": 149
+  },
+  {
+    "topic": "Plant Physiology",
+    "difficulty": "hard",
+    "question": "The movement of water through xylem is driven by ___.",
+    "options": [
+      "root pressure only",
+      "diffusion of sugar",
+      "transpiration pull",
+      "gravity only"
+    ],
+    "answer": 2,
+    "explanation": "Transpiration pull lifts water.",
+    "id": 150
   }
 ]

@@ -1,210 +1,2102 @@
 [
   {
-    "id": 1,
     "topic": "Algebra",
-    "question": "Simplify: 3x + 2x - x",
-    "options": ["6x", "4x", "2x", "x"],
-    "answer": 1,
-    "explanation": "To simplify algebraic expressions with like terms, we combine coefficients of the same variable.\n\nStep 1: Identify like terms (all contain 'x')\nStep 2: Add/subtract coefficients: 3 + 2 - 1 = 4\nStep 3: Keep the variable: 4x\n\nTherefore, 3x + 2x - x = 4x"
-  },
-  {
-    "id": 2,
-    "topic": "Algebra",
-    "question": "Solve for x: 2x + 5 = 17",
-    "options": ["5", "6", "7", "8"],
-    "answer": 1,
-    "explanation": "To solve linear equations, we isolate the variable using inverse operations.\n\nGiven: 2x + 5 = 17\n\nStep 1: Subtract 5 from both sides\n2x + 5 - 5 = 17 - 5\n2x = 12\n\nStep 2: Divide both sides by 2\n2x ÷ 2 = 12 ÷ 2\nx = 6\n\nVerification: 2(6) + 5 = 12 + 5 = 17 ✓"
-  },
-  {
-    "id": 3,
-    "topic": "Geometry",
-    "question": "A triangle has angles 50° and 60°. What is the third angle?",
-    "options": ["60°", "70°", "80°", "90°"],
-    "answer": 1,
-    "explanation": "Angles in a triangle sum to 180°, so 180 - 110 = 70°."
-  },
-  {
-    "id": 4,
-    "topic": "Geometry",
-    "question": "The perimeter of a square is 36 cm. What is the side length?",
-    "options": ["6 cm", "8 cm", "9 cm", "12 cm"],
-    "answer": 2,
-    "explanation": "Perimeter = 4s, so s = 36/4 = 9 cm."
-  },
-  {
-    "id": 5,
-    "topic": "Statistics",
-    "question": "Find the mean of: 4, 6, 10, 10",
-    "options": ["7", "7.5", "8", "9"],
-    "answer": 1,
-    "explanation": "Sum = 30, divide by 4 to get 7.5."
-  },
-  {
-    "id": 6,
-    "topic": "Statistics",
-    "question": "The mode of 2, 4, 4, 5, 7 is",
-    "options": ["2", "4", "5", "7"],
-    "answer": 1,
-    "explanation": "Mode is the most frequent value, which is 4."
-  },
-  {
-    "id": 7,
-    "topic": "Arithmetic",
-    "question": "Evaluate: 5! (five factorial)",
-    "options": ["25", "60", "120", "720"],
-    "answer": 2,
-    "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120."
-  },
-  {
-    "id": 8,
-    "topic": "Arithmetic",
-    "question": "Convert 0.25 to a percentage.",
-    "options": ["2.5%", "25%", "250%", "0.25%"],
-    "answer": 1,
-    "explanation": "Multiply by 100 to get 25%."
-  },
-  {
-    "id": 9,
-    "topic": "Number Bases",
-    "question": "Convert binary 1010 to base 10.",
-    "options": ["8", "9", "10", "12"],
-    "answer": 2,
-    "explanation": "1010₂ = 1×8 + 0×4 + 1×2 + 0×1 = 10."
-  },
-  {
-    "id": 10,
-    "topic": "Word Problems",
-    "question": "If a car travels 120 km in 2 hours, what is its average speed?",
-    "options": ["40 km/h", "50 km/h", "60 km/h", "80 km/h"],
-    "answer": 2,
-    "explanation": "Speed = distance/time = 120/2 = 60 km/h."
-  },
-  {
-    "id": 11,
-    "topic": "Fractions",
-    "question": "Simplify the fraction 18/24.",
-    "options": ["3/4", "2/3", "4/5", "5/6"],
+    "difficulty": "easy",
+    "question": "Solve for x: 2x + 5 = 19.",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "9"
+    ],
     "answer": 0,
-    "explanation": "Divide numerator and denominator by 6 to get 3/4."
+    "explanation": "Rearrange to isolate x.",
+    "id": 1
   },
   {
-    "id": 12,
     "topic": "Algebra",
-    "question": "If y = 3x and x = 4, what is y?",
-    "options": ["7", "8", "10", "12"],
+    "difficulty": "easy",
+    "question": "Solve for x: 3x - 4 = 14.",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "Rearrange to isolate x.",
+    "id": 2
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "question": "Solve for x: 4x + 9 = 29.",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "answer": 2,
+    "explanation": "Rearrange to isolate x.",
+    "id": 3
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "question": "Solve for x: 5x - 10 = 10.",
+    "options": [
+      "5",
+      "3",
+      "6",
+      "4"
+    ],
     "answer": 3,
-    "explanation": "Substitute x = 4: y = 3 × 4 = 12."
+    "explanation": "Rearrange to isolate x.",
+    "id": 4
   },
   {
-    "id": 13,
-    "topic": "Trigonometry",
-    "question": "sin 30° equals",
-    "options": ["1/2", "sqrt(3)/2", "1", "0"],
-    "answer": 0,
-    "explanation": "The standard value of sin 30° is 1/2."
-  },
-  {
-    "id": 14,
-    "topic": "Trigonometry",
-    "question": "If tan θ = 1 and θ is acute, θ is",
-    "options": ["30°", "45°", "60°", "90°"],
-    "answer": 1,
-    "explanation": "tan 45° = 1."
-  },
-  {
-    "id": 15,
-    "topic": "Probability",
-    "question": "A fair die is rolled. Probability of an even number is",
-    "options": ["1/6", "1/3", "1/2", "2/3"],
-    "answer": 2,
-    "explanation": "Even numbers are 2, 4, 6: 3 outcomes out of 6, so 1/2."
-  },
-  {
-    "id": 16,
-    "topic": "Probability",
-    "question": "A bag has 3 red and 2 blue balls. Probability of red is",
-    "options": ["2/5", "3/5", "1/2", "1/5"],
-    "answer": 1,
-    "explanation": "Red outcomes = 3 of 5 total, so 3/5."
-  },
-  {
-    "id": 17,
-    "topic": "Mensuration",
-    "question": "Area of a circle with radius 7 cm (pi = 22/7) is",
-    "options": ["154 cm^2", "44 cm^2", "22 cm^2", "308 cm^2"],
-    "answer": 0,
-    "explanation": "Area = pi r^2 = (22/7) × 49 = 154 cm^2."
-  },
-  {
-    "id": 18,
-    "topic": "Mensuration",
-    "question": "Volume of a cuboid 5 cm × 4 cm × 3 cm is",
-    "options": ["20 cm^3", "60 cm^3", "12 cm^3", "40 cm^3"],
-    "answer": 1,
-    "explanation": "Volume = 5 × 4 × 3 = 60 cm^3."
-  },
-  {
-    "id": 19,
-    "topic": "Sequences",
-    "question": "Next term in 2, 4, 8, 16, __ is",
-    "options": ["18", "20", "24", "32"],
-    "answer": 3,
-    "explanation": "Each term doubles, so 16 × 2 = 32."
-  },
-  {
-    "id": 20,
-    "topic": "Ratio",
-    "question": "Divide 60 in the ratio 2:3. The larger share is",
-    "options": ["24", "36", "40", "30"],
-    "answer": 1,
-    "explanation": "Total parts = 5, larger share = (3/5) × 60 = 36."
-  },
-  {
-    "id": 21,
     "topic": "Algebra",
-    "question": "Solve for x: 3x - 9 = 0",
-    "options": ["1", "2", "3", "4"],
-    "answer": 2,
-    "explanation": "3x = 9, so x = 3."
+    "difficulty": "easy",
+    "question": "Solve for x: 6x + 7 = 25.",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "Rearrange to isolate x.",
+    "id": 5
   },
   {
-    "id": 22,
-    "topic": "Functions",
-    "question": "If f(x) = 2x + 1, then f(3) =",
-    "options": ["5", "6", "7", "8"],
-    "answer": 2,
-    "explanation": "f(3) = 2 × 3 + 1 = 7."
-  },
-  {
-    "id": 23,
-    "topic": "Coordinate Geometry",
-    "question": "Distance between points (0, 0) and (3, 4) is",
-    "options": ["4", "5", "6", "7"],
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "question": "Solve for x: 7x - 5 = 9.",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
     "answer": 1,
-    "explanation": "Distance = sqrt(3^2 + 4^2) = 5."
+    "explanation": "Rearrange to isolate x.",
+    "id": 6
   },
   {
-    "id": 24,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "question": "Solve for x: 8x + 6 = 38.",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "Rearrange to isolate x.",
+    "id": 7
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "question": "Solve for x: 9x - 3 = 42.",
+    "options": [
+      "6",
+      "4",
+      "7",
+      "5"
+    ],
+    "answer": 3,
+    "explanation": "Rearrange to isolate x.",
+    "id": 8
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve the simultaneous equations: 2x + 3y = 13 and 1x + 1y = 5.",
+    "options": [
+      "x = 2, y = 3",
+      "x = 3, y = 2",
+      "x = 3, y = 3",
+      "x = 2, y = 4"
+    ],
+    "answer": 0,
+    "explanation": "Use substitution or elimination.",
+    "id": 9
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve the simultaneous equations: 3x + 1y = 13 and 2x + 1y = 9.",
+    "options": [
+      "x = 1, y = 4",
+      "x = 4, y = 1",
+      "x = 5, y = 1",
+      "x = 4, y = 2"
+    ],
+    "answer": 1,
+    "explanation": "Use substitution or elimination.",
+    "id": 10
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve the simultaneous equations: 1x + 2y = 13 and 2x + 1y = 11.",
+    "options": [
+      "x = 5, y = 3",
+      "x = 4, y = 5",
+      "x = 3, y = 5",
+      "x = 3, y = 6"
+    ],
+    "answer": 2,
+    "explanation": "Use substitution or elimination.",
+    "id": 11
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve the simultaneous equations: 4x + 1y = 8 and 1x + 3y = 13.",
+    "options": [
+      "x = 4, y = 1",
+      "x = 2, y = 4",
+      "x = 1, y = 5",
+      "x = 1, y = 4"
+    ],
+    "answer": 3,
+    "explanation": "Use substitution or elimination.",
+    "id": 12
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve the simultaneous equations: 2x + 1y = 9 and 1x + -1y = 1.",
+    "options": [
+      "x = 4, y = 1",
+      "x = 1, y = 4",
+      "x = 5, y = 1",
+      "x = 4, y = 2"
+    ],
+    "answer": 0,
+    "explanation": "Use substitution or elimination.",
+    "id": 13
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve the simultaneous equations: 3x + -1y = 8 and 1x + 2y = 7.",
+    "options": [
+      "x = 2, y = 3",
+      "x = 3, y = 2",
+      "x = 4, y = 2",
+      "x = 3, y = 3"
+    ],
+    "answer": 1,
+    "explanation": "Use substitution or elimination.",
+    "id": 14
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve for x: x^2 - 5x + 6 = 0.",
+    "options": [
+      "x = 2 or 4",
+      "x = 3 or 3",
+      "x = 2 or 3",
+      "x = 1 or 2"
+    ],
+    "answer": 2,
+    "explanation": "Factorize or use the sum and product of roots.",
+    "id": 15
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve for x: x^2 - 7x + 6 = 0.",
+    "options": [
+      "x = 1 or 7",
+      "x = 2 or 6",
+      "x = 0 or 5",
+      "x = 1 or 6"
+    ],
+    "answer": 3,
+    "explanation": "Factorize or use the sum and product of roots.",
+    "id": 16
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve for x: x^2 - 7x + 10 = 0.",
+    "options": [
+      "x = 2 or 5",
+      "x = 2 or 6",
+      "x = 3 or 5",
+      "x = 1 or 4"
+    ],
+    "answer": 0,
+    "explanation": "Factorize or use the sum and product of roots.",
+    "id": 17
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve for x: x^2 - 7x + 12 = 0.",
+    "options": [
+      "x = 3 or 5",
+      "x = 3 or 4",
+      "x = 4 or 4",
+      "x = 2 or 3"
+    ],
+    "answer": 1,
+    "explanation": "Factorize or use the sum and product of roots.",
+    "id": 18
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve for x: x^2 - 9x + 20 = 0.",
+    "options": [
+      "x = 4 or 6",
+      "x = 5 or 5",
+      "x = 4 or 5",
+      "x = 3 or 4"
+    ],
+    "answer": 2,
+    "explanation": "Factorize or use the sum and product of roots.",
+    "id": 19
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve for x: x^2 - 6x + 5 = 0.",
+    "options": [
+      "x = 1 or 6",
+      "x = 2 or 5",
+      "x = 0 or 4",
+      "x = 1 or 5"
+    ],
+    "answer": 3,
+    "explanation": "Factorize or use the sum and product of roots.",
+    "id": 20
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve for x: x^2 - 6x + 8 = 0.",
+    "options": [
+      "x = 2 or 4",
+      "x = 2 or 5",
+      "x = 3 or 4",
+      "x = 1 or 3"
+    ],
+    "answer": 0,
+    "explanation": "Factorize or use the sum and product of roots.",
+    "id": 21
+  },
+  {
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "question": "Solve for x: x^2 - 9x + 18 = 0.",
+    "options": [
+      "x = 3 or 7",
+      "x = 3 or 6",
+      "x = 4 or 6",
+      "x = 2 or 5"
+    ],
+    "answer": 1,
+    "explanation": "Factorize or use the sum and product of roots.",
+    "id": 22
+  },
+  {
     "topic": "Indices",
-    "question": "Evaluate: 2^3 × 2^2",
-    "options": ["16", "24", "32", "64"],
+    "difficulty": "easy",
+    "question": "Evaluate: 2^3 x 2^4 / 2^2.",
+    "options": [
+      "16",
+      "64",
+      "32",
+      "34"
+    ],
     "answer": 2,
-    "explanation": "Same base adds powers: 2^(3+2) = 2^5 = 32."
+    "explanation": "Use laws of indices.",
+    "id": 23
   },
   {
-    "id": 25,
-    "topic": "Logarithms",
-    "question": "log10 1000 equals",
-    "options": ["2", "3", "4", "10"],
-    "answer": 1,
-    "explanation": "10^3 = 1000, so log10 1000 = 3."
+    "topic": "Indices",
+    "difficulty": "easy",
+    "question": "Evaluate: 3^2 x 3^3 / 3^1.",
+    "options": [
+      "27",
+      "243",
+      "84",
+      "81"
+    ],
+    "answer": 3,
+    "explanation": "Use laws of indices.",
+    "id": 24
   },
   {
-    "id": 26,
-    "topic": "Matrices",
-    "question": "A 2 x 3 matrix has",
-    "options": ["2 rows and 3 columns", "3 rows and 2 columns", "2 rows and 2 columns", "3 rows and 3 columns"],
+    "topic": "Indices",
+    "difficulty": "easy",
+    "question": "Evaluate: 5^2 x 5^1 / 5^0.",
+    "options": [
+      "125",
+      "25",
+      "625",
+      "130"
+    ],
     "answer": 0,
-    "explanation": "Matrix size is rows by columns."
+    "explanation": "Use laws of indices.",
+    "id": 25
+  },
+  {
+    "topic": "Indices",
+    "difficulty": "easy",
+    "question": "Evaluate: 2^5 x 2^1 / 2^3.",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "Use laws of indices.",
+    "id": 26
+  },
+  {
+    "topic": "Logarithms",
+    "difficulty": "easy",
+    "question": "Find log10(1000).",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "answer": 2,
+    "explanation": "Write the number as a power of 10.",
+    "id": 27
+  },
+  {
+    "topic": "Logarithms",
+    "difficulty": "easy",
+    "question": "Find log10(0.001).",
+    "options": [
+      "-4",
+      "-2",
+      "-1",
+      "-3"
+    ],
+    "answer": 3,
+    "explanation": "Write the number as a power of 10.",
+    "id": 28
+  },
+  {
+    "topic": "Logarithms",
+    "difficulty": "easy",
+    "question": "Find log10(1).",
+    "options": [
+      "0",
+      "-1",
+      "1",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "Write the number as a power of 10.",
+    "id": 29
+  },
+  {
+    "topic": "Logarithms",
+    "difficulty": "easy",
+    "question": "Find log10(100).",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "Write the number as a power of 10.",
+    "id": 30
+  },
+  {
+    "topic": "Surds",
+    "difficulty": "hard",
+    "question": "Simplify sqrt(50).",
+    "options": [
+      "10 sqrt(2)",
+      "2 sqrt(5)",
+      "5 sqrt(2)",
+      "25"
+    ],
+    "answer": 2,
+    "explanation": "sqrt(50)=sqrt(25x2)=5sqrt(2).",
+    "id": 31
+  },
+  {
+    "topic": "Surds",
+    "difficulty": "hard",
+    "question": "Simplify sqrt(12) + sqrt(27).",
+    "options": [
+      "3 sqrt(3)",
+      "sqrt(39)",
+      "9 sqrt(3)",
+      "5 sqrt(3)"
+    ],
+    "answer": 3,
+    "explanation": "sqrt(12)=2sqrt(3), sqrt(27)=3sqrt(3).",
+    "id": 32
+  },
+  {
+    "topic": "Surds",
+    "difficulty": "hard",
+    "question": "Rationalize 1/(sqrt(3) + sqrt(2)).",
+    "options": [
+      "sqrt(3) - sqrt(2)",
+      "sqrt(3) + sqrt(2)",
+      "1/(sqrt(3) - sqrt(2))",
+      "(sqrt(3) - sqrt(2))/5"
+    ],
+    "answer": 0,
+    "explanation": "Multiply by the conjugate.",
+    "id": 33
+  },
+  {
+    "topic": "Surds",
+    "difficulty": "hard",
+    "question": "Simplify sqrt(75).",
+    "options": [
+      "25 sqrt(3)",
+      "5 sqrt(3)",
+      "3 sqrt(5)",
+      "15"
+    ],
+    "answer": 1,
+    "explanation": "sqrt(75)=sqrt(25x3)=5sqrt(3).",
+    "id": 34
+  },
+  {
+    "topic": "Surds",
+    "difficulty": "hard",
+    "question": "Rationalize 1/(2 + sqrt(5)).",
+    "options": [
+      "sqrt(5) + 2",
+      "1/(sqrt(5) - 2)",
+      "sqrt(5) - 2",
+      "(sqrt(5) - 2)/3"
+    ],
+    "answer": 2,
+    "explanation": "Multiply by the conjugate; denominator becomes 1.",
+    "id": 35
+  },
+  {
+    "topic": "Surds",
+    "difficulty": "hard",
+    "question": "Simplify sqrt(18).",
+    "options": [
+      "6 sqrt(2)",
+      "2 sqrt(3)",
+      "9",
+      "3 sqrt(2)"
+    ],
+    "answer": 3,
+    "explanation": "sqrt(18)=sqrt(9x2)=3sqrt(2).",
+    "id": 36
+  },
+  {
+    "topic": "Sequences",
+    "difficulty": "medium",
+    "question": "Find the 7th term of the arithmetic progression 5, 8, 11, ...",
+    "options": [
+      "23",
+      "20",
+      "26",
+      "29"
+    ],
+    "answer": 0,
+    "explanation": "Use an = a + (n-1)d.",
+    "id": 37
+  },
+  {
+    "topic": "Sequences",
+    "difficulty": "medium",
+    "question": "Find the 10th term of the arithmetic progression 2, 6, 10, ...",
+    "options": [
+      "34",
+      "38",
+      "42",
+      "46"
+    ],
+    "answer": 1,
+    "explanation": "Use an = a + (n-1)d.",
+    "id": 38
+  },
+  {
+    "topic": "Sequences",
+    "difficulty": "medium",
+    "question": "Find the 6th term of the arithmetic progression 1, 6, 11, ...",
+    "options": [
+      "21",
+      "31",
+      "26",
+      "36"
+    ],
+    "answer": 2,
+    "explanation": "Use an = a + (n-1)d.",
+    "id": 39
+  },
+  {
+    "topic": "Sequences",
+    "difficulty": "medium",
+    "question": "Find the 8th term of the arithmetic progression 7, 9, 11, ...",
+    "options": [
+      "19",
+      "23",
+      "25",
+      "21"
+    ],
+    "answer": 3,
+    "explanation": "Use an = a + (n-1)d.",
+    "id": 40
+  },
+  {
+    "topic": "Sequences",
+    "difficulty": "medium",
+    "question": "Find the 6th term of the geometric progression 3, 6, 12, ...",
+    "options": [
+      "96",
+      "48",
+      "192",
+      "98"
+    ],
+    "answer": 0,
+    "explanation": "Use an = a r^(n-1).",
+    "id": 41
+  },
+  {
+    "topic": "Sequences",
+    "difficulty": "medium",
+    "question": "Find the 5th term of the geometric progression 2, 6, 18, ...",
+    "options": [
+      "54",
+      "162",
+      "486",
+      "165"
+    ],
+    "answer": 1,
+    "explanation": "Use an = a r^(n-1).",
+    "id": 42
+  },
+  {
+    "topic": "Sequences",
+    "difficulty": "medium",
+    "question": "Find the 5th term of the geometric progression 4, 8, 16, ...",
+    "options": [
+      "32",
+      "128",
+      "64",
+      "66"
+    ],
+    "answer": 2,
+    "explanation": "Use an = a r^(n-1).",
+    "id": 43
+  },
+  {
+    "topic": "Sequences",
+    "difficulty": "medium",
+    "question": "Find the 4th term of the geometric progression 5, 15, 45, ...",
+    "options": [
+      "45",
+      "405",
+      "138",
+      "135"
+    ],
+    "answer": 3,
+    "explanation": "Use an = a r^(n-1).",
+    "id": 44
+  },
+  {
+    "topic": "Variation",
+    "difficulty": "medium",
+    "question": "y varies directly as x. If y = 10 when x = 2, find y when x = 7.",
+    "options": [
+      "35",
+      "28",
+      "30",
+      "40"
+    ],
+    "answer": 0,
+    "explanation": "y = kx, k = 5.",
+    "id": 45
+  },
+  {
+    "topic": "Variation",
+    "difficulty": "medium",
+    "question": "y varies inversely as x. If y = 4 when x = 5, find y when x = 20.",
+    "options": [
+      "0.5",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "y = k/x, k = 20.",
+    "id": 46
+  },
+  {
+    "topic": "Variation",
+    "difficulty": "hard",
+    "question": "y varies as x^2. If y = 18 when x = 3, find y when x = 5.",
+    "options": [
+      "30",
+      "45",
+      "50",
+      "54"
+    ],
+    "answer": 2,
+    "explanation": "y = kx^2, k = 2.",
+    "id": 47
+  },
+  {
+    "topic": "Variation",
+    "difficulty": "medium",
+    "question": "y varies directly as x and y = 24 when x = 6. Find x when y = 36.",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "9"
+    ],
+    "answer": 3,
+    "explanation": "k = 4, so x = y/4.",
+    "id": 48
+  },
+  {
+    "topic": "Variation",
+    "difficulty": "medium",
+    "question": "y varies inversely as x. If y = 12 when x = 3, find y when x = 9.",
+    "options": [
+      "4",
+      "3",
+      "6",
+      "9"
+    ],
+    "answer": 0,
+    "explanation": "k = 36, so y = 36/9.",
+    "id": 49
+  },
+  {
+    "topic": "Variation",
+    "difficulty": "hard",
+    "question": "y varies as x^3. If y = 27 when x = 3, find y when x = 2.",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "k = 1, so y = 2^3.",
+    "id": 50
+  },
+  {
+    "topic": "Trigonometry",
+    "difficulty": "easy",
+    "question": "Find sin 30 deg.",
+    "options": [
+      "sqrt(3)/2",
+      "1",
+      "1/2",
+      "0"
+    ],
+    "answer": 2,
+    "explanation": "sin 30 deg = 1/2.",
+    "id": 51
+  },
+  {
+    "topic": "Trigonometry",
+    "difficulty": "easy",
+    "question": "Find cos 60 deg.",
+    "options": [
+      "sqrt(3)/2",
+      "1",
+      "0",
+      "1/2"
+    ],
+    "answer": 3,
+    "explanation": "cos 60 deg = 1/2.",
+    "id": 52
+  },
+  {
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "question": "Solve sin theta = 1/2 for 0 deg <= theta <= 180 deg.",
+    "options": [
+      "30 deg or 150 deg",
+      "30 deg only",
+      "60 deg or 120 deg",
+      "90 deg only"
+    ],
+    "answer": 0,
+    "explanation": "Sine is positive in QI and QII.",
+    "id": 53
+  },
+  {
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "question": "If tan theta = 3/4 and theta is acute, find sin theta.",
+    "options": [
+      "4/5",
+      "3/5",
+      "5/3",
+      "3/4"
+    ],
+    "answer": 1,
+    "explanation": "Use a 3-4-5 triangle.",
+    "id": 54
+  },
+  {
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "question": "Find tan 45 deg.",
+    "options": [
+      "0",
+      "sqrt(3)",
+      "1",
+      "1/2"
+    ],
+    "answer": 2,
+    "explanation": "tan 45 deg = 1.",
+    "id": 55
+  },
+  {
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "question": "Find cos 30 deg.",
+    "options": [
+      "1/2",
+      "1",
+      "0",
+      "sqrt(3)/2"
+    ],
+    "answer": 3,
+    "explanation": "cos 30 deg = sqrt(3)/2.",
+    "id": 56
+  },
+  {
+    "topic": "Trigonometry",
+    "difficulty": "hard",
+    "question": "A right triangle has opposite side 6 cm and hypotenuse 10 cm. Find sin theta.",
+    "options": [
+      "3/5",
+      "4/5",
+      "2/5",
+      "5/3"
+    ],
+    "answer": 0,
+    "explanation": "sin = opposite/hypotenuse = 6/10.",
+    "id": 57
+  },
+  {
+    "topic": "Trigonometry",
+    "difficulty": "hard",
+    "question": "Find theta if cos theta = 0.5 and 0 deg <= theta <= 180 deg.",
+    "options": [
+      "30 deg",
+      "60 deg",
+      "90 deg",
+      "120 deg"
+    ],
+    "answer": 1,
+    "explanation": "cos 60 deg = 1/2.",
+    "id": 58
+  },
+  {
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "question": "Find the value of sin^2 30 deg + cos^2 30 deg.",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "2"
+    ],
+    "answer": 2,
+    "explanation": "Use the identity sin^2 + cos^2 = 1.",
+    "id": 59
+  },
+  {
+    "topic": "Trigonometry",
+    "difficulty": "medium",
+    "question": "If tan theta = 1, theta equals ___.",
+    "options": [
+      "30 deg",
+      "60 deg",
+      "90 deg",
+      "45 deg"
+    ],
+    "answer": 3,
+    "explanation": "tan 45 deg = 1.",
+    "id": 60
+  },
+  {
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "question": "Angles in a triangle add up to ___.",
+    "options": [
+      "180 deg",
+      "90 deg",
+      "270 deg",
+      "360 deg"
+    ],
+    "answer": 0,
+    "explanation": "Sum of angles in a triangle is 180 deg.",
+    "id": 61
+  },
+  {
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "question": "Angles on a straight line add up to ___. ",
+    "options": [
+      "180 deg",
+      "90 deg",
+      "360 deg",
+      "120 deg"
+    ],
+    "answer": 0,
+    "explanation": "Angles on a straight line sum to 180 deg.",
+    "id": 62
+  },
+  {
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "question": "A right triangle has legs 6 cm and 8 cm. Find the hypotenuse.",
+    "options": [
+      "12 cm",
+      "14 cm",
+      "10 cm",
+      "16 cm"
+    ],
+    "answer": 2,
+    "explanation": "Use Pythagoras: sqrt(36+64)=10.",
+    "id": 63
+  },
+  {
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "question": "Two similar triangles have side ratio 3:5. The area ratio is ___.",
+    "options": [
+      "3:5",
+      "5:3",
+      "25:9",
+      "9:25"
+    ],
+    "answer": 3,
+    "explanation": "Area ratio is square of side ratio.",
+    "id": 64
+  },
+  {
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "question": "The sum of exterior angles of a polygon is ___.",
+    "options": [
+      "360 deg",
+      "180 deg",
+      "540 deg",
+      "720 deg"
+    ],
+    "answer": 0,
+    "explanation": "Sum of exterior angles is 360 deg.",
+    "id": 65
+  },
+  {
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "question": "A chord 5 cm from the center of a circle is 12 cm long. Find the radius.",
+    "options": [
+      "11 cm",
+      "13 cm",
+      "14 cm",
+      "15 cm"
+    ],
+    "answer": 1,
+    "explanation": "Radius is hypotenuse of 5-12-13 triangle.",
+    "id": 66
+  },
+  {
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "question": "Find the interior angle of a regular hexagon.",
+    "options": [
+      "90 deg",
+      "135 deg",
+      "120 deg",
+      "150 deg"
+    ],
+    "answer": 2,
+    "explanation": "Interior angle = (n-2)180/n.",
+    "id": 67
+  },
+  {
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "question": "If two angles are complementary and one is 35 deg, the other is ___.",
+    "options": [
+      "65 deg",
+      "45 deg",
+      "75 deg",
+      "55 deg"
+    ],
+    "answer": 3,
+    "explanation": "Complementary angles sum to 90 deg.",
+    "id": 68
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "medium",
+    "question": "Find the volume of a cylinder of radius 7 cm and height 10 cm (pi = 22/7).",
+    "options": [
+      "1540 cm^3",
+      "770 cm^3",
+      "2200 cm^3",
+      "3080 cm^3"
+    ],
+    "answer": 0,
+    "explanation": "V = pi r^2 h.",
+    "id": 69
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "medium",
+    "question": "Find the volume of a cone of radius 3 cm and height 12 cm (in terms of pi).",
+    "options": [
+      "18 pi cm^3",
+      "36 pi cm^3",
+      "48 pi cm^3",
+      "108 pi cm^3"
+    ],
+    "answer": 1,
+    "explanation": "V = (1/3) pi r^2 h.",
+    "id": 70
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "medium",
+    "question": "Find the surface area of a sphere of radius 7 cm (pi = 22/7).",
+    "options": [
+      "308 cm^2",
+      "924 cm^2",
+      "616 cm^2",
+      "1232 cm^2"
+    ],
+    "answer": 2,
+    "explanation": "Surface area = 4 pi r^2.",
+    "id": 71
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "medium",
+    "question": "A triangle has base 12 cm and height 9 cm. Find its area.",
+    "options": [
+      "108 cm^2",
+      "36 cm^2",
+      "60 cm^2",
+      "54 cm^2"
+    ],
+    "answer": 3,
+    "explanation": "Area = 1/2 x base x height.",
+    "id": 72
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "medium",
+    "question": "Find the total surface area of a cube of side 5 cm.",
+    "options": [
+      "150 cm^2",
+      "125 cm^2",
+      "100 cm^2",
+      "175 cm^2"
+    ],
+    "answer": 0,
+    "explanation": "Total surface area = 6a^2.",
+    "id": 73
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "easy",
+    "question": "Area of a rectangle of length 8 cm and width 5 cm is ___.",
+    "options": [
+      "13 cm^2",
+      "40 cm^2",
+      "26 cm^2",
+      "80 cm^2"
+    ],
+    "answer": 1,
+    "explanation": "Area = length x width.",
+    "id": 74
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "medium",
+    "question": "Volume of a cube of side 6 cm is ___.",
+    "options": [
+      "36 cm^3",
+      "72 cm^3",
+      "216 cm^3",
+      "180 cm^3"
+    ],
+    "answer": 2,
+    "explanation": "Volume = a^3.",
+    "id": 75
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "medium",
+    "question": "Circumference of a circle of radius 14 cm (pi = 22/7) is ___.",
+    "options": [
+      "44 cm",
+      "132 cm",
+      "154 cm",
+      "88 cm"
+    ],
+    "answer": 3,
+    "explanation": "C = 2 pi r.",
+    "id": 76
+  },
+  {
+    "topic": "Coordinate Geometry",
+    "difficulty": "easy",
+    "question": "Find the gradient of the line through (2,1) and (6,5).",
+    "options": [
+      "1",
+      "1/2",
+      "2",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "Gradient = (5-1)/(6-2).",
+    "id": 77
+  },
+  {
+    "topic": "Coordinate Geometry",
+    "difficulty": "easy",
+    "question": "Find the midpoint of (2,4) and (8,10).",
+    "options": [
+      "(4,6)",
+      "(5,7)",
+      "(6,8)",
+      "(10,14)"
+    ],
+    "answer": 1,
+    "explanation": "Midpoint = ((2+8)/2, (4+10)/2).",
+    "id": 78
+  },
+  {
+    "topic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "question": "Find the distance between (0,0) and (6,8).",
+    "options": [
+      "12",
+      "14",
+      "10",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "Distance = sqrt(6^2 + 8^2).",
+    "id": 79
+  },
+  {
+    "topic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "question": "Find the equation of the line through (1,2) with slope -2.",
+    "options": [
+      "y = 2x + 1",
+      "y = -2x - 4",
+      "y = 2x - 4",
+      "y = -2x + 4"
+    ],
+    "answer": 3,
+    "explanation": "Use y - y1 = m(x - x1).",
+    "id": 80
+  },
+  {
+    "topic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "question": "The line 3x + 2y = 12 cuts the y-axis at ___.",
+    "options": [
+      "(0,6)",
+      "(6,0)",
+      "(0,4)",
+      "(2,0)"
+    ],
+    "answer": 0,
+    "explanation": "Set x = 0.",
+    "id": 81
+  },
+  {
+    "topic": "Coordinate Geometry",
+    "difficulty": "hard",
+    "question": "Find the equation of the line parallel to y = 3x + 1 through (0, -2).",
+    "options": [
+      "y = -3x - 2",
+      "y = 3x - 2",
+      "y = 3x + 2",
+      "y = -3x + 2"
+    ],
+    "answer": 1,
+    "explanation": "Parallel lines have the same slope.",
+    "id": 82
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "question": "Find the mean of 3, 5, 7, 9, 11.",
+    "options": [
+      "6",
+      "8",
+      "7",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "Mean = sum/number.",
+    "id": 83
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "question": "Find the median of 2, 4, 6, 8, 10, 12.",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "7"
+    ],
+    "answer": 3,
+    "explanation": "Median is average of middle two values.",
+    "id": 84
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "question": "The mode of 2, 3, 3, 5, 6 is ___.",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "Mode is the most frequent value.",
+    "id": 85
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "question": "A fair die is rolled. What is the probability of getting a prime number?",
+    "options": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "1/6"
+    ],
+    "answer": 1,
+    "explanation": "Primes on a die are 2, 3, 5.",
+    "id": 86
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "easy",
+    "question": "A bag has 4 red and 6 blue balls. Probability of picking red is ___.",
+    "options": [
+      "1/2",
+      "3/5",
+      "2/5",
+      "4/5"
+    ],
+    "answer": 2,
+    "explanation": "Probability = 4/10.",
+    "id": 87
+  },
+  {
+    "topic": "Probability",
+    "difficulty": "medium",
+    "question": "Two coins are tossed. Probability of exactly one head is ___.",
+    "options": [
+      "1/4",
+      "3/4",
+      "1",
+      "1/2"
+    ],
+    "answer": 3,
+    "explanation": "HT or TH = 2 out of 4.",
+    "id": 88
+  },
+  {
+    "topic": "Matrices",
+    "difficulty": "medium",
+    "question": "Find the determinant of [[2,1],[3,4]].",
+    "options": [
+      "5",
+      "7",
+      "8",
+      "11"
+    ],
+    "answer": 0,
+    "explanation": "Determinant = 2x4 - 1x3.",
+    "id": 89
+  },
+  {
+    "topic": "Matrices",
+    "difficulty": "medium",
+    "question": "If A = [[1,2],[3,4]] and B = [[2,1],[0,1]], find A + B.",
+    "options": [
+      "[[3,2],[3,5]]",
+      "[[3,3],[3,5]]",
+      "[[2,3],[3,4]]",
+      "[[1,3],[3,5]]"
+    ],
+    "answer": 1,
+    "explanation": "Add corresponding elements.",
+    "id": 90
+  },
+  {
+    "topic": "Matrices",
+    "difficulty": "hard",
+    "question": "Find the inverse of [[1,2],[0,1]].",
+    "options": [
+      "[[1,2],[0,1]]",
+      "[[1,0],[-2,1]]",
+      "[[1,-2],[0,1]]",
+      "[[-1,2],[0,1]]"
+    ],
+    "answer": 2,
+    "explanation": "For upper triangular matrix, inverse has -2 above diagonal.",
+    "id": 91
+  },
+  {
+    "topic": "Matrices",
+    "difficulty": "medium",
+    "question": "If A = [[2,0],[1,3]], find 2A.",
+    "options": [
+      "[[2,0],[1,3]]",
+      "[[4,2],[0,6]]",
+      "[[1,0],[2,3]]",
+      "[[4,0],[2,6]]"
+    ],
+    "answer": 3,
+    "explanation": "Multiply each entry by 2.",
+    "id": 92
+  },
+  {
+    "topic": "Vectors",
+    "difficulty": "medium",
+    "question": "If a = 2i + 3j and b = -i + 4j, find a + b.",
+    "options": [
+      "i + 7j",
+      "3i + 7j",
+      "i + j",
+      "i + 4j"
+    ],
+    "answer": 0,
+    "explanation": "Add components.",
+    "id": 93
+  },
+  {
+    "topic": "Bearings",
+    "difficulty": "hard",
+    "question": "The bearing of B from A is 060 deg. Find the bearing of A from B.",
+    "options": [
+      "120 deg",
+      "240 deg",
+      "300 deg",
+      "060 deg"
+    ],
+    "answer": 1,
+    "explanation": "Reverse bearing differs by 180 deg.",
+    "id": 94
+  },
+  {
+    "topic": "Number Bases",
+    "difficulty": "medium",
+    "question": "Convert 110101_2 to base 10.",
+    "options": [
+      "45",
+      "57",
+      "53",
+      "61"
+    ],
+    "answer": 2,
+    "explanation": "Sum the place values.",
+    "id": 95
+  },
+  {
+    "topic": "Number Bases",
+    "difficulty": "medium",
+    "question": "Convert 25_10 to base 5.",
+    "options": [
+      "50_5",
+      "101_5",
+      "110_5",
+      "100_5"
+    ],
+    "answer": 3,
+    "explanation": "25 = 5^2.",
+    "id": 96
+  },
+  {
+    "topic": "Sets",
+    "difficulty": "medium",
+    "question": "If n(A)=28, n(B)=20, n(A and B)=8, find n(A or B).",
+    "options": [
+      "40",
+      "36",
+      "48",
+      "50"
+    ],
+    "answer": 0,
+    "explanation": "n(A or B)=n(A)+n(B)-n(A and B).",
+    "id": 97
+  },
+  {
+    "topic": "Sets",
+    "difficulty": "medium",
+    "question": "If U = {1,2,3,4,5}, A = {1,3,5}, then A' is ___.",
+    "options": [
+      "{1,3,5}",
+      "{2,4}",
+      "{1,2,3}",
+      "{4,5}"
+    ],
+    "answer": 1,
+    "explanation": "Complement contains elements not in A.",
+    "id": 98
+  },
+  {
+    "topic": "Inequalities",
+    "difficulty": "medium",
+    "question": "Solve the inequality 2x - 5 <= 9.",
+    "options": [
+      "x < 7",
+      "x >= 7",
+      "x <= 7",
+      "x > 7"
+    ],
+    "answer": 2,
+    "explanation": "2x <= 14.",
+    "id": 99
+  },
+  {
+    "topic": "Linear Programming",
+    "difficulty": "hard",
+    "question": "Maximize P = 3x + 2y subject to x + y <= 6, x <= 4, y <= 5, x,y >= 0. What is the maximum value of P?",
+    "options": [
+      "12",
+      "13",
+      "18",
+      "16"
+    ],
+    "answer": 3,
+    "explanation": "Check vertices: (4,2) gives 16.",
+    "id": 100
+  },
+  {
+    "topic": "Commercial Arithmetic",
+    "difficulty": "easy",
+    "question": "Find 12% of 250.",
+    "options": [
+      "30",
+      "25",
+      "32",
+      "28"
+    ],
+    "answer": 0,
+    "explanation": "12% of 250 = 0.12 x 250.",
+    "id": 101
+  },
+  {
+    "topic": "Commercial Arithmetic",
+    "difficulty": "easy",
+    "question": "Increase 200 by 15%.",
+    "options": [
+      "215",
+      "230",
+      "220",
+      "250"
+    ],
+    "answer": 1,
+    "explanation": "15% of 200 is 30.",
+    "id": 102
+  },
+  {
+    "topic": "Commercial Arithmetic",
+    "difficulty": "easy",
+    "question": "Decrease 500 by 20%.",
+    "options": [
+      "450",
+      "420",
+      "400",
+      "350"
+    ],
+    "answer": 2,
+    "explanation": "20% of 500 is 100.",
+    "id": 103
+  },
+  {
+    "topic": "Commercial Arithmetic",
+    "difficulty": "medium",
+    "question": "Simple interest on 1200 at 5% for 3 years is ___.",
+    "options": [
+      "150",
+      "200",
+      "240",
+      "180"
+    ],
+    "answer": 3,
+    "explanation": "SI = PRT/100.",
+    "id": 104
+  },
+  {
+    "topic": "Commercial Arithmetic",
+    "difficulty": "medium",
+    "question": "A profit of 20% on 800 gives a selling price of ___.",
+    "options": [
+      "960",
+      "900",
+      "1000",
+      "820"
+    ],
+    "answer": 0,
+    "explanation": "SP = cost + profit.",
+    "id": 105
+  },
+  {
+    "topic": "Commercial Arithmetic",
+    "difficulty": "easy",
+    "question": "A 10% discount on 1500 gives a selling price of ___.",
+    "options": [
+      "1400",
+      "1350",
+      "1450",
+      "1200"
+    ],
+    "answer": 1,
+    "explanation": "Discount = 10% of 1500.",
+    "id": 106
+  },
+  {
+    "topic": "Commercial Arithmetic",
+    "difficulty": "medium",
+    "question": "Divide 360 in the ratio 2:3. Find the larger share.",
+    "options": [
+      "144",
+      "180",
+      "216",
+      "240"
+    ],
+    "answer": 2,
+    "explanation": "Total parts = 5.",
+    "id": 107
+  },
+  {
+    "topic": "Commercial Arithmetic",
+    "difficulty": "medium",
+    "question": "If 3:5 = x:40, find x.",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "24"
+    ],
+    "answer": 3,
+    "explanation": "Use proportion.",
+    "id": 108
+  },
+  {
+    "topic": "Commercial Arithmetic",
+    "difficulty": "medium",
+    "question": "If 4 workers finish a job in 6 days, 6 workers finish in ___ days.",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "Work is constant.",
+    "id": 109
+  },
+  {
+    "topic": "Commercial Arithmetic",
+    "difficulty": "easy",
+    "question": "If $1 = NGN 800, the cost of $15 is ___.",
+    "options": [
+      "10000",
+      "12000",
+      "14000",
+      "15000"
+    ],
+    "answer": 1,
+    "explanation": "Multiply by exchange rate.",
+    "id": 110
+  },
+  {
+    "topic": "Linear Graphs",
+    "difficulty": "easy",
+    "question": "If y = 2x + 3, find y when x = 5.",
+    "options": [
+      "10",
+      "8",
+      "13",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "Substitute x into the equation.",
+    "id": 111
+  },
+  {
+    "topic": "Linear Graphs",
+    "difficulty": "medium",
+    "question": "If y = 3x - 4 and y = 11, find x.",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "5"
+    ],
+    "answer": 3,
+    "explanation": "Solve 11 = 3x - 4.",
+    "id": 112
+  },
+  {
+    "topic": "Linear Graphs",
+    "difficulty": "easy",
+    "question": "Find the x-intercept of 2x + y = 6.",
+    "options": [
+      "3",
+      "2",
+      "6",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "Set y = 0.",
+    "id": 113
+  },
+  {
+    "topic": "Linear Graphs",
+    "difficulty": "easy",
+    "question": "Find the y-intercept of 3x + 2y = 12.",
+    "options": [
+      "4",
+      "6",
+      "3",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "Set x = 0.",
+    "id": 114
+  },
+  {
+    "topic": "Linear Graphs",
+    "difficulty": "easy",
+    "question": "The gradient of the line y = -3x + 1 is ___.",
+    "options": [
+      "3",
+      "-1",
+      "-3",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "Slope is the coefficient of x.",
+    "id": 115
+  },
+  {
+    "topic": "Linear Graphs",
+    "difficulty": "medium",
+    "question": "Find the equation of a line parallel to y = 2x - 5 passing through (0,2).",
+    "options": [
+      "y = -2x + 2",
+      "y = 2x - 2",
+      "y = -2x - 2",
+      "y = 2x + 2"
+    ],
+    "answer": 3,
+    "explanation": "Parallel lines have same slope.",
+    "id": 116
+  },
+  {
+    "topic": "Linear Graphs",
+    "difficulty": "medium",
+    "question": "A line perpendicular to y = x + 1 and through the origin is ___.",
+    "options": [
+      "y = -x",
+      "y = x",
+      "y = -x + 1",
+      "x = 1"
+    ],
+    "answer": 0,
+    "explanation": "Perpendicular slope is -1.",
+    "id": 117
+  },
+  {
+    "topic": "Linear Graphs",
+    "difficulty": "easy",
+    "question": "For y = x^2, find x when y = 25 (x > 0).",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "-5"
+    ],
+    "answer": 1,
+    "explanation": "Square root of 25 is 5.",
+    "id": 118
+  },
+  {
+    "topic": "Linear Graphs",
+    "difficulty": "medium",
+    "question": "Find the gradient of the line through (1,2) and (4,8).",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Slope = (8-2)/(4-1).",
+    "id": 119
+  },
+  {
+    "topic": "Linear Graphs",
+    "difficulty": "easy",
+    "question": "The slope of a horizontal line is ___.",
+    "options": [
+      "1",
+      "undefined",
+      "-1",
+      "0"
+    ],
+    "answer": 3,
+    "explanation": "Horizontal lines have zero slope.",
+    "id": 120
+  },
+  {
+    "topic": "Circle Geometry",
+    "difficulty": "easy",
+    "question": "An angle in a semicircle is ___.",
+    "options": [
+      "90 deg",
+      "45 deg",
+      "60 deg",
+      "120 deg"
+    ],
+    "answer": 0,
+    "explanation": "Angle in a semicircle is right.",
+    "id": 121
+  },
+  {
+    "topic": "Circle Geometry",
+    "difficulty": "medium",
+    "question": "Opposite angles in a cyclic quadrilateral sum to ___.",
+    "options": [
+      "90 deg",
+      "180 deg",
+      "360 deg",
+      "120 deg"
+    ],
+    "answer": 1,
+    "explanation": "Cyclic quadrilateral property.",
+    "id": 122
+  },
+  {
+    "topic": "Circle Geometry",
+    "difficulty": "easy",
+    "question": "The angle between a tangent and radius at the point of contact is ___.",
+    "options": [
+      "60 deg",
+      "120 deg",
+      "90 deg",
+      "180 deg"
+    ],
+    "answer": 2,
+    "explanation": "Radius is perpendicular to tangent.",
+    "id": 123
+  },
+  {
+    "topic": "Circle Geometry",
+    "difficulty": "easy",
+    "question": "An angle at the center is ___ the angle at the circumference on the same arc.",
+    "options": [
+      "half",
+      "equal to",
+      "three times",
+      "twice"
+    ],
+    "answer": 3,
+    "explanation": "Center angle is double.",
+    "id": 124
+  },
+  {
+    "topic": "Circle Geometry",
+    "difficulty": "medium",
+    "question": "Equal chords of a circle are ___ from the center.",
+    "options": [
+      "equidistant",
+      "parallel",
+      "tangent",
+      "unequal"
+    ],
+    "answer": 0,
+    "explanation": "Equal chords have same distance.",
+    "id": 125
+  },
+  {
+    "topic": "Circle Geometry",
+    "difficulty": "medium",
+    "question": "If an arc subtends 40 deg at the center, the angle at the circumference is ___.",
+    "options": [
+      "40 deg",
+      "20 deg",
+      "10 deg",
+      "60 deg"
+    ],
+    "answer": 1,
+    "explanation": "Circumference angle is half.",
+    "id": 126
+  },
+  {
+    "topic": "Circle Geometry",
+    "difficulty": "medium",
+    "question": "Tangents from an external point to a circle are ___.",
+    "options": [
+      "perpendicular",
+      "parallel",
+      "equal",
+      "unequal"
+    ],
+    "answer": 2,
+    "explanation": "Equal lengths from external point.",
+    "id": 127
+  },
+  {
+    "topic": "Circle Geometry",
+    "difficulty": "medium",
+    "question": "Angles in the same segment of a circle are ___.",
+    "options": [
+      "supplementary",
+      "right",
+      "different",
+      "equal"
+    ],
+    "answer": 3,
+    "explanation": "Same segment property.",
+    "id": 128
+  },
+  {
+    "topic": "Circle Geometry",
+    "difficulty": "medium",
+    "question": "A line from the center perpendicular to a chord ___.",
+    "options": [
+      "bisects the chord",
+      "doubles the chord",
+      "is tangent",
+      "is parallel"
+    ],
+    "answer": 0,
+    "explanation": "Perpendicular from center bisects chord.",
+    "id": 129
+  },
+  {
+    "topic": "Circle Geometry",
+    "difficulty": "hard",
+    "question": "The angle between a tangent and a chord equals the angle in the ___.",
+    "options": [
+      "same chord",
+      "opposite arc",
+      "center",
+      "radius"
+    ],
+    "answer": 1,
+    "explanation": "Alternate segment theorem.",
+    "id": 130
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "medium",
+    "question": "Find the area of a trapezium with parallel sides 8 cm and 12 cm and height 5 cm.",
+    "options": [
+      "40 cm^2",
+      "60 cm^2",
+      "50 cm^2",
+      "70 cm^2"
+    ],
+    "answer": 2,
+    "explanation": "Area = 1/2(a+b)h.",
+    "id": 131
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "easy",
+    "question": "Find the volume of a rectangular prism 4 cm x 3 cm x 5 cm.",
+    "options": [
+      "45 cm^3",
+      "50 cm^3",
+      "65 cm^3",
+      "60 cm^3"
+    ],
+    "answer": 3,
+    "explanation": "Volume = lwh.",
+    "id": 132
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "medium",
+    "question": "Find the curved surface area of a cylinder of radius 7 cm and height 10 cm (pi=22/7).",
+    "options": [
+      "440 cm^2",
+      "220 cm^2",
+      "484 cm^2",
+      "660 cm^2"
+    ],
+    "answer": 0,
+    "explanation": "CSA = 2pi r h.",
+    "id": 133
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "medium",
+    "question": "Find the surface area of a sphere of radius 3 cm (in terms of pi).",
+    "options": [
+      "18 pi cm^2",
+      "36 pi cm^2",
+      "12 pi cm^2",
+      "54 pi cm^2"
+    ],
+    "answer": 1,
+    "explanation": "Surface area = 4 pi r^2.",
+    "id": 134
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "hard",
+    "question": "Find the volume of a sphere of radius 3 cm (in terms of pi).",
+    "options": [
+      "27 pi cm^3",
+      "24 pi cm^3",
+      "36 pi cm^3",
+      "18 pi cm^3"
+    ],
+    "answer": 2,
+    "explanation": "Volume = 4/3 pi r^3.",
+    "id": 135
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "easy",
+    "question": "Find the area of a circle of radius 7 cm (pi=22/7).",
+    "options": [
+      "44 cm^2",
+      "308 cm^2",
+      "132 cm^2",
+      "154 cm^2"
+    ],
+    "answer": 3,
+    "explanation": "Area = pi r^2.",
+    "id": 136
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "easy",
+    "question": "Find the perimeter of a rectangle of length 9 cm and width 4 cm.",
+    "options": [
+      "26 cm",
+      "18 cm",
+      "36 cm",
+      "22 cm"
+    ],
+    "answer": 0,
+    "explanation": "Perimeter = 2(l+w).",
+    "id": 137
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "easy",
+    "question": "Find the area of a parallelogram with base 12 cm and height 7 cm.",
+    "options": [
+      "42 cm^2",
+      "84 cm^2",
+      "60 cm^2",
+      "96 cm^2"
+    ],
+    "answer": 1,
+    "explanation": "Area = base x height.",
+    "id": 138
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "medium",
+    "question": "A triangle has sides 6 cm, 8 cm, 10 cm. Its area is ___.",
+    "options": [
+      "30 cm^2",
+      "20 cm^2",
+      "24 cm^2",
+      "40 cm^2"
+    ],
+    "answer": 2,
+    "explanation": "Right triangle: area = 1/2 x 6 x 8.",
+    "id": 139
+  },
+  {
+    "topic": "Mensuration",
+    "difficulty": "hard",
+    "question": "Find the area of a sector of a circle with radius 7 cm and angle 60 deg (pi=22/7).",
+    "options": [
+      "21 cm^2",
+      "30.8 cm^2",
+      "36.7 cm^2",
+      "25.67 cm^2"
+    ],
+    "answer": 3,
+    "explanation": "Area = (theta/360)pi r^2.",
+    "id": 140
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "question": "Two dice are thrown. Probability of getting a sum of 7 is ___.",
+    "options": [
+      "1/6",
+      "1/12",
+      "1/3",
+      "1/9"
+    ],
+    "answer": 0,
+    "explanation": "6 favorable out of 36.",
+    "id": 141
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "question": "Three coins are tossed. Probability of no head is ___.",
+    "options": [
+      "1/4",
+      "1/8",
+      "3/8",
+      "1/2"
+    ],
+    "answer": 1,
+    "explanation": "Only TTT.",
+    "id": 142
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "question": "Find the range of 3, 7, 2, 9, 5.",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "Range = max - min.",
+    "id": 143
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "question": "Find the median of 5, 2, 9, 7, 3.",
+    "options": [
+      "7",
+      "3",
+      "6",
+      "5"
+    ],
+    "answer": 3,
+    "explanation": "Order values and pick middle.",
+    "id": 144
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "question": "A bag has 5 blue and 3 red balls. Probability of blue is ___.",
+    "options": [
+      "5/8",
+      "3/8",
+      "1/2",
+      "2/5"
+    ],
+    "answer": 0,
+    "explanation": "Probability = 5/8.",
+    "id": 145
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "question": "Probability of at least one head in two coin tosses is ___.",
+    "options": [
+      "1/4",
+      "3/4",
+      "1/2",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "1 - P(TT).",
+    "id": 146
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "question": "Find the mean of 2, 4, 6, 8.",
+    "options": [
+      "4",
+      "6",
+      "5",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "Mean = sum/4.",
+    "id": 147
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "question": "If x has frequency 2 and y has frequency 3, the total frequency is ___.",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "5"
+    ],
+    "answer": 3,
+    "explanation": "Add frequencies.",
+    "id": 148
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "question": "A box has 3 red and 2 blue balls. Probability of two reds without replacement is ___.",
+    "options": [
+      "3/10",
+      "1/5",
+      "2/5",
+      "1/2"
+    ],
+    "answer": 0,
+    "explanation": "3/5 x 2/4.",
+    "id": 149
+  },
+  {
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "question": "The probability of not getting a 6 on a die is ___.",
+    "options": [
+      "1/6",
+      "5/6",
+      "1/3",
+      "2/3"
+    ],
+    "answer": 1,
+    "explanation": "Non-6 outcomes = 5.",
+    "id": 150
   }
 ]

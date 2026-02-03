@@ -1,418 +1,2102 @@
 [
   {
-    "id": 1,
     "topic": "Atomic Structure",
-    "question": "What is the atomic number of carbon?",
-    "options": ["4", "6", "8", "12"],
-    "answer": 1,
-    "explanation": "Carbon has 6 protons in its nucleus, which defines its atomic number as 6."
-  },
-  {
-    "id": 2,
-    "topic": "Chemical Bonding",
-    "question": "What type of bond is formed between sodium and chlorine in NaCl?",
-    "options": ["Covalent", "Ionic", "Metallic", "Hydrogen"],
-    "answer": 1,
-    "explanation": "Sodium (metal) loses an electron to chlorine (non-metal), forming Na⁺ and Cl⁻ ions held together by ionic bonds."
-  },
-  {
-    "id": 3,
-    "topic": "Acids and Bases",
-    "question": "What is the pH of pure water at 25°C?",
-    "options": ["6", "7", "8", "9"],
-    "answer": 1,
-    "explanation": "Pure water has a pH of 7 at 25°C, which is considered neutral (neither acidic nor basic)."
-  },
-  {
-    "id": 4,
-    "topic": "Periodic Table",
-    "question": "Which element has the symbol 'Fe'?",
-    "options": ["Fluorine", "Iron", "Francium", "Fermium"],
-    "answer": 1,
-    "explanation": "Fe is the chemical symbol for iron, derived from its Latin name 'ferrum'."
-  },
-  {
-    "id": 5,
-    "topic": "Chemical Reactions",
-    "question": "In the equation 2H₂ + O₂ → 2H₂O, what type of reaction is this?",
-    "options": ["Decomposition", "Single displacement", "Synthesis", "Double displacement"],
-    "answer": 2,
-    "explanation": "This is a synthesis (combination) reaction where two simpler substances (H₂ and O₂) combine to form a more complex compound (H₂O)."
-  },
-  {
-    "id": 6,
-    "topic": "Atomic Structure",
-    "question": "The number of protons in an atom is called the",
-    "options": ["mass number", "atomic number", "isotope number", "neutron number"],
-    "answer": 1,
-    "explanation": "Atomic number equals the number of protons in the nucleus and defines the element."
-  },
-  {
-    "id": 7,
-    "topic": "Atomic Structure",
-    "question": "An isotope of an element has the same",
-    "options": ["neutrons", "protons", "mass number", "electrons only"],
-    "answer": 1,
-    "explanation": "Isotopes have the same number of protons but different numbers of neutrons."
-  },
-  {
-    "id": 8,
-    "topic": "Periodic Table",
-    "question": "Elements in the same group have similar",
-    "options": ["mass", "valence electrons", "neutrons", "atomic radii"],
-    "answer": 1,
-    "explanation": "Groups (vertical columns) share similar valence electron configurations, giving similar chemical properties."
-  },
-  {
-    "id": 9,
-    "topic": "Periodic Table",
-    "question": "A metal tends to",
-    "options": ["gain electrons", "share electrons", "lose electrons", "avoid reaction"],
-    "answer": 2,
-    "explanation": "Metals typically lose electrons to form positive ions (cations) and achieve stable electron configurations."
-  },
-  {
-    "id": 10,
-    "topic": "Chemical Reactions",
-    "question": "In a balanced equation, the total number of atoms is",
-    "options": ["greater on products", "equal on both sides", "greater on reactants", "always doubled"],
-    "answer": 1,
-    "explanation": "Law of conservation of mass: atoms are conserved in chemical reactions, so totals must be equal."
-  },
-  {
-    "id": 11,
-    "topic": "Chemical Reactions",
-    "question": "A reaction that releases heat is",
-    "options": ["endothermic", "exothermic", "neutral", "catalytic"],
-    "answer": 1,
-    "explanation": "Exothermic reactions release heat energy to the surroundings, making them feel warm."
-  },
-  {
-    "id": 12,
-    "topic": "Acids & Bases",
-    "question": "A solution with pH 3 is",
-    "options": ["neutral", "acidic", "basic", "salty"],
-    "answer": 1,
-    "explanation": "pH less than 7 indicates an acidic solution. pH 3 is quite acidic."
-  },
-  {
-    "id": 13,
-    "topic": "Acids & Bases",
-    "question": "Which substance is a base?",
-    "options": ["HCl", "NaOH", "HNO3", "CO2"],
-    "answer": 1,
-    "explanation": "Sodium hydroxide (NaOH) is a strong base that releases OH⁻ ions in solution."
-  },
-  {
-    "id": 14,
-    "topic": "Mixtures",
-    "question": "Which method separates sand from water?",
-    "options": ["distillation", "filtration", "evaporation", "chromatography"],
-    "answer": 1,
-    "explanation": "Filtration separates insoluble solids (sand) from liquids (water) using a filter."
-  },
-  {
-    "id": 15,
-    "topic": "Mixtures",
-    "question": "A solution is",
-    "options": ["a pure substance", "a homogeneous mixture", "a compound", "a suspension"],
-    "answer": 1,
-    "explanation": "Solutions are homogeneous mixtures where one substance dissolves completely in another."
-  },
-  {
-    "id": 16,
-    "topic": "Stoichiometry",
-    "question": "The molar mass of water (H2O) is",
-    "options": ["16 g/mol", "18 g/mol", "20 g/mol", "22 g/mol"],
-    "answer": 1,
-    "explanation": "H2O = 2(1) + 16 = 18 g/mol. Two hydrogens plus one oxygen."
-  },
-  {
-    "id": 17,
-    "topic": "Stoichiometry",
-    "question": "Avogadro's number is approximately",
-    "options": ["6.02 × 10^23", "3.01 × 10^23", "1.00 × 10^6", "9.81"],
-    "answer": 0,
-    "explanation": "Avogadro's number is about 6.02 × 10²³ particles per mole."
-  },
-  {
-    "id": 18,
-    "topic": "States of Matter",
-    "question": "Gas particles are generally",
-    "options": ["tightly packed", "fixed in place", "far apart and moving freely", "locked in a lattice"],
-    "answer": 2,
-    "explanation": "Gas particles have high kinetic energy, are far apart, and move freely in random directions."
-  },
-  {
-    "id": 19,
-    "topic": "States of Matter",
-    "question": "The change from solid directly to gas is called",
-    "options": ["melting", "condensation", "sublimation", "freezing"],
-    "answer": 2,
-    "explanation": "Sublimation is the phase transition from solid to gas without becoming liquid (like dry ice)."
-  },
-  {
-    "id": 20,
-    "topic": "Organic Chemistry",
-    "question": "Hydrocarbons contain only",
-    "options": ["hydrogen and oxygen", "hydrogen and carbon", "carbon and nitrogen", "oxygen and nitrogen"],
-    "answer": 1,
-    "explanation": "Hydrocarbons are composed exclusively of hydrogen and carbon atoms."
-  },
-  {
-    "id": 21,
-    "topic": "Organic Chemistry",
-    "question": "CH4 is called",
-    "options": ["ethane", "methane", "propane", "butane"],
-    "answer": 1,
-    "explanation": "CH₄ is methane, the simplest hydrocarbon with one carbon atom."
-  },
-  {
-    "id": 22,
-    "topic": "Metals",
-    "question": "Rusting is the",
-    "options": ["reduction of iron", "oxidation of iron", "melting of iron", "purification of iron"],
-    "answer": 1,
-    "explanation": "Rusting is the oxidation of iron in the presence of oxygen and water, forming iron oxide."
-  },
-  {
-    "id": 23,
-    "topic": "Rates of Reaction",
-    "question": "Increasing temperature usually",
-    "options": ["slows reaction rate", "stops reactions", "increases reaction rate", "has no effect"],
-    "answer": 2,
-    "explanation": "Higher temperature increases particle energy and collision frequency, speeding up reactions."
-  },
-  {
-    "id": 24,
-    "topic": "Gas Laws",
-    "question": "Boyle's law states that pressure is",
-    "options": ["directly proportional to volume", "inversely proportional to volume", "equal to volume", "independent of volume"],
-    "answer": 1,
-    "explanation": "At constant temperature, P ∝ 1/V. As volume increases, pressure decreases."
-  },
-  {
-    "id": 25,
-    "topic": "Electrolysis",
-    "question": "Reduction occurs at the",
-    "options": ["anode", "cathode", "electrolyte", "salt bridge"],
-    "answer": 1,
-    "explanation": "Reduction (gain of electrons) occurs at the cathode (negative electrode)."
-  },
-  {
-    "id": 26,
-    "topic": "Solutions",
-    "question": "A solution with 1 mole of solute in 1 liter is",
-    "options": ["0.1 M", "0.5 M", "1.0 M", "2.0 M"],
-    "answer": 2,
-    "explanation": "Molarity = moles of solute per liter of solution, so 1 mol/1 L = 1.0 M."
-  },
-  {
-    "id": 27,
-    "topic": "Chemical Bonding",
-    "question": "An ionic bond forms between a",
-    "options": ["metal and non-metal", "non-metal and non-metal", "metal and metal", "noble gas and metal"],
-    "answer": 0,
-    "explanation": "Ionic bonds typically form between metals (lose electrons) and non-metals (gain electrons)."
-  },
-  {
-    "id": 28,
-    "topic": "Redox Reactions",
-    "question": "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, which element is oxidized?",
-    "options": ["Copper", "Zinc", "Both", "Neither"],
-    "answer": 1,
-    "explanation": "Zinc loses electrons (Zn → Zn²⁺ + 2e⁻), so it is oxidized."
-  },
-  {
-    "id": 29,
-    "topic": "Thermochemistry",
-    "question": "The heat of formation of elements in their standard state is",
-    "options": ["positive", "negative", "zero", "variable"],
-    "answer": 2,
-    "explanation": "By definition, the standard heat of formation of elements in their standard state is zero."
-  },
-  {
-    "id": 30,
-    "topic": "Equilibrium",
-    "question": "At equilibrium, the rate of forward reaction is",
-    "options": ["greater than reverse", "less than reverse", "equal to reverse", "zero"],
-    "answer": 2,
-    "explanation": "At equilibrium, forward and reverse reaction rates are equal, so concentrations remain constant."
-  },
-  {
-    "id": 31,
-    "topic": "Chemical Kinetics",
-    "question": "A catalyst affects reaction rate by",
-    "options": ["changing products", "lowering activation energy", "increasing temperature", "changing equilibrium"],
-    "answer": 1,
-    "explanation": "Catalysts provide alternative pathways with lower activation energy, speeding up reactions."
-  },
-  {
-    "id": 32,
-    "topic": "Electrochemistry",
-    "question": "In a galvanic cell, electrons flow from",
-    "options": ["anode to cathode", "cathode to anode", "positive to negative", "inside the cell"],
-    "answer": 0,
-    "explanation": "Electrons flow from anode (oxidation site) to cathode (reduction site) through external circuit."
-  },
-  {
-    "id": 33,
-    "topic": "Nuclear Chemistry",
-    "question": "Alpha decay decreases atomic number by",
-    "options": ["1", "2", "3", "4"],
-    "answer": 1,
-    "explanation": "Alpha particle contains 2 protons, so atomic number decreases by 2."
-  },
-  {
-    "id": 34,
-    "topic": "Intermolecular Forces",
-    "question": "The strongest intermolecular force is",
-    "options": ["van der Waals", "dipole-dipole", "hydrogen bonding", "London forces"],
-    "answer": 2,
-    "explanation": "Hydrogen bonding is the strongest intermolecular force, stronger than other dipole interactions."
-  },
-  {
-    "id": 35,
-    "topic": "Gases",
-    "question": "At STP, one mole of any gas occupies",
-    "options": ["22.4 L", "24.2 L", "25.4 L", "26.4 L"],
-    "answer": 0,
-    "explanation": "At Standard Temperature and Pressure (STP), one mole of gas occupies 22.4 liters."
-  },
-  {
-    "id": 36,
-    "topic": "Solubility",
-    "question": "Which factor does NOT affect solubility of solids in liquids?",
-    "options": ["Temperature", "Pressure", "Nature of solvent", "Stirring"],
-    "answer": 1,
-    "explanation": "Pressure has negligible effect on solid-liquid solubility, unlike gas-liquid systems."
-  },
-  {
-    "id": 37,
-    "topic": "Functional Groups",
-    "question": "The functional group -OH is called",
-    "options": ["carbonyl", "carboxyl", "hydroxyl", "amino"],
-    "answer": 2,
-    "explanation": "The hydroxyl group (-OH) is found in alcohols and gives them their characteristic properties."
-  },
-  {
-    "id": 38,
-    "topic": "Isomerism",
-    "question": "Compounds with same molecular formula but different structures are",
-    "options": ["isotopes", "isomers", "polymers", "allotropes"],
-    "answer": 1,
-    "explanation": "Isomers have identical molecular formulas but different structural arrangements."
-  },
-  {
-    "id": 39,
-    "topic": "Polymers",
-    "question": "Polyethylene is formed by polymerization of",
-    "options": ["ethane", "ethene", "ethyne", "ethanol"],
-    "answer": 1,
-    "explanation": "Ethene (C₂H₄) polymerizes to form polyethylene through addition polymerization."
-  },
-  {
-    "id": 40,
-    "topic": "Crystal Structures",
-    "question": "The coordination number in a simple cubic structure is",
-    "options": ["4", "6", "8", "12"],
-    "answer": 1,
-    "explanation": "In simple cubic packing, each atom touches 6 neighbors (coordination number = 6)."
-  },
-  {
-    "id": 41,
-    "topic": "Colligative Properties",
-    "question": "Which property depends only on number of particles, not their identity?",
-    "options": ["Color", "Boiling point elevation", "Density", "Viscosity"],
-    "answer": 1,
-    "explanation": "Boiling point elevation is a colligative property that depends only on particle concentration."
-  },
-  {
-    "id": 42,
-    "topic": "Environmental Chemistry",
-    "question": "The main cause of acid rain is",
-    "options": ["CO₂", "SO₂ and NOₓ", "O₃", "CH₄"],
-    "answer": 1,
-    "explanation": "Sulfur dioxide and nitrogen oxides react with water to form acids, causing acid rain."
-  },
-  {
-    "id": 43,
-    "topic": "Industrial Chemistry",
-    "question": "The Haber process produces",
-    "options": ["sulfuric acid", "ammonia", "nitric acid", "sodium hydroxide"],
-    "answer": 1,
-    "explanation": "The Haber process synthesizes ammonia (NH₃) from nitrogen and hydrogen gases."
-  },
-  {
-    "id": 44,
-    "topic": "Biochemistry",
-    "question": "The basic unit of proteins is",
-    "options": ["nucleotide", "amino acid", "fatty acid", "glucose"],
-    "answer": 1,
-    "explanation": "Proteins are polymers of amino acids linked by peptide bonds."
-  },
-  {
-    "id": 45,
-    "topic": "Analytical Chemistry",
-    "question": "Which technique separates components based on boiling points?",
-    "options": ["Filtration", "Distillation", "Crystallization", "Extraction"],
-    "answer": 1,
-    "explanation": "Distillation separates liquids based on differences in their boiling points."
-  },
-  {
-    "id": 46,
-    "topic": "Coordination Chemistry",
-    "question": "In [Cu(H₂O)₆]²⁺, the coordination number of Cu²⁺ is",
-    "options": ["2", "4", "6", "8"],
-    "answer": 2,
-    "explanation": "Six water molecules are coordinated to the central Cu²⁺ ion, so coordination number = 6."
-  },
-  {
-    "id": 47,
-    "topic": "Quantum Chemistry",
-    "question": "The maximum number of electrons in the 3d subshell is",
-    "options": ["6", "8", "10", "14"],
-    "answer": 2,
-    "explanation": "The d subshell has 5 orbitals, each holding 2 electrons maximum: 5 × 2 = 10."
-  },
-  {
-    "id": 48,
-    "topic": "Metallurgy",
-    "question": "The process of extracting metal from its ore is called",
-    "options": ["smelting", "refining", "both A and B", "neither A nor B"],
-    "answer": 2,
-    "explanation": "Metallurgy involves both smelting (extracting) and refining (purifying) metals from ores."
-  },
-  {
-    "id": 49,
-    "topic": "Surface Chemistry",
-    "question": "Adsorption is the",
-    "options": ["bulk phenomenon", "surface phenomenon", "chemical reaction", "physical change"],
-    "answer": 1,
-    "explanation": "Adsorption occurs at the surface where molecules adhere to the surface of a solid."
-  },
-  {
-    "id": 50,
-    "topic": "Photochemistry",
-    "question": "Photosynthesis converts",
-    "options": ["CO₂ to O₂", "light energy to chemical energy", "water to hydrogen", "glucose to starch"],
-    "answer": 1,
-    "explanation": "Photosynthesis converts light energy into chemical energy stored in glucose molecules."
-  },
-  {
-    "id": 51,
-    "topic": "Molecular Geometry",
-    "question": "The shape of ammonia (NH₃) molecule is",
-    "options": ["linear", "trigonal planar", "tetrahedral", "trigonal pyramidal"],
+    "difficulty": "easy",
+    "question": "The atomic number of an element equals the number of ___.",
+    "options": [
+      "neutrons",
+      "electrons + neutrons",
+      "nucleons",
+      "protons"
+    ],
     "answer": 3,
-    "explanation": "NH₃ has a trigonal pyramidal shape due to the lone pair on nitrogen affecting molecular geometry."
+    "explanation": "Atomic number is protons.",
+    "id": 1
   },
   {
-    "id": 52,
-    "topic": "Phase Diagrams",
-    "question": "The triple point represents",
-    "options": ["melting point", "boiling point", "coexistence of all three phases", "critical point"],
+    "topic": "Atomic Structure",
+    "difficulty": "easy",
+    "question": "Atoms with the same atomic number but different mass numbers are called ___.",
+    "options": [
+      "isotopes",
+      "isobars",
+      "ions",
+      "allotropes"
+    ],
+    "answer": 0,
+    "explanation": "Isotopes have same Z, different A.",
+    "id": 2
+  },
+  {
+    "topic": "Atomic Structure",
+    "difficulty": "easy",
+    "question": "What is the electronic configuration of sodium (atomic number 11)?",
+    "options": [
+      "2,7,2",
+      "2,8,1",
+      "2,8,2",
+      "2,6,3"
+    ],
+    "answer": 1,
+    "explanation": "Sodium has 11 electrons.",
+    "id": 3
+  },
+  {
+    "topic": "Atomic Structure",
+    "difficulty": "easy",
+    "question": "Elements in Group 17 are called ___.",
+    "options": [
+      "alkali metals",
+      "alkaline earth metals",
+      "halogens",
+      "noble gases"
+    ],
     "answer": 2,
-    "explanation": "At the triple point, solid, liquid, and gas phases coexist in equilibrium."
+    "explanation": "Group 17 are halogens.",
+    "id": 4
+  },
+  {
+    "topic": "Atomic Structure",
+    "difficulty": "easy",
+    "question": "Elements in Group 1 are called ___.",
+    "options": [
+      "halogens",
+      "transition metals",
+      "noble gases",
+      "alkali metals"
+    ],
+    "answer": 3,
+    "explanation": "Group 1 are alkali metals.",
+    "id": 5
+  },
+  {
+    "topic": "Atomic Structure",
+    "difficulty": "easy",
+    "question": "The period number of an element equals the number of ___.",
+    "options": [
+      "electron shells",
+      "valence electrons",
+      "neutrons",
+      "protons"
+    ],
+    "answer": 0,
+    "explanation": "Period indicates shells.",
+    "id": 6
+  },
+  {
+    "topic": "Atomic Structure",
+    "difficulty": "medium",
+    "question": "Across a period, atomic radius generally ___.",
+    "options": [
+      "increases",
+      "decreases",
+      "remains the same",
+      "doubles"
+    ],
+    "answer": 1,
+    "explanation": "Effective nuclear charge increases.",
+    "id": 7
+  },
+  {
+    "topic": "Atomic Structure",
+    "difficulty": "medium",
+    "question": "Down a group, metallic character generally ___.",
+    "options": [
+      "decreases",
+      "remains the same",
+      "increases",
+      "becomes zero"
+    ],
+    "answer": 2,
+    "explanation": "Atoms lose electrons more easily.",
+    "id": 8
+  },
+  {
+    "topic": "Atomic Structure",
+    "difficulty": "easy",
+    "question": "The maximum number of electrons in the first shell is ___.",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "2"
+    ],
+    "answer": 3,
+    "explanation": "First shell holds 2 electrons.",
+    "id": 9
+  },
+  {
+    "topic": "Atomic Structure",
+    "difficulty": "easy",
+    "question": "Neon is placed in Group 18 because it has ___.",
+    "options": [
+      "a full outer shell",
+      "one electron",
+      "two outer shells",
+      "high density"
+    ],
+    "answer": 0,
+    "explanation": "Group 18 elements have full valence shells.",
+    "id": 10
+  },
+  {
+    "topic": "Atomic Structure",
+    "difficulty": "easy",
+    "question": "An atom that has lost an electron becomes a ___.",
+    "options": [
+      "negative ion",
+      "positive ion",
+      "neutral atom",
+      "molecule"
+    ],
+    "answer": 1,
+    "explanation": "Loss of electron gives cation.",
+    "id": 11
+  },
+  {
+    "topic": "Atomic Structure",
+    "difficulty": "easy",
+    "question": "The mass number is the number of ___.",
+    "options": [
+      "protons only",
+      "electrons only",
+      "protons and neutrons",
+      "neutrons only"
+    ],
+    "answer": 2,
+    "explanation": "Mass number = protons + neutrons.",
+    "id": 12
+  },
+  {
+    "topic": "Chemical Bonding",
+    "difficulty": "easy",
+    "question": "A covalent bond is formed by the ___.",
+    "options": [
+      "transfer of electrons",
+      "attraction of ions",
+      "sea of electrons",
+      "sharing of electrons"
+    ],
+    "answer": 3,
+    "explanation": "Covalent bonds share electrons.",
+    "id": 13
+  },
+  {
+    "topic": "Chemical Bonding",
+    "difficulty": "easy",
+    "question": "An ionic bond is formed by ___.",
+    "options": [
+      "transfer of electrons between a metal and a non-metal",
+      "sharing electrons between two non-metals",
+      "sharing electrons between two metals",
+      "overlap of orbitals"
+    ],
+    "answer": 0,
+    "explanation": "Ionic bonds involve electron transfer.",
+    "id": 14
+  },
+  {
+    "topic": "Chemical Bonding",
+    "difficulty": "medium",
+    "question": "The bonding in metals is described as ___.",
+    "options": [
+      "ionic bonding",
+      "a sea of delocalized electrons",
+      "covalent bonding",
+      "hydrogen bonding"
+    ],
+    "answer": 1,
+    "explanation": "Metallic bonding has delocalized electrons.",
+    "id": 15
+  },
+  {
+    "topic": "Chemical Bonding",
+    "difficulty": "easy",
+    "question": "Which compound has covalent bonding?",
+    "options": [
+      "NaCl",
+      "MgO",
+      "H2O",
+      "CaCl2"
+    ],
+    "answer": 2,
+    "explanation": "Water is covalent.",
+    "id": 16
+  },
+  {
+    "topic": "Chemical Bonding",
+    "difficulty": "easy",
+    "question": "Which compound is ionic?",
+    "options": [
+      "CO2",
+      "CH4",
+      "NH3",
+      "NaCl"
+    ],
+    "answer": 3,
+    "explanation": "NaCl is ionic.",
+    "id": 17
+  },
+  {
+    "topic": "Chemical Bonding",
+    "difficulty": "medium",
+    "question": "Hydrogen bonding occurs in ___.",
+    "options": [
+      "water",
+      "sodium chloride",
+      "ethane",
+      "carbon dioxide"
+    ],
+    "answer": 0,
+    "explanation": "Water forms hydrogen bonds.",
+    "id": 18
+  },
+  {
+    "topic": "Chemical Bonding",
+    "difficulty": "hard",
+    "question": "A coordinate bond is formed when ___.",
+    "options": [
+      "each atom shares one electron",
+      "both electrons come from one atom",
+      "electrons are transferred",
+      "protons are shared"
+    ],
+    "answer": 1,
+    "explanation": "Dative bond uses lone pair donation.",
+    "id": 19
+  },
+  {
+    "topic": "Chemical Bonding",
+    "difficulty": "hard",
+    "question": "Which substance is a giant covalent structure?",
+    "options": [
+      "sugar",
+      "sodium chloride",
+      "diamond",
+      "ammonia"
+    ],
+    "answer": 2,
+    "explanation": "Diamond is giant covalent.",
+    "id": 20
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "medium",
+    "question": "How many moles are in 11 g of CO2 (Mr = 44)?",
+    "options": [
+      "0.5 mol",
+      "1 mol",
+      "2 mol",
+      "0.25 mol"
+    ],
+    "answer": 3,
+    "explanation": "Moles = mass/Mr.",
+    "id": 21
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "medium",
+    "question": "Find the concentration of a solution containing 0.2 mol in 0.5 L.",
+    "options": [
+      "0.4 mol/dm^3",
+      "0.1 mol/dm^3",
+      "0.5 mol/dm^3",
+      "2.0 mol/dm^3"
+    ],
+    "answer": 0,
+    "explanation": "Concentration = moles/volume.",
+    "id": 22
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "medium",
+    "question": "What volume will 0.5 mol of a gas occupy at STP (molar volume = 22.4 L)?",
+    "options": [
+      "5.6 L",
+      "11.2 L",
+      "22.4 L",
+      "44.8 L"
+    ],
+    "answer": 1,
+    "explanation": "Volume = 0.5 x 22.4.",
+    "id": 23
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "medium",
+    "question": "For the reaction 2H2 + O2 -> 2H2O, how many moles of O2 are needed to react with 4 moles of H2?",
+    "options": [
+      "1 mol",
+      "3 mol",
+      "2 mol",
+      "4 mol"
+    ],
+    "answer": 2,
+    "explanation": "H2:O2 is 2:1.",
+    "id": 24
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "medium",
+    "question": "How many grams are in 2 moles of NaCl (Mr = 58.5)?",
+    "options": [
+      "58.5 g",
+      "87 g",
+      "234 g",
+      "117 g"
+    ],
+    "answer": 3,
+    "explanation": "Mass = moles x Mr.",
+    "id": 25
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "medium",
+    "question": "A solution has 0.1 mol in 0.25 L. The concentration is ___.",
+    "options": [
+      "0.4 mol/dm^3",
+      "0.2 mol/dm^3",
+      "0.5 mol/dm^3",
+      "0.8 mol/dm^3"
+    ],
+    "answer": 0,
+    "explanation": "Concentration = 0.1/0.25.",
+    "id": 26
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "easy",
+    "question": "Which contains the greatest number of particles?",
+    "options": [
+      "0.5 mole of any substance",
+      "1 mole of any substance",
+      "2 g of H2",
+      "10 g of O2"
+    ],
+    "answer": 1,
+    "explanation": "One mole has Avogadro's number.",
+    "id": 27
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "easy",
+    "question": "Calculate the molar mass of H2SO4.",
+    "options": [
+      "96",
+      "100",
+      "98",
+      "102"
+    ],
+    "answer": 2,
+    "explanation": "2(1) + 32 + 4(16).",
+    "id": 28
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "easy",
+    "question": "How many moles are in 18 g of water (Mr = 18)?",
+    "options": [
+      "0.5 mol",
+      "2 mol",
+      "3 mol",
+      "1 mol"
+    ],
+    "answer": 3,
+    "explanation": "Moles = 18/18.",
+    "id": 29
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "hard",
+    "question": "The empirical formula of a compound with 12 g C and 2 g H is ___.",
+    "options": [
+      "CH2",
+      "CH",
+      "C2H",
+      "C2H2"
+    ],
+    "answer": 0,
+    "explanation": "Moles: C=1, H=2.",
+    "id": 30
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "easy",
+    "question": "How many molecules are in 1 mole of a substance?",
+    "options": [
+      "6.02 x 10^22",
+      "6.02 x 10^23",
+      "6.02 x 10^21",
+      "6.02 x 10^24"
+    ],
+    "answer": 1,
+    "explanation": "Avogadro's number.",
+    "id": 31
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "easy",
+    "question": "If 4 g of H2 reacts, moles of H2 are ___.",
+    "options": [
+      "1 mol",
+      "4 mol",
+      "2 mol",
+      "0.5 mol"
+    ],
+    "answer": 2,
+    "explanation": "Mr of H2 is 2.",
+    "id": 32
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "medium",
+    "question": "A compound has 2 mol of carbon and 6 mol of hydrogen. Its empirical formula is ___.",
+    "options": [
+      "CH2",
+      "C2H3",
+      "C2H6",
+      "CH3"
+    ],
+    "answer": 3,
+    "explanation": "Ratio 2:6 simplifies to 1:3.",
+    "id": 33
+  },
+  {
+    "topic": "Mole Concept",
+    "difficulty": "easy",
+    "question": "At STP, the volume of 2 mol of gas is ___.",
+    "options": [
+      "44.8 L",
+      "22.4 L",
+      "11.2 L",
+      "33.6 L"
+    ],
+    "answer": 0,
+    "explanation": "2 x 22.4 L.",
+    "id": 34
+  },
+  {
+    "topic": "Gas Laws",
+    "difficulty": "easy",
+    "question": "At constant temperature, if the pressure of a gas doubles, its volume ___.",
+    "options": [
+      "doubles",
+      "halves",
+      "remains the same",
+      "quadruples"
+    ],
+    "answer": 1,
+    "explanation": "Boyle's law.",
+    "id": 35
+  },
+  {
+    "topic": "Gas Laws",
+    "difficulty": "medium",
+    "question": "A gas at 300 K occupies 2 L. At constant pressure, what volume will it occupy at 450 K?",
+    "options": [
+      "2.5 L",
+      "3.5 L",
+      "3.0 L",
+      "4.0 L"
+    ],
+    "answer": 2,
+    "explanation": "Charles' law.",
+    "id": 36
+  },
+  {
+    "topic": "Gas Laws",
+    "difficulty": "medium",
+    "question": "Which gas law relates pressure and temperature at constant volume?",
+    "options": [
+      "Boyle's law",
+      "Charles' law",
+      "Avogadro's law",
+      "Gay-Lussac's law"
+    ],
+    "answer": 3,
+    "explanation": "Pressure proportional to temperature.",
+    "id": 37
+  },
+  {
+    "topic": "Gas Laws",
+    "difficulty": "medium",
+    "question": "A gas occupies 4 L at 100 kPa. At 200 kPa, its volume is ___.",
+    "options": [
+      "2 L",
+      "1 L",
+      "4 L",
+      "8 L"
+    ],
+    "answer": 0,
+    "explanation": "P1V1 = P2V2.",
+    "id": 38
+  },
+  {
+    "topic": "Gas Laws",
+    "difficulty": "easy",
+    "question": "At STP, 1 mol of gas occupies ___.",
+    "options": [
+      "11.2 L",
+      "22.4 L",
+      "24.0 L",
+      "44.8 L"
+    ],
+    "answer": 1,
+    "explanation": "Molar volume at STP.",
+    "id": 39
+  },
+  {
+    "topic": "Gas Laws",
+    "difficulty": "easy",
+    "question": "If temperature increases at constant pressure, gas volume ___.",
+    "options": [
+      "decreases",
+      "remains the same",
+      "increases",
+      "becomes zero"
+    ],
+    "answer": 2,
+    "explanation": "Charles' law.",
+    "id": 40
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "A solution with pH 3 is ___.",
+    "options": [
+      "neutral",
+      "basic",
+      "alkaline",
+      "acidic"
+    ],
+    "answer": 3,
+    "explanation": "pH less than 7 is acidic.",
+    "id": 41
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "A solution with pH 8 is ___.",
+    "options": [
+      "basic",
+      "acidic",
+      "neutral",
+      "salty"
+    ],
+    "answer": 0,
+    "explanation": "pH greater than 7 is basic.",
+    "id": 42
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "medium",
+    "question": "Which is a strong acid?",
+    "options": [
+      "CH3COOH",
+      "HCl",
+      "H2CO3",
+      "NH3"
+    ],
+    "answer": 1,
+    "explanation": "HCl is a strong acid.",
+    "id": 43
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "Which is a base?",
+    "options": [
+      "HCl",
+      "HNO3",
+      "NaOH",
+      "H2SO4"
+    ],
+    "answer": 2,
+    "explanation": "NaOH is a base.",
+    "id": 44
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "Neutralization is the reaction between ___.",
+    "options": [
+      "two acids",
+      "two bases",
+      "salt and water",
+      "an acid and a base"
+    ],
+    "answer": 3,
+    "explanation": "Neutralization forms salt and water.",
+    "id": 45
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "Which substance turns blue litmus red?",
+    "options": [
+      "acid",
+      "base",
+      "salt",
+      "water"
+    ],
+    "answer": 0,
+    "explanation": "Acids turn blue litmus red.",
+    "id": 46
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "medium",
+    "question": "Which indicator is commonly used in acid-base titration?",
+    "options": [
+      "litmus",
+      "phenolphthalein",
+      "bromine water",
+      "limewater"
+    ],
+    "answer": 1,
+    "explanation": "Phenolphthalein is common.",
+    "id": 47
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "medium",
+    "question": "A salt formed from a strong acid and strong base is ___.",
+    "options": [
+      "acidic",
+      "basic",
+      "neutral",
+      "amphoteric"
+    ],
+    "answer": 2,
+    "explanation": "Strong + strong gives neutral.",
+    "id": 48
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "A base that dissolves in water is called an ___.",
+    "options": [
+      "acid",
+      "salt",
+      "oxide",
+      "alkali"
+    ],
+    "answer": 3,
+    "explanation": "Alkalis are soluble bases.",
+    "id": 49
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "Which substance turns red litmus blue?",
+    "options": [
+      "alkali",
+      "acid",
+      "salt",
+      "water"
+    ],
+    "answer": 0,
+    "explanation": "Alkalis turn red litmus blue.",
+    "id": 50
+  },
+  {
+    "topic": "Redox",
+    "difficulty": "medium",
+    "question": "What is the oxidation number of sulfur in H2SO4?",
+    "options": [
+      "+4",
+      "+6",
+      "-2",
+      "+2"
+    ],
+    "answer": 1,
+    "explanation": "2(+1) + S + 4(-2) = 0.",
+    "id": 51
+  },
+  {
+    "topic": "Redox",
+    "difficulty": "easy",
+    "question": "Oxidation can be defined as the ___.",
+    "options": [
+      "gain of electrons",
+      "gain of protons",
+      "loss of electrons",
+      "loss of protons"
+    ],
+    "answer": 2,
+    "explanation": "Oxidation is loss of electrons.",
+    "id": 52
+  },
+  {
+    "topic": "Redox",
+    "difficulty": "easy",
+    "question": "Reduction can be defined as the ___.",
+    "options": [
+      "loss of electrons",
+      "gain of oxygen",
+      "loss of hydrogen",
+      "gain of electrons"
+    ],
+    "answer": 3,
+    "explanation": "Reduction is gain of electrons.",
+    "id": 53
+  },
+  {
+    "topic": "Redox",
+    "difficulty": "medium",
+    "question": "In the electrolysis of CuSO4 using copper electrodes, copper is deposited at the ___.",
+    "options": [
+      "cathode",
+      "anode",
+      "electrolyte",
+      "both electrodes"
+    ],
+    "answer": 0,
+    "explanation": "Cu2+ gains electrons at cathode.",
+    "id": 54
+  },
+  {
+    "topic": "Redox",
+    "difficulty": "easy",
+    "question": "The anode in electrolysis is ___.",
+    "options": [
+      "negative",
+      "positive",
+      "neutral",
+      "insulating"
+    ],
+    "answer": 1,
+    "explanation": "Anode is positive.",
+    "id": 55
+  },
+  {
+    "topic": "Redox",
+    "difficulty": "easy",
+    "question": "Which ion is attracted to the cathode?",
+    "options": [
+      "anion",
+      "neutral atom",
+      "cation",
+      "molecule"
+    ],
+    "answer": 2,
+    "explanation": "Cations move to cathode.",
+    "id": 56
+  },
+  {
+    "topic": "Redox",
+    "difficulty": "medium",
+    "question": "In redox, the oxidizing agent is ___.",
+    "options": [
+      "electron donor",
+      "acid",
+      "base",
+      "the electron acceptor"
+    ],
+    "answer": 3,
+    "explanation": "Oxidizing agent gains electrons.",
+    "id": 57
+  },
+  {
+    "topic": "Redox",
+    "difficulty": "medium",
+    "question": "In electrolysis, oxidation occurs at the ___.",
+    "options": [
+      "anode",
+      "cathode",
+      "electrolyte",
+      "solution"
+    ],
+    "answer": 0,
+    "explanation": "Oxidation is at anode.",
+    "id": 58
+  },
+  {
+    "topic": "Redox",
+    "difficulty": "hard",
+    "question": "A substance that prevents rusting by being oxidized first is called a ___.",
+    "options": [
+      "catalyst",
+      "sacrificial metal",
+      "solvent",
+      "electrolyte"
+    ],
+    "answer": 1,
+    "explanation": "Sacrificial metal oxidizes instead.",
+    "id": 59
+  },
+  {
+    "topic": "Redox",
+    "difficulty": "easy",
+    "question": "Electroplating is used to ___.",
+    "options": [
+      "remove rust",
+      "purify water",
+      "coat a metal with another metal",
+      "produce gas"
+    ],
+    "answer": 2,
+    "explanation": "Electroplating coats surfaces.",
+    "id": 60
+  },
+  {
+    "topic": "Reaction Rates",
+    "difficulty": "medium",
+    "question": "A catalyst increases the rate of a reaction by ___.",
+    "options": [
+      "increasing activation energy",
+      "raising the equilibrium constant",
+      "changing products",
+      "lowering activation energy"
+    ],
+    "answer": 3,
+    "explanation": "Catalysts lower activation energy.",
+    "id": 61
+  },
+  {
+    "topic": "Reaction Rates",
+    "difficulty": "easy",
+    "question": "Increasing temperature generally ___ reaction rate.",
+    "options": [
+      "increases",
+      "decreases",
+      "does not affect",
+      "stops"
+    ],
+    "answer": 0,
+    "explanation": "Higher temperature increases collisions.",
+    "id": 62
+  },
+  {
+    "topic": "Reaction Rates",
+    "difficulty": "medium",
+    "question": "For a gaseous equilibrium, increasing pressure shifts the equilibrium to the side with ___.",
+    "options": [
+      "more moles of gas",
+      "fewer moles of gas",
+      "no moles of gas",
+      "higher temperature"
+    ],
+    "answer": 1,
+    "explanation": "Le Chatelier's principle.",
+    "id": 63
+  },
+  {
+    "topic": "Reaction Rates",
+    "difficulty": "medium",
+    "question": "A reaction is at equilibrium when ___.",
+    "options": [
+      "products stop forming",
+      "reactants are used up",
+      "forward and reverse rates are equal",
+      "temperature is zero"
+    ],
+    "answer": 2,
+    "explanation": "Rates are equal at equilibrium.",
+    "id": 64
+  },
+  {
+    "topic": "Reaction Rates",
+    "difficulty": "easy",
+    "question": "Increasing concentration of reactants generally shifts equilibrium ___.",
+    "options": [
+      "to the left",
+      "no change",
+      "to the top",
+      "to the right"
+    ],
+    "answer": 3,
+    "explanation": "More reactants favor products.",
+    "id": 65
+  },
+  {
+    "topic": "Reaction Rates",
+    "difficulty": "easy",
+    "question": "Which factor does NOT affect reaction rate?",
+    "options": [
+      "color of reactants",
+      "temperature",
+      "concentration",
+      "surface area"
+    ],
+    "answer": 0,
+    "explanation": "Color does not change collisions.",
+    "id": 66
+  },
+  {
+    "topic": "Reaction Rates",
+    "difficulty": "easy",
+    "question": "An exothermic reaction has ___.",
+    "options": [
+      "positive delta H",
+      "negative delta H",
+      "no heat change",
+      "zero entropy"
+    ],
+    "answer": 1,
+    "explanation": "Exothermic releases heat.",
+    "id": 67
+  },
+  {
+    "topic": "Reaction Rates",
+    "difficulty": "hard",
+    "question": "Increasing temperature in an exothermic equilibrium shifts it ___.",
+    "options": [
+      "to the right",
+      "no change",
+      "to the left",
+      "to the top"
+    ],
+    "answer": 2,
+    "explanation": "Heat is a product.",
+    "id": 68
+  },
+  {
+    "topic": "Reaction Rates",
+    "difficulty": "medium",
+    "question": "A catalyst affects equilibrium by ___.",
+    "options": [
+      "shifting equilibrium",
+      "changing products",
+      "stopping reaction",
+      "reaching equilibrium faster"
+    ],
+    "answer": 3,
+    "explanation": "Catalysts speed up both directions.",
+    "id": 69
+  },
+  {
+    "topic": "Reaction Rates",
+    "difficulty": "easy",
+    "question": "Rate of reaction is measured as change in ___.",
+    "options": [
+      "concentration per time",
+      "temperature per time",
+      "pressure per time",
+      "volume per time"
+    ],
+    "answer": 0,
+    "explanation": "Rate is change in concentration per time.",
+    "id": 70
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "question": "The general formula of alkanes is ___.",
+    "options": [
+      "CnH2n",
+      "CnH2n+2",
+      "CnH2n-2",
+      "CnHn"
+    ],
+    "answer": 1,
+    "explanation": "Alkanes are saturated hydrocarbons.",
+    "id": 71
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "question": "The molecular formula of ethene is ___.",
+    "options": [
+      "C2H2",
+      "C2H6",
+      "C2H4",
+      "C3H6"
+    ],
+    "answer": 2,
+    "explanation": "Ethene is an alkene.",
+    "id": 72
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "medium",
+    "question": "Bromine water is decolorized by ___.",
+    "options": [
+      "alkanes",
+      "alcohols",
+      "acids",
+      "alkenes"
+    ],
+    "answer": 3,
+    "explanation": "Alkenes add bromine.",
+    "id": 73
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "medium",
+    "question": "Esters are produced by the reaction between ___.",
+    "options": [
+      "an alcohol and a carboxylic acid",
+      "an alkane and an alkene",
+      "an alcohol and a base",
+      "an acid and a salt"
+    ],
+    "answer": 0,
+    "explanation": "Esterification uses alcohols and acids.",
+    "id": 74
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "medium",
+    "question": "Saponification is the reaction of ___.",
+    "options": [
+      "alkanes with chlorine",
+      "fats/oils with alkali",
+      "alcohols with acids",
+      "salts with water"
+    ],
+    "answer": 1,
+    "explanation": "It produces soap and glycerol.",
+    "id": 75
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "question": "Which compound is an alcohol?",
+    "options": [
+      "ethene",
+      "ethyne",
+      "ethanol",
+      "ethane"
+    ],
+    "answer": 2,
+    "explanation": "Alcohols contain -OH group.",
+    "id": 76
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "question": "The functional group of carboxylic acids is ___.",
+    "options": [
+      "-OH",
+      "-CHO",
+      "-NH2",
+      "-COOH"
+    ],
+    "answer": 3,
+    "explanation": "Carboxyl group is -COOH.",
+    "id": 77
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "question": "A hydrocarbon with only single bonds is a(n) ___.",
+    "options": [
+      "alkane",
+      "alkene",
+      "alkyne",
+      "arene"
+    ],
+    "answer": 0,
+    "explanation": "Single bonds = alkane.",
+    "id": 78
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "hard",
+    "question": "The process of converting alkenes to alkanes is ___.",
+    "options": [
+      "oxidation",
+      "hydrogenation",
+      "polymerization",
+      "fermentation"
+    ],
+    "answer": 1,
+    "explanation": "Hydrogenation adds hydrogen.",
+    "id": 79
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "question": "Ethanol can be produced by ___.",
+    "options": [
+      "electrolysis",
+      "fractional distillation",
+      "fermentation",
+      "saponification"
+    ],
+    "answer": 2,
+    "explanation": "Fermentation of sugars yields ethanol.",
+    "id": 80
+  },
+  {
+    "topic": "Qualitative Analysis",
+    "difficulty": "easy",
+    "question": "Temporary hardness of water is mainly due to ___.",
+    "options": [
+      "chlorides",
+      "sulfates",
+      "nitrates",
+      "bicarbonates"
+    ],
+    "answer": 3,
+    "explanation": "Temporary hardness comes from bicarbonates.",
+    "id": 81
+  },
+  {
+    "topic": "Qualitative Analysis",
+    "difficulty": "easy",
+    "question": "Which gas turns limewater milky?",
+    "options": [
+      "CO2",
+      "NH3",
+      "SO2",
+      "H2"
+    ],
+    "answer": 0,
+    "explanation": "CO2 forms CaCO3.",
+    "id": 82
+  },
+  {
+    "topic": "Qualitative Analysis",
+    "difficulty": "easy",
+    "question": "Ammonia turns moist red litmus paper ___.",
+    "options": [
+      "red",
+      "blue",
+      "colorless",
+      "black"
+    ],
+    "answer": 1,
+    "explanation": "Ammonia is basic.",
+    "id": 83
+  },
+  {
+    "topic": "Qualitative Analysis",
+    "difficulty": "easy",
+    "question": "Rusting of iron requires ___.",
+    "options": [
+      "oxygen only",
+      "water only",
+      "oxygen and water",
+      "carbon dioxide only"
+    ],
+    "answer": 2,
+    "explanation": "Both oxygen and water are needed.",
+    "id": 84
+  },
+  {
+    "topic": "Qualitative Analysis",
+    "difficulty": "medium",
+    "question": "A white precipitate with AgNO3 indicates ___.",
+    "options": [
+      "sulfate ion",
+      "carbonate ion",
+      "nitrate ion",
+      "chloride ion"
+    ],
+    "answer": 3,
+    "explanation": "AgCl is white.",
+    "id": 85
+  },
+  {
+    "topic": "Qualitative Analysis",
+    "difficulty": "medium",
+    "question": "A white precipitate with BaCl2 indicates ___.",
+    "options": [
+      "sulfate ion",
+      "chloride ion",
+      "nitrate ion",
+      "carbonate ion"
+    ],
+    "answer": 0,
+    "explanation": "BaSO4 is white.",
+    "id": 86
+  },
+  {
+    "topic": "Qualitative Analysis",
+    "difficulty": "easy",
+    "question": "Carbon dioxide can be identified by ___.",
+    "options": [
+      "popping sound",
+      "turning limewater milky",
+      "blue litmus",
+      "brown fumes"
+    ],
+    "answer": 1,
+    "explanation": "CO2 forms CaCO3 with limewater.",
+    "id": 87
+  },
+  {
+    "topic": "Qualitative Analysis",
+    "difficulty": "easy",
+    "question": "A gas that relights a glowing splint is ___.",
+    "options": [
+      "hydrogen",
+      "carbon dioxide",
+      "oxygen",
+      "chlorine"
+    ],
+    "answer": 2,
+    "explanation": "Oxygen supports combustion.",
+    "id": 88
+  },
+  {
+    "topic": "Qualitative Analysis",
+    "difficulty": "easy",
+    "question": "A gas that gives a pop sound with a lighted splint is ___.",
+    "options": [
+      "oxygen",
+      "carbon dioxide",
+      "chlorine",
+      "hydrogen"
+    ],
+    "answer": 3,
+    "explanation": "Hydrogen burns with a pop.",
+    "id": 89
+  },
+  {
+    "topic": "Qualitative Analysis",
+    "difficulty": "hard",
+    "question": "Chlorine gas bleaches damp litmus paper by ___.",
+    "options": [
+      "oxidation",
+      "reduction",
+      "neutralization",
+      "precipitation"
+    ],
+    "answer": 0,
+    "explanation": "Chlorine is an oxidizing agent.",
+    "id": 90
+  },
+  {
+    "topic": "Metals",
+    "difficulty": "easy",
+    "question": "A more reactive metal can ___.",
+    "options": [
+      "be displaced by a less reactive metal",
+      "displace a less reactive metal from its salt solution",
+      "not react in solution",
+      "only form alloys"
+    ],
+    "answer": 1,
+    "explanation": "Reactive metals displace less reactive ones.",
+    "id": 91
+  },
+  {
+    "topic": "Metals",
+    "difficulty": "easy",
+    "question": "Which metal is most reactive?",
+    "options": [
+      "copper",
+      "silver",
+      "potassium",
+      "gold"
+    ],
+    "answer": 2,
+    "explanation": "Potassium is very reactive.",
+    "id": 92
+  },
+  {
+    "topic": "Metals",
+    "difficulty": "easy",
+    "question": "The process of extracting a metal from its ore is called ___.",
+    "options": [
+      "polymerization",
+      "fermentation",
+      "saponification",
+      "metallurgy"
+    ],
+    "answer": 3,
+    "explanation": "Metallurgy deals with extraction.",
+    "id": 93
+  },
+  {
+    "topic": "Metals",
+    "difficulty": "easy",
+    "question": "Corrosion of iron is called ___.",
+    "options": [
+      "rusting",
+      "tarnishing",
+      "galvanizing",
+      "smelting"
+    ],
+    "answer": 0,
+    "explanation": "Corrosion of iron is rusting.",
+    "id": 94
+  },
+  {
+    "topic": "Metals",
+    "difficulty": "medium",
+    "question": "Stainless steel resists rust because it contains ___.",
+    "options": [
+      "sodium",
+      "chromium",
+      "zinc",
+      "lead"
+    ],
+    "answer": 1,
+    "explanation": "Chromium forms a protective oxide.",
+    "id": 95
+  },
+  {
+    "topic": "Metals",
+    "difficulty": "easy",
+    "question": "An alloy of copper and zinc is ___.",
+    "options": [
+      "bronze",
+      "steel",
+      "brass",
+      "duralumin"
+    ],
+    "answer": 2,
+    "explanation": "Brass is Cu + Zn.",
+    "id": 96
+  },
+  {
+    "topic": "Metals",
+    "difficulty": "easy",
+    "question": "An alloy of copper and tin is ___.",
+    "options": [
+      "brass",
+      "steel",
+      "solder",
+      "bronze"
+    ],
+    "answer": 3,
+    "explanation": "Bronze is Cu + Sn.",
+    "id": 97
+  },
+  {
+    "topic": "Metals",
+    "difficulty": "medium",
+    "question": "Galvanizing iron involves coating it with ___.",
+    "options": [
+      "zinc",
+      "copper",
+      "tin",
+      "silver"
+    ],
+    "answer": 0,
+    "explanation": "Zinc protects iron.",
+    "id": 98
+  },
+  {
+    "topic": "Metals",
+    "difficulty": "easy",
+    "question": "The main ore of aluminum is ___.",
+    "options": [
+      "haematite",
+      "bauxite",
+      "galena",
+      "chalcopyrite"
+    ],
+    "answer": 1,
+    "explanation": "Bauxite is aluminum ore.",
+    "id": 99
+  },
+  {
+    "topic": "Metals",
+    "difficulty": "easy",
+    "question": "The main ore of iron is ___.",
+    "options": [
+      "bauxite",
+      "galena",
+      "haematite",
+      "cassiterite"
+    ],
+    "answer": 2,
+    "explanation": "Haematite is iron ore.",
+    "id": 100
+  },
+  {
+    "topic": "Periodic Table",
+    "difficulty": "medium",
+    "question": "Across a period, electronegativity generally ___.",
+    "options": [
+      "decreases",
+      "stays same",
+      "becomes zero",
+      "increases"
+    ],
+    "answer": 3,
+    "explanation": "Effective nuclear charge increases.",
+    "id": 101
+  },
+  {
+    "topic": "Periodic Table",
+    "difficulty": "easy",
+    "question": "Down a group, atomic size generally ___.",
+    "options": [
+      "increases",
+      "decreases",
+      "stays same",
+      "becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "More electron shells.",
+    "id": 102
+  },
+  {
+    "topic": "Periodic Table",
+    "difficulty": "easy",
+    "question": "Group 0 elements are also called ___.",
+    "options": [
+      "alkali metals",
+      "noble gases",
+      "halogens",
+      "transition metals"
+    ],
+    "answer": 1,
+    "explanation": "They are inert.",
+    "id": 103
+  },
+  {
+    "topic": "Periodic Table",
+    "difficulty": "easy",
+    "question": "The valency of Group 2 elements is ___.",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Group 2 has two outer electrons.",
+    "id": 104
+  },
+  {
+    "topic": "Periodic Table",
+    "difficulty": "easy",
+    "question": "Elements in the same group have the same number of ___.",
+    "options": [
+      "neutrons",
+      "protons",
+      "shells",
+      "valence electrons"
+    ],
+    "answer": 3,
+    "explanation": "Valence electrons define group.",
+    "id": 105
+  },
+  {
+    "topic": "Periodic Table",
+    "difficulty": "easy",
+    "question": "Ionic bonding involves ___.",
+    "options": [
+      "transfer of electrons",
+      "sharing of electrons",
+      "sharing of protons",
+      "sharing of neutrons"
+    ],
+    "answer": 0,
+    "explanation": "Ions form by transfer.",
+    "id": 106
+  },
+  {
+    "topic": "Periodic Table",
+    "difficulty": "easy",
+    "question": "Covalent bonding involves ___.",
+    "options": [
+      "transfer of electrons",
+      "sharing of electrons",
+      "loss of electrons",
+      "gain of protons"
+    ],
+    "answer": 1,
+    "explanation": "Covalent uses shared pairs.",
+    "id": 107
+  },
+  {
+    "topic": "Periodic Table",
+    "difficulty": "medium",
+    "question": "The element with atomic number 17 is ___.",
+    "options": [
+      "sodium",
+      "argon",
+      "chlorine",
+      "calcium"
+    ],
+    "answer": 2,
+    "explanation": "Atomic number 17 is Cl.",
+    "id": 108
+  },
+  {
+    "topic": "Periodic Table",
+    "difficulty": "medium",
+    "question": "Down a group, reactivity of alkali metals generally ___.",
+    "options": [
+      "decreases",
+      "stays same",
+      "becomes zero",
+      "increases"
+    ],
+    "answer": 3,
+    "explanation": "Outer electron is lost more easily.",
+    "id": 109
+  },
+  {
+    "topic": "Periodic Table",
+    "difficulty": "easy",
+    "question": "Which particle has a negative charge?",
+    "options": [
+      "electron",
+      "proton",
+      "neutron",
+      "nucleus"
+    ],
+    "answer": 0,
+    "explanation": "Electrons are negative.",
+    "id": 110
+  },
+  {
+    "topic": "Stoichiometry",
+    "difficulty": "easy",
+    "question": "How many moles are in 9 g of water (Mr = 18)?",
+    "options": [
+      "1 mol",
+      "0.5 mol",
+      "2 mol",
+      "0.25 mol"
+    ],
+    "answer": 1,
+    "explanation": "Moles = mass/Mr.",
+    "id": 111
+  },
+  {
+    "topic": "Stoichiometry",
+    "difficulty": "easy",
+    "question": "Find the mass of 0.25 mol of NaOH (Mr=40).",
+    "options": [
+      "5 g",
+      "20 g",
+      "10 g",
+      "40 g"
+    ],
+    "answer": 2,
+    "explanation": "Mass = moles x Mr.",
+    "id": 112
+  },
+  {
+    "topic": "Stoichiometry",
+    "difficulty": "easy",
+    "question": "A solution has 0.5 mol in 1 L. Concentration is ___.",
+    "options": [
+      "1.0 mol/dm^3",
+      "0.25 mol/dm^3",
+      "2.0 mol/dm^3",
+      "0.5 mol/dm^3"
+    ],
+    "answer": 3,
+    "explanation": "Concentration = moles/volume.",
+    "id": 113
+  },
+  {
+    "topic": "Stoichiometry",
+    "difficulty": "medium",
+    "question": "At STP, 0.25 mol of gas occupies ___.",
+    "options": [
+      "5.6 L",
+      "2.8 L",
+      "11.2 L",
+      "22.4 L"
+    ],
+    "answer": 0,
+    "explanation": "0.25 x 22.4.",
+    "id": 114
+  },
+  {
+    "topic": "Stoichiometry",
+    "difficulty": "medium",
+    "question": "If 5 g of CaCO3 (Mr=100) reacts, moles are ___.",
+    "options": [
+      "0.5 mol",
+      "0.05 mol",
+      "0.1 mol",
+      "0.02 mol"
+    ],
+    "answer": 1,
+    "explanation": "Moles = 5/100.",
+    "id": 115
+  },
+  {
+    "topic": "Stoichiometry",
+    "difficulty": "easy",
+    "question": "A compound has 1 mol C and 2 mol O. Empirical formula is ___.",
+    "options": [
+      "CO",
+      "C2O",
+      "CO2",
+      "C2O2"
+    ],
+    "answer": 2,
+    "explanation": "Ratio 1:2.",
+    "id": 116
+  },
+  {
+    "topic": "Stoichiometry",
+    "difficulty": "medium",
+    "question": "How many molecules are in 0.5 mol?",
+    "options": [
+      "6.02 x 10^23",
+      "1.2 x 10^23",
+      "12.0 x 10^23",
+      "3.01 x 10^23"
+    ],
+    "answer": 3,
+    "explanation": "Half of Avogadro's number.",
+    "id": 117
+  },
+  {
+    "topic": "Stoichiometry",
+    "difficulty": "easy",
+    "question": "Find the molar mass of NH3.",
+    "options": [
+      "17",
+      "14",
+      "16",
+      "18"
+    ],
+    "answer": 0,
+    "explanation": "14 + 3(1).",
+    "id": 118
+  },
+  {
+    "topic": "Stoichiometry",
+    "difficulty": "medium",
+    "question": "If 2 mol of H2 react, moles of H2O formed are ___.",
+    "options": [
+      "1 mol",
+      "2 mol",
+      "3 mol",
+      "4 mol"
+    ],
+    "answer": 1,
+    "explanation": "2H2 -> 2H2O.",
+    "id": 119
+  },
+  {
+    "topic": "Stoichiometry",
+    "difficulty": "hard",
+    "question": "The percentage of oxygen in H2O is ___.",
+    "options": [
+      "11.1%",
+      "50%",
+      "88.9%",
+      "66.7%"
+    ],
+    "answer": 2,
+    "explanation": "O=16/18.",
+    "id": 120
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "A solution with pH 7 is ___.",
+    "options": [
+      "acidic",
+      "basic",
+      "alkaline",
+      "neutral"
+    ],
+    "answer": 3,
+    "explanation": "pH 7 is neutral.",
+    "id": 121
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "medium",
+    "question": "Which is a weak acid?",
+    "options": [
+      "CH3COOH",
+      "HCl",
+      "HNO3",
+      "H2SO4"
+    ],
+    "answer": 0,
+    "explanation": "Ethanoic acid is weak.",
+    "id": 122
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "Which salt is formed by HCl and NaOH?",
+    "options": [
+      "Na2SO4",
+      "NaCl",
+      "KCl",
+      "Na2CO3"
+    ],
+    "answer": 1,
+    "explanation": "Neutralization gives NaCl.",
+    "id": 123
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "Limewater turns milky in the presence of ___.",
+    "options": [
+      "NH3",
+      "H2",
+      "CO2",
+      "O2"
+    ],
+    "answer": 2,
+    "explanation": "CO2 forms CaCO3.",
+    "id": 124
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "A basic solution turns red litmus ___.",
+    "options": [
+      "red",
+      "colorless",
+      "yellow",
+      "blue"
+    ],
+    "answer": 3,
+    "explanation": "Bases turn red litmus blue.",
+    "id": 125
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "hard",
+    "question": "Which substance is amphoteric?",
+    "options": [
+      "Al2O3",
+      "Na2O",
+      "CO2",
+      "HCl"
+    ],
+    "answer": 0,
+    "explanation": "Al2O3 is amphoteric.",
+    "id": 126
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "medium",
+    "question": "A strong base is ___.",
+    "options": [
+      "NH3",
+      "KOH",
+      "CH3COOH",
+      "H2CO3"
+    ],
+    "answer": 1,
+    "explanation": "KOH is strong.",
+    "id": 127
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "hard",
+    "question": "A salt formed from strong acid and weak base is ___.",
+    "options": [
+      "basic",
+      "neutral",
+      "acidic",
+      "amphoteric"
+    ],
+    "answer": 2,
+    "explanation": "Strong acid + weak base gives acidic salt.",
+    "id": 128
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "medium",
+    "question": "Which indicator turns pink in alkali?",
+    "options": [
+      "methyl orange",
+      "litmus",
+      "iodine",
+      "phenolphthalein"
+    ],
+    "answer": 3,
+    "explanation": "Phenolphthalein turns pink.",
+    "id": 129
+  },
+  {
+    "topic": "Acids and Bases",
+    "difficulty": "easy",
+    "question": "Neutralization produces ___.",
+    "options": [
+      "salt and water",
+      "acid and base",
+      "gas and water",
+      "salt and gas"
+    ],
+    "answer": 0,
+    "explanation": "Neutralization yields salt and water.",
+    "id": 130
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "question": "The general formula of alkenes is ___.",
+    "options": [
+      "CnH2n+2",
+      "CnH2n",
+      "CnH2n-2",
+      "CnHn"
+    ],
+    "answer": 1,
+    "explanation": "Alkenes have double bonds.",
+    "id": 131
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "question": "The functional group of alcohols is ___.",
+    "options": [
+      "-COOH",
+      "-CHO",
+      "-OH",
+      "-NH2"
+    ],
+    "answer": 2,
+    "explanation": "Alcohols contain hydroxyl.",
+    "id": 132
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "medium",
+    "question": "Ethanoic acid is also called ___.",
+    "options": [
+      "formic acid",
+      "propionic acid",
+      "butanoic acid",
+      "acetic acid"
+    ],
+    "answer": 3,
+    "explanation": "Ethanoic acid is acetic acid.",
+    "id": 133
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "medium",
+    "question": "An alkane undergoes ___.",
+    "options": [
+      "substitution reactions",
+      "addition reactions",
+      "polymerization",
+      "esterification"
+    ],
+    "answer": 0,
+    "explanation": "Alkanes substitute.",
+    "id": 134
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "hard",
+    "question": "A compound with two double bonds is a(n) ___.",
+    "options": [
+      "alkane",
+      "diene",
+      "alkyne",
+      "arene"
+    ],
+    "answer": 1,
+    "explanation": "Two double bonds = diene.",
+    "id": 135
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "question": "Polymerization of ethene gives ___.",
+    "options": [
+      "ethanol",
+      "ethanoic acid",
+      "polyethene",
+      "propene"
+    ],
+    "answer": 2,
+    "explanation": "Ethene forms polyethene.",
+    "id": 136
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "medium",
+    "question": "The functional group of aldehydes is ___.",
+    "options": [
+      "-COOH",
+      "-OH",
+      "-NH2",
+      "-CHO"
+    ],
+    "answer": 3,
+    "explanation": "Aldehydes contain -CHO.",
+    "id": 137
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "medium",
+    "question": "Cracking is used to produce ___.",
+    "options": [
+      "shorter hydrocarbons",
+      "longer hydrocarbons",
+      "alcohols",
+      "acids"
+    ],
+    "answer": 0,
+    "explanation": "Cracking breaks large molecules.",
+    "id": 138
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "question": "Soap is formed by reaction of fats with ___.",
+    "options": [
+      "acid",
+      "alkali",
+      "salt",
+      "water"
+    ],
+    "answer": 1,
+    "explanation": "Saponification uses alkali.",
+    "id": 139
+  },
+  {
+    "topic": "Organic Chemistry",
+    "difficulty": "easy",
+    "question": "A saturated hydrocarbon contains only ___.",
+    "options": [
+      "double bonds",
+      "triple bonds",
+      "single bonds",
+      "ionic bonds"
+    ],
+    "answer": 2,
+    "explanation": "Saturated means single bonds.",
+    "id": 140
+  },
+  {
+    "topic": "Industrial Chemistry",
+    "difficulty": "medium",
+    "question": "The Haber process produces ___.",
+    "options": [
+      "sulfuric acid",
+      "nitric acid",
+      "chlorine",
+      "ammonia"
+    ],
+    "answer": 3,
+    "explanation": "Haber makes ammonia.",
+    "id": 141
+  },
+  {
+    "topic": "Industrial Chemistry",
+    "difficulty": "medium",
+    "question": "The Contact process produces ___.",
+    "options": [
+      "sulfuric acid",
+      "ammonia",
+      "nitric acid",
+      "hydrochloric acid"
+    ],
+    "answer": 0,
+    "explanation": "Contact makes sulfuric acid.",
+    "id": 142
+  },
+  {
+    "topic": "Industrial Chemistry",
+    "difficulty": "easy",
+    "question": "Fractional distillation of crude oil separates components based on ___.",
+    "options": [
+      "density",
+      "boiling points",
+      "color",
+      "viscosity"
+    ],
+    "answer": 1,
+    "explanation": "Different boiling points.",
+    "id": 143
+  },
+  {
+    "topic": "Industrial Chemistry",
+    "difficulty": "medium",
+    "question": "Catalytic cracking produces more ___.",
+    "options": [
+      "diesel only",
+      "water",
+      "petrol and alkenes",
+      "oxygen"
+    ],
+    "answer": 2,
+    "explanation": "Cracking yields petrol and alkenes.",
+    "id": 144
+  },
+  {
+    "topic": "Industrial Chemistry",
+    "difficulty": "easy",
+    "question": "Greenhouse gas mainly responsible for global warming is ___.",
+    "options": [
+      "O2",
+      "N2",
+      "He",
+      "CO2"
+    ],
+    "answer": 3,
+    "explanation": "CO2 is the main gas.",
+    "id": 145
+  },
+  {
+    "topic": "Industrial Chemistry",
+    "difficulty": "medium",
+    "question": "Acid rain is mainly caused by ___.",
+    "options": [
+      "SO2 and NOx",
+      "CO2 and O2",
+      "H2 and O2",
+      "N2 and O2"
+    ],
+    "answer": 0,
+    "explanation": "SO2/NOx form acids.",
+    "id": 146
+  },
+  {
+    "topic": "Industrial Chemistry",
+    "difficulty": "easy",
+    "question": "The pH of pure water is ___.",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "Neutral water pH 7.",
+    "id": 147
+  },
+  {
+    "topic": "Industrial Chemistry",
+    "difficulty": "easy",
+    "question": "Bleaching powder is used for ___.",
+    "options": [
+      "rusting",
+      "fertilizer",
+      "disinfection",
+      "fuel"
+    ],
+    "answer": 2,
+    "explanation": "Bleaching powder disinfects.",
+    "id": 148
+  },
+  {
+    "topic": "Industrial Chemistry",
+    "difficulty": "easy",
+    "question": "The main component of natural gas is ___.",
+    "options": [
+      "ethane",
+      "propane",
+      "butane",
+      "methane"
+    ],
+    "answer": 3,
+    "explanation": "Natural gas is mostly methane.",
+    "id": 149
+  },
+  {
+    "topic": "Industrial Chemistry",
+    "difficulty": "medium",
+    "question": "Chlorofluorocarbons damage the ___.",
+    "options": [
+      "ozone layer",
+      "soil",
+      "lithosphere",
+      "core"
+    ],
+    "answer": 0,
+    "explanation": "CFCs deplete ozone.",
+    "id": 150
   }
 ]

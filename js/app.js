@@ -35,7 +35,11 @@
     showingSocial: false,
     
     // Player info for leaderboard
-    playerName: ''
+    playerName: '',
+
+    // Exam settings state
+    examSecondsCustom: false,
+    examMixCustom: false
   };
 
   // Core engines and systems
@@ -52,6 +56,7 @@
     subjectSelect: document.getElementById('subjectSelect'),
     modeSelect: document.getElementById('modeSelect'),
     topicSelect: document.getElementById('topicSelect'),
+    difficultySelect: document.getElementById('difficultySelect'),
     questionCount: document.getElementById('questionCount'),
     timeLimit: document.getElementById('timeLimit'),
     timeWrap: document.getElementById('timeWrap'),
@@ -92,6 +97,13 @@
     dashboardContent: document.getElementById('dashboardContent'),
     restartBtn: document.getElementById('restartBtn'),
     installBtn: document.getElementById('installBtn'),
+    examSettings: document.getElementById('examSettings'),
+    applyWaecPreset: document.getElementById('applyWaecPreset'),
+    examEasy: document.getElementById('examEasy'),
+    examMedium: document.getElementById('examMedium'),
+    examHard: document.getElementById('examHard'),
+    examSecondsPerQuestion: document.getElementById('examSecondsPerQuestion'),
+    examMixHint: document.getElementById('examMixHint'),
 
     // New advanced elements
     themeToggle: document.getElementById('themeToggle'),
@@ -229,11 +241,181 @@
     return copy;
   };
 
+  const buildExamSession = (pool, totalRequested, mix) => {
+    const buckets = {
+      easy: [],
+      medium: [],
+      hard: []
+    };
+    pool.forEach((question) => {
+      const level = question.difficulty || 'medium';
+      if (buckets[level]) {
+        buckets[level].push(question);
+      } else {
+        buckets.medium.push(question);
+      }
+    });
+
+    const total = Math.max(1, totalRequested);
+    const normalizedMix = normalizeExamMix(mix || DEFAULT_EXAM_MIX);
+    const easyTarget = Math.floor(total * (normalizedMix.easy / 100));
+    const mediumTarget = Math.floor(total * (normalizedMix.medium / 100));
+    const hardTarget = Math.max(0, total - easyTarget - mediumTarget);
+
+    const selected = [];
+    const selectedSet = new Set();
+    const pickFrom = (items, count) => {
+      const picks = shuffle(items).slice(0, count);
+      picks.forEach((item) => selectedSet.add(item));
+      return picks;
+    };
+
+    selected.push(...pickFrom(buckets.easy, easyTarget));
+    selected.push(...pickFrom(buckets.medium, mediumTarget));
+    selected.push(...pickFrom(buckets.hard, hardTarget));
+
+    if (selected.length < total) {
+      const remaining = shuffle(pool.filter((q) => !selectedSet.has(q)));
+      selected.push(...remaining.slice(0, total - selected.length));
+    }
+
+    return shuffle(selected);
+  };
+
   const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+
+  const DEFAULT_EXAM_MIX = { easy: 25, medium: 50, hard: 25 };
+  const DEFAULT_SECONDS_PER_QUESTION = 85;
+  const SUBJECT_EXAM_SECONDS = {
+    mathematics: 95,
+    physics: 95,
+    chemistry: 95,
+    english: 85,
+    biology: 80,
+    geography: 80,
+    economics: 80,
+    government: 80,
+    commerce: 80,
+    accounting: 80,
+    agricultural_science: 80,
+    literature: 80
+  };
+  const SUBJECT_LABELS = {
+    agricultural_science: 'Agricultural Science'
+  };
+
+  const toTitleCase = (value) =>
+    value
+      .split(' ')
+      .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+      .join(' ');
 
   const formatSubjectName = (subject) => {
     if (!subject) return '';
-    return subject.charAt(0).toUpperCase() + subject.slice(1);
+    if (SUBJECT_LABELS[subject]) {
+      return SUBJECT_LABELS[subject];
+    }
+    return toTitleCase(subject.replace(/_/g, ' '));
+  };
+
+  const formatDifficulty = (level) => {
+    if (!level) return '';
+    return level.charAt(0).toUpperCase() + level.slice(1);
+  };
+
+  const normalizeExamMix = (mix) => {
+    const raw = {
+      easy: Number(mix.easy) || 0,
+      medium: Number(mix.medium) || 0,
+      hard: Number(mix.hard) || 0
+    };
+    const sum = raw.easy + raw.medium + raw.hard;
+    if (!sum) {
+      return { ...DEFAULT_EXAM_MIX };
+    }
+    const normalized = {
+      easy: Math.round((raw.easy / sum) * 100),
+      medium: Math.round((raw.medium / sum) * 100),
+      hard: Math.round((raw.hard / sum) * 100)
+    };
+    const diff = 100 - (normalized.easy + normalized.medium + normalized.hard);
+    if (diff !== 0) {
+      const target = normalized.medium >= normalized.easy && normalized.medium >= normalized.hard
+        ? 'medium'
+        : (normalized.easy >= normalized.hard ? 'easy' : 'hard');
+      normalized[target] = clamp(normalized[target] + diff, 0, 100);
+    }
+    return normalized;
+  };
+
+  const getSubjectExamSeconds = (subject) =>
+    SUBJECT_EXAM_SECONDS[subject] || DEFAULT_SECONDS_PER_QUESTION;
+
+  const getExamMix = () => {
+    if (!els.examEasy || !els.examMedium || !els.examHard) {
+      return { ...DEFAULT_EXAM_MIX };
+    }
+    return normalizeExamMix({
+      easy: els.examEasy.value,
+      medium: els.examMedium.value,
+      hard: els.examHard.value
+    });
+  };
+
+  const getExamSecondsPerQuestion = () => {
+    if (!els.examSecondsPerQuestion) {
+      return getSubjectExamSeconds(state.subject);
+    }
+    const raw = Number(els.examSecondsPerQuestion.value);
+    if (!Number.isFinite(raw)) {
+      return getSubjectExamSeconds(state.subject);
+    }
+    return clamp(raw, 30, 180);
+  };
+
+  const applySubjectExamSeconds = (subject, force = false) => {
+    if (!els.examSecondsPerQuestion) return;
+    if (state.examSecondsCustom && !force) return;
+    const seconds = getSubjectExamSeconds(subject);
+    els.examSecondsPerQuestion.value = String(seconds);
+    state.examSecondsCustom = false;
+  };
+
+  const syncExamTime = (totalOverride) => {
+    if (state.mode !== 'exam' || !els.timeLimit) {
+      return;
+    }
+    const total = Number.isFinite(totalOverride)
+      ? totalOverride
+      : (Number(els.questionCount.value) || 20);
+    const seconds = getExamSecondsPerQuestion();
+    const minutes = Math.max(10, Math.round((total * seconds) / 60));
+    els.timeLimit.value = String(minutes);
+  };
+
+  const updateExamHint = () => {
+    if (!els.examMixHint) return;
+    const mix = getExamMix();
+    const requested = Number(els.questionCount.value) || 20;
+    const total = Math.max(1, requested);
+    const easyCount = Math.floor(total * (mix.easy / 100));
+    const mediumCount = Math.floor(total * (mix.medium / 100));
+    const hardCount = Math.max(0, total - easyCount - mediumCount);
+    const minutes = Math.max(10, Math.round((total * getExamSecondsPerQuestion()) / 60));
+    els.examMixHint.textContent = `Mix: ${mix.easy}% easy • ${mix.medium}% medium • ${mix.hard}% hard — about ${easyCount}/${mediumCount}/${hardCount} questions. Estimated time: ${minutes} min.`;
+  };
+
+  const applyWaecPreset = () => {
+    if (els.examEasy) els.examEasy.value = String(DEFAULT_EXAM_MIX.easy);
+    if (els.examMedium) els.examMedium.value = String(DEFAULT_EXAM_MIX.medium);
+    if (els.examHard) els.examHard.value = String(DEFAULT_EXAM_MIX.hard);
+    if (els.examSecondsPerQuestion) {
+      els.examSecondsPerQuestion.value = String(getSubjectExamSeconds(state.subject));
+    }
+    state.examSecondsCustom = false;
+    state.examMixCustom = false;
+    syncExamTime();
+    updateExamHint();
   };
 
   const getLocalDateString = (date = new Date()) => {
@@ -446,9 +628,6 @@
   // Enhanced quiz functions
   const startQuiz = () => {
     applyTopicFilter();
-    if (!state.filteredQuestions.length) {
-      return;
-    }
     
     state.reviewMode = false;
     state.missedQuestions = [];
@@ -456,8 +635,36 @@
     state.questionTimes = [];
     
     const totalRequested = Number(els.questionCount.value) || 20;
-    const shuffled = shuffle(state.filteredQuestions);
-    state.sessionQuestions = shuffled.slice(0, Math.max(1, totalRequested));
+    const requested = Math.max(1, totalRequested);
+
+    if (state.mode === 'exam') {
+      const topic = els.topicSelect.value;
+      const examPool = topic === 'all'
+        ? state.allQuestions.slice()
+        : state.allQuestions.filter((q) => q.topic === topic);
+
+      if (!examPool.length) {
+        if (els.setupNote) {
+          els.setupNote.textContent = 'No questions available for this topic yet.';
+        }
+        return;
+      }
+
+      const total = Math.min(requested, examPool.length);
+      const mix = getExamMix();
+      state.sessionQuestions = buildExamSession(examPool, total, mix);
+
+      if (els.timeLimit) {
+        const recommendedMinutes = Math.max(10, Math.round((total * getExamSecondsPerQuestion()) / 60));
+        els.timeLimit.value = String(recommendedMinutes);
+      }
+    } else {
+      if (!state.filteredQuestions.length) {
+        return;
+      }
+      const shuffled = shuffle(state.filteredQuestions);
+      state.sessionQuestions = shuffled.slice(0, requested);
+    }
     state.currentIndex = 0;
     state.score = 0;
     state.answers = [];
@@ -491,13 +698,16 @@
       return;
     }
 
+    const isExamMode = state.mode === 'exam';
+
     // Record question start time
     state.questionStartTime = Date.now();
 
     updateProgress();
     els.questionText.textContent = current.question;
     if (els.topicBadge) {
-      els.topicBadge.textContent = current.topic;
+      const difficultyLabel = current.difficulty ? formatDifficulty(current.difficulty) : '';
+      els.topicBadge.textContent = difficultyLabel ? `${current.topic} • ${difficultyLabel}` : current.topic;
     }
     if (els.nextBtn) {
       const isLast = state.currentIndex >= state.sessionQuestions.length - 1;
@@ -520,11 +730,17 @@
 
       if (answered) {
         const chosen = state.answers[state.currentIndex];
-        if (index === current.answer) {
-          btn.classList.add('correct');
-        }
-        if (index === chosen && chosen !== current.answer) {
-          btn.classList.add('incorrect');
+        if (isExamMode) {
+          if (index === chosen) {
+            btn.classList.add('selected');
+          }
+        } else {
+          if (index === current.answer) {
+            btn.classList.add('correct');
+          }
+          if (index === chosen && chosen !== current.answer) {
+            btn.classList.add('incorrect');
+          }
         }
       }
 
@@ -532,9 +748,9 @@
     });
     els.options.appendChild(fragment);
 
-    if (answered) {
+    if (answered && !isExamMode) {
       showExplanation(current, state.answers[state.currentIndex]);
-    } else {
+    } else if (!answered) {
       // Voice narration for new question
       if (voiceEngine && voiceEngine.isEnabled) {
         setTimeout(() => {
@@ -572,16 +788,18 @@
     
     renderQuestion();
     
-    // Voice feedback
-    if (voiceEngine && voiceEngine.isEnabled) {
-      voiceEngine.speakFeedback(isCorrect, current.explanation);
-    }
-    
-    // Visual feedback
-    if (isCorrect) {
-      els.options.children[index].classList.add('animate-pulse');
-    } else {
-      els.options.children[index].classList.add('animate-shake');
+    if (state.mode !== 'exam') {
+      // Voice feedback
+      if (voiceEngine && voiceEngine.isEnabled) {
+        voiceEngine.speakFeedback(isCorrect, current.explanation);
+      }
+
+      // Visual feedback
+      if (isCorrect) {
+        els.options.children[index].classList.add('animate-pulse');
+      } else {
+        els.options.children[index].classList.add('animate-shake');
+      }
     }
     
     scheduleAutoAdvance();
@@ -610,6 +828,7 @@
       topics: Array.from(new Set(state.sessionQuestions.map(q => q.topic))),
       questionDetails: state.sessionQuestions.map((q, i) => ({
         topic: q.topic,
+        difficulty: q.difficulty || 'medium',
         correct: state.answers[i] === q.answer,
         timeSpent: state.questionTimes[i] || 0
       })),
@@ -763,7 +982,7 @@
       const overall = subjectStats.attempts === 0
         ? 0
         : Math.round((subjectStats.correct / subjectStats.attempts) * 100);
-      els.history.textContent = `All-time for ${state.subject}: ${subjectStats.correct}/${subjectStats.attempts} (${overall}%).`;
+      els.history.textContent = `All-time for ${formatSubjectName(state.subject)}: ${subjectStats.correct}/${subjectStats.attempts} (${overall}%).`;
     } else {
       els.history.textContent = '';
     }
@@ -1050,21 +1269,21 @@
                   <div class="help-step__number">1</div>
                   <div class="help-step__content">
                     <h4>Choose Your Subject</h4>
-                    <p>Select from Mathematics, English, Physics, Chemistry, or Biology from the dropdown menu.</p>
+                    <p>Select from 12 WAEC subjects: Mathematics, English, Physics, Chemistry, Biology, Economics, Government, Literature, Geography, Accounting, Commerce, Agricultural Science.</p>
                   </div>
                 </div>
                 <div class="help-step">
                   <div class="help-step__number">2</div>
                   <div class="help-step__content">
                     <h4>Select Practice Mode</h4>
-                    <p><strong>Practice:</strong> Untimed, learn at your pace<br><strong>Timed Exam:</strong> Simulates real exam conditions</p>
+                    <p><strong>Practice:</strong> Untimed, learn at your pace<br><strong>Timed Exam:</strong> Countdown timer<br><strong>WAEC Exam:</strong> Difficulty mix and pacing like the real test</p>
                   </div>
                 </div>
                 <div class="help-step">
                   <div class="help-step__number">3</div>
                   <div class="help-step__content">
                     <h4>Set Number of Questions</h4>
-                    <p>Choose 5-60 questions per session. Start with 10-20 for short practice sessions.</p>
+                    <p>Choose 5-150 questions per session. Start with 10-20 for short practice sessions.</p>
                   </div>
                 </div>
                 <div class="help-step">
@@ -1101,7 +1320,7 @@
               <div class="help-feature-card clickable" data-action="timed">
                 <div class="feature-icon">⏱️</div>
                 <h4>Timed Exam</h4>
-                <p>Simulate real exam conditions with countdown timer. Perfect for test preparation.</p>
+                <p>Simulate exam conditions with a countdown timer. Perfect for test preparation.</p>
                 <span class="feature-cta">Start Exam →</span>
               </div>
               <div class="help-feature-card clickable" data-action="analytics">
@@ -1487,7 +1706,7 @@
             <div class="leaderboard-info">
               <div class="leaderboard-name">${entry.playerName}</div>
               <div class="leaderboard-meta">
-                ${entry.subject} • ${entry.source === 'firebase' ? '🌐' : '📱'} ${timeAgo}
+                ${formatSubjectName(entry.subject)} • ${entry.source === 'firebase' ? '🌐' : '📱'} ${timeAgo}
                 ${entry.device ? `• ${entry.device.type}` : ''}
               </div>
             </div>
@@ -1569,9 +1788,17 @@
   };
 
   const updateTimerVisibility = () => {
-    const isTimed = state.mode === 'timed';
-    els.timeWrap.classList.toggle('hidden', !isTimed);
+    const isTimed = state.mode === 'timed' || state.mode === 'exam';
+    const showTimeInput = state.mode === 'timed';
+    els.timeWrap.classList.toggle('hidden', !showTimeInput);
     els.timer.classList.toggle('hidden', !isTimed);
+    if (els.examSettings) {
+      els.examSettings.classList.toggle('hidden', state.mode !== 'exam');
+    }
+    if (state.mode === 'exam') {
+      applySubjectExamSeconds(state.subject);
+      updateExamHint();
+    }
   };
 
   const setTopics = (questions) => {
@@ -1587,17 +1814,45 @@
 
   const applyTopicFilter = () => {
     const topic = els.topicSelect.value;
-    if (topic === 'all') {
+    const difficulty = state.mode === 'exam'
+      ? 'all'
+      : (els.difficultySelect ? els.difficultySelect.value : 'all');
+    const matches = (q) => {
+      const topicMatch = topic === 'all' || q.topic === topic;
+      const difficultyMatch = difficulty === 'all' || q.difficulty === difficulty;
+      return topicMatch && difficultyMatch;
+    };
+    if (topic === 'all' && difficulty === 'all') {
       state.filteredQuestions = state.allQuestions.slice();
     } else {
-      state.filteredQuestions = state.allQuestions.filter((q) => q.topic === topic);
+      state.filteredQuestions = state.allQuestions.filter(matches);
     }
     if (els.setupNote) {
-      els.setupNote.textContent = state.filteredQuestions.length
-        ? `${state.filteredQuestions.length} questions available.`
-        : 'No questions available for this topic yet.';
+      if (!state.filteredQuestions.length) {
+        els.setupNote.textContent = 'No questions available for this topic yet.';
+      } else {
+        const available = state.filteredQuestions.length;
+        const requested = Number(els.questionCount.value) || 20;
+        const total = Math.min(requested, available);
+        let note = `${available} questions available.`;
+        if (requested > available) {
+          note += ` Using ${available} questions.`;
+        }
+        if (state.mode === 'exam') {
+          const mix = getExamMix();
+          const easyCount = Math.floor(total * (mix.easy / 100));
+          const mediumCount = Math.floor(total * (mix.medium / 100));
+          const hardCount = Math.max(0, total - easyCount - mediumCount);
+          const minutes = Math.max(10, Math.round((total * getExamSecondsPerQuestion()) / 60));
+          note += ` Exam mix: ${mix.easy}%/${mix.medium}%/${mix.hard}% (${easyCount}/${mediumCount}/${hardCount}). Est. ${minutes} min.`;
+        }
+        els.setupNote.textContent = note;
+      }
     }
     els.startBtn.disabled = state.filteredQuestions.length === 0;
+    if (state.mode === 'exam') {
+      updateExamHint();
+    }
   };
 
   const updateProgress = () => {
@@ -1656,7 +1911,7 @@
   const startTimer = () => {
     clearInterval(state.timerId);
     state.timerId = null;
-    if (state.mode !== 'timed') {
+    if (state.mode !== 'timed' && state.mode !== 'exam') {
       return;
     }
     const minutes = Number(els.timeLimit.value);
@@ -1853,7 +2108,7 @@
       const weak = (summary.weakTopics || [])
         .map((item) => item.topic)
         .join(', ');
-      els.history.textContent = `Last session: ${summary.subject} ${summary.score}/${summary.total} (${summary.percent}%).`;
+      els.history.textContent = `Last session: ${formatSubjectName(summary.subject)} ${summary.score}/${summary.total} (${summary.percent}%).`;
       if (weak) {
         els.weakTopics.textContent = `Recent weak topics: ${weak}`;
       }
@@ -2151,15 +2406,82 @@
     
     // Original event handlers
     els.subjectSelect.addEventListener('change', (event) => {
-      loadSubject(event.target.value);
+      const nextSubject = event.target.value;
+      if (state.mode === 'exam') {
+        applySubjectExamSeconds(nextSubject);
+        syncExamTime();
+        updateExamHint();
+      }
+      loadSubject(nextSubject);
     });
 
     els.modeSelect.addEventListener('change', (event) => {
       state.mode = event.target.value;
       updateTimerVisibility();
+      if (state.mode === 'exam') {
+        applySubjectExamSeconds(state.subject);
+        syncExamTime();
+        updateExamHint();
+      }
+      if (els.difficultySelect) {
+        const isExam = state.mode === 'exam';
+        els.difficultySelect.disabled = isExam;
+        if (isExam) {
+          els.difficultySelect.value = 'all';
+        }
+      }
+      applyTopicFilter();
     });
 
     els.topicSelect.addEventListener('change', applyTopicFilter);
+    if (els.difficultySelect) {
+      els.difficultySelect.addEventListener('change', applyTopicFilter);
+    }
+    if (els.questionCount) {
+      els.questionCount.addEventListener('input', () => {
+        if (state.mode === 'exam') {
+          syncExamTime();
+          updateExamHint();
+        }
+        applyTopicFilter();
+      });
+    }
+    const handleExamSettingsChange = () => {
+      const mix = getExamMix();
+      if (els.examEasy) els.examEasy.value = String(mix.easy);
+      if (els.examMedium) els.examMedium.value = String(mix.medium);
+      if (els.examHard) els.examHard.value = String(mix.hard);
+      state.examMixCustom = true;
+      syncExamTime();
+      updateExamHint();
+      applyTopicFilter();
+    };
+    if (els.examEasy) {
+      els.examEasy.addEventListener('change', handleExamSettingsChange);
+    }
+    if (els.examMedium) {
+      els.examMedium.addEventListener('change', handleExamSettingsChange);
+    }
+    if (els.examHard) {
+      els.examHard.addEventListener('change', handleExamSettingsChange);
+    }
+    if (els.examSecondsPerQuestion) {
+      els.examSecondsPerQuestion.addEventListener('change', () => {
+        state.examSecondsCustom = true;
+        syncExamTime();
+        updateExamHint();
+        applyTopicFilter();
+      });
+    }
+    if (els.applyWaecPreset) {
+      els.applyWaecPreset.addEventListener('click', () => {
+        if (els.questionCount) {
+          els.questionCount.value = '60';
+        }
+        applyWaecPreset();
+        applyTopicFilter();
+      });
+    }
     els.startBtn.addEventListener('click', startQuiz);
     els.nextBtn.addEventListener('click', handleNext);
     els.finishBtn.addEventListener('click', finishQuiz);
@@ -2176,13 +2498,22 @@
           const mode = btn.dataset.quick || 'practice';
           const questions = Number(btn.dataset.questions) || 20;
           const minutes = Number(btn.dataset.minutes) || 30;
+          const seconds = Number(btn.dataset.seconds);
           els.modeSelect.value = mode;
-          state.mode = mode;
-          updateTimerVisibility();
+          els.modeSelect.dispatchEvent(new Event('change'));
           els.questionCount.value = String(questions);
           if (mode === 'timed') {
             els.timeLimit.value = String(minutes);
           }
+          if (mode === 'exam') {
+            applyWaecPreset();
+            if (Number.isFinite(seconds) && els.examSecondsPerQuestion) {
+              els.examSecondsPerQuestion.value = String(seconds);
+            }
+            syncExamTime();
+            updateExamHint();
+          }
+          applyTopicFilter();
           startQuiz();
         });
       });
@@ -2417,6 +2748,7 @@
           {
             id: 1,
             topic: "Sample",
+            difficulty: "easy",
             question: "This is a sample question. Select any option to test the app.",
             options: ["Option A", "Option B", "Option C", "Option D"],
             answer: 0,

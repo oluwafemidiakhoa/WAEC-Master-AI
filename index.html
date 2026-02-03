@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0f4c81" />
-  <meta name="description" content="Offline-ready WAEC practice for Mathematics, English, Physics, Chemistry, and Biology." />
+  <meta name="description" content="Offline-ready WAEC practice for 12 subjects: Mathematics, English, Physics, Chemistry, Biology, Economics, Government, Literature, Geography, Accounting, Commerce, Agricultural Science." />
   <title>WAEC Practice PWA</title>
   <link rel="manifest" href="./manifest.json" />
   <link rel="icon" href="./icons/icon-192.png" />
@@ -19,7 +19,7 @@
     <header class="app__header">
       <div>
         <h1>WAEC Practice</h1>
-        <p class="muted">Practice smarter, even offline — short drills and exam mode for Mathematics, English, Physics, Chemistry, and Biology.</p>
+        <p class="muted">Practice smarter, even offline — short drills and exam mode for 12 WAEC subjects: Mathematics, English, Physics, Chemistry, Biology, Economics, Government, Literature, Geography, Accounting, Commerce, Agricultural Science.</p>
       </div>
       <div class="header__actions">
         <div class="header__controls">
@@ -82,8 +82,9 @@
           <span class="badge hero__badge">Offline-first</span>
           <h2>Study daily, see your progress.</h2>
           <p class="muted">
-            A fast, low-data WAEC practice app for Mathematics, English, Physics, Chemistry, and Biology.
-            Drill by topic, get instant feedback, and build a daily streak.
+            A fast, low-data WAEC practice app covering 12 subjects: Mathematics, English, Physics, Chemistry, Biology, Economics,
+            Government, Literature, Geography, Accounting, Commerce, Agricultural Science. Drill by topic, get instant feedback, and
+            build a daily streak.
           </p>
           <div class="hero__actions">
             <a class="primary button-link" href="#setup">Start practice</a>
@@ -198,6 +199,13 @@
               <option value="physics">Physics</option>
               <option value="chemistry">Chemistry</option>
               <option value="biology">Biology</option>
+              <option value="economics">Economics</option>
+              <option value="government">Government</option>
+              <option value="literature">Literature</option>
+              <option value="geography">Geography</option>
+              <option value="commerce">Commerce</option>
+              <option value="accounting">Accounting</option>
+              <option value="agricultural_science">Agricultural Science</option>
             </select>
             <button id="refreshLeaderboard" class="outline small">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -254,6 +262,7 @@
         <button class="chip" type="button" data-quick="practice" data-questions="20">Quick 20</button>
         <button class="chip" type="button" data-quick="timed" data-questions="30" data-minutes="30">Timed 30</button>
         <button class="chip" type="button" data-quick="timed" data-questions="40" data-minutes="45">Timed 45</button>
+        <button class="chip" type="button" data-quick="exam" data-questions="60" data-seconds="90">WAEC 60</button>
       </div>
       <div class="setup__stats">
         <div class="stat">
@@ -287,6 +296,13 @@
             <option value="physics">Physics</option>
             <option value="chemistry">Chemistry</option>
             <option value="biology">Biology</option>
+            <option value="economics">Economics</option>
+            <option value="government">Government</option>
+            <option value="literature">Literature</option>
+            <option value="geography">Geography</option>
+            <option value="commerce">Commerce</option>
+            <option value="accounting">Accounting</option>
+            <option value="agricultural_science">Agricultural Science</option>
           </select>
         </label>
 
@@ -295,6 +311,7 @@
           <select id="modeSelect">
             <option value="practice">Practice</option>
             <option value="timed">Timed Exam</option>
+            <option value="exam">Exam (WAEC style)</option>
           </select>
         </label>
 
@@ -306,8 +323,18 @@
         </label>
 
         <label>
+          Difficulty
+          <select id="difficultySelect">
+            <option value="all">All levels</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </label>
+
+        <label>
           Questions
-          <input id="questionCount" type="number" min="5" max="60" value="20" />
+          <input id="questionCount" type="number" min="5" max="150" value="20" />
         </label>
 
         <label id="timeWrap" class="hidden">
@@ -320,6 +347,32 @@
           <input id="autoAdvance" type="checkbox" checked />
           <span class="toggle__slider"></span>
         </label>
+      </div>
+
+      <div id="examSettings" class="exam-settings hidden">
+        <div class="exam-settings__header">
+          <h3>Exam mode settings</h3>
+          <button id="applyWaecPreset" class="ghost small" type="button">Use WAEC preset</button>
+        </div>
+        <div class="exam-settings__grid">
+          <label>
+            Easy %
+            <input id="examEasy" type="number" min="0" max="100" value="25" />
+          </label>
+          <label>
+            Medium %
+            <input id="examMedium" type="number" min="0" max="100" value="50" />
+          </label>
+          <label>
+            Hard %
+            <input id="examHard" type="number" min="0" max="100" value="25" />
+          </label>
+          <label>
+            Seconds per question
+            <input id="examSecondsPerQuestion" type="number" min="30" max="180" value="85" />
+          </label>
+        </div>
+        <p id="examMixHint" class="muted small"></p>
       </div>
 
       <button id="startBtn" class="primary" type="button">Start</button>

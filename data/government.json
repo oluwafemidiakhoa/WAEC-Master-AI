@@ -1,0 +1,2102 @@
+[
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "The term 'Constitution' refers to ___.",
+    "options": [
+      "the supreme law of a country",
+      "everyone is subject to the law",
+      "division of government into three arms",
+      "power shared between central and regional governments"
+    ],
+    "answer": 0,
+    "explanation": "Constitution means the supreme law of a country.",
+    "id": 1
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "The term 'Rule of law' refers to ___.",
+    "options": [
+      "division of government into three arms",
+      "power shared between central and regional governments",
+      "power concentrated at the center",
+      "everyone is subject to the law"
+    ],
+    "answer": 3,
+    "explanation": "Rule of law means everyone is subject to the law.",
+    "id": 2
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "The term 'Separation of powers' refers to ___.",
+    "options": [
+      "power shared between central and regional governments",
+      "division of government into three arms",
+      "power concentrated at the center",
+      "executive is separate from legislature"
+    ],
+    "answer": 1,
+    "explanation": "Separation of powers means division of government into three arms.",
+    "id": 3
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "medium",
+    "question": "The term 'Federalism' refers to ___.",
+    "options": [
+      "power concentrated at the center",
+      "executive is separate from legislature",
+      "power shared between central and regional governments",
+      "executive is drawn from legislature"
+    ],
+    "answer": 2,
+    "explanation": "Federalism means power shared between central and regional governments.",
+    "id": 4
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "easy",
+    "question": "The term 'Unitary system' refers to ___.",
+    "options": [
+      "power concentrated at the center",
+      "executive is separate from legislature",
+      "executive is drawn from legislature",
+      "arm of government that makes laws"
+    ],
+    "answer": 0,
+    "explanation": "Unitary system means power concentrated at the center.",
+    "id": 5
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "medium",
+    "question": "The term 'Presidential system' refers to ___.",
+    "options": [
+      "executive is drawn from legislature",
+      "arm of government that makes laws",
+      "arm of government that implements laws",
+      "executive is separate from legislature"
+    ],
+    "answer": 3,
+    "explanation": "Presidential system means executive is separate from legislature.",
+    "id": 6
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "medium",
+    "question": "The term 'Parliamentary system' refers to ___.",
+    "options": [
+      "arm of government that makes laws",
+      "executive is drawn from legislature",
+      "arm of government that implements laws",
+      "arm of government that interprets laws"
+    ],
+    "answer": 1,
+    "explanation": "Parliamentary system means executive is drawn from legislature.",
+    "id": 7
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "The term 'Legislature' refers to ___.",
+    "options": [
+      "arm of government that implements laws",
+      "arm of government that interprets laws",
+      "arm of government that makes laws",
+      "legislature with two chambers"
+    ],
+    "answer": 2,
+    "explanation": "Legislature means arm of government that makes laws.",
+    "id": 8
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "The term 'Executive' refers to ___.",
+    "options": [
+      "arm of government that implements laws",
+      "arm of government that interprets laws",
+      "legislature with two chambers",
+      "legislature with one chamber"
+    ],
+    "answer": 0,
+    "explanation": "Executive means arm of government that implements laws.",
+    "id": 9
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "The term 'Judiciary' refers to ___.",
+    "options": [
+      "legislature with two chambers",
+      "legislature with one chamber",
+      "direct vote by citizens on an issue",
+      "arm of government that interprets laws"
+    ],
+    "answer": 3,
+    "explanation": "Judiciary means arm of government that interprets laws.",
+    "id": 10
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "The term 'Bicameral' refers to ___.",
+    "options": [
+      "legislature with one chamber",
+      "legislature with two chambers",
+      "direct vote by citizens on an issue",
+      "the right to vote"
+    ],
+    "answer": 1,
+    "explanation": "Bicameral means legislature with two chambers.",
+    "id": 11
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "The term 'Unicameral' refers to ___.",
+    "options": [
+      "direct vote by citizens on an issue",
+      "the right to vote",
+      "legislature with one chamber",
+      "organization formed to contest elections"
+    ],
+    "answer": 2,
+    "explanation": "Unicameral means legislature with one chamber.",
+    "id": 12
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "The term 'Referendum' refers to ___.",
+    "options": [
+      "direct vote by citizens on an issue",
+      "the right to vote",
+      "organization formed to contest elections",
+      "organization that influences government policy"
+    ],
+    "answer": 0,
+    "explanation": "Referendum means direct vote by citizens on an issue.",
+    "id": 13
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "The term 'Franchise' refers to ___.",
+    "options": [
+      "organization formed to contest elections",
+      "organization that influences government policy",
+      "policy program of a political party",
+      "the right to vote"
+    ],
+    "answer": 3,
+    "explanation": "Franchise means the right to vote.",
+    "id": 14
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "The term 'Political party' refers to ___.",
+    "options": [
+      "organization that influences government policy",
+      "organization formed to contest elections",
+      "policy program of a political party",
+      "alliance of parties to form government"
+    ],
+    "answer": 1,
+    "explanation": "Political party means organization formed to contest elections.",
+    "id": 15
+  },
+  {
+    "topic": "Pressure Groups",
+    "difficulty": "medium",
+    "question": "The term 'Pressure group' refers to ___.",
+    "options": [
+      "policy program of a political party",
+      "alliance of parties to form government",
+      "organization that influences government policy",
+      "body that organizes elections"
+    ],
+    "answer": 2,
+    "explanation": "Pressure group means organization that influences government policy.",
+    "id": 16
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "The term 'Manifesto' refers to ___.",
+    "options": [
+      "policy program of a political party",
+      "alliance of parties to form government",
+      "body that organizes elections",
+      "area represented by an elected official"
+    ],
+    "answer": 0,
+    "explanation": "Manifesto means policy program of a political party.",
+    "id": 17
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "The term 'Coalition' refers to ___.",
+    "options": [
+      "body that organizes elections",
+      "area represented by an elected official",
+      "process of removing a public officer",
+      "alliance of parties to form government"
+    ],
+    "answer": 3,
+    "explanation": "Coalition means alliance of parties to form government.",
+    "id": 18
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "The term 'Electoral commission' refers to ___.",
+    "options": [
+      "area represented by an elected official",
+      "body that organizes elections",
+      "process of removing a public officer",
+      "public officer who investigates complaints"
+    ],
+    "answer": 1,
+    "explanation": "Electoral commission means body that organizes elections.",
+    "id": 19
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "The term 'Constituency' refers to ___.",
+    "options": [
+      "process of removing a public officer",
+      "public officer who investigates complaints",
+      "area represented by an elected official",
+      "permanent staff that implement policies"
+    ],
+    "answer": 2,
+    "explanation": "Constituency means area represented by an elected official.",
+    "id": 20
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "medium",
+    "question": "The term 'Impeachment' refers to ___.",
+    "options": [
+      "process of removing a public officer",
+      "public officer who investigates complaints",
+      "permanent staff that implement policies",
+      "administration by appointed officials"
+    ],
+    "answer": 0,
+    "explanation": "Impeachment means process of removing a public officer.",
+    "id": 21
+  },
+  {
+    "topic": "Public Administration",
+    "difficulty": "hard",
+    "question": "The term 'Ombudsman' refers to ___.",
+    "options": [
+      "permanent staff that implement policies",
+      "administration by appointed officials",
+      "government-owned enterprise",
+      "public officer who investigates complaints"
+    ],
+    "answer": 3,
+    "explanation": "Ombudsman means public officer who investigates complaints.",
+    "id": 22
+  },
+  {
+    "topic": "Public Administration",
+    "difficulty": "easy",
+    "question": "The term 'Civil service' refers to ___.",
+    "options": [
+      "administration by appointed officials",
+      "permanent staff that implement policies",
+      "government-owned enterprise",
+      "third tier of government"
+    ],
+    "answer": 1,
+    "explanation": "Civil service means permanent staff that implement policies.",
+    "id": 23
+  },
+  {
+    "topic": "Public Administration",
+    "difficulty": "medium",
+    "question": "The term 'Bureaucracy' refers to ___.",
+    "options": [
+      "government-owned enterprise",
+      "third tier of government",
+      "administration by appointed officials",
+      "system that prevents abuse of power"
+    ],
+    "answer": 2,
+    "explanation": "Bureaucracy means administration by appointed officials.",
+    "id": 24
+  },
+  {
+    "topic": "Public Administration",
+    "difficulty": "medium",
+    "question": "The term 'Public corporation' refers to ___.",
+    "options": [
+      "government-owned enterprise",
+      "third tier of government",
+      "system that prevents abuse of power",
+      "basic rights guaranteed by constitution"
+    ],
+    "answer": 0,
+    "explanation": "Public corporation means government-owned enterprise.",
+    "id": 25
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "easy",
+    "question": "The term 'Local government' refers to ___.",
+    "options": [
+      "system that prevents abuse of power",
+      "basic rights guaranteed by constitution",
+      "legal membership of a state",
+      "third tier of government"
+    ],
+    "answer": 3,
+    "explanation": "Local government means third tier of government.",
+    "id": 26
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "medium",
+    "question": "The term 'Checks and balances' refers to ___.",
+    "options": [
+      "basic rights guaranteed by constitution",
+      "system that prevents abuse of power",
+      "legal membership of a state",
+      "loyalty and devotion to a nation"
+    ],
+    "answer": 1,
+    "explanation": "Checks and balances means system that prevents abuse of power.",
+    "id": 27
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "easy",
+    "question": "The term 'Fundamental rights' refers to ___.",
+    "options": [
+      "legal membership of a state",
+      "loyalty and devotion to a nation",
+      "basic rights guaranteed by constitution",
+      "state control of key sectors"
+    ],
+    "answer": 2,
+    "explanation": "Fundamental rights means basic rights guaranteed by constitution.",
+    "id": 28
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "easy",
+    "question": "The term 'Citizenship' refers to ___.",
+    "options": [
+      "legal membership of a state",
+      "loyalty and devotion to a nation",
+      "state control of key sectors",
+      "private ownership and profit motive"
+    ],
+    "answer": 0,
+    "explanation": "Citizenship means legal membership of a state.",
+    "id": 29
+  },
+  {
+    "topic": "Ideologies",
+    "difficulty": "medium",
+    "question": "The term 'Nationalism' refers to ___.",
+    "options": [
+      "state control of key sectors",
+      "private ownership and profit motive",
+      "public ownership of major resources",
+      "loyalty and devotion to a nation"
+    ],
+    "answer": 3,
+    "explanation": "Nationalism means loyalty and devotion to a nation.",
+    "id": 30
+  },
+  {
+    "topic": "Ideologies",
+    "difficulty": "hard",
+    "question": "The term 'Socialism' refers to ___.",
+    "options": [
+      "private ownership and profit motive",
+      "state control of key sectors",
+      "public ownership of major resources",
+      "absolute control by the state"
+    ],
+    "answer": 1,
+    "explanation": "Socialism means state control of key sectors.",
+    "id": 31
+  },
+  {
+    "topic": "Ideologies",
+    "difficulty": "medium",
+    "question": "The term 'Capitalism' refers to ___.",
+    "options": [
+      "public ownership of major resources",
+      "absolute control by the state",
+      "private ownership and profit motive",
+      "government based on popular participation"
+    ],
+    "answer": 2,
+    "explanation": "Capitalism means private ownership and profit motive.",
+    "id": 32
+  },
+  {
+    "topic": "Ideologies",
+    "difficulty": "hard",
+    "question": "The term 'Communism' refers to ___.",
+    "options": [
+      "public ownership of major resources",
+      "absolute control by the state",
+      "government based on popular participation",
+      "government by one person"
+    ],
+    "answer": 0,
+    "explanation": "Communism means public ownership of major resources.",
+    "id": 33
+  },
+  {
+    "topic": "Ideologies",
+    "difficulty": "hard",
+    "question": "The term 'Totalitarianism' refers to ___.",
+    "options": [
+      "government based on popular participation",
+      "government by one person",
+      "government by the armed forces",
+      "absolute control by the state"
+    ],
+    "answer": 3,
+    "explanation": "Totalitarianism means absolute control by the state.",
+    "id": 34
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "The term 'Democracy' refers to ___.",
+    "options": [
+      "government by one person",
+      "government based on popular participation",
+      "government by the armed forces",
+      "unfair practices during elections"
+    ],
+    "answer": 1,
+    "explanation": "Democracy means government based on popular participation.",
+    "id": 35
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "medium",
+    "question": "The term 'Autocracy' refers to ___.",
+    "options": [
+      "government by the armed forces",
+      "unfair practices during elections",
+      "government by one person",
+      "election to fill a vacant seat"
+    ],
+    "answer": 2,
+    "explanation": "Autocracy means government by one person.",
+    "id": 36
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "The term 'Military rule' refers to ___.",
+    "options": [
+      "government by the armed forces",
+      "unfair practices during elections",
+      "election to fill a vacant seat",
+      "power to reject a bill"
+    ],
+    "answer": 0,
+    "explanation": "Military rule means government by the armed forces.",
+    "id": 37
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "The term 'Electoral malpractice' refers to ___.",
+    "options": [
+      "election to fill a vacant seat",
+      "power to reject a bill",
+      "minimum members needed to conduct meeting",
+      "unfair practices during elections"
+    ],
+    "answer": 3,
+    "explanation": "Electoral malpractice means unfair practices during elections.",
+    "id": 38
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "The term 'By-election' refers to ___.",
+    "options": [
+      "power to reject a bill",
+      "election to fill a vacant seat",
+      "minimum members needed to conduct meeting",
+      "formal expression of disapproval"
+    ],
+    "answer": 1,
+    "explanation": "By-election means election to fill a vacant seat.",
+    "id": 39
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "medium",
+    "question": "The term 'Veto' refers to ___.",
+    "options": [
+      "minimum members needed to conduct meeting",
+      "formal expression of disapproval",
+      "power to reject a bill",
+      "views held by the public"
+    ],
+    "answer": 2,
+    "explanation": "Veto means power to reject a bill.",
+    "id": 40
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "medium",
+    "question": "The term 'Quorum' refers to ___.",
+    "options": [
+      "minimum members needed to conduct meeting",
+      "formal expression of disapproval",
+      "views held by the public",
+      "means of communication to many people"
+    ],
+    "answer": 0,
+    "explanation": "Quorum means minimum members needed to conduct meeting.",
+    "id": 41
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "hard",
+    "question": "The term 'Censure' refers to ___.",
+    "options": [
+      "views held by the public",
+      "means of communication to many people",
+      "persuading decision makers",
+      "formal expression of disapproval"
+    ],
+    "answer": 3,
+    "explanation": "Censure means formal expression of disapproval.",
+    "id": 42
+  },
+  {
+    "topic": "Pressure Groups",
+    "difficulty": "easy",
+    "question": "The term 'Public opinion' refers to ___.",
+    "options": [
+      "means of communication to many people",
+      "views held by the public",
+      "persuading decision makers",
+      "supreme authority of a state"
+    ],
+    "answer": 1,
+    "explanation": "Public opinion means views held by the public.",
+    "id": 43
+  },
+  {
+    "topic": "Pressure Groups",
+    "difficulty": "easy",
+    "question": "The term 'Mass media' refers to ___.",
+    "options": [
+      "persuading decision makers",
+      "supreme authority of a state",
+      "means of communication to many people",
+      "lack of interest in politics"
+    ],
+    "answer": 2,
+    "explanation": "Mass media means means of communication to many people.",
+    "id": 44
+  },
+  {
+    "topic": "Pressure Groups",
+    "difficulty": "medium",
+    "question": "The term 'Lobbying' refers to ___.",
+    "options": [
+      "persuading decision makers",
+      "supreme authority of a state",
+      "lack of interest in politics",
+      "transfer of power to lower levels"
+    ],
+    "answer": 0,
+    "explanation": "Lobbying means persuading decision makers.",
+    "id": 45
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "medium",
+    "question": "The term 'Sovereignty' refers to ___.",
+    "options": [
+      "lack of interest in politics",
+      "transfer of power to lower levels",
+      "revenue and expenditure sharing in a federation",
+      "supreme authority of a state"
+    ],
+    "answer": 3,
+    "explanation": "Sovereignty means supreme authority of a state.",
+    "id": 46
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "easy",
+    "question": "The term 'Political apathy' refers to ___.",
+    "options": [
+      "transfer of power to lower levels",
+      "lack of interest in politics",
+      "revenue and expenditure sharing in a federation",
+      "process of learning political values and attitudes"
+    ],
+    "answer": 1,
+    "explanation": "Political apathy means lack of interest in politics.",
+    "id": 47
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "medium",
+    "question": "The term 'Decentralization' refers to ___.",
+    "options": [
+      "revenue and expenditure sharing in a federation",
+      "process of learning political values and attitudes",
+      "transfer of power to lower levels",
+      "government limited by the constitution"
+    ],
+    "answer": 2,
+    "explanation": "Decentralization means transfer of power to lower levels.",
+    "id": 48
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "hard",
+    "question": "The term 'Fiscal federalism' refers to ___.",
+    "options": [
+      "revenue and expenditure sharing in a federation",
+      "process of learning political values and attitudes",
+      "government limited by the constitution",
+      "group of senior ministers advising the executive"
+    ],
+    "answer": 0,
+    "explanation": "Fiscal federalism means revenue and expenditure sharing in a federation.",
+    "id": 49
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "medium",
+    "question": "The term 'Political socialization' refers to ___.",
+    "options": [
+      "government limited by the constitution",
+      "group of senior ministers advising the executive",
+      "personal freedoms guaranteed by law",
+      "process of learning political values and attitudes"
+    ],
+    "answer": 3,
+    "explanation": "Political socialization means process of learning political values and attitudes.",
+    "id": 50
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "hard",
+    "question": "The term 'Constitutionalism' refers to ___.",
+    "options": [
+      "group of senior ministers advising the executive",
+      "government limited by the constitution",
+      "personal freedoms guaranteed by law",
+      "right of adults to vote"
+    ],
+    "answer": 1,
+    "explanation": "Constitutionalism means government limited by the constitution.",
+    "id": 51
+  },
+  {
+    "topic": "Public Administration",
+    "difficulty": "medium",
+    "question": "The term 'Cabinet' refers to ___.",
+    "options": [
+      "personal freedoms guaranteed by law",
+      "right of adults to vote",
+      "group of senior ministers advising the executive",
+      "body that elects leaders"
+    ],
+    "answer": 2,
+    "explanation": "Cabinet means group of senior ministers advising the executive.",
+    "id": 52
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "medium",
+    "question": "The term 'Civil liberties' refers to ___.",
+    "options": [
+      "personal freedoms guaranteed by law",
+      "right of adults to vote",
+      "body that elects leaders",
+      "laws made by authorized bodies"
+    ],
+    "answer": 0,
+    "explanation": "Civil liberties means personal freedoms guaranteed by law.",
+    "id": 53
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "The term 'Adult suffrage' refers to ___.",
+    "options": [
+      "body that elects leaders",
+      "laws made by authorized bodies",
+      "court power to interpret or invalidate laws",
+      "right of adults to vote"
+    ],
+    "answer": 3,
+    "explanation": "Adult suffrage means right of adults to vote.",
+    "id": 54
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "hard",
+    "question": "The term 'Electoral college' refers to ___.",
+    "options": [
+      "laws made by authorized bodies",
+      "body that elects leaders",
+      "court power to interpret or invalidate laws",
+      "policy ensuring representation of groups"
+    ],
+    "answer": 1,
+    "explanation": "Electoral college means body that elects leaders.",
+    "id": 55
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "hard",
+    "question": "The term 'Delegated legislation' refers to ___.",
+    "options": [
+      "court power to interpret or invalidate laws",
+      "policy ensuring representation of groups",
+      "laws made by authorized bodies",
+      "teaching citizens their rights and duties"
+    ],
+    "answer": 2,
+    "explanation": "Delegated legislation means laws made by authorized bodies.",
+    "id": 56
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "hard",
+    "question": "The term 'Judicial review' refers to ___.",
+    "options": [
+      "court power to interpret or invalidate laws",
+      "policy ensuring representation of groups",
+      "teaching citizens their rights and duties",
+      "citizen involvement in politics"
+    ],
+    "answer": 0,
+    "explanation": "Judicial review means court power to interpret or invalidate laws.",
+    "id": 57
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "medium",
+    "question": "The term 'Federal character' refers to ___.",
+    "options": [
+      "teaching citizens their rights and duties",
+      "citizen involvement in politics",
+      "person who seeks to influence policy",
+      "policy ensuring representation of groups"
+    ],
+    "answer": 3,
+    "explanation": "Federal character means policy ensuring representation of groups.",
+    "id": 58
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "easy",
+    "question": "The term 'Civic education' refers to ___.",
+    "options": [
+      "citizen involvement in politics",
+      "teaching citizens their rights and duties",
+      "person who seeks to influence policy",
+      "temporary government before elections"
+    ],
+    "answer": 1,
+    "explanation": "Civic education means teaching citizens their rights and duties.",
+    "id": 59
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "easy",
+    "question": "The term 'Political participation' refers to ___.",
+    "options": [
+      "person who seeks to influence policy",
+      "temporary government before elections",
+      "citizen involvement in politics",
+      "system dominated by two major parties"
+    ],
+    "answer": 2,
+    "explanation": "Political participation means citizen involvement in politics.",
+    "id": 60
+  },
+  {
+    "topic": "Pressure Groups",
+    "difficulty": "medium",
+    "question": "The term 'Lobbyist' refers to ___.",
+    "options": [
+      "person who seeks to influence policy",
+      "temporary government before elections",
+      "system dominated by two major parties",
+      "system with a single legal party"
+    ],
+    "answer": 0,
+    "explanation": "Lobbyist means person who seeks to influence policy.",
+    "id": 61
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "medium",
+    "question": "The term 'Interim government' refers to ___.",
+    "options": [
+      "system dominated by two major parties",
+      "system with a single legal party",
+      "direct vote on an issue",
+      "temporary government before elections"
+    ],
+    "answer": 3,
+    "explanation": "Interim government means temporary government before elections.",
+    "id": 62
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "medium",
+    "question": "The term 'Two-party system' refers to ___.",
+    "options": [
+      "system with a single legal party",
+      "system dominated by two major parties",
+      "direct vote on an issue",
+      "drawing electoral boundaries"
+    ],
+    "answer": 1,
+    "explanation": "Two-party system means system dominated by two major parties.",
+    "id": 63
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "medium",
+    "question": "The term 'One-party system' refers to ___.",
+    "options": [
+      "direct vote on an issue",
+      "drawing electoral boundaries",
+      "system with a single legal party",
+      "low voter interest or turnout"
+    ],
+    "answer": 2,
+    "explanation": "One-party system means system with a single legal party.",
+    "id": 64
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "The term 'Plebiscite' refers to ___.",
+    "options": [
+      "direct vote on an issue",
+      "drawing electoral boundaries",
+      "low voter interest or turnout",
+      "refusal to obey unjust laws"
+    ],
+    "answer": 0,
+    "explanation": "Plebiscite means direct vote on an issue.",
+    "id": 65
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "hard",
+    "question": "The term 'Constituency delimitation' refers to ___.",
+    "options": [
+      "low voter interest or turnout",
+      "refusal to obey unjust laws",
+      "federal legislature",
+      "drawing electoral boundaries"
+    ],
+    "answer": 3,
+    "explanation": "Constituency delimitation means drawing electoral boundaries.",
+    "id": 66
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "The term 'Voter apathy' refers to ___.",
+    "options": [
+      "refusal to obey unjust laws",
+      "low voter interest or turnout",
+      "federal legislature",
+      "constitution is the highest law"
+    ],
+    "answer": 1,
+    "explanation": "Voter apathy means low voter interest or turnout.",
+    "id": 67
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "hard",
+    "question": "The term 'Civil disobedience' refers to ___.",
+    "options": [
+      "federal legislature",
+      "constitution is the highest law",
+      "refusal to obey unjust laws",
+      "the supreme law of a country"
+    ],
+    "answer": 2,
+    "explanation": "Civil disobedience means refusal to obey unjust laws.",
+    "id": 68
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "The term 'National assembly' refers to ___.",
+    "options": [
+      "federal legislature",
+      "constitution is the highest law",
+      "the supreme law of a country",
+      "everyone is subject to the law"
+    ],
+    "answer": 0,
+    "explanation": "National assembly means federal legislature.",
+    "id": 69
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "The term 'Supremacy of constitution' refers to ___.",
+    "options": [
+      "the supreme law of a country",
+      "everyone is subject to the law",
+      "division of government into three arms",
+      "constitution is the highest law"
+    ],
+    "answer": 3,
+    "explanation": "Supremacy of constitution means constitution is the highest law.",
+    "id": 70
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "Which term describes: the supreme law of a country?",
+    "options": [
+      "Rule of law",
+      "Constitution",
+      "Separation of powers",
+      "Federalism"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Constitution.",
+    "id": 71
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "Which term describes: everyone is subject to the law?",
+    "options": [
+      "Separation of powers",
+      "Federalism",
+      "Rule of law",
+      "Unitary system"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Rule of law.",
+    "id": 72
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "Which term describes: division of government into three arms?",
+    "options": [
+      "Separation of powers",
+      "Federalism",
+      "Unitary system",
+      "Presidential system"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Separation of powers.",
+    "id": 73
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "medium",
+    "question": "Which term describes: power shared between central and regional governments?",
+    "options": [
+      "Unitary system",
+      "Presidential system",
+      "Parliamentary system",
+      "Federalism"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Federalism.",
+    "id": 74
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "easy",
+    "question": "Which term describes: power concentrated at the center?",
+    "options": [
+      "Presidential system",
+      "Unitary system",
+      "Parliamentary system",
+      "Legislature"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Unitary system.",
+    "id": 75
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "medium",
+    "question": "Which term describes: executive is separate from legislature?",
+    "options": [
+      "Parliamentary system",
+      "Legislature",
+      "Presidential system",
+      "Executive"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Presidential system.",
+    "id": 76
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "medium",
+    "question": "Which term describes: executive is drawn from legislature?",
+    "options": [
+      "Parliamentary system",
+      "Legislature",
+      "Executive",
+      "Judiciary"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Parliamentary system.",
+    "id": 77
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "Which term describes: arm of government that makes laws?",
+    "options": [
+      "Executive",
+      "Judiciary",
+      "Bicameral",
+      "Legislature"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Legislature.",
+    "id": 78
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "Which term describes: arm of government that implements laws?",
+    "options": [
+      "Judiciary",
+      "Executive",
+      "Bicameral",
+      "Unicameral"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Executive.",
+    "id": 79
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "Which term describes: arm of government that interprets laws?",
+    "options": [
+      "Bicameral",
+      "Unicameral",
+      "Judiciary",
+      "Referendum"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Judiciary.",
+    "id": 80
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "Which term describes: legislature with two chambers?",
+    "options": [
+      "Bicameral",
+      "Unicameral",
+      "Referendum",
+      "Franchise"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Bicameral.",
+    "id": 81
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "Which term describes: legislature with one chamber?",
+    "options": [
+      "Referendum",
+      "Franchise",
+      "Political party",
+      "Unicameral"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Unicameral.",
+    "id": 82
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "Which term describes: direct vote by citizens on an issue?",
+    "options": [
+      "Franchise",
+      "Referendum",
+      "Political party",
+      "Pressure group"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Referendum.",
+    "id": 83
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "Which term describes: the right to vote?",
+    "options": [
+      "Political party",
+      "Pressure group",
+      "Franchise",
+      "Manifesto"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Franchise.",
+    "id": 84
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "Which term describes: organization formed to contest elections?",
+    "options": [
+      "Political party",
+      "Pressure group",
+      "Manifesto",
+      "Coalition"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Political party.",
+    "id": 85
+  },
+  {
+    "topic": "Pressure Groups",
+    "difficulty": "medium",
+    "question": "Which term describes: organization that influences government policy?",
+    "options": [
+      "Manifesto",
+      "Coalition",
+      "Electoral commission",
+      "Pressure group"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Pressure group.",
+    "id": 86
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "Which term describes: policy program of a political party?",
+    "options": [
+      "Coalition",
+      "Manifesto",
+      "Electoral commission",
+      "Constituency"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Manifesto.",
+    "id": 87
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "Which term describes: alliance of parties to form government?",
+    "options": [
+      "Electoral commission",
+      "Constituency",
+      "Coalition",
+      "Impeachment"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Coalition.",
+    "id": 88
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "Which term describes: body that organizes elections?",
+    "options": [
+      "Electoral commission",
+      "Constituency",
+      "Impeachment",
+      "Ombudsman"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Electoral commission.",
+    "id": 89
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "Which term describes: area represented by an elected official?",
+    "options": [
+      "Impeachment",
+      "Ombudsman",
+      "Civil service",
+      "Constituency"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Constituency.",
+    "id": 90
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "medium",
+    "question": "Which term describes: process of removing a public officer?",
+    "options": [
+      "Ombudsman",
+      "Impeachment",
+      "Civil service",
+      "Bureaucracy"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Impeachment.",
+    "id": 91
+  },
+  {
+    "topic": "Public Administration",
+    "difficulty": "hard",
+    "question": "Which term describes: public officer who investigates complaints?",
+    "options": [
+      "Civil service",
+      "Bureaucracy",
+      "Ombudsman",
+      "Public corporation"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Ombudsman.",
+    "id": 92
+  },
+  {
+    "topic": "Public Administration",
+    "difficulty": "easy",
+    "question": "Which term describes: permanent staff that implement policies?",
+    "options": [
+      "Civil service",
+      "Bureaucracy",
+      "Public corporation",
+      "Local government"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Civil service.",
+    "id": 93
+  },
+  {
+    "topic": "Public Administration",
+    "difficulty": "medium",
+    "question": "Which term describes: administration by appointed officials?",
+    "options": [
+      "Public corporation",
+      "Local government",
+      "Checks and balances",
+      "Bureaucracy"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Bureaucracy.",
+    "id": 94
+  },
+  {
+    "topic": "Public Administration",
+    "difficulty": "medium",
+    "question": "Which term describes: government-owned enterprise?",
+    "options": [
+      "Local government",
+      "Public corporation",
+      "Checks and balances",
+      "Fundamental rights"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Public corporation.",
+    "id": 95
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "easy",
+    "question": "Which term describes: third tier of government?",
+    "options": [
+      "Checks and balances",
+      "Fundamental rights",
+      "Local government",
+      "Citizenship"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Local government.",
+    "id": 96
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "medium",
+    "question": "Which term describes: system that prevents abuse of power?",
+    "options": [
+      "Checks and balances",
+      "Fundamental rights",
+      "Citizenship",
+      "Nationalism"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Checks and balances.",
+    "id": 97
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "easy",
+    "question": "Which term describes: basic rights guaranteed by constitution?",
+    "options": [
+      "Citizenship",
+      "Nationalism",
+      "Socialism",
+      "Fundamental rights"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Fundamental rights.",
+    "id": 98
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "easy",
+    "question": "Which term describes: legal membership of a state?",
+    "options": [
+      "Nationalism",
+      "Citizenship",
+      "Socialism",
+      "Capitalism"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Citizenship.",
+    "id": 99
+  },
+  {
+    "topic": "Ideologies",
+    "difficulty": "medium",
+    "question": "Which term describes: loyalty and devotion to a nation?",
+    "options": [
+      "Socialism",
+      "Capitalism",
+      "Nationalism",
+      "Communism"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Nationalism.",
+    "id": 100
+  },
+  {
+    "topic": "Ideologies",
+    "difficulty": "hard",
+    "question": "Which term describes: state control of key sectors?",
+    "options": [
+      "Socialism",
+      "Capitalism",
+      "Communism",
+      "Totalitarianism"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Socialism.",
+    "id": 101
+  },
+  {
+    "topic": "Ideologies",
+    "difficulty": "medium",
+    "question": "Which term describes: private ownership and profit motive?",
+    "options": [
+      "Communism",
+      "Totalitarianism",
+      "Democracy",
+      "Capitalism"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Capitalism.",
+    "id": 102
+  },
+  {
+    "topic": "Ideologies",
+    "difficulty": "hard",
+    "question": "Which term describes: public ownership of major resources?",
+    "options": [
+      "Totalitarianism",
+      "Communism",
+      "Democracy",
+      "Autocracy"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Communism.",
+    "id": 103
+  },
+  {
+    "topic": "Ideologies",
+    "difficulty": "hard",
+    "question": "Which term describes: absolute control by the state?",
+    "options": [
+      "Democracy",
+      "Autocracy",
+      "Totalitarianism",
+      "Military rule"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Totalitarianism.",
+    "id": 104
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "Which term describes: government based on popular participation?",
+    "options": [
+      "Democracy",
+      "Autocracy",
+      "Military rule",
+      "Electoral malpractice"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Democracy.",
+    "id": 105
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "medium",
+    "question": "Which term describes: government by one person?",
+    "options": [
+      "Military rule",
+      "Electoral malpractice",
+      "By-election",
+      "Autocracy"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Autocracy.",
+    "id": 106
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "Which term describes: government by the armed forces?",
+    "options": [
+      "Electoral malpractice",
+      "Military rule",
+      "By-election",
+      "Veto"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Military rule.",
+    "id": 107
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "Which term describes: unfair practices during elections?",
+    "options": [
+      "By-election",
+      "Veto",
+      "Electoral malpractice",
+      "Quorum"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Electoral malpractice.",
+    "id": 108
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "Which term describes: election to fill a vacant seat?",
+    "options": [
+      "By-election",
+      "Veto",
+      "Quorum",
+      "Censure"
+    ],
+    "answer": 0,
+    "explanation": "That description matches By-election.",
+    "id": 109
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "medium",
+    "question": "Which term describes: power to reject a bill?",
+    "options": [
+      "Quorum",
+      "Censure",
+      "Public opinion",
+      "Veto"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Veto.",
+    "id": 110
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "medium",
+    "question": "Which term describes: minimum members needed to conduct meeting?",
+    "options": [
+      "Censure",
+      "Quorum",
+      "Public opinion",
+      "Mass media"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Quorum.",
+    "id": 111
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "hard",
+    "question": "Which term describes: formal expression of disapproval?",
+    "options": [
+      "Public opinion",
+      "Mass media",
+      "Censure",
+      "Lobbying"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Censure.",
+    "id": 112
+  },
+  {
+    "topic": "Pressure Groups",
+    "difficulty": "easy",
+    "question": "Which term describes: views held by the public?",
+    "options": [
+      "Public opinion",
+      "Mass media",
+      "Lobbying",
+      "Sovereignty"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Public opinion.",
+    "id": 113
+  },
+  {
+    "topic": "Pressure Groups",
+    "difficulty": "easy",
+    "question": "Which term describes: means of communication to many people?",
+    "options": [
+      "Lobbying",
+      "Sovereignty",
+      "Political apathy",
+      "Mass media"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Mass media.",
+    "id": 114
+  },
+  {
+    "topic": "Pressure Groups",
+    "difficulty": "medium",
+    "question": "Which term describes: persuading decision makers?",
+    "options": [
+      "Sovereignty",
+      "Lobbying",
+      "Political apathy",
+      "Decentralization"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Lobbying.",
+    "id": 115
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "medium",
+    "question": "Which term describes: supreme authority of a state?",
+    "options": [
+      "Political apathy",
+      "Decentralization",
+      "Sovereignty",
+      "Fiscal federalism"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Sovereignty.",
+    "id": 116
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "easy",
+    "question": "Which term describes: lack of interest in politics?",
+    "options": [
+      "Political apathy",
+      "Decentralization",
+      "Fiscal federalism",
+      "Political socialization"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Political apathy.",
+    "id": 117
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "medium",
+    "question": "Which term describes: transfer of power to lower levels?",
+    "options": [
+      "Fiscal federalism",
+      "Political socialization",
+      "Constitutionalism",
+      "Decentralization"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Decentralization.",
+    "id": 118
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "hard",
+    "question": "Which term describes: revenue and expenditure sharing in a federation?",
+    "options": [
+      "Political socialization",
+      "Fiscal federalism",
+      "Constitutionalism",
+      "Cabinet"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Fiscal federalism.",
+    "id": 119
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "medium",
+    "question": "Which term describes: process of learning political values and attitudes?",
+    "options": [
+      "Constitutionalism",
+      "Cabinet",
+      "Political socialization",
+      "Civil liberties"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Political socialization.",
+    "id": 120
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "hard",
+    "question": "Which term describes: government limited by the constitution?",
+    "options": [
+      "Constitutionalism",
+      "Cabinet",
+      "Civil liberties",
+      "Adult suffrage"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Constitutionalism.",
+    "id": 121
+  },
+  {
+    "topic": "Public Administration",
+    "difficulty": "medium",
+    "question": "Which term describes: group of senior ministers advising the executive?",
+    "options": [
+      "Civil liberties",
+      "Adult suffrage",
+      "Electoral college",
+      "Cabinet"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Cabinet.",
+    "id": 122
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "medium",
+    "question": "Which term describes: personal freedoms guaranteed by law?",
+    "options": [
+      "Adult suffrage",
+      "Civil liberties",
+      "Electoral college",
+      "Delegated legislation"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Civil liberties.",
+    "id": 123
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "Which term describes: right of adults to vote?",
+    "options": [
+      "Electoral college",
+      "Delegated legislation",
+      "Adult suffrage",
+      "Judicial review"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Adult suffrage.",
+    "id": 124
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "hard",
+    "question": "Which term describes: body that elects leaders?",
+    "options": [
+      "Electoral college",
+      "Delegated legislation",
+      "Judicial review",
+      "Federal character"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Electoral college.",
+    "id": 125
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "hard",
+    "question": "Which term describes: laws made by authorized bodies?",
+    "options": [
+      "Judicial review",
+      "Federal character",
+      "Civic education",
+      "Delegated legislation"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Delegated legislation.",
+    "id": 126
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "hard",
+    "question": "Which term describes: court power to interpret or invalidate laws?",
+    "options": [
+      "Federal character",
+      "Judicial review",
+      "Civic education",
+      "Political participation"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Judicial review.",
+    "id": 127
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "medium",
+    "question": "Which term describes: policy ensuring representation of groups?",
+    "options": [
+      "Civic education",
+      "Political participation",
+      "Federal character",
+      "Lobbyist"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Federal character.",
+    "id": 128
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "easy",
+    "question": "Which term describes: teaching citizens their rights and duties?",
+    "options": [
+      "Civic education",
+      "Political participation",
+      "Lobbyist",
+      "Interim government"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Civic education.",
+    "id": 129
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "easy",
+    "question": "Which term describes: citizen involvement in politics?",
+    "options": [
+      "Lobbyist",
+      "Interim government",
+      "Two-party system",
+      "Political participation"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Political participation.",
+    "id": 130
+  },
+  {
+    "topic": "Pressure Groups",
+    "difficulty": "medium",
+    "question": "Which term describes: person who seeks to influence policy?",
+    "options": [
+      "Interim government",
+      "Lobbyist",
+      "Two-party system",
+      "One-party system"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Lobbyist.",
+    "id": 131
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "medium",
+    "question": "Which term describes: temporary government before elections?",
+    "options": [
+      "Two-party system",
+      "One-party system",
+      "Interim government",
+      "Plebiscite"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Interim government.",
+    "id": 132
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "medium",
+    "question": "Which term describes: system dominated by two major parties?",
+    "options": [
+      "Two-party system",
+      "One-party system",
+      "Plebiscite",
+      "Constituency delimitation"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Two-party system.",
+    "id": 133
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "medium",
+    "question": "Which term describes: system with a single legal party?",
+    "options": [
+      "Plebiscite",
+      "Constituency delimitation",
+      "Voter apathy",
+      "One-party system"
+    ],
+    "answer": 3,
+    "explanation": "That description matches One-party system.",
+    "id": 134
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "Which term describes: direct vote on an issue?",
+    "options": [
+      "Constituency delimitation",
+      "Plebiscite",
+      "Voter apathy",
+      "Civil disobedience"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Plebiscite.",
+    "id": 135
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "hard",
+    "question": "Which term describes: drawing electoral boundaries?",
+    "options": [
+      "Voter apathy",
+      "Civil disobedience",
+      "Constituency delimitation",
+      "National assembly"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Constituency delimitation.",
+    "id": 136
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "easy",
+    "question": "Which term describes: low voter interest or turnout?",
+    "options": [
+      "Voter apathy",
+      "Civil disobedience",
+      "National assembly",
+      "Supremacy of constitution"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Voter apathy.",
+    "id": 137
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "hard",
+    "question": "Which term describes: refusal to obey unjust laws?",
+    "options": [
+      "National assembly",
+      "Supremacy of constitution",
+      "Constitution",
+      "Civil disobedience"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Civil disobedience.",
+    "id": 138
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "Which term describes: federal legislature?",
+    "options": [
+      "Supremacy of constitution",
+      "National assembly",
+      "Constitution",
+      "Rule of law"
+    ],
+    "answer": 1,
+    "explanation": "That description matches National assembly.",
+    "id": 139
+  },
+  {
+    "topic": "Basic Concepts",
+    "difficulty": "easy",
+    "question": "Which term describes: constitution is the highest law?",
+    "options": [
+      "Constitution",
+      "Rule of law",
+      "Supremacy of constitution",
+      "Separation of powers"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Supremacy of constitution.",
+    "id": 140
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "medium",
+    "question": "A president refuses to sign a bill passed by parliament. This action is called ___.",
+    "options": [
+      "veto",
+      "impeachment",
+      "referendum",
+      "censure"
+    ],
+    "answer": 0,
+    "explanation": "Refusing to sign a bill is a veto.",
+    "id": 141
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "hard",
+    "question": "A court declares a law unconstitutional. This illustrates ___.",
+    "options": [
+      "delegated legislation",
+      "bicameralism",
+      "federal character",
+      "judicial review"
+    ],
+    "answer": 3,
+    "explanation": "Courts can invalidate unconstitutional laws.",
+    "id": 142
+  },
+  {
+    "topic": "Federalism",
+    "difficulty": "easy",
+    "question": "Power shared between central and state governments is known as ___.",
+    "options": [
+      "unitary system",
+      "federalism",
+      "autocracy",
+      "oligarchy"
+    ],
+    "answer": 1,
+    "explanation": "Federalism shares power across levels.",
+    "id": 143
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "Citizens vote directly on a national issue. This is a ___.",
+    "options": [
+      "manifesto",
+      "coalition",
+      "referendum",
+      "bureaucracy"
+    ],
+    "answer": 2,
+    "explanation": "Referendum is a direct vote.",
+    "id": 144
+  },
+  {
+    "topic": "Pressure Groups",
+    "difficulty": "easy",
+    "question": "The media campaigns to change a public policy. This is an example of ___.",
+    "options": [
+      "pressure group influence",
+      "military rule",
+      "fiscal federalism",
+      "autocracy"
+    ],
+    "answer": 0,
+    "explanation": "Mass media can influence policy.",
+    "id": 145
+  },
+  {
+    "topic": "Elections",
+    "difficulty": "medium",
+    "question": "Ballot box stuffing during elections is an example of ___.",
+    "options": [
+      "franchise",
+      "coalition",
+      "civic education",
+      "electoral malpractice"
+    ],
+    "answer": 3,
+    "explanation": "Stuffing ballots is malpractice.",
+    "id": 146
+  },
+  {
+    "topic": "Citizenship",
+    "difficulty": "hard",
+    "question": "A citizen is detained for months without trial. This violates the right to ___.",
+    "options": [
+      "taxation",
+      "personal liberty",
+      "sovereignty",
+      "federal character"
+    ],
+    "answer": 1,
+    "explanation": "Unlawful detention violates liberty.",
+    "id": 147
+  },
+  {
+    "topic": "Arms of Government",
+    "difficulty": "easy",
+    "question": "A legislature with two chambers is described as ___.",
+    "options": [
+      "unicameral",
+      "totalitarian",
+      "bicameral",
+      "unitary"
+    ],
+    "answer": 2,
+    "explanation": "Two chambers = bicameral.",
+    "id": 148
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "medium",
+    "question": "When the executive is drawn from the legislature, the system is ___.",
+    "options": [
+      "parliamentary",
+      "presidential",
+      "military",
+      "unitary"
+    ],
+    "answer": 0,
+    "explanation": "Parliamentary system draws executive from legislature.",
+    "id": 149
+  },
+  {
+    "topic": "Systems of Government",
+    "difficulty": "easy",
+    "question": "A government run by the armed forces is called ___.",
+    "options": [
+      "democracy",
+      "federalism",
+      "socialism",
+      "military rule"
+    ],
+    "answer": 3,
+    "explanation": "Military rule is government by armed forces.",
+    "id": 150
+  }
+]

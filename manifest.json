@@ -1,7 +1,7 @@
 {
   "name": "WAEC Practice PWA",
   "short_name": "WAEC Practice",
-  "description": "Offline-first WAEC practice for Mathematics, English, Physics, Chemistry, and Biology.",
+  "description": "Offline-first WAEC practice for 12 subjects: Mathematics, English, Physics, Chemistry, Biology, Economics, Government, Literature, Geography, Accounting, Commerce, Agricultural Science.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

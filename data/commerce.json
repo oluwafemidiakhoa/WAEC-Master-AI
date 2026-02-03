@@ -1,0 +1,2102 @@
+[
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "The term 'Trade' refers to ___.",
+    "options": [
+      "direct exchange of goods without money",
+      "buying and selling of goods and services",
+      "selling goods in small quantities to consumers",
+      "buying in bulk and selling in smaller quantities"
+    ],
+    "answer": 1,
+    "explanation": "Trade means buying and selling of goods and services.",
+    "id": 1
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "The term 'Barter' refers to ___.",
+    "options": [
+      "selling goods in small quantities to consumers",
+      "buying in bulk and selling in smaller quantities",
+      "direct exchange of goods without money",
+      "importing and re-exporting goods"
+    ],
+    "answer": 2,
+    "explanation": "Barter means direct exchange of goods without money.",
+    "id": 2
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "The term 'Retailing' refers to ___.",
+    "options": [
+      "buying in bulk and selling in smaller quantities",
+      "importing and re-exporting goods",
+      "activities that move goods from producer to consumer",
+      "selling goods in small quantities to consumers"
+    ],
+    "answer": 3,
+    "explanation": "Retailing means selling goods in small quantities to consumers.",
+    "id": 3
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "The term 'Wholesaling' refers to ___.",
+    "options": [
+      "buying in bulk and selling in smaller quantities",
+      "importing and re-exporting goods",
+      "activities that move goods from producer to consumer",
+      "giving a product a name or symbol"
+    ],
+    "answer": 0,
+    "explanation": "Wholesaling means buying in bulk and selling in smaller quantities.",
+    "id": 4
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "The term 'Entrepot trade' refers to ___.",
+    "options": [
+      "activities that move goods from producer to consumer",
+      "importing and re-exporting goods",
+      "giving a product a name or symbol",
+      "paid communication to promote products"
+    ],
+    "answer": 1,
+    "explanation": "Entrepot trade means importing and re-exporting goods.",
+    "id": 5
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "The term 'Marketing' refers to ___.",
+    "options": [
+      "giving a product a name or symbol",
+      "paid communication to promote products",
+      "activities that move goods from producer to consumer",
+      "protection against financial loss"
+    ],
+    "answer": 2,
+    "explanation": "Marketing means activities that move goods from producer to consumer.",
+    "id": 6
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "The term 'Branding' refers to ___.",
+    "options": [
+      "paid communication to promote products",
+      "protection against financial loss",
+      "payment made for insurance coverage",
+      "giving a product a name or symbol"
+    ],
+    "answer": 3,
+    "explanation": "Branding means giving a product a name or symbol.",
+    "id": 7
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "The term 'Advertising' refers to ___.",
+    "options": [
+      "paid communication to promote products",
+      "protection against financial loss",
+      "payment made for insurance coverage",
+      "principle of restoring the insured to original position"
+    ],
+    "answer": 0,
+    "explanation": "Advertising means paid communication to promote products.",
+    "id": 8
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "easy",
+    "question": "The term 'Insurance' refers to ___.",
+    "options": [
+      "payment made for insurance coverage",
+      "protection against financial loss",
+      "principle of restoring the insured to original position",
+      "insurer takes over rights after compensation"
+    ],
+    "answer": 1,
+    "explanation": "Insurance means protection against financial loss.",
+    "id": 9
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "easy",
+    "question": "The term 'Premium' refers to ___.",
+    "options": [
+      "principle of restoring the insured to original position",
+      "insurer takes over rights after compensation",
+      "payment made for insurance coverage",
+      "movement of goods and people"
+    ],
+    "answer": 2,
+    "explanation": "Premium means payment made for insurance coverage.",
+    "id": 10
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "medium",
+    "question": "The term 'Indemnity' refers to ___.",
+    "options": [
+      "insurer takes over rights after compensation",
+      "movement of goods and people",
+      "storage of goods for future use",
+      "principle of restoring the insured to original position"
+    ],
+    "answer": 3,
+    "explanation": "Indemnity means principle of restoring the insured to original position.",
+    "id": 11
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "hard",
+    "question": "The term 'Subrogation' refers to ___.",
+    "options": [
+      "insurer takes over rights after compensation",
+      "movement of goods and people",
+      "storage of goods for future use",
+      "goods held for sale"
+    ],
+    "answer": 0,
+    "explanation": "Subrogation means insurer takes over rights after compensation.",
+    "id": 12
+  },
+  {
+    "topic": "Aids to Trade",
+    "difficulty": "easy",
+    "question": "The term 'Transport' refers to ___.",
+    "options": [
+      "storage of goods for future use",
+      "movement of goods and people",
+      "goods held for sale",
+      "organizing factors of production"
+    ],
+    "answer": 1,
+    "explanation": "Transport means movement of goods and people.",
+    "id": 13
+  },
+  {
+    "topic": "Aids to Trade",
+    "difficulty": "easy",
+    "question": "The term 'Warehousing' refers to ___.",
+    "options": [
+      "goods held for sale",
+      "organizing factors of production",
+      "storage of goods for future use",
+      "business owned by two or more persons"
+    ],
+    "answer": 2,
+    "explanation": "Warehousing means storage of goods for future use.",
+    "id": 14
+  },
+  {
+    "topic": "Aids to Trade",
+    "difficulty": "easy",
+    "question": "The term 'Stock' refers to ___.",
+    "options": [
+      "organizing factors of production",
+      "business owned by two or more persons",
+      "business with separate legal identity",
+      "goods held for sale"
+    ],
+    "answer": 3,
+    "explanation": "Stock means goods held for sale.",
+    "id": 15
+  },
+  {
+    "topic": "Business",
+    "difficulty": "medium",
+    "question": "The term 'Entrepreneurship' refers to ___.",
+    "options": [
+      "organizing factors of production",
+      "business owned by two or more persons",
+      "business with separate legal identity",
+      "business owned by members for mutual benefit"
+    ],
+    "answer": 0,
+    "explanation": "Entrepreneurship means organizing factors of production.",
+    "id": 16
+  },
+  {
+    "topic": "Business",
+    "difficulty": "easy",
+    "question": "The term 'Partnership' refers to ___.",
+    "options": [
+      "business with separate legal identity",
+      "business owned by two or more persons",
+      "business owned by members for mutual benefit",
+      "right to sell a company's products"
+    ],
+    "answer": 1,
+    "explanation": "Partnership means business owned by two or more persons.",
+    "id": 17
+  },
+  {
+    "topic": "Business",
+    "difficulty": "medium",
+    "question": "The term 'Company' refers to ___.",
+    "options": [
+      "business owned by members for mutual benefit",
+      "right to sell a company's products",
+      "business with separate legal identity",
+      "buying and selling over the internet"
+    ],
+    "answer": 2,
+    "explanation": "Company means business with separate legal identity.",
+    "id": 18
+  },
+  {
+    "topic": "Business",
+    "difficulty": "medium",
+    "question": "The term 'Cooperative' refers to ___.",
+    "options": [
+      "right to sell a company's products",
+      "buying and selling over the internet",
+      "written order to a bank to pay",
+      "business owned by members for mutual benefit"
+    ],
+    "answer": 3,
+    "explanation": "Cooperative means business owned by members for mutual benefit.",
+    "id": 19
+  },
+  {
+    "topic": "Business",
+    "difficulty": "hard",
+    "question": "The term 'Franchise' refers to ___.",
+    "options": [
+      "right to sell a company's products",
+      "buying and selling over the internet",
+      "written order to a bank to pay",
+      "order to pay issued by a bank"
+    ],
+    "answer": 0,
+    "explanation": "Franchise means right to sell a company's products.",
+    "id": 20
+  },
+  {
+    "topic": "Business",
+    "difficulty": "easy",
+    "question": "The term 'E-commerce' refers to ___.",
+    "options": [
+      "written order to a bank to pay",
+      "buying and selling over the internet",
+      "order to pay issued by a bank",
+      "bank account for saving with interest"
+    ],
+    "answer": 1,
+    "explanation": "E-commerce means buying and selling over the internet.",
+    "id": 21
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "The term 'Cheque' refers to ___.",
+    "options": [
+      "order to pay issued by a bank",
+      "bank account for saving with interest",
+      "written order to a bank to pay",
+      "bank account for frequent transactions"
+    ],
+    "answer": 2,
+    "explanation": "Cheque means written order to a bank to pay.",
+    "id": 22
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "medium",
+    "question": "The term 'Draft' refers to ___.",
+    "options": [
+      "bank account for saving with interest",
+      "bank account for frequent transactions",
+      "withdrawal beyond account balance",
+      "order to pay issued by a bank"
+    ],
+    "answer": 3,
+    "explanation": "Draft means order to pay issued by a bank.",
+    "id": 23
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "The term 'Savings account' refers to ___.",
+    "options": [
+      "bank account for saving with interest",
+      "bank account for frequent transactions",
+      "withdrawal beyond account balance",
+      "charge for borrowing money"
+    ],
+    "answer": 0,
+    "explanation": "Savings account means bank account for saving with interest.",
+    "id": 24
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "The term 'Current account' refers to ___.",
+    "options": [
+      "withdrawal beyond account balance",
+      "bank account for frequent transactions",
+      "charge for borrowing money",
+      "interest rate charged by central bank"
+    ],
+    "answer": 1,
+    "explanation": "Current account means bank account for frequent transactions.",
+    "id": 25
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "medium",
+    "question": "The term 'Overdraft' refers to ___.",
+    "options": [
+      "charge for borrowing money",
+      "interest rate charged by central bank",
+      "withdrawal beyond account balance",
+      "market for buying and selling securities"
+    ],
+    "answer": 2,
+    "explanation": "Overdraft means withdrawal beyond account balance.",
+    "id": 26
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "The term 'Interest' refers to ___.",
+    "options": [
+      "interest rate charged by central bank",
+      "market for buying and selling securities",
+      "tax on imports",
+      "charge for borrowing money"
+    ],
+    "answer": 3,
+    "explanation": "Interest means charge for borrowing money.",
+    "id": 27
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "medium",
+    "question": "The term 'Bank rate' refers to ___.",
+    "options": [
+      "interest rate charged by central bank",
+      "market for buying and selling securities",
+      "tax on imports",
+      "limit on quantity of imports"
+    ],
+    "answer": 0,
+    "explanation": "Bank rate means interest rate charged by central bank.",
+    "id": 28
+  },
+  {
+    "topic": "Finance",
+    "difficulty": "medium",
+    "question": "The term 'Stock exchange' refers to ___.",
+    "options": [
+      "tax on imports",
+      "market for buying and selling securities",
+      "limit on quantity of imports",
+      "document acknowledging shipment of goods"
+    ],
+    "answer": 1,
+    "explanation": "Stock exchange means market for buying and selling securities.",
+    "id": 29
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "easy",
+    "question": "The term 'Tariff' refers to ___.",
+    "options": [
+      "limit on quantity of imports",
+      "document acknowledging shipment of goods",
+      "tax on imports",
+      "bill showing goods sold and amount due"
+    ],
+    "answer": 2,
+    "explanation": "Tariff means tax on imports.",
+    "id": 30
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "The term 'Quota' refers to ___.",
+    "options": [
+      "document acknowledging shipment of goods",
+      "bill showing goods sold and amount due",
+      "proof of payment",
+      "limit on quantity of imports"
+    ],
+    "answer": 3,
+    "explanation": "Quota means limit on quantity of imports.",
+    "id": 31
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "The term 'Bill of lading' refers to ___.",
+    "options": [
+      "document acknowledging shipment of goods",
+      "bill showing goods sold and amount due",
+      "proof of payment",
+      "document showing goods deposited in warehouse"
+    ],
+    "answer": 0,
+    "explanation": "Bill of lading means document acknowledging shipment of goods.",
+    "id": 32
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "The term 'Invoice' refers to ___.",
+    "options": [
+      "proof of payment",
+      "bill showing goods sold and amount due",
+      "document showing goods deposited in warehouse",
+      "goods sent to an agent for sale"
+    ],
+    "answer": 1,
+    "explanation": "Invoice means bill showing goods sold and amount due.",
+    "id": 33
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "The term 'Receipt' refers to ___.",
+    "options": [
+      "document showing goods deposited in warehouse",
+      "goods sent to an agent for sale",
+      "proof of payment",
+      "person who acts on behalf of another"
+    ],
+    "answer": 2,
+    "explanation": "Receipt means proof of payment.",
+    "id": 34
+  },
+  {
+    "topic": "Aids to Trade",
+    "difficulty": "hard",
+    "question": "The term 'Warehouse warrant' refers to ___.",
+    "options": [
+      "goods sent to an agent for sale",
+      "person who acts on behalf of another",
+      "measures to safeguard buyers",
+      "document showing goods deposited in warehouse"
+    ],
+    "answer": 3,
+    "explanation": "Warehouse warrant means document showing goods deposited in warehouse.",
+    "id": 35
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "The term 'Consignment' refers to ___.",
+    "options": [
+      "goods sent to an agent for sale",
+      "person who acts on behalf of another",
+      "measures to safeguard buyers",
+      "support provided after purchase"
+    ],
+    "answer": 0,
+    "explanation": "Consignment means goods sent to an agent for sale.",
+    "id": 36
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "The term 'Agent' refers to ___.",
+    "options": [
+      "measures to safeguard buyers",
+      "person who acts on behalf of another",
+      "support provided after purchase",
+      "wrapping goods for protection and appeal"
+    ],
+    "answer": 1,
+    "explanation": "Agent means person who acts on behalf of another.",
+    "id": 37
+  },
+  {
+    "topic": "Consumer",
+    "difficulty": "easy",
+    "question": "The term 'Consumer protection' refers to ___.",
+    "options": [
+      "support provided after purchase",
+      "wrapping goods for protection and appeal",
+      "measures to safeguard buyers",
+      "information written on product packaging"
+    ],
+    "answer": 2,
+    "explanation": "Consumer protection means measures to safeguard buyers.",
+    "id": 38
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "medium",
+    "question": "The term 'After-sales service' refers to ___.",
+    "options": [
+      "wrapping goods for protection and appeal",
+      "information written on product packaging",
+      "intermediaries between producers and consumers",
+      "support provided after purchase"
+    ],
+    "answer": 3,
+    "explanation": "After-sales service means support provided after purchase.",
+    "id": 39
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "The term 'Packaging' refers to ___.",
+    "options": [
+      "wrapping goods for protection and appeal",
+      "information written on product packaging",
+      "intermediaries between producers and consumers",
+      "goods brought into a country"
+    ],
+    "answer": 0,
+    "explanation": "Packaging means wrapping goods for protection and appeal.",
+    "id": 40
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "The term 'Labeling' refers to ___.",
+    "options": [
+      "intermediaries between producers and consumers",
+      "information written on product packaging",
+      "goods brought into a country",
+      "goods sold to another country"
+    ],
+    "answer": 1,
+    "explanation": "Labeling means information written on product packaging.",
+    "id": 41
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "The term 'Middlemen' refers to ___.",
+    "options": [
+      "goods brought into a country",
+      "goods sold to another country",
+      "intermediaries between producers and consumers",
+      "person who handles customs procedures"
+    ],
+    "answer": 2,
+    "explanation": "Middlemen means intermediaries between producers and consumers.",
+    "id": 42
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "easy",
+    "question": "The term 'Import' refers to ___.",
+    "options": [
+      "goods sold to another country",
+      "person who handles customs procedures",
+      "charging different prices for the same product",
+      "goods brought into a country"
+    ],
+    "answer": 3,
+    "explanation": "Import means goods brought into a country.",
+    "id": 43
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "easy",
+    "question": "The term 'Export' refers to ___.",
+    "options": [
+      "goods sold to another country",
+      "person who handles customs procedures",
+      "charging different prices for the same product",
+      "tangible items produced for sale"
+    ],
+    "answer": 0,
+    "explanation": "Export means goods sold to another country.",
+    "id": 44
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "The term 'Clearing agent' refers to ___.",
+    "options": [
+      "charging different prices for the same product",
+      "person who handles customs procedures",
+      "tangible items produced for sale",
+      "intangible activities performed for consumers"
+    ],
+    "answer": 1,
+    "explanation": "Clearing agent means person who handles customs procedures.",
+    "id": 45
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "hard",
+    "question": "The term 'Price discrimination' refers to ___.",
+    "options": [
+      "tangible items produced for sale",
+      "intangible activities performed for consumers",
+      "charging different prices for the same product",
+      "buying and selling to profit from price differences"
+    ],
+    "answer": 2,
+    "explanation": "Price discrimination means charging different prices for the same product.",
+    "id": 46
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "The term 'Goods' refers to ___.",
+    "options": [
+      "intangible activities performed for consumers",
+      "buying and selling to profit from price differences",
+      "reduction on list price offered to traders",
+      "tangible items produced for sale"
+    ],
+    "answer": 3,
+    "explanation": "Goods means tangible items produced for sale.",
+    "id": 47
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "The term 'Services' refers to ___.",
+    "options": [
+      "intangible activities performed for consumers",
+      "buying and selling to profit from price differences",
+      "reduction on list price offered to traders",
+      "reduction for prompt payment"
+    ],
+    "answer": 0,
+    "explanation": "Services means intangible activities performed for consumers.",
+    "id": 48
+  },
+  {
+    "topic": "Finance",
+    "difficulty": "hard",
+    "question": "The term 'Arbitrage' refers to ___.",
+    "options": [
+      "reduction on list price offered to traders",
+      "buying and selling to profit from price differences",
+      "reduction for prompt payment",
+      "permission to pay later for goods"
+    ],
+    "answer": 1,
+    "explanation": "Arbitrage means buying and selling to profit from price differences.",
+    "id": 49
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "The term 'Trade discount' refers to ___.",
+    "options": [
+      "reduction for prompt payment",
+      "permission to pay later for goods",
+      "reduction on list price offered to traders",
+      "agent who sells goods on behalf of owner"
+    ],
+    "answer": 2,
+    "explanation": "Trade discount means reduction on list price offered to traders.",
+    "id": 50
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "The term 'Cash discount' refers to ___.",
+    "options": [
+      "permission to pay later for goods",
+      "agent who sells goods on behalf of owner",
+      "owner who sends goods to an agent",
+      "reduction for prompt payment"
+    ],
+    "answer": 3,
+    "explanation": "Cash discount means reduction for prompt payment.",
+    "id": 51
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "The term 'Trade credit' refers to ___.",
+    "options": [
+      "permission to pay later for goods",
+      "agent who sells goods on behalf of owner",
+      "owner who sends goods to an agent",
+      "paying in installments before ownership"
+    ],
+    "answer": 0,
+    "explanation": "Trade credit means permission to pay later for goods.",
+    "id": 52
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "hard",
+    "question": "The term 'Consignee' refers to ___.",
+    "options": [
+      "owner who sends goods to an agent",
+      "agent who sells goods on behalf of owner",
+      "paying in installments before ownership",
+      "sale with deferred payment"
+    ],
+    "answer": 1,
+    "explanation": "Consignee means agent who sells goods on behalf of owner.",
+    "id": 53
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "hard",
+    "question": "The term 'Consignor' refers to ___.",
+    "options": [
+      "paying in installments before ownership",
+      "sale with deferred payment",
+      "owner who sends goods to an agent",
+      "excess of revenue over cost"
+    ],
+    "answer": 2,
+    "explanation": "Consignor means owner who sends goods to an agent.",
+    "id": 54
+  },
+  {
+    "topic": "Business",
+    "difficulty": "medium",
+    "question": "The term 'Hire purchase' refers to ___.",
+    "options": [
+      "sale with deferred payment",
+      "excess of revenue over cost",
+      "costs exceed revenue",
+      "paying in installments before ownership"
+    ],
+    "answer": 3,
+    "explanation": "Hire purchase means paying in installments before ownership.",
+    "id": 55
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "The term 'Credit sale' refers to ___.",
+    "options": [
+      "sale with deferred payment",
+      "excess of revenue over cost",
+      "costs exceed revenue",
+      "non-paid promotion of goods"
+    ],
+    "answer": 0,
+    "explanation": "Credit sale means sale with deferred payment.",
+    "id": 56
+  },
+  {
+    "topic": "Business",
+    "difficulty": "easy",
+    "question": "The term 'Profit' refers to ___.",
+    "options": [
+      "costs exceed revenue",
+      "excess of revenue over cost",
+      "non-paid promotion of goods",
+      "assistance given to customers"
+    ],
+    "answer": 1,
+    "explanation": "Profit means excess of revenue over cost.",
+    "id": 57
+  },
+  {
+    "topic": "Business",
+    "difficulty": "easy",
+    "question": "The term 'Loss' refers to ___.",
+    "options": [
+      "non-paid promotion of goods",
+      "assistance given to customers",
+      "costs exceed revenue",
+      "promise of product quality"
+    ],
+    "answer": 2,
+    "explanation": "Loss means costs exceed revenue.",
+    "id": 58
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "medium",
+    "question": "The term 'Publicity' refers to ___.",
+    "options": [
+      "assistance given to customers",
+      "promise of product quality",
+      "written guarantee for a product",
+      "non-paid promotion of goods"
+    ],
+    "answer": 3,
+    "explanation": "Publicity means non-paid promotion of goods.",
+    "id": 59
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "The term 'Customer service' refers to ___.",
+    "options": [
+      "assistance given to customers",
+      "promise of product quality",
+      "written guarantee for a product",
+      "movement to protect consumers"
+    ],
+    "answer": 0,
+    "explanation": "Customer service means assistance given to customers.",
+    "id": 60
+  },
+  {
+    "topic": "Consumer",
+    "difficulty": "medium",
+    "question": "The term 'Guarantee' refers to ___.",
+    "options": [
+      "written guarantee for a product",
+      "promise of product quality",
+      "movement to protect consumers",
+      "possibility of loss"
+    ],
+    "answer": 1,
+    "explanation": "Guarantee means promise of product quality.",
+    "id": 61
+  },
+  {
+    "topic": "Consumer",
+    "difficulty": "medium",
+    "question": "The term 'Warranty' refers to ___.",
+    "options": [
+      "movement to protect consumers",
+      "possibility of loss",
+      "written guarantee for a product",
+      "insurer who accepts risk"
+    ],
+    "answer": 2,
+    "explanation": "Warranty means written guarantee for a product.",
+    "id": 62
+  },
+  {
+    "topic": "Consumer",
+    "difficulty": "hard",
+    "question": "The term 'Consumerism' refers to ___.",
+    "options": [
+      "possibility of loss",
+      "insurer who accepts risk",
+      "written order to pay at a future date",
+      "movement to protect consumers"
+    ],
+    "answer": 3,
+    "explanation": "Consumerism means movement to protect consumers.",
+    "id": 63
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "easy",
+    "question": "The term 'Risk' refers to ___.",
+    "options": [
+      "possibility of loss",
+      "insurer who accepts risk",
+      "written order to pay at a future date",
+      "automated teller machine for banking services"
+    ],
+    "answer": 0,
+    "explanation": "Risk means possibility of loss.",
+    "id": 64
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "hard",
+    "question": "The term 'Underwriter' refers to ___.",
+    "options": [
+      "written order to pay at a future date",
+      "insurer who accepts risk",
+      "automated teller machine for banking services",
+      "card that allows borrowing for purchases"
+    ],
+    "answer": 1,
+    "explanation": "Underwriter means insurer who accepts risk.",
+    "id": 65
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "medium",
+    "question": "The term 'Bill of exchange' refers to ___.",
+    "options": [
+      "automated teller machine for banking services",
+      "card that allows borrowing for purchases",
+      "written order to pay at a future date",
+      "apex bank that controls monetary policy"
+    ],
+    "answer": 2,
+    "explanation": "Bill of exchange means written order to pay at a future date.",
+    "id": 66
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "The term 'ATM' refers to ___.",
+    "options": [
+      "card that allows borrowing for purchases",
+      "apex bank that controls monetary policy",
+      "bank promise to pay exporter",
+      "automated teller machine for banking services"
+    ],
+    "answer": 3,
+    "explanation": "ATM means automated teller machine for banking services.",
+    "id": 67
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "The term 'Credit card' refers to ___.",
+    "options": [
+      "card that allows borrowing for purchases",
+      "apex bank that controls monetary policy",
+      "bank promise to pay exporter",
+      "buying and selling of goods and services"
+    ],
+    "answer": 0,
+    "explanation": "Credit card means card that allows borrowing for purchases.",
+    "id": 68
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "medium",
+    "question": "The term 'Central bank' refers to ___.",
+    "options": [
+      "bank promise to pay exporter",
+      "apex bank that controls monetary policy",
+      "buying and selling of goods and services",
+      "direct exchange of goods without money"
+    ],
+    "answer": 1,
+    "explanation": "Central bank means apex bank that controls monetary policy.",
+    "id": 69
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "The term 'Letter of credit' refers to ___.",
+    "options": [
+      "buying and selling of goods and services",
+      "direct exchange of goods without money",
+      "bank promise to pay exporter",
+      "selling goods in small quantities to consumers"
+    ],
+    "answer": 2,
+    "explanation": "Letter of credit means bank promise to pay exporter.",
+    "id": 70
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: buying and selling of goods and services?",
+    "options": [
+      "Barter",
+      "Retailing",
+      "Wholesaling",
+      "Trade"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Trade.",
+    "id": 71
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: direct exchange of goods without money?",
+    "options": [
+      "Barter",
+      "Retailing",
+      "Wholesaling",
+      "Entrepot trade"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Barter.",
+    "id": 72
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: selling goods in small quantities to consumers?",
+    "options": [
+      "Wholesaling",
+      "Retailing",
+      "Entrepot trade",
+      "Marketing"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Retailing.",
+    "id": 73
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: buying in bulk and selling in smaller quantities?",
+    "options": [
+      "Entrepot trade",
+      "Marketing",
+      "Wholesaling",
+      "Branding"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Wholesaling.",
+    "id": 74
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "Which term describes: importing and re-exporting goods?",
+    "options": [
+      "Marketing",
+      "Branding",
+      "Advertising",
+      "Entrepot trade"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Entrepot trade.",
+    "id": 75
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "Which term describes: activities that move goods from producer to consumer?",
+    "options": [
+      "Marketing",
+      "Branding",
+      "Advertising",
+      "Insurance"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Marketing.",
+    "id": 76
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "Which term describes: giving a product a name or symbol?",
+    "options": [
+      "Advertising",
+      "Branding",
+      "Insurance",
+      "Premium"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Branding.",
+    "id": 77
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "Which term describes: paid communication to promote products?",
+    "options": [
+      "Insurance",
+      "Premium",
+      "Advertising",
+      "Indemnity"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Advertising.",
+    "id": 78
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "easy",
+    "question": "Which term describes: protection against financial loss?",
+    "options": [
+      "Premium",
+      "Indemnity",
+      "Subrogation",
+      "Insurance"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Insurance.",
+    "id": 79
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "easy",
+    "question": "Which term describes: payment made for insurance coverage?",
+    "options": [
+      "Premium",
+      "Indemnity",
+      "Subrogation",
+      "Transport"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Premium.",
+    "id": 80
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "medium",
+    "question": "Which term describes: principle of restoring the insured to original position?",
+    "options": [
+      "Subrogation",
+      "Indemnity",
+      "Transport",
+      "Warehousing"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Indemnity.",
+    "id": 81
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "hard",
+    "question": "Which term describes: insurer takes over rights after compensation?",
+    "options": [
+      "Transport",
+      "Warehousing",
+      "Subrogation",
+      "Stock"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Subrogation.",
+    "id": 82
+  },
+  {
+    "topic": "Aids to Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: movement of goods and people?",
+    "options": [
+      "Warehousing",
+      "Stock",
+      "Entrepreneurship",
+      "Transport"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Transport.",
+    "id": 83
+  },
+  {
+    "topic": "Aids to Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: storage of goods for future use?",
+    "options": [
+      "Warehousing",
+      "Stock",
+      "Entrepreneurship",
+      "Partnership"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Warehousing.",
+    "id": 84
+  },
+  {
+    "topic": "Aids to Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: goods held for sale?",
+    "options": [
+      "Entrepreneurship",
+      "Stock",
+      "Partnership",
+      "Company"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Stock.",
+    "id": 85
+  },
+  {
+    "topic": "Business",
+    "difficulty": "medium",
+    "question": "Which term describes: organizing factors of production?",
+    "options": [
+      "Partnership",
+      "Company",
+      "Entrepreneurship",
+      "Cooperative"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Entrepreneurship.",
+    "id": 86
+  },
+  {
+    "topic": "Business",
+    "difficulty": "easy",
+    "question": "Which term describes: business owned by two or more persons?",
+    "options": [
+      "Company",
+      "Cooperative",
+      "Franchise",
+      "Partnership"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Partnership.",
+    "id": 87
+  },
+  {
+    "topic": "Business",
+    "difficulty": "medium",
+    "question": "Which term describes: business with separate legal identity?",
+    "options": [
+      "Company",
+      "Cooperative",
+      "Franchise",
+      "E-commerce"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Company.",
+    "id": 88
+  },
+  {
+    "topic": "Business",
+    "difficulty": "medium",
+    "question": "Which term describes: business owned by members for mutual benefit?",
+    "options": [
+      "Franchise",
+      "Cooperative",
+      "E-commerce",
+      "Cheque"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Cooperative.",
+    "id": 89
+  },
+  {
+    "topic": "Business",
+    "difficulty": "hard",
+    "question": "Which term describes: right to sell a company's products?",
+    "options": [
+      "E-commerce",
+      "Cheque",
+      "Franchise",
+      "Draft"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Franchise.",
+    "id": 90
+  },
+  {
+    "topic": "Business",
+    "difficulty": "easy",
+    "question": "Which term describes: buying and selling over the internet?",
+    "options": [
+      "Cheque",
+      "Draft",
+      "Savings account",
+      "E-commerce"
+    ],
+    "answer": 3,
+    "explanation": "That description matches E-commerce.",
+    "id": 91
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "Which term describes: written order to a bank to pay?",
+    "options": [
+      "Cheque",
+      "Draft",
+      "Savings account",
+      "Current account"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Cheque.",
+    "id": 92
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "medium",
+    "question": "Which term describes: order to pay issued by a bank?",
+    "options": [
+      "Savings account",
+      "Draft",
+      "Current account",
+      "Overdraft"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Draft.",
+    "id": 93
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "Which term describes: bank account for saving with interest?",
+    "options": [
+      "Current account",
+      "Overdraft",
+      "Savings account",
+      "Interest"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Savings account.",
+    "id": 94
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "Which term describes: bank account for frequent transactions?",
+    "options": [
+      "Overdraft",
+      "Interest",
+      "Bank rate",
+      "Current account"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Current account.",
+    "id": 95
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "medium",
+    "question": "Which term describes: withdrawal beyond account balance?",
+    "options": [
+      "Overdraft",
+      "Interest",
+      "Bank rate",
+      "Stock exchange"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Overdraft.",
+    "id": 96
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "Which term describes: charge for borrowing money?",
+    "options": [
+      "Bank rate",
+      "Interest",
+      "Stock exchange",
+      "Tariff"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Interest.",
+    "id": 97
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "medium",
+    "question": "Which term describes: interest rate charged by central bank?",
+    "options": [
+      "Stock exchange",
+      "Tariff",
+      "Bank rate",
+      "Quota"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Bank rate.",
+    "id": 98
+  },
+  {
+    "topic": "Finance",
+    "difficulty": "medium",
+    "question": "Which term describes: market for buying and selling securities?",
+    "options": [
+      "Tariff",
+      "Quota",
+      "Bill of lading",
+      "Stock exchange"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Stock exchange.",
+    "id": 99
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: tax on imports?",
+    "options": [
+      "Tariff",
+      "Quota",
+      "Bill of lading",
+      "Invoice"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Tariff.",
+    "id": 100
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "medium",
+    "question": "Which term describes: limit on quantity of imports?",
+    "options": [
+      "Bill of lading",
+      "Quota",
+      "Invoice",
+      "Receipt"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Quota.",
+    "id": 101
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "Which term describes: document acknowledging shipment of goods?",
+    "options": [
+      "Invoice",
+      "Receipt",
+      "Bill of lading",
+      "Warehouse warrant"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Bill of lading.",
+    "id": 102
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: bill showing goods sold and amount due?",
+    "options": [
+      "Receipt",
+      "Warehouse warrant",
+      "Consignment",
+      "Invoice"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Invoice.",
+    "id": 103
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: proof of payment?",
+    "options": [
+      "Receipt",
+      "Warehouse warrant",
+      "Consignment",
+      "Agent"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Receipt.",
+    "id": 104
+  },
+  {
+    "topic": "Aids to Trade",
+    "difficulty": "hard",
+    "question": "Which term describes: document showing goods deposited in warehouse?",
+    "options": [
+      "Consignment",
+      "Warehouse warrant",
+      "Agent",
+      "Consumer protection"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Warehouse warrant.",
+    "id": 105
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "Which term describes: goods sent to an agent for sale?",
+    "options": [
+      "Agent",
+      "Consumer protection",
+      "Consignment",
+      "After-sales service"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Consignment.",
+    "id": 106
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: person who acts on behalf of another?",
+    "options": [
+      "Consumer protection",
+      "After-sales service",
+      "Packaging",
+      "Agent"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Agent.",
+    "id": 107
+  },
+  {
+    "topic": "Consumer",
+    "difficulty": "easy",
+    "question": "Which term describes: measures to safeguard buyers?",
+    "options": [
+      "Consumer protection",
+      "After-sales service",
+      "Packaging",
+      "Labeling"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Consumer protection.",
+    "id": 108
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "medium",
+    "question": "Which term describes: support provided after purchase?",
+    "options": [
+      "Packaging",
+      "After-sales service",
+      "Labeling",
+      "Middlemen"
+    ],
+    "answer": 1,
+    "explanation": "That description matches After-sales service.",
+    "id": 109
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "Which term describes: wrapping goods for protection and appeal?",
+    "options": [
+      "Labeling",
+      "Middlemen",
+      "Packaging",
+      "Import"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Packaging.",
+    "id": 110
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "Which term describes: information written on product packaging?",
+    "options": [
+      "Middlemen",
+      "Import",
+      "Export",
+      "Labeling"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Labeling.",
+    "id": 111
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "Which term describes: intermediaries between producers and consumers?",
+    "options": [
+      "Middlemen",
+      "Import",
+      "Export",
+      "Clearing agent"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Middlemen.",
+    "id": 112
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: goods brought into a country?",
+    "options": [
+      "Export",
+      "Import",
+      "Clearing agent",
+      "Price discrimination"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Import.",
+    "id": 113
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: goods sold to another country?",
+    "options": [
+      "Clearing agent",
+      "Price discrimination",
+      "Export",
+      "Goods"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Export.",
+    "id": 114
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "Which term describes: person who handles customs procedures?",
+    "options": [
+      "Price discrimination",
+      "Goods",
+      "Services",
+      "Clearing agent"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Clearing agent.",
+    "id": 115
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "hard",
+    "question": "Which term describes: charging different prices for the same product?",
+    "options": [
+      "Price discrimination",
+      "Goods",
+      "Services",
+      "Arbitrage"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Price discrimination.",
+    "id": 116
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: tangible items produced for sale?",
+    "options": [
+      "Services",
+      "Goods",
+      "Arbitrage",
+      "Trade discount"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Goods.",
+    "id": 117
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: intangible activities performed for consumers?",
+    "options": [
+      "Arbitrage",
+      "Trade discount",
+      "Services",
+      "Cash discount"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Services.",
+    "id": 118
+  },
+  {
+    "topic": "Finance",
+    "difficulty": "hard",
+    "question": "Which term describes: buying and selling to profit from price differences?",
+    "options": [
+      "Trade discount",
+      "Cash discount",
+      "Trade credit",
+      "Arbitrage"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Arbitrage.",
+    "id": 119
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "Which term describes: reduction on list price offered to traders?",
+    "options": [
+      "Trade discount",
+      "Cash discount",
+      "Trade credit",
+      "Consignee"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Trade discount.",
+    "id": 120
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "Which term describes: reduction for prompt payment?",
+    "options": [
+      "Trade credit",
+      "Cash discount",
+      "Consignee",
+      "Consignor"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Cash discount.",
+    "id": 121
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "Which term describes: permission to pay later for goods?",
+    "options": [
+      "Consignee",
+      "Consignor",
+      "Trade credit",
+      "Hire purchase"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Trade credit.",
+    "id": 122
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "hard",
+    "question": "Which term describes: agent who sells goods on behalf of owner?",
+    "options": [
+      "Consignor",
+      "Hire purchase",
+      "Credit sale",
+      "Consignee"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Consignee.",
+    "id": 123
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "hard",
+    "question": "Which term describes: owner who sends goods to an agent?",
+    "options": [
+      "Consignor",
+      "Hire purchase",
+      "Credit sale",
+      "Profit"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Consignor.",
+    "id": 124
+  },
+  {
+    "topic": "Business",
+    "difficulty": "medium",
+    "question": "Which term describes: paying in installments before ownership?",
+    "options": [
+      "Credit sale",
+      "Hire purchase",
+      "Profit",
+      "Loss"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Hire purchase.",
+    "id": 125
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "Which term describes: sale with deferred payment?",
+    "options": [
+      "Profit",
+      "Loss",
+      "Credit sale",
+      "Publicity"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Credit sale.",
+    "id": 126
+  },
+  {
+    "topic": "Business",
+    "difficulty": "easy",
+    "question": "Which term describes: excess of revenue over cost?",
+    "options": [
+      "Loss",
+      "Publicity",
+      "Customer service",
+      "Profit"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Profit.",
+    "id": 127
+  },
+  {
+    "topic": "Business",
+    "difficulty": "easy",
+    "question": "Which term describes: costs exceed revenue?",
+    "options": [
+      "Loss",
+      "Publicity",
+      "Customer service",
+      "Guarantee"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Loss.",
+    "id": 128
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "medium",
+    "question": "Which term describes: non-paid promotion of goods?",
+    "options": [
+      "Customer service",
+      "Publicity",
+      "Guarantee",
+      "Warranty"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Publicity.",
+    "id": 129
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "easy",
+    "question": "Which term describes: assistance given to customers?",
+    "options": [
+      "Guarantee",
+      "Warranty",
+      "Customer service",
+      "Consumerism"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Customer service.",
+    "id": 130
+  },
+  {
+    "topic": "Consumer",
+    "difficulty": "medium",
+    "question": "Which term describes: promise of product quality?",
+    "options": [
+      "Warranty",
+      "Consumerism",
+      "Risk",
+      "Guarantee"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Guarantee.",
+    "id": 131
+  },
+  {
+    "topic": "Consumer",
+    "difficulty": "medium",
+    "question": "Which term describes: written guarantee for a product?",
+    "options": [
+      "Warranty",
+      "Consumerism",
+      "Risk",
+      "Underwriter"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Warranty.",
+    "id": 132
+  },
+  {
+    "topic": "Consumer",
+    "difficulty": "hard",
+    "question": "Which term describes: movement to protect consumers?",
+    "options": [
+      "Risk",
+      "Consumerism",
+      "Underwriter",
+      "Bill of exchange"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Consumerism.",
+    "id": 133
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "easy",
+    "question": "Which term describes: possibility of loss?",
+    "options": [
+      "Underwriter",
+      "Bill of exchange",
+      "Risk",
+      "ATM"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Risk.",
+    "id": 134
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "hard",
+    "question": "Which term describes: insurer who accepts risk?",
+    "options": [
+      "Bill of exchange",
+      "ATM",
+      "Credit card",
+      "Underwriter"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Underwriter.",
+    "id": 135
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "medium",
+    "question": "Which term describes: written order to pay at a future date?",
+    "options": [
+      "Bill of exchange",
+      "ATM",
+      "Credit card",
+      "Central bank"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Bill of exchange.",
+    "id": 136
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "Which term describes: automated teller machine for banking services?",
+    "options": [
+      "Credit card",
+      "ATM",
+      "Central bank",
+      "Letter of credit"
+    ],
+    "answer": 1,
+    "explanation": "That description matches ATM.",
+    "id": 137
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "Which term describes: card that allows borrowing for purchases?",
+    "options": [
+      "Central bank",
+      "Letter of credit",
+      "Credit card",
+      "Trade"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Credit card.",
+    "id": 138
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "medium",
+    "question": "Which term describes: apex bank that controls monetary policy?",
+    "options": [
+      "Letter of credit",
+      "Trade",
+      "Barter",
+      "Central bank"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Central bank.",
+    "id": 139
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "Which term describes: bank promise to pay exporter?",
+    "options": [
+      "Letter of credit",
+      "Trade",
+      "Barter",
+      "Retailing"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Letter of credit.",
+    "id": 140
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "A wholesaler offers a 10% trade discount on a list price of 2000. The invoice price is ___.",
+    "options": [
+      "1900",
+      "1800",
+      "2000",
+      "2200"
+    ],
+    "answer": 1,
+    "explanation": "Trade discount = 10% of 2000.",
+    "id": 141
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "medium",
+    "question": "A seller gives 5% cash discount for prompt payment on 10000. The discount is ___.",
+    "options": [
+      "250",
+      "750",
+      "500",
+      "1000"
+    ],
+    "answer": 2,
+    "explanation": "Cash discount = 5% of 10000.",
+    "id": 142
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "The document issued by a shipper acknowledging receipt of goods for shipment is the ___.",
+    "options": [
+      "invoice",
+      "consignment note",
+      "cheque",
+      "bill of lading"
+    ],
+    "answer": 3,
+    "explanation": "Bill of lading is a shipping document.",
+    "id": 143
+  },
+  {
+    "topic": "Insurance",
+    "difficulty": "medium",
+    "question": "Insurance aims to restore the insured to their original position. This is the principle of ___.",
+    "options": [
+      "indemnity",
+      "subrogation",
+      "premium",
+      "risk"
+    ],
+    "answer": 0,
+    "explanation": "Indemnity prevents profit from loss.",
+    "id": 144
+  },
+  {
+    "topic": "Business",
+    "difficulty": "medium",
+    "question": "Under hire purchase, ownership of goods passes to the buyer ___.",
+    "options": [
+      "immediately",
+      "after final payment",
+      "after first installment",
+      "before delivery"
+    ],
+    "answer": 1,
+    "explanation": "Ownership transfers after final installment.",
+    "id": 145
+  },
+  {
+    "topic": "Aids to Trade",
+    "difficulty": "hard",
+    "question": "A document showing goods stored in a warehouse and used as security is a ___.",
+    "options": [
+      "invoice",
+      "receipt",
+      "warehouse warrant",
+      "cheque"
+    ],
+    "answer": 2,
+    "explanation": "Warehouse warrant can be used as collateral.",
+    "id": 146
+  },
+  {
+    "topic": "Banking",
+    "difficulty": "easy",
+    "question": "A customer who withdraws more than their account balance uses an ___.",
+    "options": [
+      "saving account",
+      "fixed deposit",
+      "ledger",
+      "overdraft"
+    ],
+    "answer": 3,
+    "explanation": "Overdraft allows negative balance.",
+    "id": 147
+  },
+  {
+    "topic": "International Trade",
+    "difficulty": "hard",
+    "question": "A bank's promise to pay an exporter once documents are presented is a ___.",
+    "options": [
+      "letter of credit",
+      "bill of exchange",
+      "invoice",
+      "receipt"
+    ],
+    "answer": 0,
+    "explanation": "Letter of credit guarantees payment.",
+    "id": 148
+  },
+  {
+    "topic": "Marketing",
+    "difficulty": "medium",
+    "question": "Paid promotion by a company is ___.",
+    "options": [
+      "publicity",
+      "advertising",
+      "barter",
+      "insurance"
+    ],
+    "answer": 1,
+    "explanation": "Advertising is paid promotion.",
+    "id": 149
+  },
+  {
+    "topic": "Trade",
+    "difficulty": "easy",
+    "question": "Buying in bulk and selling in smaller quantities is the work of a ___.",
+    "options": [
+      "retailer",
+      "consumer",
+      "wholesaler",
+      "producer"
+    ],
+    "answer": 2,
+    "explanation": "Wholesalers buy in bulk.",
+    "id": 150
+  }
+]

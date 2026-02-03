@@ -1,0 +1,2102 @@
+[
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "The term 'Soil texture' refers to ___.",
+    "options": [
+      "arrangement of soil particles",
+      "proportion of sand, silt and clay in soil",
+      "decayed organic matter in soil",
+      "measure of acidity or alkalinity of soil"
+    ],
+    "answer": 1,
+    "explanation": "Soil texture means proportion of sand, silt and clay in soil.",
+    "id": 1
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "The term 'Soil structure' refers to ___.",
+    "options": [
+      "decayed organic matter in soil",
+      "measure of acidity or alkalinity of soil",
+      "substance that supplies plant nutrients",
+      "arrangement of soil particles"
+    ],
+    "answer": 3,
+    "explanation": "Soil structure means arrangement of soil particles.",
+    "id": 2
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "The term 'Humus' refers to ___.",
+    "options": [
+      "decayed organic matter in soil",
+      "measure of acidity or alkalinity of soil",
+      "substance that supplies plant nutrients",
+      "organic waste used to improve soil"
+    ],
+    "answer": 0,
+    "explanation": "Humus means decayed organic matter in soil.",
+    "id": 3
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "The term 'Soil pH' refers to ___.",
+    "options": [
+      "substance that supplies plant nutrients",
+      "organic waste used to improve soil",
+      "measure of acidity or alkalinity of soil",
+      "decomposed organic matter used as fertilizer"
+    ],
+    "answer": 2,
+    "explanation": "Soil pH means measure of acidity or alkalinity of soil.",
+    "id": 4
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "The term 'Fertilizer' refers to ___.",
+    "options": [
+      "organic waste used to improve soil",
+      "substance that supplies plant nutrients",
+      "decomposed organic matter used as fertilizer",
+      "artificial application of water to crops"
+    ],
+    "answer": 1,
+    "explanation": "Fertilizer means substance that supplies plant nutrients.",
+    "id": 5
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "The term 'Manure' refers to ___.",
+    "options": [
+      "decomposed organic matter used as fertilizer",
+      "artificial application of water to crops",
+      "growing different crops in sequence",
+      "organic waste used to improve soil"
+    ],
+    "answer": 3,
+    "explanation": "Manure means organic waste used to improve soil.",
+    "id": 6
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "The term 'Compost' refers to ___.",
+    "options": [
+      "decomposed organic matter used as fertilizer",
+      "artificial application of water to crops",
+      "growing different crops in sequence",
+      "growing two or more crops on same land"
+    ],
+    "answer": 0,
+    "explanation": "Compost means decomposed organic matter used as fertilizer.",
+    "id": 7
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "The term 'Irrigation' refers to ___.",
+    "options": [
+      "growing different crops in sequence",
+      "growing two or more crops on same land",
+      "artificial application of water to crops",
+      "growing a single crop on land"
+    ],
+    "answer": 2,
+    "explanation": "Irrigation means artificial application of water to crops.",
+    "id": 8
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "The term 'Crop rotation' refers to ___.",
+    "options": [
+      "growing two or more crops on same land",
+      "growing different crops in sequence",
+      "growing a single crop on land",
+      "removal of unwanted plants"
+    ],
+    "answer": 1,
+    "explanation": "Crop rotation means growing different crops in sequence.",
+    "id": 9
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "The term 'Mixed cropping' refers to ___.",
+    "options": [
+      "growing a single crop on land",
+      "removal of unwanted plants",
+      "gathering mature crops",
+      "growing two or more crops on same land"
+    ],
+    "answer": 3,
+    "explanation": "Mixed cropping means growing two or more crops on same land.",
+    "id": 10
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "The term 'Monocropping' refers to ___.",
+    "options": [
+      "growing a single crop on land",
+      "removal of unwanted plants",
+      "gathering mature crops",
+      "animal with a four-chambered stomach"
+    ],
+    "answer": 0,
+    "explanation": "Monocropping means growing a single crop on land.",
+    "id": 11
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "The term 'Weeding' refers to ___.",
+    "options": [
+      "gathering mature crops",
+      "animal with a four-chambered stomach",
+      "removal of unwanted plants",
+      "domestic birds kept for meat or eggs"
+    ],
+    "answer": 2,
+    "explanation": "Weeding means removal of unwanted plants.",
+    "id": 12
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "The term 'Harvesting' refers to ___.",
+    "options": [
+      "animal with a four-chambered stomach",
+      "gathering mature crops",
+      "domestic birds kept for meat or eggs",
+      "chicken raised for meat"
+    ],
+    "answer": 1,
+    "explanation": "Harvesting means gathering mature crops.",
+    "id": 13
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "The term 'Ruminant' refers to ___.",
+    "options": [
+      "domestic birds kept for meat or eggs",
+      "chicken raised for meat",
+      "chicken raised for eggs",
+      "animal with a four-chambered stomach"
+    ],
+    "answer": 3,
+    "explanation": "Ruminant means animal with a four-chambered stomach.",
+    "id": 14
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "easy",
+    "question": "The term 'Poultry' refers to ___.",
+    "options": [
+      "domestic birds kept for meat or eggs",
+      "chicken raised for meat",
+      "chicken raised for eggs",
+      "administration of vaccine to prevent disease"
+    ],
+    "answer": 0,
+    "explanation": "Poultry means domestic birds kept for meat or eggs.",
+    "id": 15
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "easy",
+    "question": "The term 'Broiler' refers to ___.",
+    "options": [
+      "chicken raised for eggs",
+      "administration of vaccine to prevent disease",
+      "chicken raised for meat",
+      "introducing semen into female without mating"
+    ],
+    "answer": 2,
+    "explanation": "Broiler means chicken raised for meat.",
+    "id": 16
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "easy",
+    "question": "The term 'Layer' refers to ___.",
+    "options": [
+      "administration of vaccine to prevent disease",
+      "chicken raised for eggs",
+      "introducing semen into female without mating",
+      "selective mating to improve traits"
+    ],
+    "answer": 1,
+    "explanation": "Layer means chicken raised for eggs.",
+    "id": 17
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "The term 'Vaccination' refers to ___.",
+    "options": [
+      "introducing semen into female without mating",
+      "selective mating to improve traits",
+      "organism that damages crops or livestock",
+      "administration of vaccine to prevent disease"
+    ],
+    "answer": 3,
+    "explanation": "Vaccination means administration of vaccine to prevent disease.",
+    "id": 18
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "hard",
+    "question": "The term 'Artificial insemination' refers to ___.",
+    "options": [
+      "introducing semen into female without mating",
+      "selective mating to improve traits",
+      "organism that damages crops or livestock",
+      "abnormal condition affecting an organism"
+    ],
+    "answer": 0,
+    "explanation": "Artificial insemination means introducing semen into female without mating.",
+    "id": 19
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "The term 'Breeding' refers to ___.",
+    "options": [
+      "organism that damages crops or livestock",
+      "abnormal condition affecting an organism",
+      "selective mating to improve traits",
+      "chemical used to kill weeds"
+    ],
+    "answer": 2,
+    "explanation": "Breeding means selective mating to improve traits.",
+    "id": 20
+  },
+  {
+    "topic": "Pests",
+    "difficulty": "easy",
+    "question": "The term 'Pest' refers to ___.",
+    "options": [
+      "abnormal condition affecting an organism",
+      "organism that damages crops or livestock",
+      "chemical used to kill weeds",
+      "chemical used to kill insects"
+    ],
+    "answer": 1,
+    "explanation": "Pest means organism that damages crops or livestock.",
+    "id": 21
+  },
+  {
+    "topic": "Pests",
+    "difficulty": "easy",
+    "question": "The term 'Disease' refers to ___.",
+    "options": [
+      "chemical used to kill weeds",
+      "chemical used to kill insects",
+      "chemical used to control fungi",
+      "abnormal condition affecting an organism"
+    ],
+    "answer": 3,
+    "explanation": "Disease means abnormal condition affecting an organism.",
+    "id": 22
+  },
+  {
+    "topic": "Pests",
+    "difficulty": "medium",
+    "question": "The term 'Herbicide' refers to ___.",
+    "options": [
+      "chemical used to kill weeds",
+      "chemical used to kill insects",
+      "chemical used to control fungi",
+      "simple implements used in farming"
+    ],
+    "answer": 0,
+    "explanation": "Herbicide means chemical used to kill weeds.",
+    "id": 23
+  },
+  {
+    "topic": "Pests",
+    "difficulty": "medium",
+    "question": "The term 'Insecticide' refers to ___.",
+    "options": [
+      "chemical used to control fungi",
+      "simple implements used in farming",
+      "chemical used to kill insects",
+      "machine used to pull farm implements"
+    ],
+    "answer": 2,
+    "explanation": "Insecticide means chemical used to kill insects.",
+    "id": 24
+  },
+  {
+    "topic": "Pests",
+    "difficulty": "medium",
+    "question": "The term 'Fungicide' refers to ___.",
+    "options": [
+      "simple implements used in farming",
+      "chemical used to control fungi",
+      "machine used to pull farm implements",
+      "machine used to harvest crops"
+    ],
+    "answer": 1,
+    "explanation": "Fungicide means chemical used to control fungi.",
+    "id": 25
+  },
+  {
+    "topic": "Farm Tools",
+    "difficulty": "easy",
+    "question": "The term 'Farm tools' refers to ___.",
+    "options": [
+      "machine used to pull farm implements",
+      "machine used to harvest crops",
+      "tool used to turn the soil",
+      "simple implements used in farming"
+    ],
+    "answer": 3,
+    "explanation": "Farm tools means simple implements used in farming.",
+    "id": 26
+  },
+  {
+    "topic": "Farm Tools",
+    "difficulty": "easy",
+    "question": "The term 'Tractor' refers to ___.",
+    "options": [
+      "machine used to pull farm implements",
+      "machine used to harvest crops",
+      "tool used to turn the soil",
+      "tool used to break soil clods"
+    ],
+    "answer": 0,
+    "explanation": "Tractor means machine used to pull farm implements.",
+    "id": 27
+  },
+  {
+    "topic": "Farm Tools",
+    "difficulty": "medium",
+    "question": "The term 'Harvester' refers to ___.",
+    "options": [
+      "tool used to turn the soil",
+      "tool used to break soil clods",
+      "machine used to harvest crops",
+      "food given to animals"
+    ],
+    "answer": 2,
+    "explanation": "Harvester means machine used to harvest crops.",
+    "id": 28
+  },
+  {
+    "topic": "Farm Tools",
+    "difficulty": "easy",
+    "question": "The term 'Plough' refers to ___.",
+    "options": [
+      "tool used to break soil clods",
+      "tool used to turn the soil",
+      "food given to animals",
+      "land covered with grass for grazing"
+    ],
+    "answer": 1,
+    "explanation": "Plough means tool used to turn the soil.",
+    "id": 29
+  },
+  {
+    "topic": "Farm Tools",
+    "difficulty": "easy",
+    "question": "The term 'Harrow' refers to ___.",
+    "options": [
+      "food given to animals",
+      "land covered with grass for grazing",
+      "preserved green fodder",
+      "tool used to break soil clods"
+    ],
+    "answer": 3,
+    "explanation": "Harrow means tool used to break soil clods.",
+    "id": 30
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "easy",
+    "question": "The term 'Livestock feed' refers to ___.",
+    "options": [
+      "food given to animals",
+      "land covered with grass for grazing",
+      "preserved green fodder",
+      "documents showing farm operations"
+    ],
+    "answer": 0,
+    "explanation": "Livestock feed means food given to animals.",
+    "id": 31
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "easy",
+    "question": "The term 'Pasture' refers to ___.",
+    "options": [
+      "preserved green fodder",
+      "documents showing farm operations",
+      "land covered with grass for grazing",
+      "plan of expected farm income and expenses"
+    ],
+    "answer": 2,
+    "explanation": "Pasture means land covered with grass for grazing.",
+    "id": 32
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "The term 'Silage' refers to ___.",
+    "options": [
+      "documents showing farm operations",
+      "preserved green fodder",
+      "plan of expected farm income and expenses",
+      "advisory service to farmers"
+    ],
+    "answer": 1,
+    "explanation": "Silage means preserved green fodder.",
+    "id": 33
+  },
+  {
+    "topic": "Farm Management",
+    "difficulty": "medium",
+    "question": "The term 'Farm records' refers to ___.",
+    "options": [
+      "plan of expected farm income and expenses",
+      "advisory service to farmers",
+      "movement of produce to consumers",
+      "documents showing farm operations"
+    ],
+    "answer": 3,
+    "explanation": "Farm records means documents showing farm operations.",
+    "id": 34
+  },
+  {
+    "topic": "Farm Management",
+    "difficulty": "hard",
+    "question": "The term 'Farm budget' refers to ___.",
+    "options": [
+      "plan of expected farm income and expenses",
+      "advisory service to farmers",
+      "movement of produce to consumers",
+      "removal of topsoil by wind or water"
+    ],
+    "answer": 0,
+    "explanation": "Farm budget means plan of expected farm income and expenses.",
+    "id": 35
+  },
+  {
+    "topic": "Farm Management",
+    "difficulty": "medium",
+    "question": "The term 'Extension service' refers to ___.",
+    "options": [
+      "movement of produce to consumers",
+      "removal of topsoil by wind or water",
+      "advisory service to farmers",
+      "covering soil to conserve moisture"
+    ],
+    "answer": 2,
+    "explanation": "Extension service means advisory service to farmers.",
+    "id": 36
+  },
+  {
+    "topic": "Farm Management",
+    "difficulty": "medium",
+    "question": "The term 'Agricultural marketing' refers to ___.",
+    "options": [
+      "removal of topsoil by wind or water",
+      "movement of produce to consumers",
+      "covering soil to conserve moisture",
+      "joining parts of two plants"
+    ],
+    "answer": 1,
+    "explanation": "Agricultural marketing means movement of produce to consumers.",
+    "id": 37
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "The term 'Erosion' refers to ___.",
+    "options": [
+      "covering soil to conserve moisture",
+      "joining parts of two plants",
+      "treating seeds before planting",
+      "removal of topsoil by wind or water"
+    ],
+    "answer": 3,
+    "explanation": "Erosion means removal of topsoil by wind or water.",
+    "id": 38
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "The term 'Mulching' refers to ___.",
+    "options": [
+      "covering soil to conserve moisture",
+      "joining parts of two plants",
+      "treating seeds before planting",
+      "place where seedlings are raised"
+    ],
+    "answer": 0,
+    "explanation": "Mulching means covering soil to conserve moisture.",
+    "id": 39
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "hard",
+    "question": "The term 'Grafting' refers to ___.",
+    "options": [
+      "treating seeds before planting",
+      "place where seedlings are raised",
+      "joining parts of two plants",
+      "plant that fixes nitrogen"
+    ],
+    "answer": 2,
+    "explanation": "Grafting means joining parts of two plants.",
+    "id": 40
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "The term 'Seed dressing' refers to ___.",
+    "options": [
+      "place where seedlings are raised",
+      "treating seeds before planting",
+      "plant that fixes nitrogen",
+      "crop grown to improve soil fertility"
+    ],
+    "answer": 1,
+    "explanation": "Seed dressing means treating seeds before planting.",
+    "id": 41
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "The term 'Nursery' refers to ___.",
+    "options": [
+      "plant that fixes nitrogen",
+      "crop grown to improve soil fertility",
+      "artificial enclosure for fish culture",
+      "place where seedlings are raised"
+    ],
+    "answer": 3,
+    "explanation": "Nursery means place where seedlings are raised.",
+    "id": 42
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "The term 'Legume' refers to ___.",
+    "options": [
+      "plant that fixes nitrogen",
+      "crop grown to improve soil fertility",
+      "artificial enclosure for fish culture",
+      "young fish used for stocking"
+    ],
+    "answer": 0,
+    "explanation": "Legume means plant that fixes nitrogen.",
+    "id": 43
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "The term 'Green manure' refers to ___.",
+    "options": [
+      "artificial enclosure for fish culture",
+      "young fish used for stocking",
+      "crop grown to improve soil fertility",
+      "management of forest resources"
+    ],
+    "answer": 2,
+    "explanation": "Green manure means crop grown to improve soil fertility.",
+    "id": 44
+  },
+  {
+    "topic": "Fisheries",
+    "difficulty": "easy",
+    "question": "The term 'Fish pond' refers to ___.",
+    "options": [
+      "young fish used for stocking",
+      "artificial enclosure for fish culture",
+      "management of forest resources",
+      "planting trees in non-forest areas"
+    ],
+    "answer": 1,
+    "explanation": "Fish pond means artificial enclosure for fish culture.",
+    "id": 45
+  },
+  {
+    "topic": "Fisheries",
+    "difficulty": "medium",
+    "question": "The term 'Fingerlings' refers to ___.",
+    "options": [
+      "management of forest resources",
+      "planting trees in non-forest areas",
+      "removal of forest cover",
+      "young fish used for stocking"
+    ],
+    "answer": 3,
+    "explanation": "Fingerlings means young fish used for stocking.",
+    "id": 46
+  },
+  {
+    "topic": "Forestry",
+    "difficulty": "medium",
+    "question": "The term 'Forestry' refers to ___.",
+    "options": [
+      "management of forest resources",
+      "planting trees in non-forest areas",
+      "removal of forest cover",
+      "practices to prevent soil loss"
+    ],
+    "answer": 0,
+    "explanation": "Forestry means management of forest resources.",
+    "id": 47
+  },
+  {
+    "topic": "Forestry",
+    "difficulty": "medium",
+    "question": "The term 'Afforestation' refers to ___.",
+    "options": [
+      "removal of forest cover",
+      "practices to prevent soil loss",
+      "planting trees in non-forest areas",
+      "vertical section showing soil horizons"
+    ],
+    "answer": 2,
+    "explanation": "Afforestation means planting trees in non-forest areas.",
+    "id": 48
+  },
+  {
+    "topic": "Forestry",
+    "difficulty": "medium",
+    "question": "The term 'Deforestation' refers to ___.",
+    "options": [
+      "practices to prevent soil loss",
+      "removal of forest cover",
+      "vertical section showing soil horizons",
+      "uppermost fertile layer of soil"
+    ],
+    "answer": 1,
+    "explanation": "Deforestation means removal of forest cover.",
+    "id": 49
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "The term 'Soil conservation' refers to ___.",
+    "options": [
+      "vertical section showing soil horizons",
+      "uppermost fertile layer of soil",
+      "layer of soil beneath topsoil",
+      "practices to prevent soil loss"
+    ],
+    "answer": 3,
+    "explanation": "Soil conservation means practices to prevent soil loss.",
+    "id": 50
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "The term 'Soil profile' refers to ___.",
+    "options": [
+      "vertical section showing soil horizons",
+      "uppermost fertile layer of soil",
+      "layer of soil beneath topsoil",
+      "distinct layer within the soil"
+    ],
+    "answer": 0,
+    "explanation": "Soil profile means vertical section showing soil horizons.",
+    "id": 51
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "The term 'Topsoil' refers to ___.",
+    "options": [
+      "layer of soil beneath topsoil",
+      "distinct layer within the soil",
+      "uppermost fertile layer of soil",
+      "ability of soil to support plant growth"
+    ],
+    "answer": 2,
+    "explanation": "Topsoil means uppermost fertile layer of soil.",
+    "id": 52
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "The term 'Subsoil' refers to ___.",
+    "options": [
+      "distinct layer within the soil",
+      "layer of soil beneath topsoil",
+      "ability of soil to support plant growth",
+      "plowing along contours to reduce erosion"
+    ],
+    "answer": 1,
+    "explanation": "Subsoil means layer of soil beneath topsoil.",
+    "id": 53
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "The term 'Soil horizon' refers to ___.",
+    "options": [
+      "ability of soil to support plant growth",
+      "plowing along contours to reduce erosion",
+      "distance between plants in a field",
+      "distinct layer within the soil"
+    ],
+    "answer": 3,
+    "explanation": "Soil horizon means distinct layer within the soil.",
+    "id": 54
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "The term 'Soil fertility' refers to ___.",
+    "options": [
+      "ability of soil to support plant growth",
+      "plowing along contours to reduce erosion",
+      "distance between plants in a field",
+      "removal of excess seedlings"
+    ],
+    "answer": 0,
+    "explanation": "Soil fertility means ability of soil to support plant growth.",
+    "id": 55
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "The term 'Contour plowing' refers to ___.",
+    "options": [
+      "distance between plants in a field",
+      "removal of excess seedlings",
+      "plowing along contours to reduce erosion",
+      "cutting plant parts to improve growth"
+    ],
+    "answer": 2,
+    "explanation": "Contour plowing means plowing along contours to reduce erosion.",
+    "id": 56
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "The term 'Crop spacing' refers to ___.",
+    "options": [
+      "removal of excess seedlings",
+      "distance between plants in a field",
+      "cutting plant parts to improve growth",
+      "separating young animals from their mothers"
+    ],
+    "answer": 1,
+    "explanation": "Crop spacing means distance between plants in a field.",
+    "id": 57
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "The term 'Thinning' refers to ___.",
+    "options": [
+      "cutting plant parts to improve growth",
+      "separating young animals from their mothers",
+      "period of pregnancy in animals",
+      "removal of excess seedlings"
+    ],
+    "answer": 3,
+    "explanation": "Thinning means removal of excess seedlings.",
+    "id": 58
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "The term 'Pruning' refers to ___.",
+    "options": [
+      "cutting plant parts to improve growth",
+      "separating young animals from their mothers",
+      "period of pregnancy in animals",
+      "removal of unproductive animals"
+    ],
+    "answer": 0,
+    "explanation": "Pruning means cutting plant parts to improve growth.",
+    "id": 59
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "The term 'Weaning' refers to ___.",
+    "options": [
+      "period of pregnancy in animals",
+      "removal of unproductive animals",
+      "separating young animals from their mothers",
+      "trimming beaks of poultry to reduce pecking"
+    ],
+    "answer": 2,
+    "explanation": "Weaning means separating young animals from their mothers.",
+    "id": 60
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "The term 'Gestation' refers to ___.",
+    "options": [
+      "removal of unproductive animals",
+      "period of pregnancy in animals",
+      "trimming beaks of poultry to reduce pecking",
+      "rearing livestock on large grazing areas"
+    ],
+    "answer": 1,
+    "explanation": "Gestation means period of pregnancy in animals.",
+    "id": 61
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "The term 'Culling' refers to ___.",
+    "options": [
+      "trimming beaks of poultry to reduce pecking",
+      "rearing livestock on large grazing areas",
+      "mating animals of different breeds",
+      "removal of unproductive animals"
+    ],
+    "answer": 3,
+    "explanation": "Culling means removal of unproductive animals.",
+    "id": 62
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "hard",
+    "question": "The term 'Debeaking' refers to ___.",
+    "options": [
+      "trimming beaks of poultry to reduce pecking",
+      "rearing livestock on large grazing areas",
+      "mating animals of different breeds",
+      "isolating animals to prevent disease spread"
+    ],
+    "answer": 0,
+    "explanation": "Debeaking means trimming beaks of poultry to reduce pecking.",
+    "id": 63
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "The term 'Ranching' refers to ___.",
+    "options": [
+      "mating animals of different breeds",
+      "isolating animals to prevent disease spread",
+      "rearing livestock on large grazing areas",
+      "farming of aquatic organisms"
+    ],
+    "answer": 2,
+    "explanation": "Ranching means rearing livestock on large grazing areas.",
+    "id": 64
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "The term 'Crossbreeding' refers to ___.",
+    "options": [
+      "isolating animals to prevent disease spread",
+      "mating animals of different breeds",
+      "farming of aquatic organisms",
+      "introducing fish into a pond"
+    ],
+    "answer": 1,
+    "explanation": "Crossbreeding means mating animals of different breeds.",
+    "id": 65
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "hard",
+    "question": "The term 'Quarantine' refers to ___.",
+    "options": [
+      "farming of aquatic organisms",
+      "introducing fish into a pond",
+      "irrigation using slow water droplets",
+      "isolating animals to prevent disease spread"
+    ],
+    "answer": 3,
+    "explanation": "Quarantine means isolating animals to prevent disease spread.",
+    "id": 66
+  },
+  {
+    "topic": "Fisheries",
+    "difficulty": "medium",
+    "question": "The term 'Aquaculture' refers to ___.",
+    "options": [
+      "farming of aquatic organisms",
+      "introducing fish into a pond",
+      "irrigation using slow water droplets",
+      "irrigation by spraying water"
+    ],
+    "answer": 0,
+    "explanation": "Aquaculture means farming of aquatic organisms.",
+    "id": 67
+  },
+  {
+    "topic": "Fisheries",
+    "difficulty": "medium",
+    "question": "The term 'Stocking' refers to ___.",
+    "options": [
+      "irrigation using slow water droplets",
+      "irrigation by spraying water",
+      "introducing fish into a pond",
+      "proportion of sand, silt and clay in soil"
+    ],
+    "answer": 2,
+    "explanation": "Stocking means introducing fish into a pond.",
+    "id": 68
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "hard",
+    "question": "The term 'Drip irrigation' refers to ___.",
+    "options": [
+      "irrigation by spraying water",
+      "irrigation using slow water droplets",
+      "proportion of sand, silt and clay in soil",
+      "arrangement of soil particles"
+    ],
+    "answer": 1,
+    "explanation": "Drip irrigation means irrigation using slow water droplets.",
+    "id": 69
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "The term 'Sprinkler irrigation' refers to ___.",
+    "options": [
+      "proportion of sand, silt and clay in soil",
+      "arrangement of soil particles",
+      "decayed organic matter in soil",
+      "irrigation by spraying water"
+    ],
+    "answer": 3,
+    "explanation": "Sprinkler irrigation means irrigation by spraying water.",
+    "id": 70
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "Which term describes: proportion of sand, silt and clay in soil?",
+    "options": [
+      "Soil texture",
+      "Soil structure",
+      "Humus",
+      "Soil pH"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Soil texture.",
+    "id": 71
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "Which term describes: arrangement of soil particles?",
+    "options": [
+      "Humus",
+      "Soil pH",
+      "Soil structure",
+      "Fertilizer"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Soil structure.",
+    "id": 72
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "Which term describes: decayed organic matter in soil?",
+    "options": [
+      "Soil pH",
+      "Humus",
+      "Fertilizer",
+      "Manure"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Humus.",
+    "id": 73
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "Which term describes: measure of acidity or alkalinity of soil?",
+    "options": [
+      "Fertilizer",
+      "Manure",
+      "Compost",
+      "Soil pH"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Soil pH.",
+    "id": 74
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "Which term describes: substance that supplies plant nutrients?",
+    "options": [
+      "Fertilizer",
+      "Manure",
+      "Compost",
+      "Irrigation"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Fertilizer.",
+    "id": 75
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "Which term describes: organic waste used to improve soil?",
+    "options": [
+      "Compost",
+      "Irrigation",
+      "Manure",
+      "Crop rotation"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Manure.",
+    "id": 76
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "Which term describes: decomposed organic matter used as fertilizer?",
+    "options": [
+      "Irrigation",
+      "Compost",
+      "Crop rotation",
+      "Mixed cropping"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Compost.",
+    "id": 77
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "Which term describes: artificial application of water to crops?",
+    "options": [
+      "Crop rotation",
+      "Mixed cropping",
+      "Monocropping",
+      "Irrigation"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Irrigation.",
+    "id": 78
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "Which term describes: growing different crops in sequence?",
+    "options": [
+      "Crop rotation",
+      "Mixed cropping",
+      "Monocropping",
+      "Weeding"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Crop rotation.",
+    "id": 79
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "Which term describes: growing two or more crops on same land?",
+    "options": [
+      "Monocropping",
+      "Weeding",
+      "Mixed cropping",
+      "Harvesting"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Mixed cropping.",
+    "id": 80
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "Which term describes: growing a single crop on land?",
+    "options": [
+      "Weeding",
+      "Monocropping",
+      "Harvesting",
+      "Ruminant"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Monocropping.",
+    "id": 81
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "Which term describes: removal of unwanted plants?",
+    "options": [
+      "Harvesting",
+      "Ruminant",
+      "Poultry",
+      "Weeding"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Weeding.",
+    "id": 82
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "Which term describes: gathering mature crops?",
+    "options": [
+      "Harvesting",
+      "Ruminant",
+      "Poultry",
+      "Broiler"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Harvesting.",
+    "id": 83
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "Which term describes: animal with a four-chambered stomach?",
+    "options": [
+      "Poultry",
+      "Broiler",
+      "Ruminant",
+      "Layer"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Ruminant.",
+    "id": 84
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "easy",
+    "question": "Which term describes: domestic birds kept for meat or eggs?",
+    "options": [
+      "Broiler",
+      "Poultry",
+      "Layer",
+      "Vaccination"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Poultry.",
+    "id": 85
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "easy",
+    "question": "Which term describes: chicken raised for meat?",
+    "options": [
+      "Layer",
+      "Vaccination",
+      "Artificial insemination",
+      "Broiler"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Broiler.",
+    "id": 86
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "easy",
+    "question": "Which term describes: chicken raised for eggs?",
+    "options": [
+      "Layer",
+      "Vaccination",
+      "Artificial insemination",
+      "Breeding"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Layer.",
+    "id": 87
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "Which term describes: administration of vaccine to prevent disease?",
+    "options": [
+      "Artificial insemination",
+      "Breeding",
+      "Vaccination",
+      "Pest"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Vaccination.",
+    "id": 88
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "hard",
+    "question": "Which term describes: introducing semen into female without mating?",
+    "options": [
+      "Breeding",
+      "Artificial insemination",
+      "Pest",
+      "Disease"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Artificial insemination.",
+    "id": 89
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "Which term describes: selective mating to improve traits?",
+    "options": [
+      "Pest",
+      "Disease",
+      "Herbicide",
+      "Breeding"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Breeding.",
+    "id": 90
+  },
+  {
+    "topic": "Pests",
+    "difficulty": "easy",
+    "question": "Which term describes: organism that damages crops or livestock?",
+    "options": [
+      "Pest",
+      "Disease",
+      "Herbicide",
+      "Insecticide"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Pest.",
+    "id": 91
+  },
+  {
+    "topic": "Pests",
+    "difficulty": "easy",
+    "question": "Which term describes: abnormal condition affecting an organism?",
+    "options": [
+      "Herbicide",
+      "Insecticide",
+      "Disease",
+      "Fungicide"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Disease.",
+    "id": 92
+  },
+  {
+    "topic": "Pests",
+    "difficulty": "medium",
+    "question": "Which term describes: chemical used to kill weeds?",
+    "options": [
+      "Insecticide",
+      "Herbicide",
+      "Fungicide",
+      "Farm tools"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Herbicide.",
+    "id": 93
+  },
+  {
+    "topic": "Pests",
+    "difficulty": "medium",
+    "question": "Which term describes: chemical used to kill insects?",
+    "options": [
+      "Fungicide",
+      "Farm tools",
+      "Tractor",
+      "Insecticide"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Insecticide.",
+    "id": 94
+  },
+  {
+    "topic": "Pests",
+    "difficulty": "medium",
+    "question": "Which term describes: chemical used to control fungi?",
+    "options": [
+      "Fungicide",
+      "Farm tools",
+      "Tractor",
+      "Harvester"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Fungicide.",
+    "id": 95
+  },
+  {
+    "topic": "Farm Tools",
+    "difficulty": "easy",
+    "question": "Which term describes: simple implements used in farming?",
+    "options": [
+      "Tractor",
+      "Harvester",
+      "Farm tools",
+      "Plough"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Farm tools.",
+    "id": 96
+  },
+  {
+    "topic": "Farm Tools",
+    "difficulty": "easy",
+    "question": "Which term describes: machine used to pull farm implements?",
+    "options": [
+      "Harvester",
+      "Tractor",
+      "Plough",
+      "Harrow"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Tractor.",
+    "id": 97
+  },
+  {
+    "topic": "Farm Tools",
+    "difficulty": "medium",
+    "question": "Which term describes: machine used to harvest crops?",
+    "options": [
+      "Plough",
+      "Harrow",
+      "Livestock feed",
+      "Harvester"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Harvester.",
+    "id": 98
+  },
+  {
+    "topic": "Farm Tools",
+    "difficulty": "easy",
+    "question": "Which term describes: tool used to turn the soil?",
+    "options": [
+      "Plough",
+      "Harrow",
+      "Livestock feed",
+      "Pasture"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Plough.",
+    "id": 99
+  },
+  {
+    "topic": "Farm Tools",
+    "difficulty": "easy",
+    "question": "Which term describes: tool used to break soil clods?",
+    "options": [
+      "Livestock feed",
+      "Pasture",
+      "Harrow",
+      "Silage"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Harrow.",
+    "id": 100
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "easy",
+    "question": "Which term describes: food given to animals?",
+    "options": [
+      "Pasture",
+      "Livestock feed",
+      "Silage",
+      "Farm records"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Livestock feed.",
+    "id": 101
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "easy",
+    "question": "Which term describes: land covered with grass for grazing?",
+    "options": [
+      "Silage",
+      "Farm records",
+      "Farm budget",
+      "Pasture"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Pasture.",
+    "id": 102
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "Which term describes: preserved green fodder?",
+    "options": [
+      "Silage",
+      "Farm records",
+      "Farm budget",
+      "Extension service"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Silage.",
+    "id": 103
+  },
+  {
+    "topic": "Farm Management",
+    "difficulty": "medium",
+    "question": "Which term describes: documents showing farm operations?",
+    "options": [
+      "Farm budget",
+      "Extension service",
+      "Farm records",
+      "Agricultural marketing"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Farm records.",
+    "id": 104
+  },
+  {
+    "topic": "Farm Management",
+    "difficulty": "hard",
+    "question": "Which term describes: plan of expected farm income and expenses?",
+    "options": [
+      "Extension service",
+      "Farm budget",
+      "Agricultural marketing",
+      "Erosion"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Farm budget.",
+    "id": 105
+  },
+  {
+    "topic": "Farm Management",
+    "difficulty": "medium",
+    "question": "Which term describes: advisory service to farmers?",
+    "options": [
+      "Agricultural marketing",
+      "Erosion",
+      "Mulching",
+      "Extension service"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Extension service.",
+    "id": 106
+  },
+  {
+    "topic": "Farm Management",
+    "difficulty": "medium",
+    "question": "Which term describes: movement of produce to consumers?",
+    "options": [
+      "Agricultural marketing",
+      "Erosion",
+      "Mulching",
+      "Grafting"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Agricultural marketing.",
+    "id": 107
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "Which term describes: removal of topsoil by wind or water?",
+    "options": [
+      "Mulching",
+      "Grafting",
+      "Erosion",
+      "Seed dressing"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Erosion.",
+    "id": 108
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "Which term describes: covering soil to conserve moisture?",
+    "options": [
+      "Grafting",
+      "Mulching",
+      "Seed dressing",
+      "Nursery"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Mulching.",
+    "id": 109
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "hard",
+    "question": "Which term describes: joining parts of two plants?",
+    "options": [
+      "Seed dressing",
+      "Nursery",
+      "Legume",
+      "Grafting"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Grafting.",
+    "id": 110
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "Which term describes: treating seeds before planting?",
+    "options": [
+      "Seed dressing",
+      "Nursery",
+      "Legume",
+      "Green manure"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Seed dressing.",
+    "id": 111
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "Which term describes: place where seedlings are raised?",
+    "options": [
+      "Legume",
+      "Green manure",
+      "Nursery",
+      "Fish pond"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Nursery.",
+    "id": 112
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "Which term describes: plant that fixes nitrogen?",
+    "options": [
+      "Green manure",
+      "Legume",
+      "Fish pond",
+      "Fingerlings"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Legume.",
+    "id": 113
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "Which term describes: crop grown to improve soil fertility?",
+    "options": [
+      "Fish pond",
+      "Fingerlings",
+      "Forestry",
+      "Green manure"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Green manure.",
+    "id": 114
+  },
+  {
+    "topic": "Fisheries",
+    "difficulty": "easy",
+    "question": "Which term describes: artificial enclosure for fish culture?",
+    "options": [
+      "Fish pond",
+      "Fingerlings",
+      "Forestry",
+      "Afforestation"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Fish pond.",
+    "id": 115
+  },
+  {
+    "topic": "Fisheries",
+    "difficulty": "medium",
+    "question": "Which term describes: young fish used for stocking?",
+    "options": [
+      "Forestry",
+      "Afforestation",
+      "Fingerlings",
+      "Deforestation"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Fingerlings.",
+    "id": 116
+  },
+  {
+    "topic": "Forestry",
+    "difficulty": "medium",
+    "question": "Which term describes: management of forest resources?",
+    "options": [
+      "Afforestation",
+      "Forestry",
+      "Deforestation",
+      "Soil conservation"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Forestry.",
+    "id": 117
+  },
+  {
+    "topic": "Forestry",
+    "difficulty": "medium",
+    "question": "Which term describes: planting trees in non-forest areas?",
+    "options": [
+      "Deforestation",
+      "Soil conservation",
+      "Soil profile",
+      "Afforestation"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Afforestation.",
+    "id": 118
+  },
+  {
+    "topic": "Forestry",
+    "difficulty": "medium",
+    "question": "Which term describes: removal of forest cover?",
+    "options": [
+      "Deforestation",
+      "Soil conservation",
+      "Soil profile",
+      "Topsoil"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Deforestation.",
+    "id": 119
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "Which term describes: practices to prevent soil loss?",
+    "options": [
+      "Soil profile",
+      "Topsoil",
+      "Soil conservation",
+      "Subsoil"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Soil conservation.",
+    "id": 120
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "Which term describes: vertical section showing soil horizons?",
+    "options": [
+      "Topsoil",
+      "Soil profile",
+      "Subsoil",
+      "Soil horizon"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Soil profile.",
+    "id": 121
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "Which term describes: uppermost fertile layer of soil?",
+    "options": [
+      "Subsoil",
+      "Soil horizon",
+      "Soil fertility",
+      "Topsoil"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Topsoil.",
+    "id": 122
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "Which term describes: layer of soil beneath topsoil?",
+    "options": [
+      "Subsoil",
+      "Soil horizon",
+      "Soil fertility",
+      "Contour plowing"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Subsoil.",
+    "id": 123
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "Which term describes: distinct layer within the soil?",
+    "options": [
+      "Soil fertility",
+      "Contour plowing",
+      "Soil horizon",
+      "Crop spacing"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Soil horizon.",
+    "id": 124
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "Which term describes: ability of soil to support plant growth?",
+    "options": [
+      "Contour plowing",
+      "Soil fertility",
+      "Crop spacing",
+      "Thinning"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Soil fertility.",
+    "id": 125
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "Which term describes: plowing along contours to reduce erosion?",
+    "options": [
+      "Crop spacing",
+      "Thinning",
+      "Pruning",
+      "Contour plowing"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Contour plowing.",
+    "id": 126
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "Which term describes: distance between plants in a field?",
+    "options": [
+      "Crop spacing",
+      "Thinning",
+      "Pruning",
+      "Weaning"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Crop spacing.",
+    "id": 127
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "easy",
+    "question": "Which term describes: removal of excess seedlings?",
+    "options": [
+      "Pruning",
+      "Weaning",
+      "Thinning",
+      "Gestation"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Thinning.",
+    "id": 128
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "Which term describes: cutting plant parts to improve growth?",
+    "options": [
+      "Weaning",
+      "Pruning",
+      "Gestation",
+      "Culling"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Pruning.",
+    "id": 129
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "Which term describes: separating young animals from their mothers?",
+    "options": [
+      "Gestation",
+      "Culling",
+      "Debeaking",
+      "Weaning"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Weaning.",
+    "id": 130
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "Which term describes: period of pregnancy in animals?",
+    "options": [
+      "Gestation",
+      "Culling",
+      "Debeaking",
+      "Ranching"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Gestation.",
+    "id": 131
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "Which term describes: removal of unproductive animals?",
+    "options": [
+      "Debeaking",
+      "Ranching",
+      "Culling",
+      "Crossbreeding"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Culling.",
+    "id": 132
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "hard",
+    "question": "Which term describes: trimming beaks of poultry to reduce pecking?",
+    "options": [
+      "Ranching",
+      "Debeaking",
+      "Crossbreeding",
+      "Quarantine"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Debeaking.",
+    "id": 133
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "Which term describes: rearing livestock on large grazing areas?",
+    "options": [
+      "Crossbreeding",
+      "Quarantine",
+      "Aquaculture",
+      "Ranching"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Ranching.",
+    "id": 134
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "Which term describes: mating animals of different breeds?",
+    "options": [
+      "Crossbreeding",
+      "Quarantine",
+      "Aquaculture",
+      "Stocking"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Crossbreeding.",
+    "id": 135
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "hard",
+    "question": "Which term describes: isolating animals to prevent disease spread?",
+    "options": [
+      "Aquaculture",
+      "Stocking",
+      "Quarantine",
+      "Drip irrigation"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Quarantine.",
+    "id": 136
+  },
+  {
+    "topic": "Fisheries",
+    "difficulty": "medium",
+    "question": "Which term describes: farming of aquatic organisms?",
+    "options": [
+      "Stocking",
+      "Aquaculture",
+      "Drip irrigation",
+      "Sprinkler irrigation"
+    ],
+    "answer": 1,
+    "explanation": "That description matches Aquaculture.",
+    "id": 137
+  },
+  {
+    "topic": "Fisheries",
+    "difficulty": "medium",
+    "question": "Which term describes: introducing fish into a pond?",
+    "options": [
+      "Drip irrigation",
+      "Sprinkler irrigation",
+      "Soil texture",
+      "Stocking"
+    ],
+    "answer": 3,
+    "explanation": "That description matches Stocking.",
+    "id": 138
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "hard",
+    "question": "Which term describes: irrigation using slow water droplets?",
+    "options": [
+      "Drip irrigation",
+      "Sprinkler irrigation",
+      "Soil texture",
+      "Soil structure"
+    ],
+    "answer": 0,
+    "explanation": "That description matches Drip irrigation.",
+    "id": 139
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "Which term describes: irrigation by spraying water?",
+    "options": [
+      "Soil texture",
+      "Soil structure",
+      "Sprinkler irrigation",
+      "Humus"
+    ],
+    "answer": 2,
+    "explanation": "That description matches Sprinkler irrigation.",
+    "id": 140
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "easy",
+    "question": "A farmer applies fertilizer at 50 kg per hectare on 2 hectares. Total fertilizer needed is ___.",
+    "options": [
+      "50 kg",
+      "100 kg",
+      "75 kg",
+      "150 kg"
+    ],
+    "answer": 1,
+    "explanation": "Multiply rate by area.",
+    "id": 141
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "medium",
+    "question": "Growing legumes in rotation helps to ___.",
+    "options": [
+      "increase soil acidity",
+      "reduce rainfall",
+      "kill all pests",
+      "improve soil nitrogen"
+    ],
+    "answer": 3,
+    "explanation": "Legumes fix nitrogen.",
+    "id": 142
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "A vaccine given to prevent Newcastle disease is used in ___ farming.",
+    "options": [
+      "poultry",
+      "fish",
+      "cattle",
+      "goat"
+    ],
+    "answer": 0,
+    "explanation": "Newcastle disease affects poultry.",
+    "id": 143
+  },
+  {
+    "topic": "Pests",
+    "difficulty": "easy",
+    "question": "A chemical used specifically to control weeds is a ___.",
+    "options": [
+      "insecticide",
+      "fungicide",
+      "herbicide",
+      "fertilizer"
+    ],
+    "answer": 2,
+    "explanation": "Herbicides target weeds.",
+    "id": 144
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "Silage is mainly used to feed animals during the ___.",
+    "options": [
+      "rainy season",
+      "dry season",
+      "harvest season",
+      "planting season"
+    ],
+    "answer": 1,
+    "explanation": "Silage is preserved feed for dry months.",
+    "id": 145
+  },
+  {
+    "topic": "Soil Science",
+    "difficulty": "medium",
+    "question": "Ploughing along contour lines helps to reduce ___.",
+    "options": [
+      "soil fertility",
+      "crop yield",
+      "irrigation",
+      "soil erosion"
+    ],
+    "answer": 3,
+    "explanation": "Contour ploughing reduces runoff.",
+    "id": 146
+  },
+  {
+    "topic": "Fisheries",
+    "difficulty": "medium",
+    "question": "Young fish introduced into a new pond are called ___.",
+    "options": [
+      "fingerlings",
+      "broilers",
+      "calves",
+      "layers"
+    ],
+    "answer": 0,
+    "explanation": "Fingerlings are young fish.",
+    "id": 147
+  },
+  {
+    "topic": "Farm Management",
+    "difficulty": "medium",
+    "question": "A document showing expected income and expenses is a ___.",
+    "options": [
+      "farm record",
+      "cash book",
+      "farm budget",
+      "invoice"
+    ],
+    "answer": 2,
+    "explanation": "Budgets show expected income and costs.",
+    "id": 148
+  },
+  {
+    "topic": "Livestock",
+    "difficulty": "medium",
+    "question": "Crossbreeding is used mainly to ___.",
+    "options": [
+      "reduce fertility",
+      "improve desirable traits",
+      "increase pests",
+      "reduce yields"
+    ],
+    "answer": 1,
+    "explanation": "Crossbreeding improves performance.",
+    "id": 149
+  },
+  {
+    "topic": "Crop Production",
+    "difficulty": "hard",
+    "question": "Supplying water through small tubes directly to plant roots is ___.",
+    "options": [
+      "sprinkler irrigation",
+      "flood irrigation",
+      "mulching",
+      "drip irrigation"
+    ],
+    "answer": 3,
+    "explanation": "Drip irrigation delivers water at roots.",
+    "id": 150
+  }
+]
